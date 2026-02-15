@@ -9,27 +9,40 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
+        if (!window.speechSynthesis) return;
+
         const loadVoices = () => {
-            const availableVoices = window.speechSynthesis.getVoices();
-            setVoices(availableVoices);
+            try {
+                const availableVoices = window.speechSynthesis.getVoices();
+                if (availableVoices && availableVoices.length > 0) {
+                    setVoices(availableVoices);
+                }
+            } catch (e) {
+                console.warn("Error loading voices:", e);
+            }
         };
 
         loadVoices();
 
-        // Chrome loads voices asynchronously
+        // Chrome/Android loads voices asynchronously
         if (window.speechSynthesis.onvoiceschanged !== undefined) {
             window.speechSynthesis.onvoiceschanged = loadVoices;
         }
 
         return () => {
-            if (isSpeaking) {
+            if (isSpeaking && window.speechSynthesis) {
                 window.speechSynthesis.cancel();
             }
         };
-    }, []);
+    }, [isSpeaking]);
 
     const handlePlay = () => {
         setError(null);
+
+        if (!window.speechSynthesis) {
+            setError("TTS not supported on this device");
+            return;
+        }
 
         if (isPaused) {
             window.speechSynthesis.resume();
@@ -112,14 +125,22 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
         };
 
         setUtterance(newUtterance);
-        window.speechSynthesis.cancel(); // Safety cancel
-        window.speechSynthesis.speak(newUtterance);
-        setIsSpeaking(true);
+        try {
+            window.speechSynthesis.cancel(); // Safety cancel
+            window.speechSynthesis.speak(newUtterance);
+            setIsSpeaking(true);
+        } catch (e) {
+            console.error("Speak error:", e);
+            setError("Speech error");
+            setIsSpeaking(false);
+        }
     };
 
     const handleStop = (e) => {
         e?.stopPropagation();
-        window.speechSynthesis.cancel();
+        if (window.speechSynthesis) {
+            window.speechSynthesis.cancel();
+        }
         setIsSpeaking(false);
         setIsPaused(false);
         setUtterance(null);
