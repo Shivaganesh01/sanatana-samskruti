@@ -19,7 +19,9 @@ const BackButtonHandler = () => {
 
   useEffect(() => {
     // Stop any active TTS when navigating to a new page
-    window.speechSynthesis.cancel();
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
 
     const handleBackButton = async () => {
       // If we are at the root (home page), we let the OS handle it (usually exit)
