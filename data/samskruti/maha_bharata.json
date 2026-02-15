@@ -1,0 +1,58 @@
+[
+    {
+        "id": "dharma_victory",
+        "title_kn": "ಧರ್ಮದ ಜಯ",
+        "title_en": "Victory of Dharma",
+        "content_kn": "ಯತೋ ಧರ್ಮಸ್ತತೋ ಜಯಃ | ಸತ್ಯ ಮತ್ತು ಧರ್ಮವಿರುವಲ್ಲೇ ವಿಜಯ.",
+        "content_en": "Where there is Dharma, there is Victory."
+    },
+    {
+        "id": "vidura_neeti",
+        "title_kn": "ವಿದುರ ನೀತಿ",
+        "title_en": "Vidura Neeti",
+        "content_kn": "ನ್ಯಾಯ ಮತ್ತು ನೀತಿಯ ಪಾಠಗಳು. ಒಬ್ಬ ವ್ಯಕ್ತಿ ಹೇಗೆ ಬದುಕಬೇಕು ಎಂದು ವಿದುರನು ಧೃತರಾಷ್ಟ್ರನಿಗೆ ಬೋಧಿಸಿದನು.",
+        "content_en": "Wisdom shared by Vidura on governance, morality, and righteous leadership."
+    },
+    {
+        "id": "yaksha_prashna",
+        "title_kn": "ಯಕ್ಷ ಪ್ರಶ್ನೆ",
+        "title_en": "Yaksha Prashna",
+        "content_kn": "ಯಮಧರ್ಮನು ಯಕ್ಷನ ರೂಪದಲ್ಲಿ ಕೇಳಿದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಯುಧಿಷ್ಠಿರನು ನೀಡಿದ ಉತ್ತರಗಳು ಧರ್ಮದ ಆಳವನ್ನು ತಿಳಿಸುತ್ತವೆ.",
+        "content_en": "Profound questions on life and ethics answered by Yudhishthira during their exile."
+    },
+    {
+        "id": "bhisma_upadesha",
+        "title_kn": "ಭೀಷ್ಮ ಉಪದೇಶ (Shanti Parva)",
+        "title_en": "Bhishma's Teachings",
+        "content_kn": "ಭೀಷ್ಮಪಿತಾಮಹನು ಶರಶಯ್ಯೆಯಲ್ಲಿ ಮಲಗಿದ್ದಾಗ ಧರ್ಮರಾಜನಿಗೆ ರಾಜಧರ್ಮ ಮತ್ತು ಮೋಕ್ಷ ಧರ್ಮದ ಬಗ್ಗೆ ಉಪದೇಶಿಸಿದನು.",
+        "content_en": "Teachings of Bhishma to Yudhishthira on the art of ruling and spiritual liberation."
+    },
+    {
+        "id": "karna_charity",
+        "title_kn": "ಕರ್ಣನ ದಾನಗುಣ",
+        "title_en": "Karna's Generosity",
+        "content_kn": "ದಾನಶೂರ ಕರ್ಣನು ತನ್ನ ಕವಚ-ಕುಂಡಲಗಳನ್ನು ಇಂದ್ರನಿಗೆ ನೀಡಿದ ಪ್ರಸಂಗವು ತ್ಯಾಗದ ಪರಮಾವಧಿಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "content_en": "The story of Karna giving away his divine armor, showcasing the peak of selfless giving."
+    },
+    {
+        "id": "arjuna_focus",
+        "title_kn": "ಅರ್ಜುನನ ಏಕಾಗ್ರತೆ",
+        "title_en": "Arjuna's Concentration",
+        "content_kn": "ಪಕ್ಷಿಯ ಕಣ್ಣನ್ನು ಮಾತ್ರ ನೋಡಿದ ಅರ್ಜುನನ ಕಥೆಯು ಜೀವನದಲ್ಲಿ ಗುರಿಯ ಮೇಲೆ ಇರಬೇಕಾದ ಏಕಾಗ್ರತೆಯನ್ನು ಕಲಿಸುತ್ತದೆ.",
+        "content_en": "Arjuna's focus on the bird's eye teaches the importance of singular focus to achieve goals."
+    },
+    {
+        "id": "draupadi_patience",
+        "title_kn": "ದ್ರೌಪದಿಯ ಶಕ್ತಿ",
+        "title_en": "Strength of Draupadi",
+        "content_kn": "ದೌರ್ಜನ್ಯದ ವಿರುದ್ಧ ಧ್ವನಿ ಎತ್ತಿದ ದ್ರೌಪದಿಯ ಪಾತ್ರವು ಆತ್ಮಗೌರವ ಮತ್ತು ನ್ಯಾಯದ ಪರವಾದ ನಿಲುವನ್ನು ಸಾರುತ್ತದೆ.",
+        "content_en": "Draupadi's stand for justice and dignity remains an inspiration for resilience."
+    },
+    {
+        "id": "krishna_messenger",
+        "title_kn": "ಕೃಷ್ಣ ರಾಯಭಾರ",
+        "title_en": "Krishna as Envoy",
+        "content_kn": "ಯುದ್ಧವನ್ನು ತಪ್ಪಿಸಲು ಕೃಷ್ಣನು ನಡೆಸಿದ ರಾಯಭಾರವು ಶಾಂತಿಗೂ ಒಂದು ಅವಕಾಶ ನೀಡಬೇಕು ಎಂದು ತಿಳಿಸುತ್ತದೆ.",
+        "content_en": "Krishna's diplomatic effort to avoid war emphasizes exhausting all peace options first."
+    }
+]

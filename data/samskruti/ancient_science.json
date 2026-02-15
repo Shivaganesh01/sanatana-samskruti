@@ -1,0 +1,65 @@
+[
+    {
+        "id": "zero",
+        "title_kn": "ಶೂನ್ಯದ ಅನ್ವೇಷಣೆ",
+        "title_en": "Discovery of Zero",
+        "content_kn": "ಶೂನ್ಯವಿಲ್ಲದಿದ್ದರೆ ಇಂದಿನ ಗಣಕಯಂತ್ರ ವಿಜ್ಞಾನ ಸಾಧ್ಯವಿರಲಿಲ್ಲ. ಆರ್ಯಭಟ ಮತ್ತು ಬ್ರಹ್ಮಗುಪ್ತರು ಇದನ್ನು ಗಣಿತದಲ್ಲಿ ಪರಿಚಯಿಸಿದರು. 1 ರಿಂದ 9 ರವರೆಗಿನ ಸಂಖ್ಯೆಗಳಷ್ಟೇ ಅಲ್ಲ, ಸ್ಥಾನಮಾನ ಪದ್ಧತಿ (Decimal System) ಕೂಡ ಭಾರತದ ಕೊಡುಗೆ.",
+        "content_en": "Modern mathematics and computer science depend on Zero, first mathematically described in India. The decimal system also originated here."
+    },
+    {
+        "id": "yoga_science",
+        "title_kn": "ಯೋಗ ವಿಜ್ಞಾನ",
+        "title_en": "Science of Yoga",
+        "content_kn": "ಯೋಗವು ಕೇವಲ ವ್ಯಾಯಾಮವಲ್ಲ, ಅದು ಮನಸ್ಸು ಮತ್ತು ದೇಹದ ನಿಯಂತ್ರಣದ ವಿಜ್ಞಾನ. ಪತಂಜಲಿ ಮುನಿಗಳು 'ಯೋಗಸೂತ್ರ'ಗಳಲ್ಲಿ ಇದನ್ನು ವ್ಯವಸ್ಥಿತಗೊಳಿಸಿದರು. ಪ್ರಾಣಾಯಾಮದಿಂದ ರಕ್ತದೊತ್ತಡ ಮತ್ತು ಒತ್ತಡವನ್ನು ನಿಯಂತ್ರಿಸಬಹುದು ಎಂಬುದು ಈಗ ವೈಜ್ಞಾನಿಕವಾಗಿ ಸಾಬೀತಾಗಿದೆ.",
+        "content_en": "Yoga is the science of uniting body, mind, and spirit, systematically codified by Patanjali. It is now proven to manage stress and health."
+    },
+    {
+        "id": "plastic_surgery",
+        "title_kn": "ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ",
+        "title_en": "Ancient Surgery",
+        "content_kn": "ಶುಶ್ರೂತನು 2500 ವರ್ಷಗಳ ಹಿಂದೆಯೇ ವಿವಿಧ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಗಳ ಬಗ್ಗೆ 'ಶುಶ್ರೂತ ಸಂಹಿತೆ'ಯಲ್ಲಿ ಬರೆದಿದ್ದನು. ಮೂಗು ಸರಿಪಡಿಸುವ (Rhinoplasty) ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಯಲ್ಲಿ ಅವರು ನಿಪುಣರಾಗಿದ್ದರು. 300 ಕ್ಕೂ ಹೆಚ್ಚು ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಉಪಕರಣಗಳನ್ನು ಅವರು ವಿವರಿಸಿದ್ದಾರೆ.",
+        "content_en": "Sushruta is the 'Father of Surgery', documenting plastic surgery, rhinoplasty, and over 300 surgical instruments in ancient times."
+    },
+    {
+        "id": "astronomy",
+        "title_kn": "ಖಗೋಳ ವಿಜ್ಞಾನ",
+        "title_en": "Astronomy",
+        "content_kn": "ಪ್ರಾಚೀನ ಭಾರತೀಯರು ಗ್ರಹಣಗಳು, ಭೂಮಿಯ ಸುತ್ತಳತೆ ಮತ್ತು ಗ್ರಹಗಳ ಚಲನೆಯನ್ನು ನಿಖರವಾಗಿ ಲೆಕ್ಕಾಚಾರ ಮಾಡಿದ್ದರು. ಭೂಮಿ ಗೋಲಾಕಾರದಲ್ಲಿದೆ ಮತ್ತು ತನ್ನ ಅಕ್ಷದ ಮೇಲೆ ಸುತ್ತುತ್ತದೆ ಎಂದು ಆರ್ಯಭಟನು ಪಾಶ್ಚಿಮಾತ್ಯರಿಗಿಂತ ಮೊದಲೇ ಹೇಳಿದ್ದನು.",
+        "content_en": "Indian astronomers accurately calculated eclipses and the Earth's circumference. Aryabhata stated Earth spins on its axis centuries before the West."
+    },
+    {
+        "id": "ayurveda_science",
+        "title_kn": "ಆಯುರ್ವೇದ",
+        "title_en": "Ayurveda",
+        "content_kn": "ಚರಕ ಮತ್ತು ಶುಶ್ರೂತರು ಆಯುರ್ವೇದವನ್ನು ವೈಜ್ಞಾನಿಕವಾಗಿ ಅಭಿವೃದ್ಧಿಪಡಿಸಿದರು. ಇದು ಕೇವಲ ಕಾಯಿಲೆ ಗುಣಪಡಿಸುವುದಲ್ಲ, ರೋಗ ಬಾರದಂತೆ ತಡೆಯುವ (Preventive Medicine) ವಿಜ್ಞಾನ. ತ್ರಿದೋಷ ಸಿದ್ಧಾಂತ (ವಾತ, ಪಿತ್ತ, ಕಫ) ಇದರ ಮೂಲ.",
+        "content_en": "Ayurveda is one of the world's oldest medical systems, focusing on holistic health and disease prevention through balance of Doshas."
+    },
+    {
+        "id": "metallurgy",
+        "title_kn": "ಲೋಹ ವಿಜ್ಞಾನ",
+        "title_en": "Metallurgy",
+        "content_kn": "ದೆಹಲಿಯ ಕಬ್ಬಿಣದ ಸ್ತಂಭವು 1600 ವರ್ಷಗಳಿಂದ ಮಳೆ-ಬಿಸಿಲಿನಲ್ಲಿ ನಿಂತಿದ್ದರೂ ತುಕ್ಕು ಹಿಡಿಯದೆ ಇರುವುದು ನಮ್ಮ ಲೋಹ ವಿಜ್ಞಾನದ (Rasashastra) ಮೇರು ಸಾಧನೆ. ಉಕ್ಕಿನ (Wootz steel) ತಯಾರಿಕೆಯಲ್ಲಿ ಭಾರತದ ಪ್ರಭುತ್ವವಿತ್ತು.",
+        "content_en": "The rust-free Iron Pillar of Delhi and high-quality Wootz steel showcase ancient India's advanced metallurgical skills."
+    },
+    {
+        "id": "architecture",
+        "title_kn": "ವಾಸ್ತು ಶಿಲ್ಪ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್",
+        "title_en": "Architecture & Engineering",
+        "content_kn": "ತಂಜಾವೂರಿನ ಬೃಹದೀಶ್ವರ ದೇವಾಲಯದ ಗೋಪುರದ ನೆರಳು ಮಧ್ಯಾಹ್ನ ನೆಲದ ಮೇಲೆ ಬೀಳುವುದಿಲ್ಲ. ಎಲ್ಲೋರದ ಕೈಲಾಸನಾಥ ದೇವಾಲಯವನ್ನು ಒಂದೇ ಕಲ್ಲಿನಲ್ಲಿ ಮೇಲಿಂದ ಕೆಳಕ್ಕೆ ಕೆತ್ತಲಾಗಿದೆ. ಇದು ನಮ್ಮ ಶಿಲ್ಪಕಲೆಯ ಅದ್ಭುತ.",
+        "content_en": "Ancient Indian temples demonstrate advanced engineering. Kailasarana temple was carved from a single rock, top-down."
+    },
+    {
+        "id": "water_management",
+        "title_kn": "ನೀರು ನಿರ್ವಹಣೆ",
+        "title_en": "Water Management",
+        "content_kn": "ಸಿಂಧೂ ಕಣಿವೆ ನಾಗರಿಕತೆಯ ಕಾಲದಲ್ಲೇ (4500 ವರ್ಷಗಳ ಹಿಂದೆ) ಅತ್ಯಾಧುನಿಕ ಒಳಚರಂಡಿ ವ್ಯವಸ್ಥೆ ಮತ್ತು ಮಳೆ ನೀರು ಕೊಯ್ಲು ಪದ್ಧತಿ ಇತ್ತು. ಗುಜರಾತಿನ ಧೋಲಾವೀರದಲ್ಲಿ ನೀರಿನ ಸಂಗ್ರಹಣೆ ವ್ಯವಸ್ಥೆ ಅದ್ಭುತವಾಗಿದೆ.",
+        "content_en": "Indus Valley Civilization had the world's first sophisticated drainage and water management systems, as seen in Dholavira."
+    },
+    {
+        "id": "navigation",
+        "title_kn": "ನೌಕಾ ಶಾಸ್ತ್ರ",
+        "title_en": "Navigation",
+        "content_kn": "'ನಾವಿಗೇಷನ್' ಎಂಬ ಪದವೇ ಸಂಸ್ಕೃತದ 'ನವಗತಿ' ಯಿಂದ ಬಂದಿದೆ. ಭಾರತೀಯರು ಬೃಹತ್ ಹಡಗುಗಳನ್ನು ಕಟ್ಟಿ ಸಮುದ್ರಯಾನ ಮಾಡುತ್ತಿದ್ದರು. ಯುಕ್ತಿ ಕಲ್ಪತರು ಗ್ರಂಥದಲ್ಲಿ ಹಡಗು ಕಟ್ಟುವ ಬಗ್ಗೆ ಮಾಹಿತಿಯಿದೆ.",
+        "content_en": "The word Navigation comes from Sanskrit 'Navagati'. Ancient Indians were master seafarers and shipbuilders."
+    }
+]

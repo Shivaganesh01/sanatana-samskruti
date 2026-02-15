@@ -1,0 +1,37 @@
+[
+    {
+        "id": "jnana_mudra",
+        "title_kn": "ಜ್ಞಾನ ಮುದ್ರೆ",
+        "title_en": "Jnana Mudra",
+        "content_kn": "ತೋರುಬೆರಳು ಮತ್ತು ಹೆಬ್ಬೆರಳು ಸ್ಪರ್ಶಿಸುವುದು. ಏಕಾಗ್ರತೆ ಹೆಚ್ಚಿಸಲು ಸಹಕಾರಿ.",
+        "content_en": "Join index and thumb tips. Enhances memory and focus."
+    },
+    {
+        "id": "vayu_mudra",
+        "title_kn": "ವಾಯು ಮುದ್ರೆ",
+        "title_en": "Vayu Mudra",
+        "content_kn": "ಗ್ಯಾಸ್ಟ್ರಿಕ್ ಸಮಸ್ಯೆಗಳಿಗೆ ಅತ್ಯುತ್ತಮ ಪರಿಹಾರ.",
+        "content_en": "Relieves excess air/gas in the body and joint pains."
+    },
+    {
+        "id": "prana_mudra",
+        "title_kn": "ಪ್ರಾಣ ಮುದ್ರೆ",
+        "title_en": "Prana Mudra",
+        "content_kn": "ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಮತ್ತು ಚೈತನ್ಯ ನೀಡುತ್ತದೆ.",
+        "content_en": "Boosts vitality and immune system."
+    },
+    {
+        "id": "shunya_mudra",
+        "title_kn": "ಶೂನ್ಯ ಮುದ್ರೆ",
+        "title_en": "Shunya Mudra",
+        "content_kn": "ಕಿವಿ ನೋವು ಮತ್ತು ಶ್ರವಣ ದೋಷಗಳಿಗೆ ಉತ್ತಮ.",
+        "content_en": "Helpful for earaches and hearing issues."
+    },
+    {
+        "id": "surya_mudra",
+        "title_kn": "ಸೂರ್ಯ ಮುದ್ರೆ",
+        "title_en": "Surya Mudra",
+        "content_kn": "ದೇಹದ ತೂಕ ಇಳಿಸಲು ಮತ್ತು ಚಯಾಪಚಯ ಕ್ರಿಯೆಗೆ ಸಹಕಾರಿ.",
+        "content_en": "Assists in weight management and metabolic fire."
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "hampi",
+        "title_kn": "ಹಂಪಿ (ವಿರೂಪಾಕ್ಷ ದೇವಸ್ಥಾನ)",
+        "title_en": "Hampi (Virupaksha Temple)",
+        "content_kn": "UNESCO ಪಾರಂಪರಿಕ ತಾಣ. ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯದ ವೈಭವದ ಸಾಕ್ಷಿ.",
+        "content_en": "A UNESCO World Heritage site and the spiritual heart of the Vijayanagara Empire."
+    },
+    {
+        "id": "udupi",
+        "title_kn": "ಉಡುಪಿ ಶ್ರೀಕೃಷ್ಣ ಮಠ",
+        "title_en": "Udupi Sri Krishna Matha",
+        "content_kn": "ದಕ್ಷಿಣದ ದ್ವಾರಕೆ. ಕನಕನ ಕಿಂಡಿಯ ದರ್ಶನ ಇಲ್ಲಿನ ವಿಶೇಷ.",
+        "content_en": "Famous for the Kanakana Kindi through which Lord Krishna is worshipped."
+    },
+    {
+        "id": "dharmasthala",
+        "title_kn": "ಧರ್ಮಸ್ಥಳ",
+        "title_en": "Dharmasthala",
+        "content_kn": "ಅನ್ನದಾನ ಮತ್ತು ಅಭಯದಾನಕ್ಕೆ ಹೆಸರುವಾಸಿ. ಶಿವ ಮತ್ತು ಜೈನ ತೀರ್ಥಂಕರರ ಸಮನ್ವಯ ತಾಣ.",
+        "content_en": "A place of righteousness known for massive charity and the worship of Lord Manjunatha."
+    },
+    {
+        "id": "kashi",
+        "title_kn": "ಕಾಶಿ ವಿಶ್ವನಾಥ",
+        "title_en": "Kashi Vishwanath",
+        "content_kn": "ಜಗತ್ತಿನ ಅತ್ಯಂತ ಹಳೆಯ ಜೀವಂತ ನಗರಗಳಲ್ಲಿ ಒಂದು. ಗಂಗಾ ನದಿಯ ತೀರದಲ್ಲಿರುವ ಮೋಕ್ಷದಾಯಕ ಪುಣ್ಯಕ್ಷೇತ್ರ.",
+        "content_en": "One of the oldest living cities in the world, dedicated to Lord Shiva, located on the banks of holy river Ganga."
+    },
+    {
+        "id": "tirupati",
+        "title_kn": "ತಿರುಪತಿ ವೆಂಕಟೇಶ್ವರ",
+        "title_en": "Tirupati Venkateswara",
+        "content_kn": "ಏಳು ಬೆಟ್ಟಗಳ ಒಡೆಯ. ಕಲಿಯುಗದ ಪ್ರತ್ಯಕ್ಷ ದೈವ ಎಂದು ನಂಬಲಾಗಿದೆ.",
+        "content_en": "Lord of the Seven Hills, considered the most visited spiritual destination in the world."
+    },
+    {
+        "id": "kedarnath",
+        "title_kn": "ಕೇದಾರನಾಥ",
+        "title_en": "Kedarnath",
+        "content_kn": "ಹಿಮಾಲಯದ ಮಡಿಲಲ್ಲಿರುವ ಜ್ಯೋತಿರ್ಲಿಂಗಗಳಲ್ಲಿ ಒಂದು. ಪಾಂಡವರಿಂದ ಸ್ಥಾಪಿಸಲ್ಪಟ್ಟ ಇತಿಹಾಸವಿದೆ.",
+        "content_en": "A sacred Jyotirlinga in the Himalayas, believed to have been built by the Pandavas."
+    },
+    {
+        "id": "madurai_meenakshi",
+        "title_kn": "ಮಧುರೈ ಮೀನಾಕ್ಷಿ",
+        "title_en": "Madurai Meenakshi",
+        "content_kn": "ತಮಿಳುನಾಡಿನ ಮಧುರೈನಲ್ಲಿರುವ ಈ ದೇವಾಲಯವು ವಾಸ್ತುಶಿಲ್ಪದ ಅದ್ಭುತ. ಇಲ್ಲಿ ಪಾರ್ವತಿ ದೇವಿ ಮೀನಾಕ್ಷಿಯಾಗಿ ನೆಲೆಸಿದ್ದಾಳೆ.",
+        "content_en": "A historic temple in Madurai, Tamil Nadu, dedicated to Goddess Meenakshi (Parvati) and Sundareswarar (Shiva)."
+    },
+    {
+        "id": "shirdi",
+        "title_kn": "ಶಿರಡಿ ಸಾಯಿಬಾಬಾ",
+        "title_en": "Shirdi Sai Baba",
+        "content_kn": "ಮಹಾರಾಷ್ಟ್ರದ ಅಹಮದ್ ನಗರ ಜಿಲ್ಲೆಯಲ್ಲಿದೆ. ಸಾಯಿಬಾಬಾರವರ ಸಮಾಧಿ ಹೊಂದಿರುವ ಈ ತಾಣವು ಶ್ರದ್ಧೆ ಮತ್ತು ಸಬೂರಿಗೆ ಹೆಸರುವಾಸಿ.",
+        "content_en": "One of the most visited pilgrimage sites in India, dedicated to Saint Sai Baba who taught universal love and selfless service."
+    },
+    {
+        "id": "jagannath_puri",
+        "title_kn": "ಜಗನ್ನಾಥ ಪುರಿ",
+        "title_en": "Jagannath Puri",
+        "content_kn": "ಒಡಿಶಾದಲ್ಲಿರುವ ಈ ದೇವಾಲಯವು ಚಾರ್ ಧಾಮ್ ಯಾತ್ರೆಗಳಲ್ಲಿ ಒಂದು. ಇಲ್ಲಿನ ರಥಯಾತ್ರೆ ವಿಶ್ವವಿಖ್ಯಾತವಾದುದು.",
+        "content_en": "Located in Odisha, it is one of the Char Dham sites. Famous for the annual Ratha Yatra (Chariot Festival)."
+    },
+    {
+        "id": "rameshwaram",
+        "title_kn": "ರಾಮೇಶ್ವರಂ",
+        "title_en": "Rameshwaram",
+        "content_kn": "ಶ್ರೀರಾಮನು ಶಿವನ ಆರಾಧನೆ ಮಾಡಿದ ಪುಣ್ಯ ಕ್ಷೇತ್ರ. ಜ್ಯೋತಿರ್ಲಿಂಗಗಳಲ್ಲಿ ಒಂದು ಮತ್ತು ಚಾರ್ ಧಾಮ್ ಯಾತ್ರೆಯ ಒಂದು ಭಾಗ.",
+        "content_en": "The place where Lord Rama worshipped Lord Shiva. It is also one of the Char Dham pilgrimage sites."
+    }
+]

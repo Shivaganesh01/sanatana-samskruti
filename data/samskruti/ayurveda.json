@@ -1,0 +1,100 @@
+[
+    {
+        "id": "tridosha",
+        "title_kn": "ತ್ರಿದೋಷ (Vata, Pitta, Kapha)",
+        "title_en": "The Three Doshas",
+        "content_kn": "ವಾತ, ಪಿತ್ತ ಮತ್ತು ಕಫ ಇವು ದೇಹದ ಮೂಲ ಧಾತುಗಳು. ಇವುಗಳ ಸಮತೋಲನವೇ ಆರೋಗ್ಯ.",
+        "content_en": "Vata (Air), Pitta (Fire), and Kapha (Earth/Water) must be in balance for perfect health."
+    },
+    {
+        "id": "dinacharya_ayurveda",
+        "title_kn": "ಆಯುರ್ವೇದ ದಿನಚರ್ಯ",
+        "title_en": "Ayurvedic Daily Life",
+        "content_kn": "ಆಹಾರವು ಮದ್ದಿನಂತೆ ಇರಲಿ. ಹಸಿದಾಗ ಮಾತ್ರ ಉಣ್ಣುವುದು ಮತ್ತು ಬಿಸಿ ಆಹಾರ ಸೇವಿಸುವುದು ಜೀರ್ಣಕ್ರಿಯೆಗೆ ಪೂರಕ.",
+        "content_en": "Food should be your medicine. Eat only when hungry and prefer warm, freshly cooked meals."
+    },
+    {
+        "id": "turmeric_benefits",
+        "title_kn": "ಹರಿದ್ರ (ಅರಿಶಿನ) ಮಹತ್ವ",
+        "title_en": "Benefits of Turmeric",
+        "content_kn": "ಅರಿಶಿನವು ಅತ್ಯುತ್ತಮ ವಿಷನಿವಾರಕ ಮತ್ತು ರೋಗನಿರೋಧಕ. ಇದನ್ನು ಹಾಲಿನೊಂದಿಗೆ ಅಥವಾ ಆಹಾರದಲ್ಲಿ ಬಳಸುವುದು ಶ್ರೇಷ್ಠ.",
+        "content_en": "Turmeric is a powerful anti-inflammatory and antiseptic herb. Taking it with milk (Golden Milk) boosts immunity."
+    },
+    {
+        "id": "tulsi",
+        "title_kn": "ತುಳಸಿ ಮಹತ್ವ",
+        "title_en": "Sacred Holy Basil",
+        "content_kn": "ತುಳಸಿಯು 'ಔಷಧಿಗಳ ರಾಣಿ'. ಇದು ಶ್ವಾಸಕೋಶದ ಆರೋಗ್ಯ ಮತ್ತು ಒತ್ತಡ ನಿವಾರಣೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "content_en": "Tulsi is known as the 'Queen of Herbs'. It helps with respiratory issues and reduces stress."
+    },
+    {
+        "id": "ghee_benefits",
+        "title_kn": "ಶುದ್ಧ ತುಪ್ಪದ ಗುಣಗಳು",
+        "title_en": "Benefits of Pure Ghee",
+        "content_kn": "ತುಪ್ಪವು ಬುದ್ಧಿಶಕ್ತಿ ಮತ್ತು ಜೀರ್ಣಶಕ್ತಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಇದು ಶರೀರದ ಓಜಸ್ಸನ್ನು ವೃದ್ಧಿಸುತ್ತದೆ.",
+        "content_en": "A2 Cow Ghee improves memory, digestion, and provides deep nourishment to the tissues."
+    },
+    {
+        "id": "sleep_ayurveda",
+        "title_kn": "ಆಯುರ್ವೇದ ನಿದ್ರೆ",
+        "title_en": "Sleep in Ayurveda",
+        "content_kn": "ರಾತ್ರಿ ಹತ್ತು ಗಂಟೆಯೊಳಗೆ ಮಲಗುವುದು ಮತ್ತು ಬೆಳಿಗ್ಗೆ ಸೂರ್ಯೋದಯಕ್ಕಿಂತ ಮುಂಚೆ ಏಳುವುದು ದೈಹಿಕ ಮತ್ತು ಮಾನಸಿಕ ಆರೋಗ್ಯಕ್ಕೆ ಅನಿವಾರ್ಯ.",
+        "content_en": "Sleeping by 10 PM and rising before sunrise aligns your body with natural biological rhythms."
+    },
+    {
+        "id": "early_dinner",
+        "title_kn": "ಸಂಜೆ ಊಟ",
+        "title_en": "Early Dinner",
+        "content_kn": "ಸೂರ್ಯಾಸ್ತದ ಸಮಯದಲ್ಲಿ ಊಟ ಮಾಡುವುದು ದೀರ್ಘಾಯುಷ್ಯಕ್ಕೆ ದಾರಿ.",
+        "content_en": "Eating at sunset gives the body enough time to digest before sleep."
+    },
+    {
+        "id": "copper_water",
+        "title_kn": "ತಾಮ್ರದ ನೀರು",
+        "title_en": "Copper Water",
+        "content_kn": "ತಾಮ್ರದ ಪಾತ್ರೆಯಲ್ಲಿ ಶೇಖರಿಸಿದ ನೀರು ದೇಹದ ದೋಷಗಳನ್ನು ಸಮತೋಲನಗೊಳಿಸುತ್ತದೆ.",
+        "content_en": "Water stored in copper vessels overnight has natural antibiotic properties."
+    },
+    {
+        "id": "no_cold_water",
+        "title_kn": "ತಣ್ಣೀರು ಬೇಡ",
+        "title_en": "No Cold Water",
+        "content_kn": "ಊಟದ ನಂತರ ಅತೀ ತಣ್ಣನೆಯ ನೀರು ಕುಡಿಯುವುದು ಜಠರಾಗ್ನಿಯನ್ನು ತಗ್ಗಿಸುತ್ತದೆ. ಉಗುರು ಬೆಚ್ಚಗಿನ ನೀರು ಶ್ರೇಷ್ಠ.",
+        "content_en": "Avoid iced water after meals as it douses the digestive fire. Warm water is better."
+    },
+    {
+        "id": "vajrasana",
+        "title_kn": "ವಜ್ರಾಸನ",
+        "title_en": "Vajrasana",
+        "content_kn": "ಊಟದ ನಂತರ 5-10 ನಿಮಿಷ ವಜ್ರಾಸನದಲ್ಲಿ ಕುಳಿತುಕೊಳ್ಳುವುದು ಅಜೀರ್ಣ ಸಮಸ್ಯೆಯನ್ನು ಹೋಗಲಾಡಿಸುತ್ತದೆ.",
+        "content_en": "Sitting in Vajrasana (Diamond Pose) for 5-10 minutes after a meal aids digestion."
+    },
+    {
+        "id": "chewing_food",
+        "title_kn": "ಸರಿಯಾಗಿ ಅಗಿಯುವುದು",
+        "title_en": "Chewing Food",
+        "content_kn": "ಪ್ರತಿ ತುತ್ತನ್ನು ಕನಿಷ್ಠ 32 ಬಾರಿ ಅಗಿಯಬೇಕು. ಲಾಲಾರಸವು ಆಹಾರದೊಂದಿಗೆ ಮಿಶ್ರಣವಾದಾಗ ಜೀರ್ಣಕ್ರಿಯೆ ಸುಲಭವಾಗುತ್ತದೆ.",
+        "content_en": "Chew your food thoroughly. Digestion starts in the mouth as saliva mixes with food."
+    },
+    {
+        "id": "oil_pulling",
+        "title_kn": "ಕವಳ (Oil Pulling)",
+        "title_en": "Oil Pulling",
+        "content_kn": "ಬೆಳಿಗ್ಗೆ ಎದ್ದ ತಕ್ಷಣ ಕೊಬ್ಬರಿ ಎಣ್ಣೆಯಿಂದ ಬಾಯಿ ಮುಕ್ಕಳಿಸುವುದರಿಂದ ಹಲ್ಲು ಮತ್ತು ಒಸಡುಗಳ ಆರೋಗ್ಯ ವೃದ್ಧಿಸುತ್ತದೆ.",
+        "content_en": "Daily oil pulling with coconut or sesame oil detoxifies the body and improves oral health."
+    },
+    {
+        "id": "natural_urge",
+        "title_kn": "ವೇಗಗಳ ತಡೆ ಬೇಡ",
+        "title_en": "Natural Urges",
+        "content_kn": "ಹಸಿವು, ಬಾಯಾರಿಕೆ, ನಿದ್ರೆ ಮತ್ತು ಮಲಬದ್ಧತೆಯಂತಹ ನೈಸರ್ಗಿಕ ವೇಗಗಳನ್ನು ತಡೆಯಬಾರದು. ಇದು ರೋಗಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು.",
+        "content_en": "Do not suppress natural urges like hunger, thirst, or sleep, as it can lead to various ailments."
+    },
+    {
+        "id": "early_morning_sun",
+        "title_kn": "ಬೆಳಗಿನ ಬಿಸಿಲು",
+        "title_en": "Morning Sun",
+        "content_kn": "ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ ಅಲ್ಪ ಸಮಯ ಬಿಸಿಲಿನಲ್ಲಿ ಇರುವುದರಿಂದ ವಿಟಮಿನ್ ಡಿ ದೊರೆಯುತ್ತದೆ ಮತ್ತು ಮನಸ್ಸು ಲವಲವಿಕೆಯಿಂದ ಇರುತ್ತದೆ.",
+        "content_en": "Exposing your body to moderate morning sunlight provides Vitamin D and boosts your mood."
+    }
+]

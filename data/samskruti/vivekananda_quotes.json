@@ -1,0 +1,58 @@
+[
+    {
+        "id": "goal",
+        "title_kn": "ಗುರಿಯ ಬಗ್ಗೆ",
+        "title_en": "On Goals",
+        "content_kn": "ಏಳಿ, ಎದ್ದೇಳಿ, ಗುರಿ ಮುಟ್ಟುವ ತನಕ ನಿಲ್ಲದಿರಿ.",
+        "content_en": "Arise, Awake, and stop not till the goal is reached."
+    },
+    {
+        "id": "strength",
+        "title_kn": "ಶಕ್ತಿ",
+        "title_en": "Strength",
+        "content_kn": "ಶಕ್ತಿಯೇ ಜೀವನ, ದೌರ್ಬಲ್ಯವೇ ಮರಣ.",
+        "content_en": "Strength is life, weakness is death."
+    },
+    {
+        "id": "education",
+        "title_kn": "ಶಿಕ್ಷಣ",
+        "title_en": "Education",
+        "content_kn": "ಶಿಕ್ಷಣ ಎಂದರೆ ಮನುಷ್ಯನನ್ನು ರೂಪಿಸುವುದು. ಅದು ಕೇವಲ ಮಾಹಿತಿಯ ಸಂಗ್ರಹವಲ್ಲ.",
+        "content_en": "Education is the manifestation of perfection already in man."
+    },
+    {
+        "id": "faith",
+        "title_kn": "ನಂಬಿಕೆ",
+        "title_en": "Faith",
+        "content_kn": "ನಿಮ್ಮಲ್ಲಿ ನಿಮಗೆ ನಂಬಿಕೆಯಿರಲಿ. ಆಗ ಇಡೀ ಜಗತ್ತು ನಿಮ್ಮ ಕಾಲಬುಡದಲ್ಲಿರುತ್ತದೆ.",
+        "content_en": "Believe in yourself and the world will be at your feet."
+    },
+    {
+        "id": "habit",
+        "title_kn": "ಅಭ್ಯಾಸ",
+        "title_en": "Habit",
+        "content_kn": "ಒಳ್ಳೆಯ ಆಲೋಚನೆಗಳನ್ನು ಪದೇ ಪದೇ ಮಾಡುವುದರಿಂದ ನಮ್ಮ ಚರಿತ್ರೆ ರೂಪುಗೊಳ್ಳುತ್ತದೆ.",
+        "content_en": "We are what our thoughts have made us; so take care about what you think."
+    },
+    {
+        "id": "purity",
+        "title_kn": "ಪವಿತ್ರತೆ",
+        "title_en": "Purity",
+        "content_kn": "ಪವಿತ್ರತೆ, ತಾಳ್ಮೆ ಮತ್ತು ಪರಿಶ್ರಮ - ಈ ಮೂರು ಯಶಸ್ಸಿಗೆ ಅನಿವಾರ್ಯ.",
+        "content_en": "Purity, patience, and perseverance are the three essentials to success and, above all, love."
+    },
+    {
+        "id": "truth_search",
+        "title_kn": "ಸತ್ಯದ ಹುಡುಕಾಟ",
+        "title_en": "Search for Truth",
+        "content_kn": "ವಿಷದ ಅಲ್ಪ ಪ್ರಮಾಣವೂ ಅಮೃತವನ್ನು ಹಾಳು ಮಾಡಬಲ್ಲುದು. ಹಾಗೆಯೇ ಸಣ್ಣ ಅಸತ್ಯವೂ ದೊಡ್ಡ ಹಾನಿ ಉಂಟುಮಾಡುತ್ತದೆ.",
+        "content_en": "Anything that makes you weak physically, intellectually, and spiritually, reject it as poison."
+    },
+    {
+        "id": "fearless",
+        "title_kn": "ನಿರ್ಭಯತೆ",
+        "title_en": "Fearlessness",
+        "content_kn": "ಜಗತ್ತಿನ ಇತಿಹಾಸವೆಂದರೆ ತಮ್ಮಲ್ಲಿ ತಾವೇ ನಂಬಿಕೆ ಹೊಂದಿದ್ದ ಕೆಲವೇ ಕೆಲವು ವ್ಯಕ್ತಿಗಳ ಇತಿಹಾಸ.",
+        "content_en": "The history of the world is the history of a few people who had faith in themselves."
+    }
+]

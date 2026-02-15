@@ -1,0 +1,58 @@
+[
+    {
+        "id": "basavanna1",
+        "title_kn": "ಬಸವಣ್ಣ",
+        "title_en": "Basavanna",
+        "content_kn": "ಕಾಯಕವೇ ಕೈಲಾಸ - ಕೆಲಸವೇ ದೇವರು.",
+        "content_en": "Work is Worship. The dignity of labor is central to Basavanna's teachings."
+    },
+    {
+        "id": "akkamahadevi",
+        "title_kn": "ಅಕ್ಕಮಹಾದೇವಿ",
+        "title_en": "Akkamahadevi",
+        "content_kn": "ಚೆನ್ನಮಲ್ಲಿಕಾರ್ಜುನನನ್ನು ಆರಾಧಿಸಿದ ವೀರವನಿತೆ. ಲೌಕಿಕ ಆಸೆಯನ್ನು ಮೀರಿ ಆತ್ಮ ಲಿಂಗದ ಹುಡುಕಾಟ ನಡೆಸಿದವರು.",
+        "content_en": "A saint-poetess of the 12th century, known for her intense devotion to Lord Shiva."
+    },
+    {
+        "id": "sarvajna",
+        "title_kn": "ಸರ್ವಜ್ಞ",
+        "title_en": "Sarvajna",
+        "content_kn": "ತ್ರಿಪದಿಗಳ ಮೂಲಕ ಸಮಾಜದ ಅಂಕುಡೊಂಕುಗಳನ್ನು ತಿದ್ದಿದ 'ಕನ್ನಡದ ಕಬೀರ'.",
+        "content_en": "Known for his three-line poems (Tripadi) addressing social equality and wisdom."
+    },
+    {
+        "id": "allama_prabhu",
+        "title_kn": "ಅಲ್ಲಮಪ್ರಭು",
+        "title_en": "Allama Prabhu",
+        "content_kn": "ಅನುಭವ ಮಂಟಪದ ಅಧ್ಯಕ್ಷರು. ಗಹನವಾದ ಆಧ್ಯಾತ್ಮಿಕ ವಿಚಾರಗಳನ್ನು 'ಬೆಡಗಿನ ವಚನ'ಗಳ ಮೂಲಕ ತಿಳಿಸಿದವರು.",
+        "content_en": "A mystic and philosopher, central figure in the Lingayat movement."
+    },
+    {
+        "id": "kanakadasa",
+        "title_kn": "ಕನಕದಾಸರು",
+        "title_en": "Kanakadasa",
+        "content_kn": "ಕುಲ ಕುಲವೆಂದು ಹೊಡೆದಾಡದಿರಿ... ಜಾತಿ ಪದ್ಧತಿಯ ವಿರುದ್ಧ ಮತ್ತು ಭಕ್ತಿಯ ಬಗ್ಗೆ ಹಿರಿಯ ಕೀರ್ತನೆಗಳನ್ನು ರಚಿಸಿದವರು.",
+        "content_en": "A great poet and devotee of Lord Krishna, who challenged social hierarchies through his music."
+    },
+    {
+        "id": "madhvacharya",
+        "title_kn": "ಮಧ್ವಾಚಾರ್ಯರು",
+        "title_en": "Madhvacharya",
+        "content_kn": "ದ್ವೈತ ಸಿದ್ಧಾಂತದ ಪ್ರತಿಪಾದಕರು. ಉಡುಪಿ ಶ್ರೀಕೃಷ್ಣ ಮಠದ ಸ್ಥಾಪಕರು.",
+        "content_en": "Philosopher who founded the Dvaita (dualism) school of Vedanta and established the Udupi Krishna Temple."
+    },
+    {
+        "id": "sharanas_equality",
+        "title_kn": "ಶರಣರ ಸಮಾನತೆ",
+        "title_en": "Sharana Equality",
+        "content_kn": "ಇವನಾರವ ಇವನಾರವ ಎನ್ನದಿರಯ್ಯ, ಇವ ನಮ್ಮವ ಇವ ನಮ್ಮವ ಎನ್ನಿರಯ್ಯ. ಎಲ್ಲರೂ ಒಂದೇ ಎಂಬ ಭಾವ ಶರಣರದ್ದು.",
+        "content_en": "The philosophy of treating everyone as one's own, transcending boundaries of caste and birth."
+    },
+    {
+        "id": "purandara_vithala",
+        "title_kn": "ಪುರಂದರದಾಸರು",
+        "title_en": "Purandara Dasa",
+        "content_kn": "ಕರ್ನಾಟಕ ಸಂಗೀತದ ಪಿತಾಮಹ. ಮಾನವ ಜನ್ಮ ದೊಡ್ಡದಣ್ಣ ಇದನ್ನು ಹಾನಿ ಮಾಡಲು ಬೇಡಿ ಎಂದು ಸಾರಿದವರು.",
+        "content_en": "Considered the Pitamaha (Grandfather) of Carnatic music, he emphasized the value of human life."
+    }
+]
