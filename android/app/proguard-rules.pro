@@ -12,10 +12,16 @@
 #   public *;
 #}
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+# Preserve line number information for debugging stack traces.
+-keepattributes SourceFile,LineNumberTable
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Capacitor ProGuard Rules
+-keep public class com.getcapacitor.** { *; }
+-keep public class com.sanatanasamskruti.app.** { *; }
+-keep class androidx.** { *; }
+-keep class org.apache.cordova.** { *; }
+-keep class android.webkit.** { *; }
+
+# Keep all classes that are exposed to JavaScript
+-keepattributes *Annotation*
+-keepattributes JavascriptInterface
