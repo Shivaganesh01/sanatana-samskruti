@@ -120,14 +120,17 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
                 if (ttsSettings?.voice && ttsSettings.voice !== 'default') {
                     try {
                         const result = await TextToSpeech.getSupportedVoices();
-                        const index = result.voices.findIndex(v => v.name === ttsSettings.voice || v.voiceURI === ttsSettings.voice);
-                        // Only use if lang matches roughly or we trust the user selection
-                        if (index !== -1) {
-                            voiceIndex = index;
-                            activeLang = result.voices[index].lang;
+                        if (result && result.voices) {
+                            const index = result.voices.findIndex(v => v.name === ttsSettings.voice || v.voiceURI === ttsSettings.voice);
+                            // Only use if lang matches roughly or we trust the user selection.
+                            // The plugin expects the INTEGER index of the voice in the array returned by getSupportedVoices.
+                            if (index !== -1) {
+                                voiceIndex = index;
+                                activeLang = result.voices[index].lang;
+                            }
                         }
                     } catch (err) {
-                        console.warn("Failed to set custom voice index", err);
+                        console.warn("Failed to set custom native voice index", err);
                     }
                 }
 
