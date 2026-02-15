@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { AlertTriangle } from 'lucide-react';
 import { App as CapacitorApp } from '@capacitor/app';
 
