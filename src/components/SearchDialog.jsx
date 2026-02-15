@@ -18,8 +18,8 @@ const SearchDialog = ({ isOpen, onClose }) => {
             try {
                 // Fetch basics
                 const [samskrutiRes, gitaRes] = await Promise.all([
-                    fetch('/data/samskruti_index.json'),
-                    fetch('/data/gita_index.json')
+                    fetch('data/samskruti_index.json'),
+                    fetch('data/gita_index.json')
                 ]);
 
                 const samskrutiIndex = samskrutiRes.ok ? await samskrutiRes.json() : [];
@@ -28,7 +28,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                 // Fetch Deep Content (Stotras)
                 let stotras = [];
                 try {
-                    const stotraRes = await fetch('/data/samskruti/stotras.json');
+                    const stotraRes = await fetch('data/samskruti/stotras.json');
                     if (stotraRes.ok) {
                         stotras = await stotraRes.json();
                     }

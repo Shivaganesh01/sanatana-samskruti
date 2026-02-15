@@ -75,8 +75,8 @@ function App() {
         setLoading(true);
         // Using absolute paths for SPA routing compatibility
         const [samskrutiRes, gitaRes] = await Promise.all([
-          fetch('/data/samskruti_index.json'),
-          fetch('/data/gita_index.json')
+          fetch('data/samskruti_index.json'),
+          fetch('data/gita_index.json')
         ]);
 
         if (!samskrutiRes.ok) throw new Error("Samskruti index not found");

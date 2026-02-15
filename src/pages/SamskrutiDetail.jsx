@@ -15,7 +15,7 @@ const SamskrutiDetail = ({ categories }) => {
         const fetchItem = async () => {
             try {
                 setLoading(true);
-                const res = await fetch(`/data/samskruti/${categoryId}.json`);
+                const res = await fetch(`data/samskruti/${categoryId}.json`);
                 if (!res.ok) throw new Error(`Could not load data for category: ${categoryId}`);
                 const items = await res.json();
                 const found = items.find(i => i.id === itemId);
