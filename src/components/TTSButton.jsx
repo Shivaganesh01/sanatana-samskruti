@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Volume2, Square, Pause, Play, AlertCircle } from 'lucide-react';
 import { TextToSpeech } from '@capacitor-community/text-to-speech';
 import { Capacitor } from '@capacitor/core';
@@ -9,6 +9,7 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
     const [voices, setVoices] = useState([]);
     const [error, setError] = useState(null);
     const isNative = Capacitor.isNativePlatform();
+    const stopRef = useRef(false);
 
     useEffect(() => {
         if (!isNative && window.speechSynthesis) {
@@ -29,9 +30,33 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
         }
 
         return () => {
-            handleStop();
+            stopRef.current = true;
+            if (isNative) {
+                TextToSpeech.stop().catch(() => { });
+            } else if (window.speechSynthesis) {
+                window.speechSynthesis.cancel();
+            }
         };
     }, []);
+
+    const chunkText = (input, maxLen = 3000) => {
+        if (!input) return [];
+        // Split by sentences or line breaks to keep it natural
+        const segments = input.split(/([।॥\n.!?;]+)/);
+        const chunks = [];
+        let current = "";
+
+        for (const part of segments) {
+            if ((current + part).length > maxLen) {
+                if (current) chunks.push(current.trim());
+                current = part;
+            } else {
+                current += part;
+            }
+        }
+        if (current) chunks.push(current.trim());
+        return chunks.filter(c => c.length > 0);
+    };
 
     const handlePlay = async () => {
         setError(null);
@@ -40,34 +65,40 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
             return;
         }
 
+        if (isSpeaking) {
+            await handleStop();
+            return;
+        }
+
+        stopRef.current = false;
+        setIsSpeaking(true);
+        const chunks = chunkText(text);
+
         if (isNative) {
             // --- NATIVE ANDROID/IOS PATH ---
             try {
-                if (isSpeaking) {
-                    await TextToSpeech.stop();
-                    setIsSpeaking(false);
-                    return;
+                for (const chunk of chunks) {
+                    if (stopRef.current) break;
+                    await TextToSpeech.speak({
+                        text: chunk,
+                        lang: lang,
+                        rate: 1.0,
+                        pitch: 1.0,
+                        volume: 1.0,
+                        category: 'ambient',
+                    });
                 }
-
-                setIsSpeaking(true);
-                await TextToSpeech.speak({
-                    text: text,
-                    lang: lang,
-                    rate: 1.0,
-                    pitch: 1.0,
-                    volume: 1.0,
-                    category: 'ambient',
-                });
-                setIsSpeaking(false);
             } catch (e) {
                 console.error("Native TTS Error:", e);
                 setError("TTS error");
+            } finally {
                 setIsSpeaking(false);
             }
         } else {
             // --- WEB FALLBACK PATH ---
             if (!window.speechSynthesis) {
                 setError("TTS not supported");
+                setIsSpeaking(false);
                 return;
             }
 
@@ -78,43 +109,44 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
                 return;
             }
 
-            if (isSpeaking) {
-                window.speechSynthesis.pause();
-                setIsPaused(true);
-                setIsSpeaking(false);
-                return;
-            }
+            // Web Speech API prefers chunks too for stability
+            let chunkIndex = 0;
+            const playNextWebChunk = () => {
+                if (stopRef.current || chunkIndex >= chunks.length) {
+                    setIsSpeaking(false);
+                    return;
+                }
 
-            const newUtterance = new SpeechSynthesisUtterance(text);
-            newUtterance.rate = 0.9;
-            newUtterance.lang = lang;
+                const utterance = new SpeechSynthesisUtterance(chunks[chunkIndex]);
+                utterance.lang = lang;
+                utterance.rate = 0.9;
 
-            // Try to find a matching voice
-            const selectedVoice = voices.find(v => v.lang === lang) ||
-                voices.find(v => v.lang.startsWith(lang.split('-')[0])) ||
-                voices.find(v => v.name.toLowerCase().includes('kannada'));
+                const selectedVoice = voices.find(v => v.lang === lang) ||
+                    voices.find(v => v.lang.startsWith(lang.split('-')[0])) ||
+                    voices.find(v => v.name.toLowerCase().includes('kannada'));
+                if (selectedVoice) utterance.voice = selectedVoice;
 
-            if (selectedVoice) newUtterance.voice = selectedVoice;
+                utterance.onend = () => {
+                    chunkIndex++;
+                    playNextWebChunk();
+                };
 
-            newUtterance.onend = () => {
-                setIsSpeaking(false);
-                setIsPaused(false);
-            };
+                utterance.onerror = (e) => {
+                    if (e.error !== 'interrupted') setError("Playback error");
+                    setIsSpeaking(false);
+                };
 
-            newUtterance.onerror = (e) => {
-                if (e.error !== 'interrupted') setError("Playback error");
-                setIsSpeaking(false);
-                setIsPaused(false);
+                window.speechSynthesis.speak(utterance);
             };
 
             window.speechSynthesis.cancel();
-            window.speechSynthesis.speak(newUtterance);
-            setIsSpeaking(true);
+            playNextWebChunk();
         }
     };
 
     const handleStop = async (e) => {
         e?.stopPropagation();
+        stopRef.current = true;
         try {
             if (isNative) {
                 await TextToSpeech.stop();
