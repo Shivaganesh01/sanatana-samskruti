@@ -1,16 +1,89 @@
-# React + Vite
+# Sanatana Samskruti & Bhagavad Gita App 🕉️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive **Progressive Web App (PWA)** and **Android App** designed to bring the essence of Sanatana Dharma to the modern world. It features daily routines (Dinacharya), detailed Bhagavad Gita verses, festivals, and stotras in **Kannada**.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Sanatana Samskruti
 
-## React Compiler
+- **Dinacharya**: Daily rituals like Pratah Smarana (Waking Up), Snana (Holy Bath), and Bhojana Vidhi.
+- **Utsava (Festivals)**: Deep significance of festivals like Ugadi, Diwali, and Makara Sankranti.
+- **Stotras**: Powerful chants (Gayatri Mantra, Ganesha Shloka) with meanings.
+- **Pooja**: Understanding the science behind rituals (Panchamruta, Deepa).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Srimad Bhagavad Gita
 
-## Expanding the ESLint configuration
+- **Verse-by-Verse**: Complete 18 chapters with detailed breakdown.
+- **Deep Study**: Includes Sanskrit Shloka, Transliteration, Word Meanings, Translation, and Purport.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Modern Tech Stack
+
+- **PWA**: Installable on any device (Android, iOS, Desktop) directly from the browser.
+- **Offline Support**: Works without internet once installed.
+- **Search**: Instant search for any topic or shloka.
+- **Dark Mode**: Premium "Dharma" theme with Saffron accents.
+
+---
+
+## 🚀 Running Locally
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/Shivaganesh01/sanatana-samskruti.git
+    cd sanatana-samskruti
+    ```
+
+2. **Install Dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Run Dev Server**:
+
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📲 How to Install (3 Ways)
+
+### Option 1: Install as App (Easiest)
+
+You don't need to download anything!
+
+1. Open the [Live Website](https://shivaganesh01.github.io/sanatana-samskruti/).
+2. Tap the **Browser Menu (3 dots)** > **"Add to Home Screen"** or **"Install App"**.
+3. The app will appear on your phone screen and work offline.
+
+### Option 2: Download APK (Android)
+
+Get the native Android app file (`.apk`).
+
+1. Go to the **[Actions Tab](https://github.com/Shivaganesh01/sanatana-samskruti/actions)** in this repository.
+2. Click on the latest **"Build & Deploy App"** run.
+3. Scroll down to **Artifacts** and download **"app-debug"**.
+4. Extract and install the `.apk` on your phone.
+
+### Option 3: Build Android App Manually
+
+If you have **Android Studio** installed:
+
+1. Run `npm run build`
+2. Run `npx cap sync android`
+3. Run `npx cap open android`
+4. Build the APK from Android Studio menu: **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite
+- **Styling**: Vanilla CSS (Glassmorphism)
+- **Mobile**: Capacitor (Native Android Layer)
+- **CI/CD**: GitHub Actions (Auto-build APK & Deploy PWA)
+- **Validation**: Zod (JSON Schema Validation)
