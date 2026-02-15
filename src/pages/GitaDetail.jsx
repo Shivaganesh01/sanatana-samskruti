@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Quote, Zap } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
+import TTSButton from '../components/TTSButton';
 
 const GitaDetail = () => {
     const { chapterId } = useParams();
@@ -48,6 +49,9 @@ const GitaDetail = () => {
                     <p style={{ fontSize: '1.1rem', lineHeight: '1.8', margin: 0, color: 'var(--text-primary)' }}>
                         {chapter.summary_kn}
                     </p>
+                    <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'flex-end' }}>
+                        <TTSButton text={chapter.summary_kn} label="Listen Summary" />
+                    </div>
                 </div>
 
                 {chapter.verses && chapter.verses.length > 0 && (
@@ -77,6 +81,12 @@ const GitaDetail = () => {
                                     <p className="shloka-text">
                                         {verse.shloka}
                                     </p>
+                                    <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
+                                        <TTSButton
+                                            text={`${verse.shloka}. ${verse.translation}`}
+                                            label="Listen Shloka"
+                                        />
+                                    </div>
                                 </div>
 
                                 <div style={{ display: 'grid', gap: '1.25rem' }}>

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Zap } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
+import TTSButton from '../components/TTSButton';
 
 const SamskrutiDetail = ({ categories }) => {
     const { categoryId, itemId } = useParams();
@@ -45,6 +46,13 @@ const SamskrutiDetail = ({ categories }) => {
                 <article className="card glass" style={{ padding: '1.5rem', marginBottom: '1.5rem' }}>
                     <h2 style={{ fontSize: '1.75rem', marginBottom: '0.25rem', color: 'var(--primary)' }}>{item.title_kn}</h2>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '2rem' }}>{item.title_en}</p>
+
+                    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+                        <TTSButton
+                            text={`${item.title_kn}. ${item.shloka || ''}. ${item.content_kn}`}
+                            label="Listen / ಆಲಿಸಿ"
+                        />
+                    </div>
 
                     {item.shloka && (
                         <div className="shloka-box shloka-box-highlight">
