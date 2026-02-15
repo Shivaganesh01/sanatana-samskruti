@@ -1,149 +1,131 @@
 import React, { useState, useEffect } from 'react';
 import { Volume2, Square, Pause, Play, AlertCircle } from 'lucide-react';
+import { TextToSpeech } from '@capacitor-community/text-to-speech';
+import { Capacitor } from '@capacitor/core';
 
 const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
     const [isSpeaking, setIsSpeaking] = useState(false);
     const [isPaused, setIsPaused] = useState(false);
-    const [utterance, setUtterance] = useState(null);
     const [voices, setVoices] = useState([]);
     const [error, setError] = useState(null);
+    const isNative = Capacitor.isNativePlatform();
 
     useEffect(() => {
-        if (!window.speechSynthesis) return;
-
-        const loadVoices = () => {
-            try {
-                const availableVoices = window.speechSynthesis.getVoices();
-                if (availableVoices && availableVoices.length > 0) {
-                    setVoices(availableVoices);
+        if (!isNative && window.speechSynthesis) {
+            const loadVoices = () => {
+                try {
+                    const availableVoices = window.speechSynthesis.getVoices();
+                    if (availableVoices && availableVoices.length > 0) {
+                        setVoices(availableVoices);
+                    }
+                } catch (e) {
+                    console.warn("Error loading voices:", e);
                 }
-            } catch (e) {
-                console.warn("Error loading voices:", e);
+            };
+            loadVoices();
+            if (window.speechSynthesis.onvoiceschanged !== undefined) {
+                window.speechSynthesis.onvoiceschanged = loadVoices;
             }
-        };
-
-        loadVoices();
-
-        // Chrome/Android loads voices asynchronously
-        if (window.speechSynthesis.onvoiceschanged !== undefined) {
-            window.speechSynthesis.onvoiceschanged = loadVoices;
         }
 
         return () => {
-            if (isSpeaking && window.speechSynthesis) {
-                window.speechSynthesis.cancel();
-            }
+            handleStop();
         };
-    }, [isSpeaking]);
+    }, []);
 
-    const handlePlay = () => {
+    const handlePlay = async () => {
         setError(null);
-
-        if (!window.speechSynthesis) {
-            setError("TTS not supported on this device");
-            return;
-        }
-
-        if (isPaused) {
-            window.speechSynthesis.resume();
-            setIsPaused(false);
-            setIsSpeaking(true);
-            return;
-        }
-
-        if (isSpeaking) {
-            window.speechSynthesis.pause();
-            setIsPaused(true);
-            setIsSpeaking(false);
-            return;
-        }
-
         if (!text) {
             setError("No text to read");
             return;
         }
 
-        // Create utterance
-        const newUtterance = new SpeechSynthesisUtterance(text);
-        newUtterance.rate = 0.9;
-        newUtterance.pitch = 1.0;
+        if (isNative) {
+            // --- NATIVE ANDROID/IOS PATH ---
+            try {
+                if (isSpeaking) {
+                    await TextToSpeech.stop();
+                    setIsSpeaking(false);
+                    return;
+                }
 
-        // Try to find a matching voice
-        let selectedVoice = null;
-
-        // 1. Try exact match (e.g., kn-IN)
-        selectedVoice = voices.find(v => v.lang === lang);
-
-        // 2. Try partial match in lang code (e.g., just 'kn' or 'kannada')
-        if (!selectedVoice) {
-            const shortLang = lang.split('-')[0];
-            selectedVoice = voices.find(v => v.lang.startsWith(shortLang));
-        }
-
-        // 3. Try to find voice by name if lang match failed (e.g. "Google Kannada", "Microsoft Kannada")
-        if (!selectedVoice && lang.startsWith('kn')) {
-            selectedVoice = voices.find(v => v.name.toLowerCase().includes('kannada'));
-        }
-
-        // 4. Last resort: Try Hindi or other Indian languages that support Devanagari/similar scripts well
-        if (!selectedVoice && lang.startsWith('kn')) {
-            selectedVoice = voices.find(v => v.lang === 'hi-IN' || v.lang === 'ta-IN' || v.lang === 'te-IN');
-        }
-
-        if (selectedVoice) {
-            console.log("TTS: Selected voice:", selectedVoice.name, selectedVoice.lang);
-            newUtterance.voice = selectedVoice;
-            newUtterance.lang = selectedVoice.lang;
+                setIsSpeaking(true);
+                await TextToSpeech.speak({
+                    text: text,
+                    lang: lang,
+                    rate: 1.0,
+                    pitch: 1.0,
+                    volume: 1.0,
+                    category: 'ambient',
+                });
+                setIsSpeaking(false);
+            } catch (e) {
+                console.error("Native TTS Error:", e);
+                setError("TTS error");
+                setIsSpeaking(false);
+            }
         } else {
-            console.warn("TTS: No specific voice found for language", lang, ". Using system default.");
-            // Forcefully set the lang to requested lang (e.g. kn-IN) so the OS tries to match it
-            newUtterance.lang = lang;
-        }
-
-        newUtterance.onend = () => {
-            setIsSpeaking(false);
-            setIsPaused(false);
-            setUtterance(null);
-        };
-
-        newUtterance.onerror = (e) => {
-            console.error("TTS Error event:", e);
-            setIsSpeaking(false);
-            setIsPaused(false);
-            setUtterance(null);
-
-            // Ignore interruption errors (happens when we cancel or stop manually)
-            if (e.error === 'interrupted' || e.error === 'canceled') {
+            // --- WEB FALLBACK PATH ---
+            if (!window.speechSynthesis) {
+                setError("TTS not supported");
                 return;
             }
 
-            if (e.error === 'not-allowed') {
-                setError("Playback not allowed");
-            } else {
-                setError("Playback error"); // Simpler message
+            if (isPaused) {
+                window.speechSynthesis.resume();
+                setIsPaused(false);
+                setIsSpeaking(true);
+                return;
             }
-        };
 
-        setUtterance(newUtterance);
-        try {
-            window.speechSynthesis.cancel(); // Safety cancel
+            if (isSpeaking) {
+                window.speechSynthesis.pause();
+                setIsPaused(true);
+                setIsSpeaking(false);
+                return;
+            }
+
+            const newUtterance = new SpeechSynthesisUtterance(text);
+            newUtterance.rate = 0.9;
+            newUtterance.lang = lang;
+
+            // Try to find a matching voice
+            const selectedVoice = voices.find(v => v.lang === lang) ||
+                voices.find(v => v.lang.startsWith(lang.split('-')[0])) ||
+                voices.find(v => v.name.toLowerCase().includes('kannada'));
+
+            if (selectedVoice) newUtterance.voice = selectedVoice;
+
+            newUtterance.onend = () => {
+                setIsSpeaking(false);
+                setIsPaused(false);
+            };
+
+            newUtterance.onerror = (e) => {
+                if (e.error !== 'interrupted') setError("Playback error");
+                setIsSpeaking(false);
+                setIsPaused(false);
+            };
+
+            window.speechSynthesis.cancel();
             window.speechSynthesis.speak(newUtterance);
             setIsSpeaking(true);
-        } catch (e) {
-            console.error("Speak error:", e);
-            setError("Speech error");
-            setIsSpeaking(false);
         }
     };
 
-    const handleStop = (e) => {
+    const handleStop = async (e) => {
         e?.stopPropagation();
-        if (window.speechSynthesis) {
-            window.speechSynthesis.cancel();
+        try {
+            if (isNative) {
+                await TextToSpeech.stop();
+            } else if (window.speechSynthesis) {
+                window.speechSynthesis.cancel();
+            }
+        } catch (e) {
+            console.warn("Stop error:", e);
         }
         setIsSpeaking(false);
         setIsPaused(false);
-        setUtterance(null);
     };
 
     return (
