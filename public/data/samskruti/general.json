@@ -1,0 +1,58 @@
+[
+    {
+        "id": "namaste",
+        "title_kn": "ನಮಸ್ಕಾರದ ಅರ್ಥ",
+        "title_en": "Meaning of Namaste",
+        "content_kn": "ನನ್ನಲ್ಲಿರುವ ದೈವತ್ವವು ನಿಮ್ಮಲ್ಲಿರುವ ದೈವತ್ವಕ್ಕೆ ವಂದಿಸುತ್ತದೆ.",
+        "content_en": "The divine light in me honors the divine light in you."
+    },
+    {
+        "id": "tilaka",
+        "title_kn": "ತಿಲಕ ಧರಿಸುವುದು",
+        "title_en": "Applying Tilaka",
+        "content_kn": "ತಿಲಕವು ಏಕಾಗ್ರತೆ ಮತ್ತು ಧಾರ್ಮಿಕ ಗುರುತಿನ ಸಂಕೇತ.",
+        "content_en": "Tilaka on the forehead helps focus memory and protect 'Prana'."
+    },
+    {
+        "id": "charana_sparsha",
+        "title_kn": "ಪಾದ ನಮಸ್ಕಾರ (Feet Touching)",
+        "title_en": "Touching Feet",
+        "content_kn": "ಹಿರಿಯರ ಪಾದ ಮುಟ್ಟಿ ನಮಸ್ಕರಿಸುವುದು ಅಹಂಕಾರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಆಶೀರ್ವಾದ ನೀಡುತ್ತದೆ.",
+        "content_en": "A sign of humility and respect that attracts positive vibrations (Ashirvada) from elders."
+    },
+    {
+        "id": "bhojan_sitting",
+        "title_kn": "ನೆಲದ ಮೇಲೆ ಕುಳಿತು ಊಟ",
+        "title_en": "Sitting on Floor",
+        "content_kn": "ನೆಲದ ಮೇಲೆ ಚಕ್ಕಳಮಕ್ಕಳ ಹಾಕಿ ಕುಳಿತು ಊಟ ಮಾಡುವುದು ಜೀರ್ಣಕ್ರಿಯೆಗೆ ಪೂರಕ ಮತ್ತು ಯೋಗಾಸನಕ್ಕೆ ಸಮಾನ (ಸುಖಾಸನ).",
+        "content_en": "Sitting cross-legged while eating promotes better digestion and spine health."
+    },
+    {
+        "id": "lighting_deepa",
+        "title_kn": "ಸಂಜೆ ದೀಪ ಹಚ್ಚುವುದು",
+        "title_en": "Lighting Evening Lamp",
+        "content_kn": "ಸಂಜೆ ಸಂಧ್ಯಾ ಸಮಯದಲ್ಲಿ ದೀಪ ಹಚ್ಚುವುದು ಮನೆಗೆ ಮಂಗಳಕರ ಮತ್ತು ನಕಾರಾತ್ಮಕ ಶಕ್ತಿಯನ್ನು ಹೊರಹಾಕುತ್ತದೆ.",
+        "content_en": "Lighting a lamp during twilight brings prosperity and keeps negative energy away from home."
+    },
+    {
+        "id": "respect_nature",
+        "title_kn": "ಪ್ರಕೃತಿ ಆರಾಧನೆ",
+        "title_en": "Respecting Nature",
+        "content_kn": "ಮರ, ಗಿಡ ಮತ್ತು ಪ್ರಾಣಿಗಳನ್ನು ದೈವವೆಂದು ಪೂಜಿಸುವುದು ನಮ್ಮ ಸಂಸ್ಕೃತಿಯ ಒಂದು ಭಾಗ. ಇದು ಪರಿಸರ ಸಂರಕ್ಷಣೆಗೆ ಪೂರಕ.",
+        "content_en": "Treating plants, animals, and natural elements as sacred ensures environmental balance."
+    },
+    {
+        "id": "silence_during_meals",
+        "title_kn": "ಊಟದ ಸಮಯದಲ್ಲಿ ಮೌನ",
+        "title_en": "Silence during Meals",
+        "content_kn": "ಊಟ ಮಾಡುವಾಗ ಹೆಚ್ಚು ಮಾತನಾಡದೆ ಆಹಾರದ ಕಡೆಗೆ ಗಮನ ಹರಿಸುವುದು ಜೀರ್ಣಕ್ರಿಯೆ ಮತ್ತು ಮೈಂಡ್ ಫುಲ್ ಈಟಿಂಗ್ ಗೆ ಒಳ್ಳೆಯದು.",
+        "content_en": "Maintaining silence and focus during meals helps in mindful eating and better nourishment."
+    },
+    {
+        "id": "hospitality",
+        "title_kn": "ಅತಿಥಿ ದೇವೋ ಭವ",
+        "title_en": "Guest as God",
+        "content_kn": "ಮನೆಗೆ ಬಂದ ಅತಿಥಿಗಳನ್ನು ಆದರದಿಂದ ಸ್ವಾಗತಿಸುವುದು ಮತ್ತು ಸತ್ಕರಿಸುವುದು ನಮ್ಮ ಶ್ರೇಷ್ಠ ಪರಂಪರೆ.",
+        "content_en": "Treating every guest with honor and care is a core value of Indian hospitality."
+    }
+]

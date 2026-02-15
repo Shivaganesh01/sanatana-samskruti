@@ -1,0 +1,93 @@
+[
+    {
+        "id": "ugadi",
+        "title_kn": "ಯುಗಾದಿ",
+        "title_en": "Ugadi",
+        "content_kn": "ಚಾಂದ್ರಮಾನ ಹೊಸ ವರ್ಷ. ಬೇವು-ಬೆಲ್ಲದ ಸವಿಯೊಂದಿಗೆ ಜೀವನದ ಕಷ್ಟ-ಸುಖಗಳನ್ನು ಸಮಾನವಾಗಿ ಸ್ವೀಕರಿಸುವ ಪಾಠ.",
+        "content_en": "The Lunar New Year (Chaitra Shukla Pratipada), celebrating life's mix of bitter and sweet."
+    },
+    {
+        "id": "ram_navami",
+        "title_kn": "ರಾಮ ನವಮಿ",
+        "title_en": "Rama Navami",
+        "content_kn": "ಮರ್ಯಾದಾ ಪುರುಷೋತ್ತಮ ಶ್ರೀರಾಮನ ಜನ್ಮದಿನ. ಪಾನಕ, ಮಜ್ಜಿಗೆ ಮತ್ತು ಕೋಸಂಬರಿ ಪ್ರಸಾದಕ್ಕೆ ವಿಶೇಷ.",
+        "content_en": "The birth celebration of Lord Rama, the ideal human. Panaka (Jaggery-Cardamom water) is distributed."
+    },
+    {
+        "id": "akshaya_tritiya",
+        "title_kn": "ಅಕ್ಷಯ ತೃತೀಯ",
+        "title_en": "Akshaya Tritiya",
+        "content_kn": "ವೈಶಾಖ ಮಾಸದ ಶುಭ ದಿನ. ಅಂದು ಮಾಡಿದ ದಾನ, ಧರ್ಮ 'ಅಕ್ಷಯ' (ನಾಶವಿಲ್ಲದ್ದು) ಆಗಿರುತ್ತದೆ. ಚಿನ್ನ ಖರೀದಿಸಲು ಜನಪ್ರಿಯ.",
+        "content_en": "Day of eternal success. Good deeds done on this day bring never-ending merits."
+    },
+    {
+        "id": "kara_hunnime",
+        "title_kn": "ಕಾರ ಹುಣ್ಣಿಮೆ",
+        "title_en": "Kar Hunnime",
+        "content_kn": "ಉತ್ತರ ಕರ್ನಾಟಕದ ರೈತರ ಪ್ರಮುಖ ಹಬ್ಬ. ಮುಂಗಾರು ಮಳೆಯ ಆರಂಭಕ್ಕೆ ಎತ್ತುಗಳನ್ನು ಸಿಂಗರಿಸಿ ಪೂಜಿಸಲಾಗುತ್ತದೆ.",
+        "content_en": "Harvest festival in North Karnataka celebrating cattle and agriculture at the start of monsoon."
+    },
+    {
+        "id": "shravana_maasa",
+        "title_kn": "ಶ್ರಾವಣ ಮಾಸ",
+        "title_en": "Shravana Month",
+        "content_kn": "ಹಬ್ಬಗಳ ಮಾಸ. ವರಮಹಾಲಕ್ಷ್ಮಿ, ನಾಗರಪಂಚಮಿ, ಉಪಾಕರ್ಮ (ಜನಿವಾರ ಹಬ್ಬ) ಮುಂತಾದವು ಈ ಮಾಸದ ವಿಶೇಷ.",
+        "content_en": "A sacred month filled with numerous festivals and dedicated to Shiva and Vishnu."
+    },
+    {
+        "id": "varamahalakshmi",
+        "title_kn": "ವರಮಹಾಲಕ್ಷ್ಮಿ ವ್ರತ",
+        "title_en": "Varamahalakshmi Vrata",
+        "content_kn": " ಶ್ರಾವಣ ಮಾಸದ ಎರಡನೇ ಶುಕ್ರವಾರದಂದು ಸುಮಂಗಲಿಯರು ಆಚರಿಸುವ ಹಬ್ಬ. ಸಕಲ ಐಶ್ವರ್ಯಕ್ಕಾಗಿ ಲಕ್ಷ್ಮಿಯ ಪೂಜೆ.",
+        "content_en": "Worship of Goddess Lakshmi by married women for the well-being and prosperity of the family."
+    },
+    {
+        "id": "krishna_janmashtami",
+        "title_kn": "ಕೃಷ್ಣ ಜನ್ಮಾಷ್ಟಮಿ",
+        "title_en": "Krishna Janmashtami",
+        "content_kn": "ಶ್ರೀಕೃಷ್ಣನ ಜನ್ಮದಿನ. ಮಧ್ಯರಾತ್ರಿ ಪೂಜೆ ಮತ್ತು ಮರುದಿನ 'ವಿಠ್ಠಲ ಪಿಂಡಿ' ಅಂದರೆ ಮೊಸರು ಕುಡಿಕೆ ಉತ್ಸವ.",
+        "content_en": "Celebrating the birth of Lord Krishna. Dahi Handi (breaking curd pot) is a popular sport."
+    },
+    {
+        "id": "gowri_ganesha",
+        "title_kn": "ಗೌರಿ-ಗಣೇಶ ಹಬ್ಬ",
+        "title_en": "Gowri-Ganesha Festival",
+        "content_kn": "ಭಾದ್ರಪದ ಮಾಸದಲ್ಲಿ ಬರುವ ದೊಡ್ಡ ಹಬ್ಬ. ತಾಯಿ ಗೌರಿಯನ್ನು ಪೂಜಿಸಿ, ಮರುದಿನ ಮಗ ಗಣೇಶನನ್ನು ಕೂರಿಸಿ ಸಂಭ್ರಮಿಸಲಾಗುತ್ತದೆ.",
+        "content_en": "Celebrating Mother Gowri followed by her son Ganesha, the lord of wisdom."
+    },
+    {
+        "id": "navaratri",
+        "title_kn": "ನವರಾತ್ರಿ / ದಸರಾ",
+        "title_en": "Navaratri / Dasara",
+        "content_kn": "ಒಂಬತ್ತು ದಿನಗಳ ಕಾಲ ಶಕ್ತಿಯ ಆರಾಧನೆ. ಸರಸ್ವತಿ ಪೂಜೆ, ದುರ್ಗಾಷ್ಟಮಿ ಮತ್ತು ವಿಜಯದಶಮಿ (ಬನ್ನಿ ಹಬ್ಬ) ಪ್ರಮುಖ.",
+        "content_en": "Nine nights of Devi worship (Durga, Lakshmi, Saraswati), culminating in Vijayadashami."
+    },
+    {
+        "id": "ayudha_pooja",
+        "title_kn": "ಆಯುಧ ಪೂಜೆ",
+        "title_en": "Ayudha Pooja",
+        "content_kn": "ನವರಾತ್ರಿಯ ಒಂಬತ್ತನೇ ದಿನ. ನಮ್ಮ ವೃತ್ತಿಗೆ ಸಹಾಯ ಮಾಡುವ ಆಯುಧಗಳು, ವಾಹನಗಳು ಮತ್ತು ಯಂತ್ರಗಳನ್ನು ಪೂಜಿಸುವುದು.",
+        "content_en": "Worship of instruments, tools, vehicles, and books on the 9th day of Navaratri."
+    },
+    {
+        "id": "diwali",
+        "title_kn": "ದೀಪಾವಳಿ",
+        "title_en": "Diwali",
+        "content_kn": "ನರಕ ಚತುರ್ದಶಿ (ಅಭ್ಯಂಗ ಸ್ನಾನ), ಅಮಾವಾಸ್ಯೆ (ಲಕ್ಷ್ಮಿ ಪೂಜೆ) ಮತ್ತು ಬಲಿಪಾಡ್ಯಮಿ (ಗೋ ಪೂಜೆ). ಕತ್ತಲೆಯನ್ನು ಓಡಿಸುವ ಬೆಳಕಿನ ಹಬ್ಬ.",
+        "content_en": "Festival of Lights. Includes Oil bath, Lakshmi Pooja, and Cow worship (Bali Padyami)."
+    },
+    {
+        "id": "makara_sankranti",
+        "title_kn": "ಮಕರ ಸಂಕ್ರಾಂತಿ",
+        "title_en": "Makara Sankranti",
+        "content_kn": "ಸೂರ್ಯನು ಉತ್ತರಾಯಣಕ್ಕೆ ಚಲಿಸುವ ಪುಣ್ಯ ಕಾಲ. 'ಎಳ್ಳು ಬೆಲ್ಲ ತಿಂದು ಒಳ್ಳೆಯ ಮಾತಾಡು' ಎಂಬ ಸೌಹಾರ್ದದ ಹಬ್ಬ.",
+        "content_en": "Harvest festival marking the Sun's transit into Capricorn. Sesame and Jaggery are distributed."
+    },
+    {
+        "id": "maha_shivaratri",
+        "title_kn": "ಮಹಾ ಶಿವರಾತ್ರಿ",
+        "title_en": "Maha Shivaratri",
+        "content_kn": "ಮಾಘ ಮಾಸದ ಕೃಷ್ಣ ಪಕ್ಷದ ಚತುರ್ದಶಿ. ಶಿವನ ಆರಾಧನೆಗೆ ಮೀಸಲಾದ ರಾತ್ರಿ. ಉಪವಾಸ ಮತ್ತು ಜಾಗರಣೆ ಶ್ರೇಷ್ಠ.",
+        "content_en": "The Great Night of Shiva, dedicated to fasting, meditation, and spiritual awakening."
+    }
+]

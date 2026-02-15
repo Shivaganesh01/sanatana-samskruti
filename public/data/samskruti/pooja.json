@@ -1,0 +1,80 @@
+[
+    {
+        "id": "pooja_significance",
+        "title_kn": "ಪೂಜೆಯ ಮಹತ್ವ",
+        "title_en": "Significance of Pooja",
+        "content_kn": "ಪೂಜೆ ಎಂದರೆ ಕೇವಲ ಆಚರಣೆಯಲ್ಲ, ಅದು ದೈವದೊಂದಿಗೆ ನಡೆಸುವ ಸಂಭಾಷಣೆ. ಇದು ಪಂಚಭೂತಾರಾಧನೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಶಿಸ್ತು.\nಪ್ರತಿಯೊಂದು ಉಪಚಾರಕ್ಕೂ ಅದರದೇ ಆದ ಅರ್ಥವಿದೆ.",
+        "content_en": "Pooja is a dialogue with the divine using elements representing nature. It involves offering 5 or 16 services (Upacharas) to the deity."
+    },
+    {
+        "id": "deepa",
+        "title_kn": "ದೀಪದ ಮಹತ್ವ",
+        "title_en": "Significance of Lamp",
+        "content_kn": "ದೀಪವು ಅಜ್ಞಾನದ ಕತ್ತಲೆ ಹೋಗಲಾಡಿಸಿ ಜ್ಞಾನದ ಬೆಳಕನ್ನು ತರುತ್ತದೆ. ಎಣ್ಣೆ/ತುಪ್ಪ ನಮ್ಮ ವಾಸನೆಗಳು (ದುರ್ಗುಣಗಳು), ಬತ್ತಿ ನಮ್ಮ ಅಹಂಕಾರ. ಜ್ಞಾನಾಗ್ನಿಯು ಬೆಳಗಿದಾಗ ವಾಸನೆಗಳು ಮತ್ತು ಅಹಂಕಾರ ಸುಟ್ಟು ಹೋಗುತ್ತವೆ.",
+        "content_en": "The lamp represents knowledge dispelling ignorance. Oil represents vasanas, wick represents ego. Both burn in the light of knowledge.",
+        "shloka": "ಶುಭಂ ಕರೋತಿ ಕಲ್ಯಾಣಂ ಆರೋಗ್ಯಂ ಧನಸಂಪದಃ | ಶತ್ರುಬುದ್ಧಿ ವಿನಾಶಾಯ ದೀಪಜ್ಯೋತಿ ನಮೋಸ್ತುತೇ ||"
+    },
+    {
+        "id": "shanka",
+        "title_kn": "ಶಂಖದ ಮಹತ್ವ",
+        "title_en": "Sacred Conch (Shanka)",
+        "content_kn": "ಶಂಖದ ನಾದವು ಓಂಕಾರಕ್ಕೆ ಸಮಾನ. ಇದು ನಕಾರಾತ್ಮಕ ಶಕ್ತಿಯನ್ನು ದೂರ ಮಾಡುತ್ತದೆ ಮತ್ತು ವಾತಾವರಣವನ್ನು ಶುದ್ಧಿಗೊಳಿಸುತ್ತದೆ.",
+        "content_en": "The sound of the conch is equivalent to OM, clearing the atmosphere of negativity and bacteria."
+    },
+    {
+        "id": "bell",
+        "title_kn": "ಘಂಟಾ ನಾದ",
+        "title_en": "Temple Bell",
+        "content_kn": "ಗಂಟೆಯ 'ಟಿಂಗ್' ಎಂಬ ಶಬ್ದವು ನಮ್ಮ ಎರಡೂ ಮೆದುಳಿನ ಭಾಗಗಳನ್ನು (ಎಡ ಮತ್ತು ಬಲ) ಜಾಗೃತಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಏಕಾಗ್ರತೆ ನೀಡುತ್ತದೆ. ಇದು ಮನಸ್ಸಿನ ಗೊಂದಲಗಳನ್ನು ನಿವಾರಿಸುತ್ತದೆ.",
+        "content_en": "The ringing of the bell creates a sharp, long-lasting sound that unites both sides of the brain, sharpening focus."
+    },
+    {
+        "id": "panchamruta",
+        "title_kn": "ಪಂಚಾಮೃತ ಸ್ನಾನ",
+        "title_en": "Panchamruta Abhisheka",
+        "content_kn": "ಹಾಲು, ಮೊಸರು, ತುಪ್ಪ, ಜೇನುತುಪ್ಪ ಮತ್ತು ಸಕ್ಕರೆ ಬೆರೆಸಿದ ಮಿಶ್ರಣವೇ ಪಂಚಾಮೃತ. ದೇವರಿಗೆ ಅಭಿಷೇಕ ಮಾಡಲು ಇದನ್ನು ಬಳಸುತ್ತಾರೆ. ಇವು ಐದು ಅಮೃತಗಳಿಗೆ ಸಮಾನ.",
+        "content_en": "Mixture of Milk, Curd, Ghee, Honey, and Sugar used for bathing the deity (Abhisheka). Each ingredient has spiritual significance."
+    },
+    {
+        "id": "alankara",
+        "title_kn": "ಅಲಂಕಾರ",
+        "title_en": "Decoration",
+        "content_kn": "ದೇವರಿಗೆ ಹೂವು, ಗಂಧ ಮತ್ತು ವಸ್ತ್ರಗಳಿಂದ ಅಲಂಕಾರ ಮಾಡುವುದು ಭಕ್ತಿಯ ಸಂಕೇತ. ಸುಂದರವಾದ ಮೂರ್ತಿಯನ್ನು ನೋಡುವುದರಿಂದ ಕಣ್ಣು ಮತ್ತು ಮನಸ್ಸಿಗೆ ಆನಂದ ಸಿಗುತ್ತದೆ.",
+        "content_en": "Decorating the deity with flowers, sandalwood paste, and clothes symbolizes devotion and brings joy (Ananda)."
+    },
+    {
+        "id": "naivedya",
+        "title_kn": "ನೈವೇದ್ಯ ಸಮರ್ಪಣೆ",
+        "title_en": "Food Offering",
+        "content_kn": "ದೇವರಿಗೆ ಸಾತ್ವಿಕ ಆಹಾರವನ್ನು ಅರ್ಪಿಸುವುದು. 'ಓಂ ಪ್ರಾಣಾಯ ಸ್ವಾಹಾ, ಅಪಾನಾಯ ಸ್ವಾಹಾ...' ಎಂದು ಮಂತ್ರ ಹೇಳುತ್ತಾ ಅರ್ಪಿಸಬೇಕು. ನಂತರ ಅದು ಪ್ರಸಾದವಾಗುತ್ತದೆ.",
+        "content_en": "Offering pure (Satvic) food to the deity. Once offered, it becomes Prasada (blessed food)."
+    },
+    {
+        "id": "mangalarathi",
+        "title_kn": "ಮಂಗಳಾರತಿ / ಕರ್ಪೂರಾರತಿ",
+        "title_en": "Mangalarathi",
+        "content_kn": "ಕರ್ಪೂರದ ಜ್ಯೋತಿಯನ್ನು ದೇವರಿಗೆ ಬೆಳಗುವುದು. ಕರ್ಪೂರವು ಉರಿದು ಮಾಯವಾಗುವಂತೆ, ನಮ್ಮ ಅಹಂಕಾರವೂ ದೇವರಲ್ಲಿ ಲೀನವಾಗಬೇಕು ಎಂದು ಇದು ಕಲಿಸುತ್ತದೆ.",
+        "content_en": "Waving camphor light. Just as camphor burns away without residue, our ego should dissolve into the Divine."
+    },
+    {
+        "id": "pradakshina",
+        "title_kn": "ಪ್ರದಕ್ಷಿಣೆ",
+        "title_en": "Pradakshina",
+        "content_kn": "ದೇವರನ್ನು ಬಲಗಡೆಯಿಂದ ಸುತ್ತುವರಿಯುವುದು. ದೇವರು ನಮ್ಮ ಜೀವನದ ಕೇಂದ್ರಬಿಂದು ಎಂದು ಇದು ಸೂಚಿಸುತ್ತದೆ. 'ಪದೇ ಪದೇ' ಮಾಡುವ ಪಾಪಗಳು ಪ್ರದಕ್ಷಿಣೆಯಿಂದ ನಾಶವಾಗುತ್ತವೆ.",
+        "content_en": "Walking clockwise around the deity signifying that God is the center of our existence."
+    },
+    {
+        "id": "namaskara",
+        "title_kn": "ಸಾಷ್ಟಾಂಗ ನಮಸ್ಕಾರ",
+        "title_en": "Prostration",
+        "content_kn": "ದೇಹದ ಎಂಟು ಅಂಗಗಳು (ಎದೆಯೂ ಸೇರಿ) ನೆಲಕ್ಕೆ ತಾಗುವಂತೆ ಮಲಗಿ ನಮಸ್ಕರಿಸುವುದು. 'ನನ್ನದು ಏನೂ ಇಲ್ಲ, ಎಲ್ಲವೂ ನಿನ್ನದೇ' ಎಂಬ ಶರಣಾಗತಿ ಭಾವವೇ ನಮಸ್ಕಾರ.",
+        "content_en": "Full prostration touching 8 body parts to the ground, symbolizing complete surrender of ego to the Divine."
+    },
+    {
+        "id": "tirtha",
+        "title_kn": "ತೀರ್ಥ ಸೇವನೆ",
+        "title_en": "Holy Water",
+        "content_kn": "ದೇವರಿಗೆ ಅರ್ಪಿಸಿದ ನೀರು, ತುಳಸಿ ಮತ್ತು ಗಂಧ ಮಿಶ್ರಿತವಾಗಿ ತೀರ್ಥವಾಗುತ್ತದೆ. ಇದನ್ನು ಸೇವಿಸುವುದರಿಂದ ಪಾಪ ಪರಿಹಾರ ಮತ್ತು ಆರೋಗ್ಯ ವೃದ್ಧಿಯಾಗುತ್ತದೆ.",
+        "content_en": "Holy water offered to God, often with Tulsi. Drinking it purifies the body."
+    }
+]
