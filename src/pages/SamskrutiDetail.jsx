@@ -7,6 +7,7 @@ import LoadingScreen from '../components/LoadingScreen';
 const SamskrutiDetail = ({ categories }) => {
     const { categoryId, itemId } = useParams();
     const [item, setItem] = useState(null);
+    const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -14,11 +15,17 @@ const SamskrutiDetail = ({ categories }) => {
             try {
                 setLoading(true);
                 const res = await fetch(`/data/samskruti/${categoryId}.json`);
+                if (!res.ok) throw new Error(`Could not load data for category: ${categoryId}`);
                 const items = await res.json();
                 const found = items.find(i => i.id === itemId);
+                if (!found) {
+                    console.error(`Item "${itemId}" not found in ${categoryId}. Available IDs:`, items.map(i => i.id));
+                    throw new Error(`Item "${itemId}" not found in this category.`);
+                }
                 setItem(found);
             } catch (err) {
-                console.error(err);
+                console.error("Detail load error:", err);
+                setError(err.message);
             } finally {
                 setLoading(false);
             }
@@ -27,6 +34,7 @@ const SamskrutiDetail = ({ categories }) => {
     }, [categoryId, itemId]);
 
     if (loading) return <LoadingScreen />;
+    if (error) return <div className="container text-center" style={{ paddingTop: '4rem' }}><h3 style={{ color: 'var(--danger)' }}>ನೋಂದಣಿ ದೋಷ</h3><p>{error}</p></div>;
     if (!item) return <div className="container">Item not found</div>;
 
     return (

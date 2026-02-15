@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { AlertTriangle } from 'lucide-react';
+import { App as CapacitorApp } from '@capacitor/app';
 
 import BottomNavigation from './components/BottomNavigation';
 import LoadingScreen from './components/LoadingScreen';
@@ -9,6 +10,40 @@ import SamskrutiCategory from './pages/SamskrutiCategory';
 import SamskrutiDetail from './pages/SamskrutiDetail';
 import GitaList from './pages/GitaList';
 import GitaDetail from './pages/GitaDetail';
+
+// --- Back Button Handler for Mobile ---
+
+const BackButtonHandler = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleBackButton = async () => {
+      // If we are at the root (home page), we let the OS handle it (usually exit)
+      // Otherwise, we navigate back within the app history
+      if (location.pathname === '/' || location.pathname === '/gita') {
+        // You could also show a toast "Press back again to exit" if desired
+        CapacitorApp.exitApp();
+      } else {
+        navigate(-1);
+      }
+    };
+
+    const listener = CapacitorApp.addListener('backButton', ({ canGoBack }) => {
+      if (canGoBack) {
+        window.history.back();
+      } else {
+        handleBackButton();
+      }
+    });
+
+    return () => {
+      listener.then(l => l.remove());
+    };
+  }, [location, navigate]);
+
+  return null;
+};
 
 // --- Components ---
 
@@ -35,6 +70,7 @@ function App() {
     const fetchData = async () => {
       try {
         setLoading(true);
+        // Using absolute paths for SPA routing compatibility
         const [samskrutiRes, gitaRes] = await Promise.all([
           fetch('/data/samskruti_index.json'),
           fetch('/data/gita_index.json')
@@ -49,6 +85,7 @@ function App() {
         setSamskrutiData(sData);
         setGitaData(gData);
       } catch (err) {
+        console.error("App initialization error:", err);
         setError(err.message);
       } finally {
         setLoading(false);
@@ -62,6 +99,7 @@ function App() {
 
   return (
     <Router>
+      <BackButtonHandler />
       <div id="root">
         <Routes>
           {/* Samskruti Routes */}

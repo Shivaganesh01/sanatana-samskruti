@@ -17,10 +17,11 @@ const SamskrutiCategory = ({ categories }) => {
             try {
                 setLoading(true);
                 const res = await fetch(`/data/samskruti/${categoryId}.json`);
-                if (!res.ok) throw new Error("Category items not found");
+                if (!res.ok) throw new Error(`Category "${categoryId}" not found`);
                 const data = await res.json();
                 setItems(data);
             } catch (err) {
+                console.error("Category load error:", err);
                 setError(err.message);
             } finally {
                 setLoading(false);
