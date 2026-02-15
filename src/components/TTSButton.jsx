@@ -39,10 +39,25 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
         };
     }, []);
 
+    const cleanTextForTTS = (input) => {
+        if (!input) return "";
+        return input
+            // Remove verse numbers like ॥ 1 ॥, || 1 ||, ॥ ೧ ॥, || ೧ ||
+            .replace(/[॥\|]{1,2}\s*[\d೧-೯೦]+\s*[॥\|]{1,2}/g, '')
+            // Remove standalone numbers at the end of lines or segments (often used for verse counts)
+            .replace(/\s+[\d೧-೯೦]+\s+$/gm, '')
+            // Remove the symbols themselves if they appear standalone
+            .replace(/[॥\|]/g, ' ')
+            // Clean up extra spaces
+            .replace(/\s+/g, ' ')
+            .trim();
+    };
+
     const chunkText = (input, maxLen = 3000) => {
-        if (!input) return [];
+        const cleaned = cleanTextForTTS(input);
+        if (!cleaned) return [];
         // Split by sentences or line breaks to keep it natural
-        const segments = input.split(/([।॥\n.!?;]+)/);
+        const segments = cleaned.split(/([.\n!?;]+)/);
         const chunks = [];
         let current = "";
 
