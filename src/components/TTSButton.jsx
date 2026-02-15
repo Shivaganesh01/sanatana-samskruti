@@ -3,13 +3,17 @@ import { Volume2, Square, Pause, Play, AlertCircle } from 'lucide-react';
 import { TextToSpeech } from '@capacitor-community/text-to-speech';
 import { Capacitor } from '@capacitor/core';
 
+import { useSettings } from '../context/SettingsContext';
+
 const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
+    const { ttsSettings } = useSettings();
     const [isSpeaking, setIsSpeaking] = useState(false);
     const [isPaused, setIsPaused] = useState(false);
     const [voices, setVoices] = useState([]);
     const [error, setError] = useState(null);
     const isNative = Capacitor.isNativePlatform();
     const stopRef = useRef(false);
+    const utteranceRef = useRef(null);
 
     useEffect(() => {
         if (!isNative && window.speechSynthesis) {
@@ -42,12 +46,12 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
     const cleanTextForTTS = (input) => {
         if (!input) return "";
         return input
-            // Remove verse numbers like ॥ 1 ॥, || 1 ||, ॥ ೧ ॥, || ೧ ||
-            .replace(/[॥\|]{1,2}\s*[\d೧-೯೦]+\s*[॥\|]{1,2}/g, '')
-            // Remove standalone numbers at the end of lines or segments (often used for verse counts)
-            .replace(/\s+[\d೧-೯೦]+\s+$/gm, '')
-            // Remove the symbols themselves if they appear standalone
-            .replace(/[॥\|]/g, ' ')
+            // Remove verse numbers like ॥ 1 ॥, || 1 ||, ॥ ೧ ॥, || ೧ ||, (1), 1.
+            .replace(/[॥\|]{1,2}\s*[\d೧-೯೦]+\s*[॥\|]{1,2}/g, ' ')
+            .replace(/\(\d+\)/g, ' ')
+            .replace(/\b\d+\./g, ' ')
+            // Remove the ornamental symbols but keep basic punctuation for splitting
+            .replace(/[॥\|]/g, '.')
             // Clean up extra spaces
             .replace(/\s+/g, ' ')
             .trim();
@@ -56,21 +60,22 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
     const chunkText = (input, maxLen = 3000) => {
         const cleaned = cleanTextForTTS(input);
         if (!cleaned) return [];
-        // Split by sentences or line breaks to keep it natural
+
+        // Split by major punctuation while keeping the punctuation
         const segments = cleaned.split(/([.\n!?;]+)/);
         const chunks = [];
         let current = "";
 
         for (const part of segments) {
             if ((current + part).length > maxLen) {
-                if (current) chunks.push(current.trim());
+                if (current.trim()) chunks.push(current.trim());
                 current = part;
             } else {
                 current += part;
             }
         }
-        if (current) chunks.push(current.trim());
-        return chunks.filter(c => c.length > 0);
+        if (current.trim()) chunks.push(current.trim());
+        return chunks.filter(c => c.length > 2); // Avoid tiny slivers
     };
 
     const handlePlay = async () => {
@@ -87,27 +92,66 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
 
         stopRef.current = false;
         setIsSpeaking(true);
-        const chunks = chunkText(text);
+
+        // --- SHORT TEXT OPTIMIZATION ---
+        const isShort = text.length < 500;
+        let chunks = [];
+
+        if (isShort) {
+            // For short text, try to read mostly as-is but clean a bit
+            const cleaned = cleanTextForTTS(text);
+            chunks = [cleaned || text];
+        } else {
+            chunks = chunkText(text);
+        }
+
+        if (chunks.length === 0 || (chunks.length === 1 && !chunks[0])) {
+            setError("Text content empty");
+            setIsSpeaking(false);
+            return;
+        }
 
         if (isNative) {
             // --- NATIVE ANDROID/IOS PATH ---
             try {
+                let voiceIndex = undefined;
+                let activeLang = lang;
+
+                if (ttsSettings?.voice && ttsSettings.voice !== 'default') {
+                    try {
+                        const result = await TextToSpeech.getSupportedVoices();
+                        const index = result.voices.findIndex(v => v.name === ttsSettings.voice || v.voiceURI === ttsSettings.voice);
+                        // Only use if lang matches roughly or we trust the user selection
+                        if (index !== -1) {
+                            voiceIndex = index;
+                            activeLang = result.voices[index].lang;
+                        }
+                    } catch (err) {
+                        console.warn("Failed to set custom voice index", err);
+                    }
+                }
+
                 for (const chunk of chunks) {
                     if (stopRef.current) break;
-                    await TextToSpeech.speak({
-                        text: chunk,
-                        lang: lang,
-                        rate: 1.0,
-                        pitch: 1.0,
-                        volume: 1.0,
-                        category: 'ambient',
-                    });
+                    try {
+                        await TextToSpeech.speak({
+                            text: chunk,
+                            lang: activeLang,
+                            rate: ttsSettings?.rate || 1.0,
+                            pitch: 1.0,
+                            volume: 1.0,
+                            voice: voiceIndex,
+                            category: 'ambient',
+                        });
+                    } catch (speakErr) {
+                        console.warn("Skipping chunk due to error:", speakErr);
+                    }
                 }
             } catch (e) {
                 console.error("Native TTS Error:", e);
-                setError("TTS error");
+                setError(`Playback error: ${e.message || 'Unknown'}`);
             } finally {
-                setIsSpeaking(false);
+                if (!stopRef.current) setIsSpeaking(false);
             }
         } else {
             // --- WEB FALLBACK PATH ---
@@ -117,45 +161,71 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
                 return;
             }
 
-            if (isPaused) {
-                window.speechSynthesis.resume();
-                setIsPaused(false);
-                setIsSpeaking(true);
-                return;
+            window.speechSynthesis.cancel();
+
+            // Reload voices if needed
+            let currentVoices = window.speechSynthesis.getVoices();
+            if (currentVoices.length === 0) {
+                // Try to force load
+                currentVoices = window.speechSynthesis.getVoices();
             }
 
-            // Web Speech API prefers chunks too for stability
             let chunkIndex = 0;
-            const playNextWebChunk = () => {
+
+            const playNextChunk = () => {
                 if (stopRef.current || chunkIndex >= chunks.length) {
                     setIsSpeaking(false);
+                    utteranceRef.current = null;
                     return;
                 }
 
-                const utterance = new SpeechSynthesisUtterance(chunks[chunkIndex]);
-                utterance.lang = lang;
-                utterance.rate = 0.9;
+                const chunk = chunks[chunkIndex];
+                const utterance = new SpeechSynthesisUtterance(chunk);
+                utteranceRef.current = utterance; // Prevent GC
 
-                const selectedVoice = voices.find(v => v.lang === lang) ||
-                    voices.find(v => v.lang.startsWith(lang.split('-')[0])) ||
-                    voices.find(v => v.name.toLowerCase().includes('kannada'));
-                if (selectedVoice) utterance.voice = selectedVoice;
+                utterance.lang = lang;
+                const rateVal = parseFloat(ttsSettings?.rate);
+                utterance.rate = Number.isFinite(rateVal) ? rateVal : 1.0;
+
+                // Voice selection
+                if (ttsSettings?.voice && ttsSettings.voice !== 'default') {
+                    const preciseMatch = currentVoices.find(v => v.name === ttsSettings.voice || v.voiceURI === ttsSettings.voice);
+                    if (preciseMatch) utterance.voice = preciseMatch;
+                }
+
+                // Fallback voice
+                if (!utterance.voice) {
+                    const langMatch = currentVoices.find(v => v.lang === lang) ||
+                        currentVoices.find(v => v.lang.startsWith(lang.split('-')[0]));
+                    if (langMatch) utterance.voice = langMatch;
+                }
 
                 utterance.onend = () => {
                     chunkIndex++;
-                    playNextWebChunk();
+                    playNextChunk();
                 };
 
                 utterance.onerror = (e) => {
-                    if (e.error !== 'interrupted') setError("Playback error");
-                    setIsSpeaking(false);
+                    console.error("Utterance error", e);
+                    if (e.error !== 'interrupted' && e.error !== 'canceled') {
+                        // Move to next chunk despite error
+                        chunkIndex++;
+                        playNextChunk();
+                    } else {
+                        setIsSpeaking(false);
+                    }
                 };
 
-                window.speechSynthesis.speak(utterance);
+                try {
+                    window.speechSynthesis.speak(utterance);
+                } catch (e) {
+                    console.error("Speak execution failed", e);
+                    setIsSpeaking(false);
+                }
             };
 
-            window.speechSynthesis.cancel();
-            playNextWebChunk();
+            // Start the sequence
+            playNextChunk();
         }
     };
 

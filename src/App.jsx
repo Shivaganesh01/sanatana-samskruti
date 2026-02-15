@@ -10,6 +10,7 @@ import SamskrutiCategory from './pages/SamskrutiCategory';
 import SamskrutiDetail from './pages/SamskrutiDetail';
 import GitaList from './pages/GitaList';
 import GitaDetail from './pages/GitaDetail';
+import { SettingsProvider } from './context/SettingsContext';
 
 // --- Back Button Handler for Mobile ---
 
@@ -27,7 +28,6 @@ const BackButtonHandler = () => {
       // If we are at the root (home page), we let the OS handle it (usually exit)
       // Otherwise, we navigate back within the app history
       if (location.pathname === '/' || location.pathname === '/gita') {
-        // You could also show a toast "Press back again to exit" if desired
         CapacitorApp.exitApp();
       } else {
         navigate(-1);
@@ -63,9 +63,9 @@ const ErrorFallback = ({ message }) => (
   </div>
 );
 
-// --- Main App ---
+// --- Main App Content ---
 
-function App() {
+const AppContent = () => {
   const [samskrutiData, setSamskrutiData] = useState([]);
   const [gitaData, setGitaData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -75,7 +75,6 @@ function App() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        // Using absolute paths for SPA routing compatibility
         const [samskrutiRes, gitaRes] = await Promise.all([
           fetch('data/samskruti_index.json'),
           fetch('data/gita_index.json')
@@ -103,7 +102,7 @@ function App() {
   if (error) return <ErrorFallback message={error} />;
 
   return (
-    <Router>
+    <>
       <BackButtonHandler />
       <div id="root">
         <Routes>
@@ -142,10 +141,20 @@ function App() {
           } />
         </Routes>
       </div>
-    </Router>
+    </>
+  );
+};
+
+// --- App Root ---
+
+function App() {
+  return (
+    <SettingsProvider>
+      <Router>
+        <AppContent />
+      </Router>
+    </SettingsProvider>
   );
 }
 
 export default App;
-
-
