@@ -1,100 +1,79 @@
 [
     {
         "id": "tridosha",
-        "title_kn": "ತ್ರಿದೋಷ (Vata, Pitta, Kapha)",
-        "title_en": "The Three Doshas",
-        "content_kn": "ವಾತ, ಪಿತ್ತ ಮತ್ತು ಕಫ ಇವು ದೇಹದ ಮೂಲ ಧಾತುಗಳು. ಇವುಗಳ ಸಮತೋಲನವೇ ಆರೋಗ್ಯ.",
-        "content_en": "Vata (Air), Pitta (Fire), and Kapha (Earth/Water) must be in balance for perfect health."
+        "title_kn": "ತ್ರಿದೋಷ ಸಿದ್ಧಾಂತ (ವಾತ, ಪಿತ್ತ, ಕಫ)",
+        "title_en": "Tridosha Theory (Bio-Energies)",
+        "content_kn": "ಪ್ರತಿಯೊಬ್ಬ ಮನುಷ್ಯನೂ ವಾತ (ವಾಯು+ಆಕಾಶ), ಪಿತ್ತ (ಅಗ್ನಿ+ಜಲ) ಮತ್ತು ಕಫ (ಭೂಮಿ+ಜಲ) ಎಂಬ ಮೂರು ದೋಷಗಳಿಂದ ಮಾಡಲ್ಪಟ್ಟಿದ್ದಾನೆ. ವಾತವು ಚಲನೆ, ನರಮಂಡಲ ಮತ್ತು ಉಸಿರಾಟವನ್ನು; ಪಿತ್ತವು ಜೀರ್ಣಕ್ರಿಯೆ, ಬುದ್ಧಿವಂತಿಕೆ ಮತ್ತು ರಕ್ತವನ್ನು; ಕಫವು ದೇಹದ ರಚನೆ, ಕೀಲುಗಳು ಮತ್ತು ರೋಗನಿರೋಧಕ ಶಕ್ತಿಯನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ. ಈ ಮೂರೂ ಸಮತೋಲನದಲ್ಲಿದ್ದರೆ ಆರೋಗ್ಯ, ಆದರೆ ಏರುಪೇರಾದರೆ ರೋಗ.",
+        "content_en": "Ayurveda defines health as the balance of three Doshas (energies): Vata (movement/nervous system), Pitta (metabolism/digestion), and Kapha (structure/lubrication). Each person has a unique mix called 'Prakriti'. Understanding your dominant Dosha helps in choosing the right diet and lifestyle to prevent imbalances."
     },
     {
-        "id": "dinacharya_ayurveda",
-        "title_kn": "ಆಯುರ್ವೇದ ದಿನಚರ್ಯ",
-        "title_en": "Ayurvedic Daily Life",
-        "content_kn": "ಆಹಾರವು ಮದ್ದಿನಂತೆ ಇರಲಿ. ಹಸಿದಾಗ ಮಾತ್ರ ಉಣ್ಣುವುದು ಮತ್ತು ಬಿಸಿ ಆಹಾರ ಸೇವಿಸುವುದು ಜೀರ್ಣಕ್ರಿಯೆಗೆ ಪೂರಕ.",
-        "content_en": "Food should be your medicine. Eat only when hungry and prefer warm, freshly cooked meals."
+        "id": "pancha_mahabhuta",
+        "title_kn": "ಪಂಚ ಮಹಾಭೂತಗಳು (ಸೃಷ್ಟಿಯ ಮೂಲ)",
+        "title_en": "Pancha Mahabhutas (Five Elements)",
+        "content_kn": "ಈ ಬ್ರಹ್ಮಾಂಡದಲ್ಲಿರುವ ಎಲ್ಲವೂ ಪೃಥ್ವಿ (ಭೂಮಿ/ಘನ), ಆಪ್ (ನೀರು/ದ್ರವ), ತೇಜಸ್ (ಬೆಂಕಿ/ಉಷ್ಣ), ವಾಯು (ಗಾಳಿ/ಚಲನೆ) ಮತ್ತು ಆಕಾಶ (Space/ಅವಕಾಶ) ಎಂಬ ಐದು ಧಾತುಗಳಿಂದ ಮಾಡಲ್ಪಟ್ಟಿದೆ. ನಮ್ಮ ದೇಹವೂ ಇದೇ ಐದು ಅಂಶಗಳಿಂದ ಕೂಡಿದೆ ('ಯಥಾ ಪಿಂಡೇ ತಥಾ ಬ್ರಹ್ಮಾಂಡೇ'). ಈ ತತ್ತ್ವವು ಆಯುರ್ವೇದ ಚಿಕಿತ್ಸೆಯ ಆಧಾರಸ್ತಂಭ.",
+        "content_en": "The universe and the human body are composed of five elements: Earth (Stability), Water (Flow), Fire (Transformation), Air (Movement), and Ether (Space). Foods, herbs, and even emotions are categorized based on these elements to restore balance in the body."
+    },
+    {
+        "id": "saptadhatu",
+        "title_kn": "ಸಪ್ತ ಧಾತುಗಳು (ದೇಹದ ಏಳು ಕಂಬಗಳು)",
+        "title_en": "Sapta Dhatus (Seven Tissues)",
+        "content_kn": "ನಾವು ತಿಂದ ಆಹಾರವು ಕ್ರಮವಾಗಿ ರಸ (Plasma), ರಕ್ತ (Blood), ಮಾಂಸ (Muscle), ಮೇದಸ್ (Fat), ಅಸ್ಥಿ (Bone), ಮಜ್ಜಾ (Marrow), ಮತ್ತು ಶುಕ್ರ (Reproductive fluid) ಎಂಬ ಏಳು ಧಾತುಗಳಾಗಿ ಪರಿವರ್ತನೆಯಾಗುತ್ತದೆ. ಈ ಏಳನೇ ಧಾತುವಿನ ಸಾರವೇ 'ಓಜಸ್' (ರೋಗನಿರೋಧಕ ಶಕ್ತಿ). ಸರಿಯಾದ ಪೋಷಣೆ ಸಿಗದಿದ್ದರೆ ಈ ಧಾತುಗಳು ಕ್ಷೀಣಿಸಿ ರೋಗ ಬರುತ್ತದೆ.",
+        "content_en": "Nutrition transforms sequentially into 7 tissues: Rasa (lymph), Rakta (blood), Mamsa (muscle), Meda (adipose), Asthi (bone), Majja (nerves/marrow), and Shukra (reproductive tissue). The final refined essence of all these is 'Ojas', which signifies vitality, immunity, and spiritual strength."
+    },
+    {
+        "id": "ritucharya",
+        "title_kn": "ಋತುಚರ್ಯ (ಋತುಗಳ ನಿಯಮ)",
+        "title_en": "Ritucharya (Seasonal Regimen)",
+        "content_kn": "ನಮ್ಮ ಆರೋಗ್ಯವು ಋತುಮಾನಗಳ (Seasons) ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿದೆ. ಉದಾಹರಣೆಗೆ, ಗ್ರೀಷ್ಮ ಋತುವಿನಲ್ಲಿ (ಬೇಸಿಗೆ) ಪಿತ್ತ ಹೆಚ್ಚಾಗುವುದರಿಂದ ಖಾರ ಮತ್ತು ಎಣ್ಣೆಯ ಪದಾರ್ಥಗಳನ್ನು ಬಿಟ್ಟು, ತಂಪಾದ ಆಹಾರ (ಎಳನೀರು, ಮಜ್ಜಿಗೆ) ಸೇವಿಸಬೇಕು. ಹೇಮಂತ ಮತ್ತು ಶಿಶಿರ ಋತುಗಳಲ್ಲಿ (ಚಳಿಗಾಲ) ಜೀರ್ಣಾಗ್ನಿ ಪ್ರಬಲವಾಗಿರುವುದರಿಂದ ಪೌಷ್ಟಿಕ (ತುಪ್ಪ, ಬಾದಾಮಿ) ಮತ್ತು ಬಿಸಿಯಾದ ಆಹಾರ ಸೇವಿಸಬೇಕು. ಮಳೆಗಾಲದಲ್ಲಿ ಜೀರ್ಣಶಕ್ತಿ ಕಡಿಮೆ ಇರುವುದರಿಂದ ಲಘು ಆಹಾರ ಸೇವಿಸಬೇಕು.",
+        "content_en": "Adapting lifestyle to seasons prevents diseases. Summer (Pitta season) demands cooling foods and avoiding sun exposure. Winter (Vata season) requires warm, oily, nourishing foods like sesame and ghee. Monsoon (Vata aggrevation) calls for light, easily digestible, and warm food. Following this cycle keeps the bio-rhythms in sync with nature."
+    },
+    {
+        "id": "agni",
+        "title_kn": "ಜಠರಾಗ್ನಿ (Digestive Fire)",
+        "title_en": "Agni (Metabolic Fire)",
+        "content_kn": "ಆಯುರ್ವೇದದಲ್ಲಿ ಆರೋಗ್ಯದ ಮೂಲವೇ 'ಅಗ್ನಿ'. ಜಠರಾಗ್ನಿಯು ನಾವು ತಿಂದ ಆಹಾರವನ್ನು ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿದರೆ ಮಾತ್ರ ಉತ್ತಮ ರಕ್ತ ಮತ್ತು ಶಕ್ತಿ ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ. ಅಗ್ನಿ ಮಂದವಾದರೆ (ಅಜೀರ್ಣವಾದರೆ) 'ಆಮ' (Ama) ಎಂಬ ವಿಷಕಾರಿ ಪದಾರ್ಥ ಉತ್ಪತ್ತಿಯಾಗಿ ರೋಗಗಳಿಗೆ (ಮೂಲವ್ಯಾಧಿ, ಸಂಧಿವಾತ, ಬೊಜ್ಜು) ಕಾರಣವಾಗುತ್ತದೆ. ಹಸಿವಾದಾಗ ಮಾತ್ರ ಊಟ ಮಾಡುವುದು ಅಗ್ನಿಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವ ರಹಸ್ಯ.",
+        "content_en": "Agni is the biological fire responsible for digestion and metabolism. A balanced Agni ensures longevity and health. Impaired Agni leads to the formation of 'Ama' (toxins), the root cause of all diseases. Maintaining Agni involves eating fresh food, using spices like ginger/pepper, and avoiding overeating."
+    },
+    {
+        "id": "viruddha_ahara",
+        "title_kn": "ವಿರುದ್ಧ ಆಹಾರ (ವಿಷಕಾರಿ ಸಂಯೋಜನೆ)",
+        "title_en": "Viruddha Ahara (Food Incompatibility)",
+        "content_kn": "ಕೆಲವು ಆಹಾರಗಳನ್ನು ಒಟ್ಟಿಗೆ ಸೇವಿಸುವುದು ವಿಷಕ್ಕೆ ಸಮಾನ. ಉದಾಹರಣೆಗೆ: ಹಾಲಿನೊಂದಿಗೆ ಹುಳಿ ಹಣ್ಣುಗಳನ್ನು, ಉಪ್ಪು ಅಥವಾ ಮೀನನ್ನು ಸೇರಿಸಬಾರದು (ಇದು ಚರ್ಮ ರೋಗ ತರುತ್ತದೆ). ತುಪ್ಪ ಮತ್ತು ಜೇನುತುಪ್ಪವನ್ನು ಸಮಪ್ರಮಾಣದಲ್ಲಿ ಬೆರೆಸಬಾರದು. ಮೊಸರನ್ನು ರಾತ್ರಿ ಸಮಯದಲ್ಲಿ ತಿನ್ನಬಾರದು. ಬಿಸಿ ಮಾಡಿದ ಅಥವಾ ಬಿಸಿ ನೀರಿನ ಜೊತೆ ಜೇನುತುಪ್ಪ ಸೇವಿಸುವುದು ವಿಷಕಾರಿ.",
+        "content_en": "Combining foods with opposing qualities creates toxins. E.g., Milk (cooling) + Fish (heating) causes skin allergies. Equal quantities by weight of Ghee and Honey are considered poisonous. Heating honey makes it toxic (creates waxy Ama). Curd should be avoided at night as it clogs the channels (Strotas)."
+    },
+    {
+        "id": "triphala",
+        "title_kn": "ತ್ರಿಫಲ ಚೂರ್ಣ (ಅಮೃತಕ್ಕೆ ಸಮಾನ)",
+        "title_en": "Triphala (The Tridoshic Rasayana)",
+        "content_kn": "ಅಳಲೆಕಾಯಿ (ಬೆಳಗ್ಗೆ), ತಾರೆಕಾಯಿ (ಮಧ್ಯಾಹ್ನ) ಮತ್ತು ನೆಲ್ಲಿಕಾಯಿ (ರಾತ್ರಿ) - ಈ ಮೂರರ ಸಮ ಮಿಶ್ರಣವೇ ತ್ರಿಫಲ. ಇದು ತ್ರಿದೋಷಗಳನ್ನೂ ಸಮತೋಲನದಲ್ಲಿ ಇಡಬಲ್ಲ ಏಕೈಕ ರಸಾಯನ. ನಿತ್ಯವೂ ರಾತ್ರಿ ಬಿಸಿ ನೀರಿನೊಂದಿಗೆ ಇದನ್ನು ಸೇವಿಸುವುದರಿಂದ ಕಣ್ಣಿನ ದೃಷ್ಟಿ ಹೆಚ್ಚುತ್ತದೆ, ಮಲಬದ್ಧತೆ ನಿವಾರಣೆಯಾಗುತ್ತದೆ, ಕೂದಲು ಕಪ್ಪಗಾಗುತ್ತದೆ ಮತ್ತು ದೇಹದ ತೂಕ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+        "content_en": "Triphala ('Three Fruits' - Amalaki, Bibhitaki, Haritaki) is a wonder formula that balances all three doshas. Haritaki works on Vata (excretion), Bibhitaki on Kapha (respiratory), and Amalaki on Pitta (metabolism). It is a gentle laxative, powerful antioxidant, eye tonic, and anti-aging supplement suitable for daily use."
+    },
+    {
+        "id": "ushnodaka",
+        "title_kn": "ಉಷ್ಣೋದಕ ಮತ್ತು ತಾಮ್ರ ಜಲ",
+        "title_en": "Ushnodaka & Tamra Jal",
+        "content_kn": "ಕುದಿಸಿ 1/4 ಅಥವಾ 1/2 ಭಾಗಕ್ಕೆ ಇಳಿಸಿದ ನೀರು (Ushnodaka) ಕುಡಿಯುವುದರಿಂದ ಕಫ ಮತ್ತು ಬೊಜ್ಜು ಕರಗುತ್ತದೆ, ಜ್ವರ ಶಮನವಾಗುತ್ತದೆ. ತಾಮ್ರದ ಪಾತ್ರೆಯಲ್ಲಿ ರಾತ್ರಿ 8 ಗಂಟೆಗಳ ಕಾಲ ಶೇಖರಿಸಿಟ್ಟ ನೀರನ್ನು ('ತಾಮ್ರ ಜಲ') ಬೆಳಿಗ್ಗೆ ಕುಡಿಯುವುದರಿಂದ ದೇಹದ ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಹೆಚ್ಚುತ್ತದೆ, ಹೊಟ್ಟೆಯ ಹುಳುಗಳು ನಾಶವಾಗುತ್ತವೆ ಮತ್ತು ಥೈರಾಯ್ಡ್ ಸಮಸ್ಯೆ ಸುಧಾರಿಸುತ್ತದೆ.",
+        "content_en": "Drinking medicated warm water (boiled and reduced) helps scrape away fat and Kapha. Water stored in a copper vessel overnight gets charged with oligodynamic properties, killing bacteria and balancing the Doshas. It is excellent for purifying the blood, preventing anemia, and aiding weight loss."
     },
     {
         "id": "turmeric_benefits",
-        "title_kn": "ಹರಿದ್ರ (ಅರಿಶಿನ) ಮಹತ್ವ",
-        "title_en": "Benefits of Turmeric",
-        "content_kn": "ಅರಿಶಿನವು ಅತ್ಯುತ್ತಮ ವಿಷನಿವಾರಕ ಮತ್ತು ರೋಗನಿರೋಧಕ. ಇದನ್ನು ಹಾಲಿನೊಂದಿಗೆ ಅಥವಾ ಆಹಾರದಲ್ಲಿ ಬಳಸುವುದು ಶ್ರೇಷ್ಠ.",
-        "content_en": "Turmeric is a powerful anti-inflammatory and antiseptic herb. Taking it with milk (Golden Milk) boosts immunity."
-    },
-    {
-        "id": "tulsi",
-        "title_kn": "ತುಳಸಿ ಮಹತ್ವ",
-        "title_en": "Sacred Holy Basil",
-        "content_kn": "ತುಳಸಿಯು 'ಔಷಧಿಗಳ ರಾಣಿ'. ಇದು ಶ್ವಾಸಕೋಶದ ಆರೋಗ್ಯ ಮತ್ತು ಒತ್ತಡ ನಿವಾರಣೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
-        "content_en": "Tulsi is known as the 'Queen of Herbs'. It helps with respiratory issues and reduces stress."
-    },
-    {
-        "id": "ghee_benefits",
-        "title_kn": "ಶುದ್ಧ ತುಪ್ಪದ ಗುಣಗಳು",
-        "title_en": "Benefits of Pure Ghee",
-        "content_kn": "ತುಪ್ಪವು ಬುದ್ಧಿಶಕ್ತಿ ಮತ್ತು ಜೀರ್ಣಶಕ್ತಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಇದು ಶರೀರದ ಓಜಸ್ಸನ್ನು ವೃದ್ಧಿಸುತ್ತದೆ.",
-        "content_en": "A2 Cow Ghee improves memory, digestion, and provides deep nourishment to the tissues."
+        "title_kn": "ಹರಿದ್ರ (ಅರಿಶಿನ - ಆಂಟಿಬಯಾಟಿಕ್)",
+        "title_en": "Turmeric (The Golden Spice)",
+        "content_kn": "ಅರಿಶಿನವು (Curcumin) ಪ್ರಕೃತಿ ದತ್ತವಾದ ಆಂಟಿಬಯಾಟಿಕ್, ಆಂಟಿವೈರಲ್ ಮತ್ತು ಕ್ಯಾನ್ಸರ್ ವಿರೋಧಿ ಗುಣಗಳನ್ನು ಹೊಂದಿದೆ. ರಾತ್ರಿ ಮಲಗುವ ಮುನ್ನ ಹಾಲಿನೊಂದಿಗೆ ಅರಿಶಿನ ಮತ್ತು ಕರಿಮೆಣಸು ಹಾಕಿ ಕುಡಿಯುವುದು ('ದಕ್ಷಿಣದ ಸುಧೆ') ಗಾಯಗಳನ್ನು ಒಣಗಿಸಲು, ಕೆಮ್ಮು-ಶೀತ ನಿವಾರಿಸಲು ಮತ್ತು ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಹೆಚ್ಚಿಸಲು ಅತ್ಯುತ್ತಮ. ಇದು ರಕ್ತವನ್ನು ಶುದ್ಧೀಕರಿಸಿ ಚರ್ಮಕ್ಕೆ ಕಾಂತಿ ನೀಡುತ್ತದೆ.",
+        "content_en": "Turmeric is a potent anti-inflammatory and antioxidant herb. 'Golden Milk' (Haldi Doodh) taken at night heals internal injuries, boosts immunity, and promotes sleep. Consuming it with black pepper increases the absorption of Curcumin by 2000%. It is a blood purifier and is extensively used in skincare."
     },
     {
         "id": "sleep_ayurveda",
-        "title_kn": "ಆಯುರ್ವೇದ ನಿದ್ರೆ",
-        "title_en": "Sleep in Ayurveda",
-        "content_kn": "ರಾತ್ರಿ ಹತ್ತು ಗಂಟೆಯೊಳಗೆ ಮಲಗುವುದು ಮತ್ತು ಬೆಳಿಗ್ಗೆ ಸೂರ್ಯೋದಯಕ್ಕಿಂತ ಮುಂಚೆ ಏಳುವುದು ದೈಹಿಕ ಮತ್ತು ಮಾನಸಿಕ ಆರೋಗ್ಯಕ್ಕೆ ಅನಿವಾರ್ಯ.",
-        "content_en": "Sleeping by 10 PM and rising before sunrise aligns your body with natural biological rhythms."
+        "title_kn": "ನಿದ್ರೆ (ಬ್ರಹ್ಮಚರ್ಯ ಮತ್ತು ಆಹಾರದಷ್ಟೇ ಮುಖ್ಯ)",
+        "title_en": "Nidra (Sleep Hygiene)",
+        "content_kn": "ಆಹಾರ, ನಿದ್ರೆ ಮತ್ತು ಬ್ರಹ್ಮಚರ್ಯ - ಇವು ಆಯುರ್ವೇದದ ಮೂರು ಉಪಸ್ತಂಭಗಳು. ರಾತ್ರಿ 10 ರಿಂದ ಬೆಳಿಗ್ಗೆ 6 ರವರೆಗಿನ ನಿದ್ರೆ ಅತ್ಯುತ್ತಮ. ಹಗಲು ನಿದ್ರೆ (ದಿವಾಸ್ವಪ್ನ) ಕಫ ಮತ್ತು ಪಿತ್ತವನ್ನು ಹೆಚ್ಚಿಸುವುದರಿಂದ (ಬೇಸಿಗೆ ಹೊರತುಪಡಿಸಿ) ಅದನ್ನು ಮಾಡಬಾರದು. ಎಡಮಗ್ಗುಲಲ್ಲಿ ಮಲಗುವುದು ಜೀರ್ಣಕ್ರಿಯೆಗೆ ಮತ್ತು ಬಲಮಗ್ಗುಲಲ್ಲಿ ಮಲಗುವುದು ವಿಶ್ರಾಂತಿಗೆ ಒಳ್ಳೆಯದು. ತಲೆಯನ್ನು ಪೂರ್ವ ಅಥವಾ ದಕ್ಷಿಣಕ್ಕೆ ಇಡಬೇಕು.",
+        "content_en": "Sleep is crucial for tissue repair. Sleeping during the day (Divaswapna) is generally prohibited as it increases Kapha and causes obesity, except in summer or for the elderly/sick. Sleeping on the left side (Vamkukshi) activates the right nostril (Surya Nadi), aiding digestion. Sound sleep restores Ojas and balances the mind."
     },
     {
-        "id": "early_dinner",
-        "title_kn": "ಸಂಜೆ ಊಟ",
-        "title_en": "Early Dinner",
-        "content_kn": "ಸೂರ್ಯಾಸ್ತದ ಸಮಯದಲ್ಲಿ ಊಟ ಮಾಡುವುದು ದೀರ್ಘಾಯುಷ್ಯಕ್ಕೆ ದಾರಿ.",
-        "content_en": "Eating at sunset gives the body enough time to digest before sleep."
-    },
-    {
-        "id": "copper_water",
-        "title_kn": "ತಾಮ್ರದ ನೀರು",
-        "title_en": "Copper Water",
-        "content_kn": "ತಾಮ್ರದ ಪಾತ್ರೆಯಲ್ಲಿ ಶೇಖರಿಸಿದ ನೀರು ದೇಹದ ದೋಷಗಳನ್ನು ಸಮತೋಲನಗೊಳಿಸುತ್ತದೆ.",
-        "content_en": "Water stored in copper vessels overnight has natural antibiotic properties."
-    },
-    {
-        "id": "no_cold_water",
-        "title_kn": "ತಣ್ಣೀರು ಬೇಡ",
-        "title_en": "No Cold Water",
-        "content_kn": "ಊಟದ ನಂತರ ಅತೀ ತಣ್ಣನೆಯ ನೀರು ಕುಡಿಯುವುದು ಜಠರಾಗ್ನಿಯನ್ನು ತಗ್ಗಿಸುತ್ತದೆ. ಉಗುರು ಬೆಚ್ಚಗಿನ ನೀರು ಶ್ರೇಷ್ಠ.",
-        "content_en": "Avoid iced water after meals as it douses the digestive fire. Warm water is better."
-    },
-    {
-        "id": "vajrasana",
-        "title_kn": "ವಜ್ರಾಸನ",
-        "title_en": "Vajrasana",
-        "content_kn": "ಊಟದ ನಂತರ 5-10 ನಿಮಿಷ ವಜ್ರಾಸನದಲ್ಲಿ ಕುಳಿತುಕೊಳ್ಳುವುದು ಅಜೀರ್ಣ ಸಮಸ್ಯೆಯನ್ನು ಹೋಗಲಾಡಿಸುತ್ತದೆ.",
-        "content_en": "Sitting in Vajrasana (Diamond Pose) for 5-10 minutes after a meal aids digestion."
-    },
-    {
-        "id": "chewing_food",
-        "title_kn": "ಸರಿಯಾಗಿ ಅಗಿಯುವುದು",
-        "title_en": "Chewing Food",
-        "content_kn": "ಪ್ರತಿ ತುತ್ತನ್ನು ಕನಿಷ್ಠ 32 ಬಾರಿ ಅಗಿಯಬೇಕು. ಲಾಲಾರಸವು ಆಹಾರದೊಂದಿಗೆ ಮಿಶ್ರಣವಾದಾಗ ಜೀರ್ಣಕ್ರಿಯೆ ಸುಲಭವಾಗುತ್ತದೆ.",
-        "content_en": "Chew your food thoroughly. Digestion starts in the mouth as saliva mixes with food."
-    },
-    {
-        "id": "oil_pulling",
-        "title_kn": "ಕವಳ (Oil Pulling)",
-        "title_en": "Oil Pulling",
-        "content_kn": "ಬೆಳಿಗ್ಗೆ ಎದ್ದ ತಕ್ಷಣ ಕೊಬ್ಬರಿ ಎಣ್ಣೆಯಿಂದ ಬಾಯಿ ಮುಕ್ಕಳಿಸುವುದರಿಂದ ಹಲ್ಲು ಮತ್ತು ಒಸಡುಗಳ ಆರೋಗ್ಯ ವೃದ್ಧಿಸುತ್ತದೆ.",
-        "content_en": "Daily oil pulling with coconut or sesame oil detoxifies the body and improves oral health."
-    },
-    {
-        "id": "natural_urge",
-        "title_kn": "ವೇಗಗಳ ತಡೆ ಬೇಡ",
-        "title_en": "Natural Urges",
-        "content_kn": "ಹಸಿವು, ಬಾಯಾರಿಕೆ, ನಿದ್ರೆ ಮತ್ತು ಮಲಬದ್ಧತೆಯಂತಹ ನೈಸರ್ಗಿಕ ವೇಗಗಳನ್ನು ತಡೆಯಬಾರದು. ಇದು ರೋಗಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು.",
-        "content_en": "Do not suppress natural urges like hunger, thirst, or sleep, as it can lead to various ailments."
-    },
-    {
-        "id": "early_morning_sun",
-        "title_kn": "ಬೆಳಗಿನ ಬಿಸಿಲು",
-        "title_en": "Morning Sun",
-        "content_kn": "ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ ಅಲ್ಪ ಸಮಯ ಬಿಸಿಲಿನಲ್ಲಿ ಇರುವುದರಿಂದ ವಿಟಮಿನ್ ಡಿ ದೊರೆಯುತ್ತದೆ ಮತ್ತು ಮನಸ್ಸು ಲವಲವಿಕೆಯಿಂದ ಇರುತ್ತದೆ.",
-        "content_en": "Exposing your body to moderate morning sunlight provides Vitamin D and boosts your mood."
+        "id": "panchakarma",
+        "title_kn": "ಪಂಚಕರ್ಮ (ದೇಹ ಶುದ್ಧೀಕರಣ)",
+        "title_en": "Panchakarma (Detoxification)",
+        "content_kn": "ದೇಹದಲ್ಲಿ ಆಳವಾಗಿ ಬೇರೂರಿರುವ ದೋಷಗಳನ್ನು ಹೊರಹಾಕಲು 5 ವಿಧಾನಗಳಿವೆ: 1. ವಮನ (ವಾಂತಿ ಮಾಡಿಸುವುದು - ಕಫಕ್ಕೆ), 2. ವಿರೇಚನ (ಭೇದಿ ಮಾಡಿಸುವುದು - ಪಿತ್ತಕ್ಕೆ), 3. ಬಸ್ತಿ (ಎನಿಮಾ - ವಾತಕ್ಕೆ), 4. ನಸ್ಯ (ಮೂಗಿನ ಮೂಲಕ - ತಲೆಗೆ), 5. ರಕ್ತಮೋಕ್ಷಣ (ಕೆಟ್ಟ ರಕ್ತ ತೆಗೆಯುವುದು). ಇದನ್ನು ವೈದ್ಯರ ಸಲಹೆಯ ಮೇರೆಗೆ ವರ್ಷಕ್ಕೊಮ್ಮೆ ಮಾಡಿಸಿಕೊಂಡರೆ ದೇಹ ಹೊಸದರಂತಾಗುತ್ತದೆ.",
+        "content_en": "Panchakarma is the ultimate healing therapy consisting of 5 procedures to eliminate toxic buildup: Vamana (Emesis for Kapha), Virechana (Purgation for Pitta), Basti (Enema for Vata - the most important therapy), Nasya (Nasal administration for head/neck), and Raktamokshana (Bloodletting). It resets the biological rhythm and rejuvenates the tissues at a cellular level."
     }
 ]

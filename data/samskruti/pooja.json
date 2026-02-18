@@ -1,80 +1,72 @@
 [
     {
         "id": "pooja_significance",
-        "title_kn": "ಪೂಜೆಯ ಮಹತ್ವ",
-        "title_en": "Significance of Pooja",
-        "content_kn": "ಪೂಜೆ ಎಂದರೆ ಕೇವಲ ಆಚರಣೆಯಲ್ಲ, ಅದು ದೈವದೊಂದಿಗೆ ನಡೆಸುವ ಸಂಭಾಷಣೆ. ಇದು ಪಂಚಭೂತಾರಾಧನೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಶಿಸ್ತು.\nಪ್ರತಿಯೊಂದು ಉಪಚಾರಕ್ಕೂ ಅದರದೇ ಆದ ಅರ್ಥವಿದೆ.",
-        "content_en": "Pooja is a dialogue with the divine using elements representing nature. It involves offering 5 or 16 services (Upacharas) to the deity."
+        "title_kn": "ಪೂಜೆಯ ಮಹತ್ವ (ದೈವಿಕ ಸಂಭಾಷಣೆ)",
+        "title_en": "Significance of Proja",
+        "content_kn": "ಪೂಜೆ (ಪೂ = ಪ್ರೀತಿಯಿಂದ, ಜೆ = ಅರ್ಪಿಸುವುದು) ಕೇವಲ ಬಾಹ್ಯ ಆಚರಣೆಯಲ್ಲ, ಅದು ದೈವದೊಂದಿಗೆ ನಡೆಸುವ ಸಂಭಾಷಣೆ. ಇದು ಪಂಚಭೂತಾರಾಧನೆ ಮತ್ತು ಶಿಸ್ತಿನ ಜೀವನ. ಪ್ರತಿ ಉಪಚಾರಕ್ಕೂ ಅದರದೇ ಆದ ಮರ್ಮವಿದೆ. ಮೂರ್ತಿಯ ಮೂಲಕ ದೇವರಿಗೆ ಕೃತಜ್ಞತೆ ಸಲ್ಲಿಸುವುದು ಇದರ ಉದ್ದೇಶ. 'ಅಹಂ' (ನಾನು) ತ್ಯಾಗವೇ ಪೂಜೆಯ ಫಲ.",
+        "content_en": "Pooja means 'worship with love'. It is a sacred dialogue with the Divine, using rituals to focus the mind. It helps channelize emotional energy towards God. Each element (flower, lamp, water) represents nature. The ultimate goal is 'Self-Surrender' (Atma-Nivedana)."
+    },
+    {
+        "id": "shodasha_upachara",
+        "title_kn": "ಷೋಡಶೋಪಚಾರ ಪೂಜೆ (16 ಹಂತಗಳು)",
+        "title_en": "Shodasha Upachara (16 Offerings)",
+        "content_kn": "ದೇವರಿಗೆ ಗೌರವಯುತವಾಗಿ ಸಲ್ಲಿಸುವ 16 ಸೇವೆಗಳು:\n1. ಧ್ಯಾನ/ಆವಾಹನೆ (ಸ್ವಾಗತ)\n2. ಆಸನ (ಕುಳಿತುಕೊಳ್ಳಲು)\n3. ಪಾದ್ಯ (ಕಾಲು ತೊಳೆಸುವುದು)\n4. ಅರ್ಘ್ಯ (ಕೈ ತೊಳೆಸುವುದು)\n5. ಆಚಮನ (ಕುಡಿಯಲು ನೀರು)\n6. ಮಧುಪರ್ಕ/ಸ್ನಾನ (ಹನಿ ಸ್ನಾನ)\n7. ವಸ್ತ್ರ (ಬಟ್ಟೆ)\n8. ಯಜ್ಞೋಪವೀತ (ಜನಿವಾರ)\n9. ಗಂಧ (ಚಂದನ)\n10. ಪುಷ್ಪ (ಹೂವು)\n11. ಧೂಪ (ಸಾಂಬ್ರಾಣಿ)\n12. ದೀಪ (ಬೆಳಕು)\n13. ನೈವೇದ್ಯ (ಆಹಾರ)\n14. ತಾಂಬೂಲ (ಎಲೆ ಅಡಿಕೆ)\n15. ನಿರಾಜನ (ಆರತಿ)\n16. ಮಂತ್ರಪುಷ್ಪ/ನಮಸ್ಕಾರ.",
+        "content_en": "These 16 steps emulate the royal hospitality accorded to a respected guest. 1. Dhyana (Meditation) 2. Avahana (Invocation) 3. Asana (Seat) 4. Padya (Foot wash) 5. Arghya (Hand wash) 6. Achamana (Sip of water) 7. Snana (Bath) 8. Vastra (Cloth) 9. Yajnopaveeta (Sacred thread) 10. Gandha (Sandalwood) 11. Pushpa (Flowers) 12. Dhupa (Incense) 13. Deepa (Lamp) 14. Naivedya (Food) 15. Tambula (Betel nut) 16. Pradakshina/Namaskara (Circumambulation/Salutation)."
     },
     {
         "id": "deepa",
-        "title_kn": "ದೀಪದ ಮಹತ್ವ",
+        "title_kn": "ದೀಪದ ಮಹತ್ವ (ಜ್ಞಾನ)",
         "title_en": "Significance of Lamp",
-        "content_kn": "ದೀಪವು ಅಜ್ಞಾನದ ಕತ್ತಲೆ ಹೋಗಲಾಡಿಸಿ ಜ್ಞಾನದ ಬೆಳಕನ್ನು ತರುತ್ತದೆ. ಎಣ್ಣೆ/ತುಪ್ಪ ನಮ್ಮ ವಾಸನೆಗಳು (ದುರ್ಗುಣಗಳು), ಬತ್ತಿ ನಮ್ಮ ಅಹಂಕಾರ. ಜ್ಞಾನಾಗ್ನಿಯು ಬೆಳಗಿದಾಗ ವಾಸನೆಗಳು ಮತ್ತು ಅಹಂಕಾರ ಸುಟ್ಟು ಹೋಗುತ್ತವೆ.",
-        "content_en": "The lamp represents knowledge dispelling ignorance. Oil represents vasanas, wick represents ego. Both burn in the light of knowledge.",
-        "shloka": "ಶುಭಂ ಕರೋತಿ ಕಲ್ಯಾಣಂ ಆರೋಗ್ಯಂ ಧನಸಂಪದಃ | ಶತ್ರುಬುದ್ಧಿ ವಿನಾಶಾಯ ದೀಪಜ್ಯೋತಿ ನಮೋಸ್ತುತೇ ||"
-    },
-    {
-        "id": "shanka",
-        "title_kn": "ಶಂಖದ ಮಹತ್ವ",
-        "title_en": "Sacred Conch (Shanka)",
-        "content_kn": "ಶಂಖದ ನಾದವು ಓಂಕಾರಕ್ಕೆ ಸಮಾನ. ಇದು ನಕಾರಾತ್ಮಕ ಶಕ್ತಿಯನ್ನು ದೂರ ಮಾಡುತ್ತದೆ ಮತ್ತು ವಾತಾವರಣವನ್ನು ಶುದ್ಧಿಗೊಳಿಸುತ್ತದೆ.",
-        "content_en": "The sound of the conch is equivalent to OM, clearing the atmosphere of negativity and bacteria."
+        "content_kn": "ದೀಪವು ಅಜ್ಞಾನದ ಕತ್ತಲೆ ಹೋಗಲಾಡಿಸಿ ಜ್ಞಾನದ ಬೆಳಕನ್ನು ತರುತ್ತದೆ. ಎಣ್ಣೆ/ತುಪ್ಪ ನಮ್ಮ ವಾಸನೆಗಳು (ದುರ್ಗುಣಗಳು), ಬತ್ತಿ ನಮ್ಮ ಅಹಂಕಾರ. ಜ್ಞಾನಾಗ್ನಿಯು ಬೆಳಗಿದಾಗ ವಾಸನೆಗಳು ಮತ್ತು ಅಹಂಕಾರ ಸುಟ್ಟು ಹೋಗುತ್ತವೆ. ಶ್ಲೋಕ: 'ಶುಭಂ ಕರೋತಿ ಕಲ್ಯಾಣಂ ಆರೋಗ್ಯಂ ಧನಸಂಪದಃ | ಶತ್ರುಬುದ್ಧಿ ವಿನಾಶಾಯ ದೀಪಜ್ಯೋತಿ ನಮೋಸ್ತುತೇ ||'.",
+        "content_en": "The lamp symbolizes the dispeller of darkness (ignorance). The oil/ghee represents our latent tendencies (Vasanas) and the wick represents the Ego (Ahamkara). When lit by the flame of Knowledge (Jnana), the ego and vasanas get burnt away. A lit lamp radiates positive aura and signifies prosperity."
     },
     {
         "id": "bell",
-        "title_kn": "ಘಂಟಾ ನಾದ",
-        "title_en": "Temple Bell",
-        "content_kn": "ಗಂಟೆಯ 'ಟಿಂಗ್' ಎಂಬ ಶಬ್ದವು ನಮ್ಮ ಎರಡೂ ಮೆದುಳಿನ ಭಾಗಗಳನ್ನು (ಎಡ ಮತ್ತು ಬಲ) ಜಾಗೃತಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಏಕಾಗ್ರತೆ ನೀಡುತ್ತದೆ. ಇದು ಮನಸ್ಸಿನ ಗೊಂದಲಗಳನ್ನು ನಿವಾರಿಸುತ್ತದೆ.",
-        "content_en": "The ringing of the bell creates a sharp, long-lasting sound that unites both sides of the brain, sharpening focus."
+        "title_kn": "ಘಂಟಾ ನಾದದ ವಿಜ್ಞಾನ (ಜಾಗೃತಿ)",
+        "title_en": "Science of Temple Bell",
+        "content_kn": "ಗಂಟೆಯ 'ಟಿಂಗ್' ಎಂಬ ಶಬ್ದವು (ಓಂಕಾರ ಸ್ವರೂಪ) ನಮ್ಮ ಬಲ ಮತ್ತು ಎಡ ಮೆದುಳಿನ ಭಾಗಗಳನ್ನು (Hemispheres) ಒಂದಾಗಿಸುತ್ತದೆ. ಘಂಟಾ ನಾದವು ಕನಿಷ್ಠ 7 ಸೆಕೆಂಡುಗಳ ಕಾಲ ಅನುರಣನ (Echo) ನೀಡುತ್ತದೆ, ಇದು ನಮ್ಮ 7 ಚಕ್ರಗಳನ್ನು (Healing Centers) ಸ್ಪರ್ಶಿಸಿ, ಏಕಾಗ್ರತೆ ಮೂಡಿಸುತ್ತದೆ. ಇದು ಮನಸ್ಸಿನ ಗೊಂದಲಗಳನ್ನು ನಿವಾರಿಸುತ್ತದೆ.",
+        "content_en": "The sound of a properly made temple bell resonates for at least 7 seconds in echo mode. This sound touches the seven healing centers (Chakras) of the body. It synchronizes the left and right brain hemispheres, emptying the brain of thoughts and bringing sharp focus ('Dharana'). It prepares the mind to receive Darshan."
     },
     {
         "id": "panchamruta",
-        "title_kn": "ಪಂಚಾಮೃತ ಸ್ನಾನ",
-        "title_en": "Panchamruta Abhisheka",
-        "content_kn": "ಹಾಲು, ಮೊಸರು, ತುಪ್ಪ, ಜೇನುತುಪ್ಪ ಮತ್ತು ಸಕ್ಕರೆ ಬೆರೆಸಿದ ಮಿಶ್ರಣವೇ ಪಂಚಾಮೃತ. ದೇವರಿಗೆ ಅಭಿಷೇಕ ಮಾಡಲು ಇದನ್ನು ಬಳಸುತ್ತಾರೆ. ಇವು ಐದು ಅಮೃತಗಳಿಗೆ ಸಮಾನ.",
-        "content_en": "Mixture of Milk, Curd, Ghee, Honey, and Sugar used for bathing the deity (Abhisheka). Each ingredient has spiritual significance."
+        "title_kn": "ಪಂಚಾಮೃತ (ಐದು ಗುಣಗಳು)",
+        "title_en": "Panchamruta (Five Nectars)",
+        "content_kn": "ಐದು ದ್ರವ್ಯಗಳ ಮಿಶ್ರಣವೇ ಪಂಚಾಮೃತ. ಪ್ರತಿಯೊಂದಕ್ಕೂ ಒಂದು ಅರ್ಥವಿದೆ:\n\n1. ಹಾಲು (ಪರಿಶುದ್ಧತೆ - Purity)\n2. ಮೊಸರು (ಸಂತಾನ/ಹಿಡಿತ - Progeny)\n3. ತುಪ್ಪ (ಜ್ಞಾನ/ತೇಜಸ್ಸು - Knowledge)\n4. ಜೇನುತುಪ್ಪ (ಮಧುರ ಮಾತು - Sweet Speech)\n5. ಸಕ್ಕರೆ (ಒಳ್ಳೆಯ ನಡತೆ/ಆನಂದ - Bliss)\n\nಈ ಐದು ಗುಣಗಳನ್ನು ನಾವು ದೇವರಿಗೆ ಅರ್ಪಿಸಿ, ಪ್ರಸಾದದ ಮೂಲಕ ನಮ್ಮದಾಗಿಸಿಕೊಳ್ಳುವುದೇ ಇದರ ತಾತ್ಪರ್ಯ.",
+        "content_en": "Panchamruta (Five Nectars) is a sacred mixture used for Abhisheka. Milk represents purity and nourishment (Sattva). Curd represents prosperity and progeny. Ghee represents knowledge and victory (Tejas). Honey represents sweet, truthful speech. Sugar represents happiness and bliss. Consuming this prasada is believed to grant these qualities to the devotee."
     },
     {
-        "id": "alankara",
-        "title_kn": "ಅಲಂಕಾರ",
-        "title_en": "Decoration",
-        "content_kn": "ದೇವರಿಗೆ ಹೂವು, ಗಂಧ ಮತ್ತು ವಸ್ತ್ರಗಳಿಂದ ಅಲಂಕಾರ ಮಾಡುವುದು ಭಕ್ತಿಯ ಸಂಕೇತ. ಸುಂದರವಾದ ಮೂರ್ತಿಯನ್ನು ನೋಡುವುದರಿಂದ ಕಣ್ಣು ಮತ್ತು ಮನಸ್ಸಿಗೆ ಆನಂದ ಸಿಗುತ್ತದೆ.",
-        "content_en": "Decorating the deity with flowers, sandalwood paste, and clothes symbolizes devotion and brings joy (Ananda)."
+        "id": "abhisheka",
+        "title_kn": "ಅಭಿಷೇಕ (ಶುದ್ಧೀಕರಣ)",
+        "title_en": "Abhisheka (Ritual Bathing)",
+        "content_kn": "ದೇವರಿಗೆ ವಿವಿಧ ದ್ರವ್ಯಗಳಿಂದ (ನೀರು, ಹಾಲು, ಅರಿಶಿನ, ಕುಂಕುಮ, ವಿಭೂತಿ ಇತ್ಯಾದಿ) ಸ್ನಾನ ಮಾಡಿಸುವುದೇ ಅಭಿಷೇಕ. ಇದು ಕೇವಲ ಮೂರ್ತಿಯನ್ನು ತೊಳೆಯುವುದಲ್ಲ, ನಮ್ಮ ಅಂತರಂಗವನ್ನು ತೊಳೆಯುವ ಕ್ರಿಯೆ. ರುದ್ರಾಭಿಷೇಕದ ಸಮಯದಲ್ಲಿ ಹೇಳುವ ಮಂತ್ರಗಳು ವಾತಾವರಣದಲ್ಲಿ ಕಂಪನಗಳನ್ನು (Vibrations) ಉಂಟುಮಾಡುತ್ತವೆ.",
+        "content_en": "Pouring libations on the deity is called Abhisheka. Common substances include water, milk, curd, honey, ghee, sugar, coconut water, etc. Each substance has a specific benefit (e.g., Milk for long life, Curd for children, Honey for voice). The continuous pouring symbolizes the uninterrupted stream of devotion (Bhakti) towards God."
     },
     {
-        "id": "naivedya",
-        "title_kn": "ನೈವೇದ್ಯ ಸಮರ್ಪಣೆ",
-        "title_en": "Food Offering",
-        "content_kn": "ದೇವರಿಗೆ ಸಾತ್ವಿಕ ಆಹಾರವನ್ನು ಅರ್ಪಿಸುವುದು. 'ಓಂ ಪ್ರಾಣಾಯ ಸ್ವಾಹಾ, ಅಪಾನಾಯ ಸ್ವಾಹಾ...' ಎಂದು ಮಂತ್ರ ಹೇಳುತ್ತಾ ಅರ್ಪಿಸಬೇಕು. ನಂತರ ಅದು ಪ್ರಸಾದವಾಗುತ್ತದೆ.",
-        "content_en": "Offering pure (Satvic) food to the deity. Once offered, it becomes Prasada (blessed food)."
+        "id": "archana",
+        "title_kn": "ಅರ್ಚನೆ (ನಾಮ ಸ್ಮರಣೆ)",
+        "title_en": "Archana (Chanting Names)",
+        "content_kn": "ದೇವರ ಸಹಸ್ರ (1000) ಅಥವಾ ಅಷ್ಟೋತ್ತರ (108) ನಾಮಗಳನ್ನು ಹೇಳುತ್ತಾ ಹೂವು, ಕುಂಕುಮ ಅಥವಾ ಅಕ್ಷತೆಯನ್ನು ಅರ್ಪಿಸುವುದೇ ಅರ್ಚನೆ. ಪ್ರತಿ ಹೆಸರೂ ಆ ದೇವತೆಯ ಒಂದೊಂದು ಗುಣವನ್ನು (Quality) ವರ್ಣಿಸುತ್ತದೆ. ಇದನ್ನು ಕೇಳುವುದರಿಂದ ಅಥವಾ ಹೇಳುವುದರಿಂದ ನಮ್ಮ ಮನಸ್ಸು ಆ ಗುಣಗಳ ಕಡೆಗೆ ಆಕರ್ಷಿತವಾಗುತ್ತದೆ.",
+        "content_en": "Archana involves offering flowers (Pushpa), Kumkum, or Akshata while chanting the 108 (Ashtottara) or 1000 (Sahasranama) names of the deity. Since God has infinite qualities, chanting names helps us meditate on these attributes (Gunas) like compassion, strength, and wisdom."
     },
     {
-        "id": "mangalarathi",
-        "title_kn": "ಮಂಗಳಾರತಿ / ಕರ್ಪೂರಾರತಿ",
-        "title_en": "Mangalarathi",
-        "content_kn": "ಕರ್ಪೂರದ ಜ್ಯೋತಿಯನ್ನು ದೇವರಿಗೆ ಬೆಳಗುವುದು. ಕರ್ಪೂರವು ಉರಿದು ಮಾಯವಾಗುವಂತೆ, ನಮ್ಮ ಅಹಂಕಾರವೂ ದೇವರಲ್ಲಿ ಲೀನವಾಗಬೇಕು ಎಂದು ಇದು ಕಲಿಸುತ್ತದೆ.",
-        "content_en": "Waving camphor light. Just as camphor burns away without residue, our ego should dissolve into the Divine."
+        "id": "mangala_arati",
+        "title_kn": "ಮಂಗಳಾರತಿ (ಬೆಳಗುವುದು)",
+        "title_en": "Mangala Arati (Waving Lights)",
+        "content_kn": "ಪೂಜೆಯ ಕೊನೆಯಲ್ಲಿ ಕರ್ಪೂರ ದೀಪವನ್ನೋ ಅಥವಾ ತುಪ್ಪದ ದೀಪವನ್ನೋ ದೇವರ ಮುಂದೆ ವೃತ್ತಾಕಾರವಾಗಿ ಬೆಳಗುವುದೇ ಆರತಿ. ಇದು ನಮ್ಮ ಪ್ರೀತಿಯ ಅಭಿವ್ಯಕ್ತಿ. ಆರತಿಯ ನಂತರ ನಾವು ಆ ಜ್ಯೋತಿಯನ್ನು ಕಣ್ಣಿಗೆ ಮುಟ್ಟಿಕೊಳ್ಳುತ್ತೇವೆ. ಅಂದರೆ, 'ನನ್ನ ಕಣ್ಣುಗಳು ದೇವರ ದಿವ್ಯ ರೂಪವನ್ನೇ ನೋಡಲಿ, ಜ್ಞಾನದ ಬೆಳಕು ನನ್ನದಾಗಲಿ' ಎಂದು ಪ್ರಾರ್ಥಿಸುವುದು.",
+        "content_en": "Arati signifies the conclusion of worship. Waving camphor (which burns completely without residue) symbolizes the complete burning of the ego before God. Placing our hands over the flame and touching our eyes means we are imbibing the divine light and praying for spiritual vision."
     },
     {
-        "id": "pradakshina",
-        "title_kn": "ಪ್ರದಕ್ಷಿಣೆ",
-        "title_en": "Pradakshina",
-        "content_kn": "ದೇವರನ್ನು ಬಲಗಡೆಯಿಂದ ಸುತ್ತುವರಿಯುವುದು. ದೇವರು ನಮ್ಮ ಜೀವನದ ಕೇಂದ್ರಬಿಂದು ಎಂದು ಇದು ಸೂಚಿಸುತ್ತದೆ. 'ಪದೇ ಪದೇ' ಮಾಡುವ ಪಾಪಗಳು ಪ್ರದಕ್ಷಿಣೆಯಿಂದ ನಾಶವಾಗುತ್ತವೆ.",
-        "content_en": "Walking clockwise around the deity signifying that God is the center of our existence."
+        "id": "prasada",
+        "title_kn": "ಪ್ರಸಾದ (ದೈವ ಕೃಪೆ)",
+        "title_en": "Prasada (Divine Grace)",
+        "content_kn": "ದೇವರಿಗೆ ನೈವೇದ್ಯ ಮಾಡಿದ ಆಹಾರವೇ ಪ್ರಸಾದವಾಗುತ್ತದೆ. 'ಪ್ರಸಾದ' ಎಂದರೆ 'ಪ್ರಸನ್ನತೆ' (Grace/Favor). ನಾವು ತಿನ್ನುವ ಆಹಾರವನ್ನು ಮೊದಲು ದೇವರಿಗೆ ಅರ್ಪಿಸಿದರೆ, ಅದರಲ್ಲಿನ ದೋಷಗಳು ಹೋಗಿ ಅದು ಪವಿತ್ರವಾಗುತ್ತದೆ. ಇದನ್ನು ಭಕ್ತಿಯಿಂದ ಸ್ವೀಕರಿಸಬೇಕು, ರುಚಿ ನೋಡಬಾರದು.",
+        "content_en": "Food offered to God (Naivedya) becomes Prasada (Grace). It is believed to be infused with divine energy. Eating prasada purifies the body and mind. The Bhagavad Gita says those who eat food without offering it to God are 'eating sin'. Prasada teaches us to accept everything in life as a gift from God."
     },
     {
-        "id": "namaskara",
-        "title_kn": "ಸಾಷ್ಟಾಂಗ ನಮಸ್ಕಾರ",
-        "title_en": "Prostration",
-        "content_kn": "ದೇಹದ ಎಂಟು ಅಂಗಗಳು (ಎದೆಯೂ ಸೇರಿ) ನೆಲಕ್ಕೆ ತಾಗುವಂತೆ ಮಲಗಿ ನಮಸ್ಕರಿಸುವುದು. 'ನನ್ನದು ಏನೂ ಇಲ್ಲ, ಎಲ್ಲವೂ ನಿನ್ನದೇ' ಎಂಬ ಶರಣಾಗತಿ ಭಾವವೇ ನಮಸ್ಕಾರ.",
-        "content_en": "Full prostration touching 8 body parts to the ground, symbolizing complete surrender of ego to the Divine."
-    },
-    {
-        "id": "tirtha",
-        "title_kn": "ತೀರ್ಥ ಸೇವನೆ",
-        "title_en": "Holy Water",
-        "content_kn": "ದೇವರಿಗೆ ಅರ್ಪಿಸಿದ ನೀರು, ತುಳಸಿ ಮತ್ತು ಗಂಧ ಮಿಶ್ರಿತವಾಗಿ ತೀರ್ಥವಾಗುತ್ತದೆ. ಇದನ್ನು ಸೇವಿಸುವುದರಿಂದ ಪಾಪ ಪರಿಹಾರ ಮತ್ತು ಆರೋಗ್ಯ ವೃದ್ಧಿಯಾಗುತ್ತದೆ.",
-        "content_en": "Holy water offered to God, often with Tulsi. Drinking it purifies the body."
+        "id": "teertha",
+        "title_kn": "ತೀರ್ಥ (ಪವಿತ್ರ ಜಲ)",
+        "title_en": "Teertha (Holy Water)",
+        "content_kn": "ಅಭಿಷೇಕ ಮಾಡಿದ ನೀರು ಅಥವಾ ಪೂಜೆಯಲ್ಲಿ ಇಟ್ಟ ನೀರಿಗೆ ತುಳಸಿ, ಏಲಕ್ಕಿ, ಲವಂಗ, ಕರ್ಪೂರ ಬೆರೆಸಿ ಕೊಡುವುದೇ ತೀರ್ಥ. ಇದು ಅತ್ಯಂತ ಶಕ್ತಿಯುತವಾದ ಔಷಧ. ಇದರಲ್ಲಿರುವ ವಸ್ತುಗಳು ಕಫ, ಶೀತ ಮತ್ತು ಗಂಟಲು ನೋವನ್ನು ನಿವಾರಿಸುತ್ತವೆ. ಇದನ್ನು ಬಲಗೈಯಿಂದ ಸ್ವೀಕರಿಸಿ, ಶ್ರದ್ಧೆಯಿಂದ ಕುಡಿಯಬೇಕು, ತಲೆಗೆ ಪ್ರೋಕ್ಷಿಸಿಕೊಳ್ಳಬೇಕು.",
+        "content_en": "Holy water offered after pooja contain herbs like Tulasi, Cardamom, Clove, Saffron, and Edible Camphor. It acts as a potent medicine. Tulasi cures colds and fevers; Camphor cools the body; Cardamom aids digestion. Drinking Teertha balances the three Doshas (Vata, Pitta, Kapha) and purifies the nadis."
     }
 ]
