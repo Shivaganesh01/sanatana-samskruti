@@ -1,58 +1,100 @@
 [
     {
         "id": "dharma_victory",
-        "title_kn": "ಧರ್ಮದ ಜಯ",
-        "title_en": "Victory of Dharma",
-        "content_kn": "ಯತೋ ಧರ್ಮಸ್ತತೋ ಜಯಃ | ಸತ್ಯ ಮತ್ತು ಧರ್ಮವಿರುವಲ್ಲೇ ವಿಜಯ.",
-        "content_en": "Where there is Dharma, there is Victory."
-    },
-    {
-        "id": "vidura_neeti",
-        "title_kn": "ವಿದುರ ನೀತಿ",
-        "title_en": "Vidura Neeti",
-        "content_kn": "ನ್ಯಾಯ ಮತ್ತು ನೀತಿಯ ಪಾಠಗಳು. ಒಬ್ಬ ವ್ಯಕ್ತಿ ಹೇಗೆ ಬದುಕಬೇಕು ಎಂದು ವಿದುರನು ಧೃತರಾಷ್ಟ್ರನಿಗೆ ಬೋಧಿಸಿದನು.",
-        "content_en": "Wisdom shared by Vidura on governance, morality, and righteous leadership."
+        "title_kn": "ಧರ್ಮದ ಜಯ (ಗೀತೆ ಮತ್ತು ಮಹಾಭಾರತದ ಸಾರ)",
+        "title_en": "Yato Dharmastato Jayah",
+        "content_kn": "'ಯತೋ ಧರ್ಮಸ್ತತೋ ಜಯಃ' - ಅಂದರೆ ಎಲ್ಲಿ ಧರ್ಮವಿದೆಯೋ ಅಲ್ಲಿ ಜಯವಿದೆ. ಮಹಾಭಾರತದ ಪ್ರತಿಯೊಂದು ಅಧ್ಯಾಯವೂ ಈ ಸತ್ಯವನ್ನು ಸಾರುತ್ತದೆ. ನೂರಾರು ಕೌರವರಿದ್ದರೂ, ಕೇವಲ ಐವರೇ ಆದ ಪಾಂಡವರು ಗೆಲ್ಲಲು ಕಾರಣ ಅವರ ಪಕ್ಷದಲ್ಲಿ ಸಾಕ್ಷಾತ್ ಧರ್ಮ ಸ್ವರೂಪಿಯಾದ ಶ್ರೀಕೃಷ್ಣ ಇದ್ದನು. ನಾವು ಸತ್ಯ, ನ್ಯಾಯ ಮತ್ತು ಧರ್ಮದ ಮಾರ್ಗದಲ್ಲಿ ನಡೆದರೆ ಜಯ ಖಂಡಿತ ಎಂದು ಇದು ಕಲಿಸುತ್ತದೆ.",
+        "content_en": "'Where there is Dharma, there is Victory'. This eternal truth is the central theme of the Mahabharata. Despite the Kauravas having a larger army of 11 Akshauhinis and many mighty warriors, the Pandavas with only 7 Akshauhinis emerged victorious because they upheld righteousness (Dharma) and were guided by Lord Krishna. It signifies that moral integrity is the ultimate power."
     },
     {
         "id": "yaksha_prashna",
-        "title_kn": "ಯಕ್ಷ ಪ್ರಶ್ನೆ",
-        "title_en": "Yaksha Prashna",
-        "content_kn": "ಯಮಧರ್ಮನು ಯಕ್ಷನ ರೂಪದಲ್ಲಿ ಕೇಳಿದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಯುಧಿಷ್ಠಿರನು ನೀಡಿದ ಉತ್ತರಗಳು ಧರ್ಮದ ಆಳವನ್ನು ತಿಳಿಸುತ್ತವೆ.",
-        "content_en": "Profound questions on life and ethics answered by Yudhishthira during their exile."
+        "title_kn": "ಯಕ್ಷ ಪ್ರಶ್ನೆ: ಜೀವನದ ವಿಸ್ಮಯ",
+        "title_en": "Yaksha Prasna (The Ultimate Test)",
+        "content_kn": "ಯಕ್ಷನು ಕೆರೆ ಕಾಯುತ್ತಾ ಕೇಳಿದ 100ಕ್ಕೂ ಹೆಚ್ಚು ಪ್ರಶ್ನೆಗಳಿಗೆ ಯುಧಿಷ್ಠಿರನು ಅತ್ಯಂತ ಜಾಣತನದಿಂದ ಉತ್ತರಿಸಿದನು. 'ಜಗತ್ತಿನ ಅತೀ ದೊಡ್ಡ ಆಶ್ಚರ್ಯ ಯಾವುದು?' ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಅವನ ಉತ್ತರ: 'ದಿನವೂ ಸಾವಿರಾರು ಜೀವಿಗಳು ಯಮಲೋಕವನ್ನು ಸೇರುತ್ತಿರುವುದನ್ನು ನಾವು ಕಣ್ಣಾರೆ ನೋಡುತ್ತೇವೆ. ಆದರೂ ಉಳಿದವರು ತಾವು ಶಾಶ್ವತವಾಗಿ ಬದುಕಿರುತ್ತೇವೆ ಎಂದು ಅಂದುಕೊಂಡು ಬದುಕುತ್ತಾರಲ್ಲ, ಇದೇ ಅತೀ ದೊಡ್ಡ ಆಶ್ಚರ್ಯ'.",
+        "content_en": "One of the most profound dialogues in the epic, the Yaksha Prashna tests Yudhishthira's wisdom. When asked, 'What is the greatest wonder?', he replied: 'Day after day, countless beings enter the abode of Yama (death), yet those who remain believe they will live forever. This is truly the greatest wonder.' It highlights the human delusion of immortality despite visible mortality."
     },
     {
-        "id": "bhisma_upadesha",
-        "title_kn": "ಭೀಷ್ಮ ಉಪದೇಶ (Shanti Parva)",
-        "title_en": "Bhishma's Teachings",
-        "content_kn": "ಭೀಷ್ಮಪಿತಾಮಹನು ಶರಶಯ್ಯೆಯಲ್ಲಿ ಮಲಗಿದ್ದಾಗ ಧರ್ಮರಾಜನಿಗೆ ರಾಜಧರ್ಮ ಮತ್ತು ಮೋಕ್ಷ ಧರ್ಮದ ಬಗ್ಗೆ ಉಪದೇಶಿಸಿದನು.",
-        "content_en": "Teachings of Bhishma to Yudhishthira on the art of ruling and spiritual liberation."
+        "id": "vidura_neeti",
+        "title_kn": "ವಿದುರ ನೀತಿ: ರಾಜನೀತಿಯ ಪಾಠ",
+        "title_en": "Vidura Neeti (Ethics of Governance)",
+        "content_kn": "ವಿದುರನು ಕೌರವರ ಮಂತ್ರಿಯಾಗಿದ್ದರೂ ಧರ್ಮದ ಪರವಾಗಿದ್ದನು. ಅವನು ದೃತರಾಷ್ಟ್ರನಿಗೆ ಹೇಳಿದ ಹಿತವಚನಗಳು 'ವಿದುರ ನೀತಿ' ಎಂದು ಪ್ರಸಿದ್ಧವಾಗಿವೆ. 'ರಾಜನು ಪ್ರಜೆಗಳಿಂದ ಹೂವಿನಿಂದ ಜೇನುತುಪ್ಪ ಸಂಗ್ರಹಿಸಿದಂತೆ ತೆರಿಗೆ ಸಂಗ್ರಹಿಸಬೇಕು, ಗಿಡಕ್ಕೆ ನೋವಾಗದಂತೆ'. ಅಧಿಕಾರ ಮತ್ತು ಸಂಪತ್ತು ಶಾಶ್ವತವಲ್ಲ, ಆದರೆ ಕೀರ್ತಿ ಮತ್ತು ಧರ್ಮ ಶಾಶ್ವತ ಎಂದು ಅವನು ಬೋಧಿಸಿದನು.",
+        "content_en": "Vidura, the epitome of wisdom and righteousness, advised King Dhritarashtra on statecraft and ethics. His teachings remain relevant even today. He famously said, 'A king should collect taxes like a bee collects nectar from flowers—taking just enough without harming the source'. He emphasized that power requires responsibility and that a ruler must prioritize the welfare of his subjects."
+    },
+    {
+        "id": "ekalavya_bhakti",
+        "title_kn": "ಏಕಲವ್ಯ: ಗುರು ಭಕ್ತಿ ಮತ್ತು ಏಕಾಗ್ರತೆ",
+        "title_en": "Ekalavya (Self-Taught Genius)",
+        "content_kn": "ಗುರು ದ್ರೋಣಾಚಾರ್ಯರು ಜಾತಿಯ ಕಾರಣದಿಂದ ಅಥವಾ ಅರ್ಜುನನ ಮೇಲಿನ ಪ್ರೀತಿಯಿಂದ ತಿರಸ್ಕರಿಸಿದರೂ, ಏಕಲವ್ಯ ಹಿಂಜರಿಯಲಿಲ್ಲ. ಕಾಡಿನಲ್ಲಿ ದ್ರೋಣರ ಮಣ್ಣಿನ ಮೂರ್ತಿಯನ್ನು ಮಾಡಿ, ಅದನ್ನೇ ಗುರುವನ್ನಾಗಿ ಭಾವಿಸಿ ಕಠಿಣ ಅಭ್ಯಾಸದಿಂದ ಶ್ರೇಷ್ಠ ಬಿಲ್ಲುಗಾರನಾದನು. ಗುರುದಕ್ಷಿಣೆಯಾಗಿ ತನ್ನ ಬಲಗೈ ಹೆಬ್ಬೆರಳನ್ನೇ ಕೇಳಿದಾಗಲೂ, ಭವಿಷ್ಯದ ಬಗ್ಗೆ ಯೋಚಿಸದೆ ಕೊಟ್ಟ ತ್ಯಾಗಮಯಿ. ಇದು 'ಸ್ವಾಧ್ಯಾಯ' ಮತ್ತು ಗುರು ಭಕ್ತಿಗೆ ಮೇರುಮಾದರಿ.",
+        "content_en": "Ekalavya is the symbol of 'Guru Bhakti' (devotion to the teacher) and self-determined learning. Despite being rejected by Dronacharya, he mastered archery by practicing in front of the Guru's clay statue. When Dronacharya asked for his right thumb as Guru Dakshina to ensure Arjuna's supremacy, Ekalavya unhesitatingly cut it off. His sacrifice represents the ultimate surrender of ego and skill to the teacher."
     },
     {
         "id": "karna_charity",
-        "title_kn": "ಕರ್ಣನ ದಾನಗುಣ",
-        "title_en": "Karna's Generosity",
-        "content_kn": "ದಾನಶೂರ ಕರ್ಣನು ತನ್ನ ಕವಚ-ಕುಂಡಲಗಳನ್ನು ಇಂದ್ರನಿಗೆ ನೀಡಿದ ಪ್ರಸಂಗವು ತ್ಯಾಗದ ಪರಮಾವಧಿಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
-        "content_en": "The story of Karna giving away his divine armor, showcasing the peak of selfless giving."
+        "title_kn": "ದಾನಶೂರ ಕರ್ಣ",
+        "title_en": "Karna (The Generous Warrior)",
+        "content_kn": "ಕರ್ಣನು ಸೂರ್ಯನ ಮಗನಾಗಿ ಹುಟ್ಟಿದರೂ ಸೂತಪುತ್ರನಾಗಿ ಬೆಳೆದವನು. ಅವನ ದಾನಗುಣ ಅಪ್ರತಿಮ. ಹುಟ್ಟಿನಿಂದಲೇ ಬಂದಿದ್ದ ಕವಚ ಮತ್ತು ಕುಂಡಲಗಳು ಇರುವವರೆಗೂ ಅವನನ್ನು ಕೊಲ್ಲಲು ಅಸಾಧ್ಯವಾಗಿತ್ತು. ಯುದ್ಧದ ಸಮಯದಲ್ಲಿ ಇಂದ್ರನು ಬಂದು ಇವುಗಳನ್ನು ಭಿಕ್ಷೆಯಾಗಿ ಕೇಳಿದಾಗ, ತನ್ನ ಸಾವು ನಿಶ್ಚಿತ ಎಂದು ತಿಳಿದಿದ್ದರೂ ದಾನವಾಗಿ ನೀಡಿದನು. ಸ್ನೇಹಕ್ಕಾಗಿ (ದುರ್ಯೋಧನನಿಗೆ) ಪ್ರಾಣವನ್ನೇ ಪಣಕ್ಕಿಟ್ಟ ವೀರ.",
+        "content_en": "Karna is celebrated for his unparalleled generosity ('Dana Shura'). Born with divine armor (Kavacha) and earrings (Kundala) that made him invincible, he cut them off his own body and gave them to Indra (disguised as a Brahmin), fully aware that this act would leave him vulnerable in the war. His tragic life and undying loyalty to his friend Duryodhana make him one of the most complex characters."
     },
     {
-        "id": "arjuna_focus",
-        "title_kn": "ಅರ್ಜುನನ ಏಕಾಗ್ರತೆ",
-        "title_en": "Arjuna's Concentration",
-        "content_kn": "ಪಕ್ಷಿಯ ಕಣ್ಣನ್ನು ಮಾತ್ರ ನೋಡಿದ ಅರ್ಜುನನ ಕಥೆಯು ಜೀವನದಲ್ಲಿ ಗುರಿಯ ಮೇಲೆ ಇರಬೇಕಾದ ಏಕಾಗ್ರತೆಯನ್ನು ಕಲಿಸುತ್ತದೆ.",
-        "content_en": "Arjuna's focus on the bird's eye teaches the importance of singular focus to achieve goals."
+        "id": "abhimanyu_bravery",
+        "title_kn": "ಅಭಿಮನ್ಯು: ಎಳೆಯ ಸಿಂಹ",
+        "title_en": "Abhimanyu (Fearless Youth)",
+        "content_kn": "ಅರ್ಜುನ ಮತ್ತು ಸುಭದ್ರೆಯ ಮಗನಾದ 16 ವರ್ಷದ ಅಭಿಮನ್ಯುವು ಕುರುಕ್ಷೇತ್ರ ಯುದ್ಧದ 13ನೇ ದಿನ ಕೌರವರು ರಚಿಸಿದ ಪದ್ಮವ್ಯೂಹವನ್ನು (ಚಕ್ರವ್ಯೂಹ) ಭೇದಿಸಿ ಒಳಗೆ ನುಗ್ಗಿದನು. ತಾಯಿಯ ಗರ್ಭದಲ್ಲಿದ್ದಾಗ ಒಳಗೆ ಹೋಗುವುದನ್ನು ಮಾತ್ರ ಕಲಿತಿದ್ದ ಅವನಿಗೆ, ಹೊರಬರುವ ದಾರಿ ಗೊತ್ತಿರಲಿಲ್ಲ. ಆದರೂ ಏಕಾಂಗಿಯಾಗಿ ದ್ರೋಣ, ಕರ್ಣ, ದುರ್ಯೋಧನ ಸೇರಿದಂತೆ 7 ಮಹಾರಥರೊಂದಿಗೆ ಹೋರಾಡಿ ವೀರಮರಣ ಹೊಂದಿದನು. ಕೆಚ್ಚೆದೆಯ ಧೈರ್ಯಕ್ಕೆ ಇನ್ನೊಂದು ಹೆಸರೇ ಅಭಿಮನ್ಯು.",
+        "content_en": "Abhimanyu, the son of Arjuna, learned the art of entering the impregnable Chakravyuha formation while in his mother's womb. However, he did not know how to exit. On the 13th day of the war, he broke into the formation alone and fought valiantly against seven great warriors of the Kaurava army simultaneously. Though he was brutally killed against the rules of war, his bravery remains legendary."
     },
     {
-        "id": "draupadi_patience",
-        "title_kn": "ದ್ರೌಪದಿಯ ಶಕ್ತಿ",
-        "title_en": "Strength of Draupadi",
-        "content_kn": "ದೌರ್ಜನ್ಯದ ವಿರುದ್ಧ ಧ್ವನಿ ಎತ್ತಿದ ದ್ರೌಪದಿಯ ಪಾತ್ರವು ಆತ್ಮಗೌರವ ಮತ್ತು ನ್ಯಾಯದ ಪರವಾದ ನಿಲುವನ್ನು ಸಾರುತ್ತದೆ.",
-        "content_en": "Draupadi's stand for justice and dignity remains an inspiration for resilience."
+        "id": "bhishma_pratigna",
+        "title_kn": "ಭೀಷ್ಮ ಪ್ರತಿಜ್ಞೆ (ತ್ಯಾಗದ ಶಿಖರ)",
+        "title_en": "Bhishma's Vow",
+        "content_kn": "ತನ್ನ ತಂದೆ ಶಂತನುವಿನ ಸಂತೋಷಕ್ಕಾಗಿ (ಸತ್ಯವತಿಯನ್ನು ಮದುವೆಯಾಗಲು), ಯುವರಾಜ ಪದವಿ ಮತ್ತು ಮದುವೆಯಾಗುವ ಹಕ್ಕನ್ನು ತ್ಯಜಿಸಿದ ದೇವವ್ರತನು 'ಭೀಷ್ಮ' (ಭೀಕರ ಪ್ರತಿಜ್ಞೆ ಮಾಡಿದವನು) ಎಂದು ಕರೆಯಲ್ಪಟ್ಟನು. ಅವನಿಗೆ 'ಇಚ್ಛಾಮರಣಿ' (ಬಯಸಿದಾಗ ಸಾವು) ಎಂಬ ವರವಿತ್ತು. ಕುರುಕ್ಷೇತ್ರ ಯುದ್ಧದಲ್ಲಿ ಅರ್ಜುನನ ಬಾಣಗಳಿಗೆ ಮೈಯೊಡ್ಡಿ, ಶರಶಯ್ಯೆಯ (ಬಾಣಗಳ ಹಾಸಿಗೆ) ಮೇಲೆ ಮಲಗಿ, ಉತ್ತರಾಯಣಕ್ಕಾಗಿ ಕಾಯುತ್ತಾ ವಿಷ್ಣು ಸಹಸ್ರನಾಮವನ್ನು ಯುಧಿಷ್ಠಿರನಿಗೆ ಬೋಧಿಸಿದನು.",
+        "content_en": "Devavrata took a terrible vow ('Bhishma Pratigna') of lifelong celibacy and renunciation of the throne to fulfill his father Shantanu's wish to marry Satyavati. Blessed with the boon of 'Ichha Mrityu' (death at will), he lay on a bed of arrows ('Sharashayya') for 58 days after falling in the war, waiting for the auspicious Uttarayana. From this bed, he imparted the wisdom of Dharma and governance (Shanti Parva) to King Yudhishthira."
     },
     {
-        "id": "krishna_messenger",
-        "title_kn": "ಕೃಷ್ಣ ರಾಯಭಾರ",
-        "title_en": "Krishna as Envoy",
-        "content_kn": "ಯುದ್ಧವನ್ನು ತಪ್ಪಿಸಲು ಕೃಷ್ಣನು ನಡೆಸಿದ ರಾಯಭಾರವು ಶಾಂತಿಗೂ ಒಂದು ಅವಕಾಶ ನೀಡಬೇಕು ಎಂದು ತಿಳಿಸುತ್ತದೆ.",
-        "content_en": "Krishna's diplomatic effort to avoid war emphasizes exhausting all peace options first."
+        "id": "draupadi_resilience",
+        "title_kn": "ದ್ರೌಪದಿ: ಸ್ತ್ರೀ ಶಕ್ತಿ ಮತ್ತು ಸಹನೆ",
+        "title_en": "Draupadi (Fire-Born Queen)",
+        "content_kn": "ಯಜ್ಞಕುಂಡದಿಂದ ಜನಿಸಿದ ದ್ರೌಪದಿಯು ಪಾಂಚಾಲಿಯೆಂದೂ ಕರೆಯಲ್ಪಡುತ್ತಾಳೆ. ತುಂಬಿದ ಸಭೆಯಲ್ಲಿ ದುಶ್ಯಾಸನ ವಸ್ತ್ರಾಪಹರಣ ಮಾಡಲು ಬಂದಾಗ, ತನ್ನ ಪತಿಯಂದಿರಾಗಲೀ, ಭೀಷ್ಮ-ದ್ರೋಣರಾಗಲೀ ಕಾಪಾಡಲಿಲ್ಲ. ಆಗ ಅವಳು ತನ್ನೆಲ್ಲಾ ಶಕ್ತಿಯನ್ನು ಶ್ರೀಕೃಷ್ಣನಿಗೆ ಅರ್ಪಿಸಿ ('ಗೋಪಿಕಾ ಜೀವನ ಸ್ಮರಣಂ ಗೋವಿಂದಾ ಗೋವಿಂದಾ') ರಕ್ಷಣೆ ಪಡೆದಳು. ಪಾಂಡವರ ವನವಾಸದ ಕಷ್ಟಕಾಲದಲ್ಲೂ ಧೈರ್ಯ ಕಳೆದುಕೊಳ್ಳದ ಅವರ ಬೆನ್ನೆಲುಬಾಗಿದ್ದಳು.",
+        "content_en": "Draupadi represents Shakti (divine feminine power) and resilience. During the humiliation of vastraharan in the royal court, when her husbands and elders failed to protect her, she surrendered completely to Lord Krishna ('Sharanagati'), who miraculously provided endless sarees to save her dignity. Her endurance during the 13 years of exile and her strength in holding the Pandavas together is unparalleled."
+    },
+    {
+        "id": "shakuni_cunning",
+        "title_kn": "ಶಕುನಿ: ಸೇಡು ಮತ್ತು ಕುತಂತ್ರ",
+        "title_en": "Shakuni (The Mastermind)",
+        "content_kn": "ಗಾಂಧಾರ ದೇಶದ ರಾಜಕುಮಾರ ಶಕುನಿಯು ಕೌರವರ ಮಾವ. ಭೀಷ್ಮ ತನ್ನ ತಂಗಿ ಗಾಂಧಾರಿಯನ್ನು ಕುರುಡ ದೃತರಾಷ್ಟ್ರನಿಗೆ ಮದುವೆ ಮಾಡಿಕೊಟ್ಟಿದ್ದಕ್ಕಾಗಿ ಮತ್ತು ತನ್ನ ಕುಟುಂಬವನ್ನು ಸೆರೆಮನೆಯಲ್ಲಿಟ್ಟಿದ್ದಕ್ಕಾಗಿ ಕುರು ವಂಶವನ್ನೇ ನಾಶಮಾಡಲು ಪ್ರತಿಜ್ಞೆ ಮಾಡಿದ್ದನು. ಅವನು ಪಾಂಡವರ ಮೇಲಿನ ದ್ವೇಷಕ್ಕಾಗಿ ಪಗಡೆ ಆಟದಲ್ಲಿ (Dyuta) ಮೋಸ ಮಾಡಿ ಅವರನ್ನು ಸೋಲಿಸಿದನು. ದುರ್ಯೋಧನನ ಮನಸ್ಸಿನಲ್ಲಿ ವಿಷ ತುಂಬಿ ಮಹಾಭಾರತ ಯುದ್ಧಕ್ಕೆ ಪ್ರಮುಖ ಕಾರಣನಾದನು.",
+        "content_en": "Shakuni, the maternal uncle of the Kauravas, is often seen as the villain but was driven by revenge against Bhishma for the destruction of his own family. He used his superior skills in the game of dice and illusion ('Maya') to defeat the Pandavas, stripping them of their kingdom and dignity. He symbolizes how cunning intelligence, when used for destructive purposes, leads to the annihilation of entire civilizations."
+    },
+    {
+        "id": "krishna_upadesha",
+        "title_kn": "ಗೀತೋಪದೇಶ (ಕರ್ಮ ಯೋಗ)",
+        "title_en": "Gita Upadesha (Divine Guidance)",
+        "content_kn": "ಕುರುಕ್ಷೇತ್ರ ಯುದ್ಧಭೂಮಿಯಲ್ಲಿ ತನ್ನ ಗುರು-ಹಿರಿಯರನ್ನು ನೋಡಿ ಅರ್ಜುನನು ಕಂಗೆಟ್ಟಾಗ, ಶ್ರೀಕೃಷ್ಣನು ಅವನಿಗೆ ಕರ್ತವ್ಯ ಪ್ರಜ್ಞೆಯನ್ನು ಬೋಧಿಸಿದನು. 'ನಿನ್ನ ಕೆಲಸ ಕರ್ಮ ಮಾಡುವುದಷ್ಟೇ, ಫಲವನ್ನು ನನ್ನಲ್ಲಿ ಅರ್ಪಿಸು' (ಕರ್ಮಣ್ಯೇವಾಧಿಕಾರಸ್ತೇ...) ಎಂಬ ಗೀತೆಯ ಸಾರವು ಇಂದಿಗೂ ಮನುಕುಲಕ್ಕೆ ದಾರಿದೀಪವಾಗಿದೆ. ಕೃಷ್ಣನು ಇಲ್ಲಿ ಅರ್ಜುನನ ಸಾರಥಿಯಾಗಿ ಮಾತ್ರವಲ್ಲದೆ, ಜಗದ್ಗುರುವಾಗಿಯೂ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾನೆ.",
+        "content_en": "When Arjuna was overcome with grief and confusion seeing his relatives on the opposing side, Lord Krishna delivered the Bhagavad Gita. He taught the path of Karma Yoga (selfless action), Bhakti Yoga (devotion), and Jnana Yoga (knowledge). The central message 'Do your duty without attachment to the results' empowers individuals to face life's challenges with equanimity and purpose."
+    },
+    {
+        "id": "arjuna_vishada",
+        "title_kn": "ಅರ್ಜುನ ವಿಷಾದ ಯೋಗ",
+        "title_en": "Arjuna's Dilemma",
+        "content_kn": "ಯುದ್ಧ ಆರಂಭವಾಗುವ ಮುನ್ನ, ಎರಡೂ ಸೈನ್ಯಗಳ ನಡುವೆ ರಥ ನಿಲ್ಲಿಸಿದ ಅರ್ಜುನನು, ಅಲ್ಲಿ ನೆರೆದಿದ್ದ ತನ್ನ ತಾತ ಭೀಷ್ಮ, ಗುರು ದ್ರೋಣ ಮತ್ತು ಬಂಧುಗಳನ್ನು ಕಂಡು ವಿಷಾದಕ್ಕೆ (ದುಃಖ) ಒಳಗಾದನು. 'ರಾಜ್ಯಕ್ಕಾಗಿ ಸ್ವಂತ ಜನರನ್ನು ಕೊಂದು ಬದುಕುವುದಕ್ಕಿಂತ ಭಿಕ್ಷೆ ಬೇಡುವುದು ಮೇಲು' ಎಂದು ಗಾಂಡೀವವನ್ನು ಕೆಳಗಿಟ್ಟನು. ಇದು ಪ್ರತಿಯೊಬ್ಬ ಮನುಷ್ಯನ ಮನಸ್ಸಿನಲ್ಲಿ ನಡೆಯುವ ಧರ್ಮ ಮತ್ತು ಮೋಹದ ಸಂಘರ್ಷವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+        "content_en": "Before the war, Arjuna asked Krishna to place his chariot between the two armies. Seeing his grandfather Bhishma, teacher Drona, and cousins ready to fight, he was struck by intense grief ('Vishada'). He questioned the morality of killing his own kin for a kingdom. This moment of weakness represents the internal conflict between duty (Dharma) and emotional attachment (Moha) that every human faces."
+    },
+    {
+        "id": "sanjaya_divyadrishti",
+        "title_kn": "ಸಂಜಯನ ದಿವ್ಯದೃಷ್ಟಿ",
+        "title_en": "Sanjaya's Divine Vision",
+        "content_kn": "ಕುರುಡ ದೃತರಾಷ್ಟ್ರನಿಗೆ ಯುದ್ಧದ ಪ್ರತ್ಯಕ್ಷ ವ ವಿವರಣೆ ನೀಡಲು ವ್ಯಾಸ ಮಹರ್ಷಿಗಳು ಸಂಜಯನಿಗೆ 'ದಿವ್ಯದೃಷ್ಟಿ'ಯನ್ನು ನೀಡಿದರು. ಇದರಿಂದ ಅವನು ಅರಮನೆಯಲ್ಲಿ ಕುಳಿತೇ ಕುರುಕ್ಷೇತ್ರದಲ್ಲಿ ನಡೆಯುವ ಪ್ರತಿಯೊಂದು ಘಟನೆಯನ್ನೂ, ಯೋಧರ ಮನಸ್ಸಿನ ಆಲೋಚನೆಗಳನ್ನೂ ಕಾಣಬಲ್ಲವನಾಗಿದ್ದನು. ಭಗವದ್ಗೀತೆಯನ್ನು ಮೊದಲ ಬಾರಿಗೆ ಕೇಳಿದ ಭಾಗ್ಯ ಯುದ್ಧಭೂಮಿಯಲ್ಲಿ ಅರ್ಜುನನಿಗೆ ಮತ್ತು ಅರಮನೆಯಲ್ಲಿ ಸಂಜಯನಿಗೆ ಮಾತ್ರ ಸಿಕ್ಕಿತು.",
+        "content_en": "Sanjaya, the charioteer of Dhritarashtra, was blessed with 'Divya Drishti' (divine vision) by Sage Vyasa. This allowed him to see everything happening on the battlefield of Kurukshetra while sitting in the palace at Hastinapura. He narrated the war live to the blind King Dhritarashtra. He was one of the few fortunate souls to hear the Bhagavad Gita directly from the lips of Lord Krishna as it was being spoken."
+    },
+    {
+        "id": "gandhari_shap",
+        "title_kn": "ಗಾಂಧಾರಿಯ ಶಾಪ",
+        "title_en": "Gandhari's Curse",
+        "content_kn": "ಯುದ್ಧದ ನಂತರ ತನ್ನ ನೂರು ಮಕ್ಕಳ ಸಾವನ್ನು ಕಂಡು ನೊಂದ ಗಾಂಧಾರಿ, ಶ್ರೀಕೃಷ್ಣನ ಸಾಮರ್ಥ್ಯವಿದ್ದರೂ ಯುದ್ಧವನ್ನು ತಡೆಯಲಿಲ್ಲ ಎಂದು ಕೋಪಗೊಂಡಳು. '36 ವರ್ಷಗಳ ನಂತರ ನಿನ್ನ ಯಾದವ ವಂಶವೂ ಇದೇ ರೀತಿ ಕಾದಾಡಿ ನಾಶವಾಗಲಿ' ಎಂದು ಕೃಷ್ಣನಿಗೆ ಶಾಪ ನೀಡಿದಳು. ಕೃಷ್ಣನು ಮುಗುಳ್ನಗುತ್ತಾ 'ತಥಾಸ್ತು' ಎಂದನು. ಇದು ವಿಧಿಯಲಿಖಿತವನ್ನು ಯಾರೂ ತಪ್ಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಎಂಬುದನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "content_en": "After the war, Gandhari, grieving the death of her hundred sons, held Krishna responsible. She believed that with his divine powers, he could have prevented the slaughter. In her anguish, she cursed Krishna that his Yadava clan would also perish by fighting amongst themselves after 36 years. Krishna accepted the curse with a smile, showing his acceptance of the laws of Karma and time."
+    },
+    {
+        "id": "aswatthama_krodha",
+        "title_kn": "ಅಶ್ವತ್ಥಾಮನ ಅಟ್ಟಹಾಸ",
+        "title_en": "Ashwatthama's Rage",
+        "content_kn": "ದ್ರೋಣಾಚಾರ್ಯರ ಮಗನಾದ ಅಶ್ವತ್ಥಾಮನು ಚಿರಂಜೀವಿ. ಯುದ್ಧದ ಕೊನೆಯಲ್ಲಿ ಪಾಂಡವರ ಮೇಲಿನ ದ್ವೇಷದಿಂದ, ರಾತ್ರಿ ಅವರು ಮಲಗಿದ್ದಾಗ ಪಾಂಡವರ 5 ಮಕ್ಕಳನ್ನು (ಉಪಪಾಂಡವರು) ಕೊಂದನು. ಅಲ್ಲದೆ, ಅರ್ಜುನನ ಸೊಸೆ ಉತ್ತರೆಯ ಗರ್ಭದ ಮೇಲೂ ಬ್ರಹ್ಮಾಸ್ತ್ರ ಪ್ರಯೋಗಿಸಿದನು. ಈ ಪಾಪಕೃತ್ಯಕ್ಕಾಗಿ ಶ್ರೀಕೃಷ್ಣನು ಅವನ ಹಣೆಯಲ್ಲಿದ್ದ ಮಣಿಯನ್ನು ಕಿತ್ತುಕೊಂಡು, 'ನೀನು ಒಂಟಿಯಾಗಿ, ರೋಗಗೃಸ್ಥನಾಗಿ ಭೂಮಿಯ ಅಂತ್ಯದವರೆಗೂ ಅಲೆದಾಡು' ಎಂದು ಶಾಪ ನೀಡಿದನು.",
+        "content_en": "Ashwatthama, son of Drona, committed a heinous crime by killing the five sons of the Pandavas while they were asleep and launching a Brahmastra at the unborn child of Abhimanyu in Uttara's womb. For this act of cowardice and cruelty, Lord Krishna cursed him to roam the earth alone, suffering from incurable diseases and oozing wounds, for eternity (or until the end of Kali Yuga), stripped of his divine gem."
     }
 ]

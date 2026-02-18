@@ -1,82 +1,82 @@
 [
     {
         "id": "vidya_dhanam",
-        "title_kn": "ವಿದ್ಯಾ ಧನಮ್",
-        "title_en": "Wealth of Knowledge",
-        "content_kn": "ವಿದ್ಯಾಧನಂ ಸರ್ವಧನಪ್ರಧಾನಮ್ | ಅದನ್ನು ಕಳ್ಳರು ಕದಿಯಲಾಗದು, ಅಣ್ಣ-ತಮ್ಮಂದಿರು ಹಂಚಿಕೊಳ್ಳಲಾಗದು. ಖರ್ಚು ಮಾಡಿದರೆ ಹೆಚ್ಚಾಗುವ ಒಂದೇ ಧನ ವಿದ್ಯೆ.",
-        "content_en": "Knowledge is the supreme wealth. It cannot be stolen or divided. Unlike money, it grows when shared.",
+        "title_kn": "ವಿದ್ಯಾ ಧನಮ್ (ಶ್ರೇಷ್ಠ ಸಂಪತ್ತು)",
+        "title_en": "Supreme Wealth of Knowledge",
+        "content_kn": "ವಿದ್ಯೆಯು ಅತ್ಯಂತ ಶ್ರೇಷ್ಠವಾದುದು. ಇದನ್ನು ಕಳ್ಳರಾಗಲಿ, ರಾಜರಾಗಲಿ ಕದಿಯಲಾಗದು. ಅಣ್ಣ-ತಮ್ಮಂದಿರು ಹಂಚಿಕೊಳ್ಳಲಾಗದು. ಬೆನ್ನಿಗೆ ಭಾರವಾಗುವುದಿಲ್ಲ. ಖರ್ಚು ಮಾಡಿದಷ್ಟು ಹೆಚ್ಚಾಗುವ ಅಪೂರ್ವ ಸಂಪತ್ತು ಇದು. ಎಲ್ಲಾ ಧನಗಳಲ್ಲಿ ವಿದ್ಯೆಯೇ ಪ್ರಧಾನ.",
+        "content_en": "Knowledge is the supreme wealth. It cannot be stolen by thieves, confiscated by kings, or divided among siblings. Unlike material wealth, it doesn't burden the bearer and grows only when shared. Truly, knowledge is the greatest wealth.",
         "shloka": "ನ ಚೋರಹಾರ್ಯಂ ನ ಚ ರಾಜಹಾರ್ಯಂ ನ ಭ್ರಾತೃಭಾಜ್ಯಂ ನ ಚ ಭಾರಕಾರಿ | ವ್ಯಯೇ ಕೃತೇ ವರ್ಧತ ಏವ ನಿತ್ಯಂ ವಿದ್ಯಾಧನಂ ಸರ್ವಧನಪ್ರಧಾನಮ್ ||"
     },
     {
-        "id": "satyameva_jayate",
-        "title_kn": "ಸತ್ಯಮೇವ ಜಯತೇ",
-        "title_en": "Truth Alone Triumphs",
-        "content_kn": "ಸತ್ಯಮೇವ ಜಯತೇ ನಾನೃತಂ | ಸತ್ಯವೇ ವಿಜಯದ ಹಾದಿ. ಸುಳ್ಳು ತಾತ್ಕಾಲಿಕವಾಗಿ ಗೆದ್ದಂತೆ ಕಂಡರೂ, ಅಂತಿಮ ಜಯ ಸತ್ಯಕ್ಕೆ.",
-        "content_en": "Truth alone triumphs, not falsehood. Truth is the path to the divine.",
-        "shloka": "ಸತ್ಯಮೇವ ಜಯತೇ ನಾನೃತಂ ಸತ್ಯೇನ ಪಂಥಾ ವಿತತೋ ದೇವಯಾನಃ |"
-    },
-    {
-        "id": "vasudhaiva_kutumbakam",
-        "title_kn": "ವಸುಧೈವ ಕುಟುಂಬಕಂ",
-        "title_en": "Universal Family",
-        "content_kn": "ಅಯಂ ನಿಜಃ ಪರೋ ವೇತಿ ಗಣನಾ ಲಘುಚೇತಸಾಮ್ | ಉದಾರಚರಿತಾನಾಂ ತು ವಸುಧೈವ ಕುಟುಂಬಕಂ ||\n\nಅರ್ಥ: ಇವನು ನನ್ನವನು, ಅವನು ಬೇರೆಯವನು ಎಂಬುದು ಕಿರಿದಾದ ಮನಸ್ಸಿನವರ ಯೋಚನೆ. ವಿಶಾಲ ಹೃದಯದವರಿಗೆ ಇಡೀ ಜಗತ್ತೇ ಒಂದು ಕುಟುಂಬ.",
-        "content_en": "Ideally, the whole world is one family. Only small minded people discriminate between 'mine' and 'others'.",
-        "shloka": "ಅಯಂ ನಿಜಃ ಪರೋ ವೇತಿ ಗಣನಾ ಲಘುಚೇತಸಾಮ್ | ಉದಾರಚರಿತಾನಾಂ ತು ವಸುಧೈವ ಕುಟುಂಬಕಂ ||"
+        "id": "vachanam",
+        "title_kn": "ಮೃದು ವಚನ (ಮಾತಿನ ಮಹಿಮೆ)",
+        "title_en": "Sweetness of Speech",
+        "content_kn": "ಒಳ್ಳೆಯ ಮಾತುಗಳಿಂದ ಎಲ್ಲ ಜೀವಿಗಳೂ (ಪ್ರಾಣಿ-ಪಕ್ಷಿಗಳೂ ಕೂಡ) ಸಂತೋಷಪಡುತ್ತವೆ. ಆದ್ದರಿಂದ ಯಾವಾಗಲೂ ಪ್ರಿಯವಾದದ್ದನ್ನೇ ಮಾತನಾಡಬೇಕು. ಮಾತನಾಡುವುದರಲ್ಲಿ ಬಡತನವೇಕೆ? ಸಿಹಿ ಮಾತುಗಳಿಗೆ ಹಣ ಕೊಡಬೇಕಿಲ್ಲವಲ್ಲ!",
+        "content_en": "Ideally, one should speak words that please everyone. Even animals respond to kind words. Therefore, always speak sweetly and truthfully. Why be miserly in using good words when they cost nothing?",
+        "shloka": "ಪ್ರಿಯವಾಕ್ಯಪ್ರದಾನೇನ ಸರ್ವೇ ತುಷ್ಯಂತಿ ಜಂತವಃ | ತಸ್ಮಾತ್ ತದೇವ ವಕ್ತವ್ಯಂ ವಚನೇ ಕಾ ದರಿದ್ರತಾ ||"
     },
     {
         "id": "paropakarah",
-        "title_kn": "ಪರೋಪಕಾರ",
-        "title_en": "Helping Others",
-        "content_kn": "ಪರೋಪಕಾರಃ ಪುಣ್ಯಾಯ ಪಾಪಾಯ ಪರಪೀಡನಮ್ | ಬೇರೆಯವರಿಗೆ ಸಹಾಯ ಮಾಡುವುದೇ ಪುಣ್ಯ, ತೊಂದರೆ ಕೊಡುವುದೇ ಪಾಪ. ಮರಗಳು ಫಲ ನೀಡುವುದು ಪರರಿಗಾಗಿ, ನದಿ ಹರಿಯುವುದು ಪರರಿಗಾಗಿ.",
-        "content_en": "Helping others is the highest merit, and hurting others is the greatest sin. Trees bear fruit for others.",
+        "title_kn": "ಪರೋಪಕಾರ (ಸೇವೆಯ ಮಹತ್ತ್ವ)",
+        "title_en": "Living for Others",
+        "content_kn": "ಮರಗಳು ತಮಗಾಗಿ ಹಣ್ಣು ಬಿಡುವುದಿಲ್ಲ, ನದಿಗಳು ತಮಗಾಗಿ ಹರಿಯುವುದಿಲ್ಲ, ಹಸುಗಳು ತಮಗಾಗಿ ಹಾಲು ಕರೆಯುವುದಿಲ್ಲ. ಇವೆಲ್ಲವೂ ಪರರಿಗಾಗಿ. ಹಾಗೆಯೇ ಮನುಷ್ಯನ ಈ ಶರೀರವೂ ಪರೋಪಕಾರಕ್ಕಾಗಿಯೇ ಮೀಸಲಾಗಿರಬೇಕು.",
+        "content_en": "The trees bear fruit for others; rivers flow for the benefit of others; cows give milk for humans. Similarly, this human body is meant for helping others, not just for selfish enjoyment. Service to man is service to God.",
         "shloka": "ಪರೋಪಕಾರಾಯ ಫಲಂತಿ ವೃಕ್ಷಾಃ ಪರೋಪಕಾರಾಯ ವಹಂತಿ ನದ್ಯಃ | ಪರೋಪಕಾರಾಯ ದುಹಂತಿ ಗಾವಃ ಪರೋಪಕಾರಾರ್ಥ ಮಿದಂ ಶರೀರಮ್ ||"
     },
     {
         "id": "uddyamo",
-        "title_kn": "ಉದ್ಯಮ / ಪ್ರಯತ್ನ",
-        "title_en": "Effort",
-        "content_kn": "ಉದ್ಯಮೇನೈವ ಸಿಧ್ಯಂತಿ ಕಾರ್ಯಾಣಿ | ಪ್ರಯತ್ನವಿಲ್ಲದೆ ಕೆಲಸಗಳು ಸಿದ್ಧಿಸುವುದಿಲ್ಲ. ಮಲಗಿರುವ ಸಿಂಹದ ಬಾಯಿಗೆ ಪ್ರಾಣಿಗಳು ತಾವಾಗಿ ಬಂದು ಬೀಳುವುದಿಲ್ಲ.",
-        "content_en": "Works succeed by effort alone, not by merely wishing. Prey does not enter a sleeping lion's mouth.",
+        "title_kn": "ಪ್ರಯತ್ನವೇ ಬಲ (Hard Work)",
+        "title_en": "Effort Leads to Success",
+        "content_kn": "ಕೇವಲ ಮನಸ್ಸಿನಲ್ಲಿ ಆಸೆ ಪಡುವುದರಿಂದ ಕೆಲಸಗಳು ಆಗುವುದಿಲ್ಲ, ಕಠಿಣ ಪರಿಶ್ರಮ ಬೇಕು. ಮಲಗಿರುವ ಸಿಂಹದ ಬಾಯಿಗೆ ಜಿಂಕೆಗಳು ತಾವಾಗಿಯೇ ಬಂದು ಬೀಳುವುದಿಲ್ಲ. ಸಂಕಲ್ಪದ ಜೊತೆಗೆ ಪ್ರಯತ್ನವೂ ಬೇಕು.",
+        "content_en": "Success is achieved only through hard work (Udyama), not by mere wishful thinking (Manoratha). Even for the mighty lion, prey does not enter its mouth while sleeping; it has to hunt. Action is the key to destiny.",
         "shloka": "ಉದ್ಯಮೇನೈವ ಸಿಧ್ಯಂತಿ ಕಾರ್ಯಾಣಿ ನ ಮನೋರಥೈಃ | ನ ಹಿ ಸುಪ್ತಸ್ಯ ಸಿಂಹಸ್ಯ ಪ್ರವಿಶಂತಿ ಮುಖೇ ಮೃಗಾಃ ||"
     },
     {
+        "id": "vasudhaiva_kutumbakam",
+        "title_kn": "ವಸುಧೈವ ಕುಟುಂಬಕಂ (Global Family)",
+        "title_en": "The World is One Family",
+        "content_kn": "'ಇವನು ನನ್ನವನು, ಇವನು ಪರಕೀಯನು' ಎಂಬುದು ಸಂಕುಚಿತ ಮನಸ್ಸಿನವರ ಯೋಚನೆ. ವಿಶಾಲ ಹೃದಯದವರಿಗೆ (ಉದಾರ ಚರಿತರಿಗೆ) ಈ ಇಡೀ ಭೂಮಂಡಲವೇ ಒಂದು ಕುಟುಂಬ. ಎಲ್ಲರೂ ನಮ್ಮ ಬಂಧುಗಳೇ.",
+        "content_en": "'This serves my purpose', 'This is mine', 'He is a stranger' - such calculations belong to narrow-minded people. For those with a magnanimous heart, the entire earth is but one family ('Vasudhaiva Kutumbakam').",
+        "shloka": "ಅಯಂ ನಿಜಃ ಪರೋ ವೇತಿ ಗಣನಾ ಲಘುಚೇತಸಾಮ್ | ಉದಾರಚರಿತಾನಾಂ ತು ವಸುಧೈವ ಕುಟುಂಬಕಂ ||"
+    },
+    {
+        "id": "satya_mahima",
+        "title_kn": "ಸತ್ಯದ ಮಹಿಮೆ (Truth)",
+        "title_en": "Power of Truth",
+        "content_kn": "ಸತ್ಯಕ್ಕಿಂತ ದೊಡ್ಡ ಧರ್ಮವಿಲ್ಲ, ಸುಳ್ಳಿಗಿಂತ ದೊಡ್ಡ ಪಾಪವಿಲ್ಲ. ಸತ್ಯವೇ ಬ್ರಹ್ಮ, ಸತ್ಯವೇ ದೇವ. ಸತ್ಯದ ದಾರಿಯಲ್ಲಿ ನಡೆಯುವವನಿಗೆ ಜಯ ಕಟ್ಟಿಟ್ಟ ಬುತ್ತಿ. 'ಸತ್ಯಮೇವ ಜಯತೇ' (ಸತ್ಯಕ್ಕೇ ಜಯ).",
+        "content_en": "There is no Dharma higher than Truth (Satya) and no sin greater than Falsehood (Asatya). Truth is the supreme reality. Following the path of truth is the highest worship. Truth alone triumphs, not falsehood.",
+        "shloka": "ನ ಹಿ ಸತ್ಯಾತ್ ಪರೋ ಧರ್ಮಃ ನಾನೃತಾತ್ ಪಾತಕಂ ಪರಮ್ | ನ ಹಿ ಸತ್ಯಾತ್ ಪರಂ ಜ್ಞಾನಂ ತಸ್ಮಾತ್ ಸತ್ಯಂ ಸಮಾಚರೇತ್ ||"
+    },
+    {
         "id": "kshama",
-        "title_kn": "ಕ್ಷಮೆ (Forgiveness)",
-        "title_en": "Forgiveness",
-        "content_kn": "ಕ್ಷಮಾ ಶಸ್ತ್ರಂ ಕರೇ ಯಸ್ಯ ದುರ್ಜನಃ ಕಿಂ ಕರಿಷ್ಯತಿ | ಕ್ಷಮೆಯ ಶಸ್ತ್ರವಿರುವವನಿಗೆ ದುರ್ಜನರು ಏನು ಮಾಡಲಾರರು. ಕ್ಷಮೆಯು ಬಲಹೀನತೆಯಲ್ಲ, ಅದು ಬಲಶಾಲಿಗಳ ಭೂಷಣ.",
-        "content_en": "If you have the weapon of forgiveness, what can a wicked person do? Forgiveness is the virtue of the strong.",
+        "title_kn": "ಕ್ಷಮೆ (Forgiveness is Strength)",
+        "title_en": "Weapon of Forgiveness",
+        "content_kn": "ಯಾರ ಬಳಿ ಕ್ಷಮೆ ಎಂಬ ಆಯುಧವಿದೆಯೋ (ಶಾಂತಿ), ಅವರಿಗೆ ಕೆಟ್ಟ ಜನರು ಏನೂ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಒಣಹುಲ್ಲಿಲ್ಲದ ಜಾಗದಲ್ಲಿ ಬಿದ್ದ ಬೆಂಕಿಯು ತಂತಾನೇ ಆರಿ ಹೋಗುವಂತೆ, ಕೋಪವಿಲ್ಲದವನ ಎದುರು ಜಗಳ ತಂತಾನೇ ನಿಲ್ಲುತ್ತದೆ.",
+        "content_en": "Forgiveness is a powerful weapon. What harm can a wicked person do to one who has the sword of forgiveness in hand? Just as fire falling on ground without grass extinguishes itself, anger dies down without a reaction.",
         "shloka": "ಕ್ಷಮಾ ಶಸ್ತ್ರಂ ಕರೇ ಯಸ್ಯ ದುರ್ಜನಃ ಕಿಂ ಕರಿಷ್ಯತಿ | ಅತೃಣೇ ಪತಿತೋ ವಹ್ನಿಃ ಸ್ವಯಮೇವೋಪಶಾಮ್ಯತಿ ||"
     },
     {
-        "id": "santosham",
-        "title_kn": "ಸಂತೋಷವೇ ಸಂಪತ್ತು",
-        "title_en": "Contentment",
-        "content_kn": "ಸಂತೋಷಾಮೃತ ತೃಪ್ತಾನಾಂ ಯತ್ಸುಖಂ ಶಾಂತಚೇತಸಾಮ್ | ಸಂತೋಷವೆಂಬ ಅಮೃತದಿಂದ ತೃಪ್ತರಾದವರಿಗೆ ಸಿಗುವ ಸುಖ ಬೇರೆಲ್ಲೂ ಸಿಗುವುದಿಲ್ಲ. ಆಸೆಯೇ ದುಃಖಕ್ಕೆ ಮೂಲ.",
-        "content_en": "There is no wealth like contentment. A satisfied mind is the greatest treasure.",
-        "shloka": "ಸಂತೋಷಾಮೃತ ತೃಪ್ತಾನಾಂ ಯತ್ಸುಖಂ ಶಾಂತಚೇತಸಾಮ್ |"
+        "id": "vidya_vinaya",
+        "title_kn": "ವಿದ್ಯೆ ಮತ್ತು ವಿನಯ",
+        "title_en": "Humility through Education",
+        "content_kn": "ವಿದ್ಯೆಯು ವಿನಯವನ್ನು ನೀಡುತ್ತದೆ (ವಿದ್ಯಾ ದದಾತಿ ವಿನಯಂ). ವಿನಯದಿಂದ ಯೋಗ್ಯತೆ ಬರುತ್ತದೆ (ಪಾತ್ರತ್ವಾ). ಯೋಗ್ಯತೆಯಿಂದ ಸಂಪತ್ತು (ಧನ), ಸಂಪತ್ತಿನಿಂದ ಧರ್ಮ, ಧರ್ಮದಿಂದ ಸುಖ ಲಭಿಸುತ್ತದೆ. ಅಹಂಕಾರವಿದ್ದರೆ ಆ ವಿದ್ಯೆ ವ್ಯರ್ಥ.",
+        "content_en": "True education gives humility (Vinaya). From humility comes worthiness; from worthiness one attains wealth; from wealth one performs righteous deeds (Dharma), and from that comes true happiness. Humility is the ornament of knowledge.",
+        "shloka": "ವಿದ್ಯಾ ದದಾತಿ ವಿನಯಂ ವಿನಯಾದ್ಯಾತಿ ಪಾತ್ರತಾಮ್ | ಪಾತ್ರತ್ವಾ ಧನಮಾಪ್ನೋತಿ ಧನಾಧರ್ಮಂ ತತಃ ಸುಖಮ್ ||"
     },
     {
-        "id": "maitri",
-        "title_kn": "ಮಿತ್ರತ್ವ (Friendship)",
-        "title_en": "True Friendship",
-        "content_kn": "ಆಪತ್ತಿನಲ್ಲಿ ಕೈಬಿಡದವನೇ ನಿಜವಾದ ಮಿತ್ರ. ಅವನು ಪಾಪದಿಂದ ನಮ್ಮನ್ನು ತಡೆಯುತ್ತಾನೆ ಮತ್ತು ಒಳಿತನ್ನು ಮಾಡಲು ಪ್ರೇರೇಪಿಸುತ್ತಾನೆ.",
-        "content_en": "A true friend leads you away from sin, engages you in good deeds, and does not leave you in times of trouble.",
-        "shloka": "ಪಾಪಾನ್ನಿವಾರಯತಿ ಯೋಜಯತೇ ಹಿತಾಯ ಗುಹ್ಯಂ ನಿಗೂಹತಿ ಗುಣಾನ್ ಪ್ರಕಟೀಕರೋತಿ | ಆಪದ್ಗತಂ ಚ ನ ಜಹಾತಿ ದದಾತಿ ಕಾಲೇ ಸನ್ಮಿತ್ರಲಕ್ಷಣಮಿದಂ ಪ್ರವದಂತಿ ಸಂತಃ ||"
+        "id": "satsanga",
+        "title_kn": "ಸತ್ಸಂಗ (ಒಳ್ಳೆಯರ ಸಹವಾಸ)",
+        "title_en": "Company of the Good",
+        "content_kn": "ಸಜ್ಜನರ ಸಹವಾಸವು ಬುದ್ಧಿಯ ಜಾಡ್ಯವನ್ನು (ಮೂರ್ಖತನ) ಕಳೆಯುತ್ತದೆ, ಮಾತಿನಲ್ಲಿ ಸತ್ಯವನ್ನು ತುಂಬುತ್ತದೆ, ಪಾಪವನ್ನು ಹೋಗಲಾಡಿಸುತ್ತದೆ ಮತ್ತು ಕೀರ್ತಿಯನ್ನು ಹರಡುತ್ತದೆ. ಹೇಳಿ, ಸತ್ಸಂಗ ಮನುಷ್ಯರಿಗೆ ಏನನ್ನು ತಾನೆ ಮಾಡುವುದಿಲ್ಲ? (ಎಲ್ಲವನ್ನೂ ಮಾಡುತ್ತದೆ).",
+        "content_en": "Good company removes the dullness of intellect, sprinkles truth in speech, directs towards meaningful activity, removes sins, and spreads fame. Tell me, what good does Satsanga not do for men?",
+        "shloka": "ಜಾಡ್ಯಂ ಧಿಯೋ ಹರತಿ ಸಿಂಚತಿ ವಾಚಿ ಸತ್ಯಂ | ಮಾನೋನ್ನತಿಂ ದಿಶತಿ ಪಾಪಮಪಾಕರೋತಿ ||"
     },
     {
-        "id": "vachanam",
-        "title_kn": "ಮಾತಿನ ಮಹತ್ವ",
-        "title_en": "Power of Speech",
-        "content_kn": "ಪ್ರಿಯವಾಕ್ಯಪ್ರದಾನೇನ ಸರ್ವೇ ತುಷ್ಯಂತಿ ಜಂತವಃ | ಸಭ್ಯವಾಗಿ ಮತ್ತು ಪ್ರಿಯವಾಗಿ ಮಾತನಾಡಿದಾಗ ಎಲ್ಲರೂ ಸಂತೋಷಪಡುತ್ತಾರೆ. ಮಾತೇ ಮುತ್ತು, ಮಾತೇ ಮೃತ್ಯು.",
-        "content_en": "By speaking pleasant words, all living beings are satisfied. Therefore, one should always speak sweetly.",
-        "shloka": "ಪ್ರಿಯವಾಕ್ಯಪ್ರದಾನೇನ ಸರ್ವೇ ತುಷ್ಯಂತಿ ಜಂತವಃ | ತಸ್ಮಾತ್ಪ್ರಿಯಂ ಹಿ ವಕ್ತವ್ಯಂ ವಚನೇ ಕಾ ದರಿದ್ರತಾ ||"
-    },
-    {
-        "id": "alasyam",
-        "title_kn": "ಆಲಸ್ಯ",
-        "title_en": "Laziness",
-        "content_kn": "ಆಲಸ್ಯಂ ಹಿ ಮನುಷ್ಯಾಣಾಂ ಶರೀರಸ್ಥೋ ಮಹಾನ್ರಿಪುಃ | ಆಲಸ್ಯವು ಮನುಷ್ಯನ ಶರೀರದಲ್ಲಿರುವ ದೊಡ್ಡ ಶತ್ರು. ಕಾಲಹರಣ ಮಾಡುವುದು ಆತ್ಮಹತ್ಯೆಗೆ ಸಮಾನ.",
-        "content_en": "Laziness is the greatest enemy residing in a human's own body. Hard work is your best friend.",
-        "shloka": "ಆಲಸ್ಯಂ ಹಿ ಮನುಷ್ಯಾಣಾಂ ಶರೀರಸ್ಥೋ ಮಹಾನ್ರಿಪುಃ | ನಾಸ್ತ್ಯುದ್ಯಮಸಮೋ ಬಂಧುಃ ಕೃತ್ವಾ ಯಂ ನಾವಸೀದತಿ ||"
+        "id": "alasya",
+        "title_kn": "ಆಲಸ್ಯ (ಸೋಮಾರಿತನ)",
+        "title_en": "Laziness: The Enemy Within",
+        "content_kn": "ಮನುಷ್ಯರ ಶರೀರದಲ್ಲಿರುವ ದೊಡ್ಡ ಶತ್ರುವೆಂದರೆ ಆಲಸ್ಯ (ಸೋಮಾರಿತನ). ಉದ್ಯಮಕ್ಕೆ (ಕೆಲಸಕ್ಕೆ) ಸಮಾನವಾದ ಸ್ನೇಹಿತನಿಲ್ಲ. ಯಾರು ಕೆಲಸ ಮಾಡುತ್ತಾರೋ ಅವರು ಎಂದಿಗೂ ದುಃಖ ಪಡುವುದಿಲ್ಲ.",
+        "content_en": "Laziness is the great enemy residing in our body. There is no friend like hard work (Udyama), doing which one never sinks into despair or sorrow.",
+        "shloka": "ಆಲಸ್ಯಂ ಹಿ ಮನುಷ್ಯಾನಾಂ ಶರೀರಸ್ಥೋ ಮಹಾನ್ ರಿಪುಃ | ನಾಸ್ತ್ಯುದ್ಯಮಸಮೋ ಬಂಧುಃ ಕೃತ್ವಾ ಯಂ ನಾವಸೀದತಿ ||"
     }
 ]

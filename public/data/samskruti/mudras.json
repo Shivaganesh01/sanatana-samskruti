@@ -1,37 +1,79 @@
 [
     {
         "id": "jnana_mudra",
-        "title_kn": "ಜ್ಞಾನ ಮುದ್ರೆ",
-        "title_en": "Jnana Mudra",
-        "content_kn": "ತೋರುಬೆರಳು ಮತ್ತು ಹೆಬ್ಬೆರಳು ಸ್ಪರ್ಶಿಸುವುದು. ಏಕಾಗ್ರತೆ ಹೆಚ್ಚಿಸಲು ಸಹಕಾರಿ.",
-        "content_en": "Join index and thumb tips. Enhances memory and focus."
+        "title_kn": "ಜ್ಞಾನ ಮುದ್ರೆ (ಅರಿವಿನ ಸಂಕೇತ)",
+        "title_en": "Jnana Mudra (Gesture of Consciousness)",
+        "content_kn": "ವಿಧಾನ: ಹೆಬ್ಬೆರಳು ಮತ್ತು ತೋರುಬೆರಳಿನ ತುದಿಗಳನ್ನು ಪರಸ್ಪರ ಮೃದುವಾಗಿ ಸ್ಪರ್ಶಿಸಿ, ಉಳಿದ ಮೂರು ಬೆರಳುಗಳನ್ನು ನೇರವಾಗಿ ಚಾಚಬೇಕು. ಕೈಗಳನ್ನು ತೊಡೆಯ ಮೇಲೆ ಅಂಗೈ ಮೇಲ್ಮುಖವಾಗಿ ಇರಿಸಬೇಕು.\nಲಾಭಗಳು: ಇದು ಏಕಾಗ್ರತೆ, ನೆನಪಿನ ಶಕ್ತಿ ಮತ್ತು ಮಾನಸಿಕ ಶಾಂತಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಧ್ಯಾನ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ ಮಾಡುವಾಗ ಈ ಮುದ್ರೆಯನ್ನು ಹೆಚ್ಚಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ. ಇದು ನಿದ್ರಾಹೀನತೆ, ಕೋಪ ಮತ್ತು ಖಿನ್ನತೆಯನ್ನು ಹೋಗಲಾಡಿಸಲು ಸಹಕಾರಿ.",
+        "content_en": "Method: Touch the tip of the index finger to the tip of the thumb, forming a circle. Keep the other three fingers straight but relaxed. Rest the hands on the knees with palms facing up.\nBenefits: Known as the 'Psychic Gesture of Knowledge', it connects the individual consciousness (Index finger) with the supreme consciousness (Thumb). It enhances focus, memory, and spiritual awareness. It is excellent for reducing stress, anxiety, and insomnia."
+    },
+    {
+        "id": "chin_mudra",
+        "title_kn": "ಚಿನ್ ಮುದ್ರೆ (ಪ್ರಜ್ಞೆಯ ಸಂಕೇತ)",
+        "title_en": "Chin Mudra (Gesture of Consciousness)",
+        "content_kn": "ವಿಧಾನ: ಜ್ಞಾನ ಮುದ್ರೆಯಂತೆಯೇ, ಆದರೆ ಅಂಗೈ ಕೆಳಮುಖವಾಗಿ (ಮೊಣಕಾಲಿನ ಮೇಲೆ) ಇರಬೇಕು.\nಲಾಭಗಳು: ಇದು ದೇಹದ ಶಕ್ತಿಯನ್ನು (ಪ್ರಾಣ) ಉಳಿಸಿಕೊಳ್ಳಲು ಮತ್ತು ಕೆಳಭಾಗದ ಚಕ್ರಗಳಿಗೆ ಹರಿಯುವಂತೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಇದು ಮೈಂಡ್ ಫುಲ್ನೆಸ್ (Mindfulness) ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+        "content_en": "Method: Similar to Jnana Mudra, but the palms face downwards on the knees.\nBenefits: While Jnana Mudra is for receiving energy, Chin Mudra is for grounding energy. It helps in conserving Prana and directing it to the lower chakras. It promotes a feeling of groundedness and stability during meditation."
     },
     {
         "id": "vayu_mudra",
-        "title_kn": "ವಾಯು ಮುದ್ರೆ",
-        "title_en": "Vayu Mudra",
-        "content_kn": "ಗ್ಯಾಸ್ಟ್ರಿಕ್ ಸಮಸ್ಯೆಗಳಿಗೆ ಅತ್ಯುತ್ತಮ ಪರಿಹಾರ.",
-        "content_en": "Relieves excess air/gas in the body and joint pains."
+        "title_kn": "ವಾಯು ಮುದ್ರೆ (ವಾಯು ಶಮನ)",
+        "title_en": "Vayu Mudra (Gesture of Air)",
+        "content_kn": "ವಿಧಾನ: ತೋರುಬೆರಳನ್ನು ಮಡಚಿ ಹೆಬ್ಬೆರಳಿನ ಮೂಲಕ್ಕೆ (ಬುಡಕ್ಕೆ) ತಾಗಿಸಬೇಕು. ಹೆಬ್ಬೆರಳನ್ನು ಮಡಚಿ ತೋರುಬೆರಳಿನ ಗಂಟಿನ ಮೇಲೆ ಸ್ವಲ್ಪ ಒತ್ತಡ ಹೇರಬೇಕು. ಉಳಿದ ಬೆರಳುಗಳು ನೇರವಾಗಿರಲಿ.\nಲಾಭಗಳು: ಇದು ದೇಹದಲ್ಲಿನ ಅತಿಯಾದ ವಾಯು (Gas) ವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ಹೊಟ್ಟೆ ಉಬ್ಬರ, ಕೀಲು ನೋವು, ಸಂಧಿವಾತ (Arthritis), ಮತ್ತು ಪಾರ್ಶ್ವವಾಯು (Paralysis) ರೋಗಿಗಳಿಗೆ ಇದು ಸಂಜೀವಿನಿ.",
+        "content_en": "Method: Fold the index finger so that its tip touches the base of the thumb. Press the index finger gently with the thumb. Keep the other three fingers straight.\nBenefits: This mudra balances the Air element in the body. It provides quick relief from gastric issues like bloating, flatulence, and constipation. It is highly effective for joint pains, arthritis, rheumatism, and sciatica."
     },
     {
         "id": "prana_mudra",
-        "title_kn": "ಪ್ರಾಣ ಮುದ್ರೆ",
-        "title_en": "Prana Mudra",
-        "content_kn": "ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಮತ್ತು ಚೈತನ್ಯ ನೀಡುತ್ತದೆ.",
-        "content_en": "Boosts vitality and immune system."
+        "title_kn": "ಪ್ರಾಣ ಮುದ್ರೆ (ಜೀವಶಕ್ತಿ)",
+        "title_en": "Prana Mudra (Gesture of Life)",
+        "content_kn": "ವಿಧಾನ: ಕಿರುಬೆರಳು, ಉಂಗುರದ ಬೆರಳು ಮತ್ತು ಹೆಬ್ಬೆರಳಿನ ತುದಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಸೇರಿಸಬೇಕು. ಉಳಿದ ಎರಡು ಬೆರಳುಗಳು ನೇರವಾಗಿರಲಿ.\nಲಾಭಗಳು: ಇದು ಪ್ರಾಣಶಕ್ತಿಯನ್ನು (Immunity) ಹೆಚ್ಚಿಸುತ್ತದೆ. ಕಣ್ಣಿನ ದೃಷ್ಟಿ ದೋಷಗಳನ್ನು ನಿವಾರಿಸುತ್ತದೆ. ಸುಸ್ತಾದಾಗ ಅಥವಾ ನಿಶ್ಯಕ್ತಿಯಾದಾಗ (Fatigue) ಇದನ್ನು ಮಾಡಿದರೆ ತಕ್ಷಣ ಚೈತನ್ಯ ಬರುತ್ತದೆ. ಉಪವಾಸದ ಸಮಯದಲ್ಲಿ ಹಸಿವು ಮತ್ತು ಬಾಯಾರಿಕೆ ತಡೆಯಲು ಇದು ಸಹಕಾರಿ.",
+        "content_en": "Method: Join the tips of the little finger (Earth) and ring finger (Water) with the tip of the thumb (Fire). Keep the index and middle fingers straight.\nBenefits: Activates the Root Chakra (Muladhara), increasing vitality and reducing fatigue. It boosts the immune system, improves vision, and removes vitamin deficiencies. It helps in overcoming lethargy and nervousness."
     },
     {
-        "id": "shunya_mudra",
-        "title_kn": "ಶೂನ್ಯ ಮುದ್ರೆ",
-        "title_en": "Shunya Mudra",
-        "content_kn": "ಕಿವಿ ನೋವು ಮತ್ತು ಶ್ರವಣ ದೋಷಗಳಿಗೆ ಉತ್ತಮ.",
-        "content_en": "Helpful for earaches and hearing issues."
+        "id": "apana_mudra",
+        "title_kn": "ಅಪಾನ ಮುದ್ರೆ (ಜೀರ್ಣಕ್ರಿಯೆ)",
+        "title_en": "Apana Mudra (Gesture of Digestion)",
+        "content_kn": "ವಿಧಾನ: ನಡುಬೆರಳು, ಉಂಗುರದ ಬೆರಳು ಮತ್ತು ಹೆಬ್ಬೆರಳಿನ ತುದಿಗಳನ್ನು ಸ್ಪರ್ಶಿಸಬೇಕು. ಕಿರುಬೆರಳು ಮತ್ತು ತೋರುಬೆರಳು ನೇರವಾಗಿರಲಿ.\nಲಾಭಗಳು: ದೇಹದ ಕಲ್ಮಶಗಳನ್ನು (Toixns) ಹೊರಹಾಕಲು ಇದು ಅತ್ಯುತ್ತಮ. ಮಲಬದ್ಧತೆ, ಮೂಲವ್ಯಾಧಿ (Piles), ಮಧುಮೇಹ ಮತ್ತು ಮೂತ್ರಪಿಂಡದ (Kidney) ಸಮಸ್ಯೆಗಳಿಗೆ ರಾಮಬಾಣ. ಹೆರಿಗೆಯ ಸಮಯದಲ್ಲಿ ನೋವು ಕಡಿಮೆ ಮಾಡಲು ಸಹಕಾರಿ.",
+        "content_en": "Method: Join the tips of the middle finger (Space) and ring finger (Earth) with the tip of the thumb (Fire). Keep the index and little fingers straight.\nBenefits: Supports the downward flow of energy (Apana Vayu). Helps in elimination of wastes (detoxification), treating constipation, piles, and urinary problems. It regulates diabetes and is beneficial for women during menstruation and childbirth."
     },
     {
         "id": "surya_mudra",
-        "title_kn": "ಸೂರ್ಯ ಮುದ್ರೆ",
-        "title_en": "Surya Mudra",
-        "content_kn": "ದೇಹದ ತೂಕ ಇಳಿಸಲು ಮತ್ತು ಚಯಾಪಚಯ ಕ್ರಿಯೆಗೆ ಸಹಕಾರಿ.",
-        "content_en": "Assists in weight management and metabolic fire."
+        "title_kn": "ಸೂರ್ಯ ಮುದ್ರೆ (ತೂಕ ಇಳಿಕೆ)",
+        "title_en": "Surya Mudra (Gesture of Fire)",
+        "content_kn": "ವಿಧಾನ: ಉಂಗುರದ ಬೆರಳನ್ನು ಮಡಚಿ ಹೆಬ್ಬೆರಳಿನ ಬುಡಕ್ಕೆ ತಾಗಿಸಬೇಕು. ಹೆಬ್ಬೆರಳಿನಿಂದ ಉಂಗುರದ ಬೆರಳನ್ನು ಒತ್ತಿ ಹಿಡಿಯಬೇಕು.\nಲಾಭಗಳು: ಇದು ದೇಹದಲ್ಲಿ ಉಷ್ಣಾಂಶವನ್ನು (Heat) ಹೆಚ್ಚಿಸುತ್ತದೆ. ಅತಿಯಾದ ತೂಕ (Obesity) ಮತ್ತು ಕೊಬ್ಬನ್ನು ಕರಗಿಸಲು ಅತ್ಯಂತ ಪರಿಣಾಮಕಾರಿ. ಥೈರಾಯ್ಡ್ ಸಮಸ್ಯೆ, ಅಜೀರ್ಣ ಮತ್ತು ಶೀತ-ನೆಗಡಿಗೆ ಇದು ಉತ್ತಮ ಪರಿಹಾರ.",
+        "content_en": "Method: Fold the ring finger to touch the base of the thumb and press it with the thumb. Keep the other fingers straight.\nBenefits: Increases the Fire element (Agni) in the body. It burns excess fat, lowers cholesterol, and aids in weight loss. It improves metabolism and digestion. Useful for people suffering from hypothyroidism and common cold."
+    },
+    {
+        "id": "prithvi_mudra",
+        "title_kn": "ಪೃಥ್ವಿ ಮುದ್ರೆ (ಶಕ್ತಿ ವರ್ಧಕ)",
+        "title_en": "Prithvi Mudra (Gesture of Earth)",
+        "content_kn": "ವಿಧಾನ: ಉಂಗುರದ ಬೆರಳು ಮತ್ತು ಹೆಬ್ಬೆರಳಿನ ತುದಿಗಳನ್ನು ಮೃದುವಾಗಿ ಸೇರಿಸಬೇಕು. ಉಳಿದ ಬೆರಳುಗಳು ನೇರವಾಗಿರಲಿ.\nಲಾಭಗಳು: ಇದು ದೇಹದ ತೂಕವನ್ನು ಹೆಚ್ಚಿಸಲು (ಶಕ್ತಿಹೀನರಿಗೆ) ಮತ್ತು ಮೂಳೆಗಳನ್ನು ಬಲಪಡಿಸಲು ಸಹಕಾರಿ. ಚರ್ಮದ ಕಾಂತಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಕೂದಲು ಉದುರುವುದನ್ನು ತಡೆದು, ದೇಹಕ್ಕೆ ಮತ್ತು ಮನಸ್ಸಿಗೆ ಸ್ಥಿರತೆ (Stability) ನೀಡುತ್ತದೆ.",
+        "content_en": "Method: Touch the tip of the ring finger with the tip of the thumb. Keep the other three fingers straight.\nBenefits: Increases the Earth element, promoting physical stability and strength. It helps gain weight for lean people, improves complexion, and strengthens bones and nails. It reduces hair fall and generates a sense of inner peace."
+    },
+    {
+        "id": "varuna_mudra",
+        "title_kn": "ವರುಣ ಮುದ್ರೆ (ಜಲ ತತ್ತ್ವ)",
+        "title_en": "Varuna Mudra (Gesture of Water)",
+        "content_kn": "ವಿಧಾನ: ಕಿರುಬೆರಳು ಮತ್ತು ಹೆಬ್ಬೆರಳಿನ ತುದಿಗಳನ್ನು ಸ್ಪರ್ಶಿಸಬೇಕು. ಉಳಿದ ಬೆರಳುಗಳು ನೇರವಾಗಿರಲಿ.\nಲಾಭಗಳು: ದೇಹದಲ್ಲಿ ನೀರಿನಂಶವನ್ನು ಸಮತೋಲನದಲ್ಲಿ ಇಡುತ್ತದೆ. ಒಣ ಚರ್ಮ (Dry skin), ನಿರ್ಜಲೀಕರಣ (Dehydration), ರಕ್ತಹೀನತೆ ಮತ್ತು ಚರ್ಮ ರೋಗಗಳಿಗೆ ಇದು ರಾಮಬಾಣ. ರಕ್ತವನ್ನು ಶುದ್ಧೀಕರಿಸುತ್ತದೆ ಮತ್ತು ಮುಖದ ಅಂದವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+        "content_en": "Method: Touch the tip of the little finger with the tip of the thumb. Keep the other three fingers straight.\nBenefits: Balances the Water element in the body. It rehydrates the skin and tissues, preventing dryness and skin diseases like eczema and psoriasis. It improves blood circulation and maintains the fluidity of body liquids."
+    },
+    {
+        "id": "shunya_mudra",
+        "title_kn": "ಶೂನ್ಯ ಮುದ್ರೆ (ಕಿವಿ ರಕ್ಷಣೆ)",
+        "title_en": "Shunya Mudra (Gesture of Emptiness)",
+        "content_kn": "ವಿಧಾನ: ನಡುಬೆರಳನ್ನು ಮಡಚಿ ಹೆಬ್ಬೆರಳಿನ ಬುಡಕ್ಕೆ (ಶುಕ್ರ ಮೇಡು) ತಾಗಿಸಬೇಕು ಮತ್ತು ಹೆಬ್ಬೆರಳಿನಿಂದ ಅದನ್ನು ಒತ್ತಬೇಕು.\nಲಾಭಗಳು: ಕಿವಿ ನೋವು, ಕಿವಿಯಲ್ಲಿ ಸದ್ದು ಬರುವುದು (Tinnitus), ಕಿವುಡುತನ ಮತ್ತು ತಲೆ ತಿರುಗುವಿಕೆ (Vertigo) ಸಮಸ್ಯೆಗಳಿಗೆ ಇದು ಅದ್ಭುತ ಪರಿಹಾರ. ಪ್ರಯಾಣದ ಸಮಯದಲ್ಲಿ ವಾಕರಿಕೆ ಬಂದರೆ ಇದನ್ನು ಮಾಡಬಹುದು.",
+        "content_en": "Method: Fold the middle finger and place it at the base of the thumb. Press the middle finger with the thumb properly.\nBenefits: Reduces the Space element in the body. Very effective for ear-related problems like earache, tinnitus (ringing in ears), and vertigo. It also helps in strengthening bones and gums and reducing numbness in body parts."
+    },
+    {
+        "id": "adi_mudra",
+        "title_kn": "ಆದಿ ಮುದ್ರೆ (ಮೊದಲ ಮುದ್ರೆ)",
+        "title_en": "Adi Mudra (Primal Gesture)",
+        "content_kn": "ವಿಧಾನ: ಹೆಬ್ಬೆರಳನ್ನು ಮಡಚಿ ಅಂಗೈ ಮಧ್ಯದಲ್ಲಿಟ್ಟು, ಉಳಿದ ನಾಲ್ಕು ಬೆರಳುಗಳನ್ನು ಅದರ ಮೇಲೆ ಮಡಚಿ ಮುಷ್ಟಿ ಮಾಡಬೇಕು (ಮಗುವಿನ ಮುಷ್ಟಿಯಂತೆ).\nಲಾಭಗಳು: ಇದು ಶ್ವಾಸಕೋಶದ ಮೇಲ್ಭಾಗಕ್ಕೆ ಆಮ್ಲಜನಕ ಪೂರೈಕೆ ಹೆಚ್ಚಿಸುತ್ತದೆ. ನರಮಂಡಲವನ್ನು ಶಾಂತಗೊಳಿಸುತ್ತದೆ. ಉಸಿರಾಟದ ತೊಂದರೆ ಮತ್ತು ಗೊರಕೆ ಹೊಡೆಯುವ ಸಮಸ್ಯೆಗೆ ಇದು ಪರಿಹಾರ ನೀಡುತ್ತದೆ.",
+        "content_en": "Method: Tuck the thumb into the palm and wrap the other four fingers around it, forming a fist. This is the gesture a newborn baby makes naturally.\nBenefits: Calms the nervous system and promotes deep breathing. It increases the vital capacity of the lungs and helps in snoring and asthma. It is often used during Pranayama to control the flow of breath."
+    },
+    {
+        "id": "hakini_mudra",
+        "title_kn": "ಹಾಕಿನಿ ಮುದ್ರೆ (ನೆನಪಿನ ಶಕ್ತಿ)",
+        "title_en": "Hakini Mudra (Gesture of the Mind)",
+        "content_kn": "ವಿಧಾನ: ಎರಡೂ ಕೈಗಳ ಎಲ್ಲ ಬೆರಳುಗಳ ತುದಿಗಳನ್ನು ಒಂದಕ್ಕೊಂದು ಜೋಡಿಸಬೇಕು (ಪಿರಮಿಡ್ ಆಕಾರದಲ್ಲಿ). ಕಣ್ಣು ಮುಚ್ಚಿ ಮೂರನೇ ಕಣ್ಣಿನ (ಆಜ್ಞಾ ಚಕ್ರ) ಕಡೆ ಗಮನ ಹರಿಸಬೇಕು.\nಲಾಭಗಳು: ಇದು ಬಲ ಮತ್ತು ಎಡ ಮೆದುಳಿನ ನಡುವೆ ಸಮನ್ವಯ ಸಾಧಿಸುತ್ತದೆ. ಮರೆತುಹೋದ ವಿಷಯಗಳನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಲು, ಕಠಿಣ ಸಮಸ್ಯೆಗಳಿಗೆ ಪರಿಹಾರ ಕಂಡುಕೊಳ್ಳಲು ಮತ್ತು ಏಕಾಗ್ರತೆ ಹೆಚ್ಚಿಸಲು ಇದು ಅತ್ಯುತ್ತಮ.",
+        "content_en": "Method: Bring the tips of the fingers of both hands together. Direct the gaze upwards to the Third Eye point.\nBenefits: Increases memory power and concentration. It balances the right and left hemispheres of the brain. It is excellent for students and thinkers to recall information and generate new ideas."
     }
 ]
