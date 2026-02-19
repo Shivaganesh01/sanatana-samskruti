@@ -8,9 +8,10 @@
     "description": "A guide to Ancient Indian Wisdom, Culture, and Spirituality.",
     "icons": [
         {
-            "src": "app-icon.svg",
+            "src": "app-icon.svg?v=2",
             "type": "image/svg+xml",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any maskable"
         }
     ]
 }
