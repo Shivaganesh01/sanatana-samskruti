@@ -5,10 +5,172 @@
     "verses_intro_kn": "ಅರ್ಜುನ ಉವಾಚ... (17.1)",
     "verses": [
         {
+            "verse_number": 1,
+            "shloka": "ಅರ್ಜುನ ಉವಾಚಯೇ ಶಾಸ್ತ್ರವಿಧಿಮುತ್ಸೃಜ್ಯ ಯಜನ್ತೇ ಶ್ರದ್ಧಯಾಽನ್ವಿತಾಃ|ತೇಷಾಂ ನಿಷ್ಠಾ ತು ಕಾ ಕೃಷ್ಣ ಸತ್ತ್ವಮಾಹೋ ರಜಸ್ತಮಃ||",
+            "transliteration": "arjuna uvācha\nye śhāstra-vidhim utsṛijya yajante śhraddhayānvitāḥ\nteṣhāṁ niṣhṭhā tu kā kṛiṣhṇa sattvam āho rajas tamaḥ",
+            "translation": "Arjuna said, \"Now, O Krsna, what is the position or basis of those who, despite leaving aside the injunction of the Sastra, still worship with faith? Is it Sattva, Rajas, or Tamas?\""
+        },
+        {
+            "verse_number": 2,
+            "shloka": "ಶ್ರೀ ಭಗವಾನುವಾಚತ್ರಿವಿಧಾ ಭವತಿ ಶ್ರದ್ಧಾ ದೇಹಿನಾಂ ಸಾ ಸ್ವಭಾವಜಾ|ಸಾತ್ತ್ವಿಕೀ ರಾಜಸೀ ಚೈವ ತಾಮಸೀ ಚೇತಿ ತಾಂ ಶ್ರೃಣು||",
+            "transliteration": "śhrī-bhagavān uvācha\ntri-vidhā bhavati śhraddhā dehināṁ sā svabhāva-jā\nsāttvikī rājasī chaiva tāmasī cheti tāṁ śhṛiṇu",
+            "translation": "The Lord said, \"The faith of embodied beings is threefold, born of their own nature and constituted of Sattva, Rajas, and Tamas. Now, listen to me about it.\""
+        },
+        {
             "verse_number": 3,
             "shloka": "ಸತ್ತ್ವಾನುರೂಪಾ ಸರ್ವಸ್ಯ ಶ್ರದ್ಧಾ ಭವತಿ ಭಾರತ |\nಶ್ರದ್ಧಾಮಯೋಽಯಂ ಪುರುಷೋ ಯೋ ಯತ್ ಶ್ರದ್ಧಃ ಸ ಏವ ಸಃ ||",
             "transliteration": "Sattvanurupah sarvasya shraddha bhavati Bharata...",
             "translation": "ಪ್ರತಿಯೊಬ್ಬರ ಶ್ರದ್ಧೆ ಅವರ ಸತ್ತ್ವಕ್ಕೆ ಅನುರೂಪ. ಯಾವ ಶ್ರದ್ಧೆಯುಳ್ಳ ಮನುಷ್ಯ, ಅವನೇ ಆಗುತ್ತಾನೆ."
+        },
+        {
+            "verse_number": 4,
+            "shloka": "ಯಜನ್ತೇ ಸಾತ್ತ್ವಿಕಾ ದೇವಾನ್ಯಕ್ಷರಕ್ಷಾಂಸಿ ರಾಜಸಾಃ|ಪ್ರೇತಾನ್ಭೂತಗಣಾಂಶ್ಚಾನ್ಯೇ ಯಜನ್ತೇ ತಾಮಸಾ ಜನಾಃ||",
+            "transliteration": "yajante sāttvikā devān yakṣha-rakṣhānsi rājasāḥ\npretān bhūta-gaṇānśh chānye yajante tāmasā janāḥ",
+            "translation": "The sattvic types worship the gods; the rajasic types worship yaksas and rakshasas; and the others, the tamasic types, worship the departed ancestors and hosts of bhutas."
+        },
+        {
+            "verse_number": 5,
+            "shloka": "ಅಶಾಸ್ತ್ರವಿಹಿತಂ ಘೋರಂ ತಪ್ಯನ್ತೇ ಯೇ ತಪೋ ಜನಾಃ|ದಮ್ಭಾಹಙ್ಕಾರಸಂಯುಕ್ತಾಃ ಕಾಮರಾಗಬಲಾನ್ವಿತಾಃ||",
+            "transliteration": "aśhāstra-vihitaṁ ghoraṁ tapyante ye tapo janāḥ\ndambhāhankāra-sanyuktāḥ kāma-rāga-balānvitāḥ",
+            "translation": "Those men who practice terrible austerities not enjoined by the scriptures, given to ostentation and conceit, and prompted by the force of sensual desires and passions;"
+        },
+        {
+            "verse_number": 6,
+            "shloka": "ಕರ್ಷಯನ್ತಃ ಶರೀರಸ್ಥಂ ಭೂತಗ್ರಾಮಮಚೇತಸಃ|ಮಾಂ ಚೈವಾನ್ತಃಶರೀರಸ್ಥಂ ತಾನ್ವಿದ್ಧ್ಯಾಸುರನಿಶ್ಚಯಾನ್||",
+            "transliteration": "karṣhayantaḥ śharīra-sthaṁ bhūta-grāmam achetasaḥ\nmāṁ chaivāntaḥ śharīra-sthaṁ tān viddhy āsura-niśhchayān",
+            "translation": "These foolish men, who torture the group of elements in their bodies and Me, who dwell within the body—know them to be demoniacal in their resolves."
+        },
+        {
+            "verse_number": 7,
+            "shloka": "ಆಹಾರಸ್ತ್ವಪಿ ಸರ್ವಸ್ಯ ತ್ರಿವಿಧೋ ಭವತಿ ಪ್ರಿಯಃ|ಯಜ್ಞಸ್ತಪಸ್ತಥಾ ದಾನಂ ತೇಷಾಂ ಭೇದಮಿಮಂ ಶ್ರೃಣು||",
+            "transliteration": "āhāras tv api sarvasya tri-vidho bhavati priyaḥ\nyajñas tapas tathā dānaṁ teṣhāṁ bhedam imaṁ śhṛiṇu",
+            "translation": "Even the food that is dear to all is threefold; so too are sacrifices, austerities, and gifts. Listen to this distinction among them."
+        },
+        {
+            "verse_number": 8,
+            "shloka": "ಆಯುಃಸತ್ತ್ವಬಲಾರೋಗ್ಯಸುಖಪ್ರೀತಿವಿವರ್ಧನಾಃ|ರಸ್ಯಾಃ ಸ್ನಿಗ್ಧಾಃ ಸ್ಥಿರಾ ಹೃದ್ಯಾ ಆಹಾರಾಃ ಸಾತ್ತ್ವಿಕಪ್ರಿಯಾಃ||",
+            "transliteration": "āyuḥ-sattva-balārogya-sukha-prīti-vivardhanāḥ\nrasyāḥ snigdhāḥ sthirā hṛidyā āhārāḥ sāttvika-priyāḥ",
+            "translation": "Foods that promote longevity, intellectual alertness, strength, health, pleasure, and happiness, and those that are sweet, oily, substantial, and agreeable, are dear to sattvic men."
+        },
+        {
+            "verse_number": 9,
+            "shloka": "ಕಟ್ವಮ್ಲಲವಣಾತ್ಯುಷ್ಣತೀಕ್ಷ್ಣರೂಕ್ಷವಿದಾಹಿನಃ|ಆಹಾರಾ ರಾಜಸಸ್ಯೇಷ್ಟಾ ದುಃಖಶೋಕಾಮಯಪ್ರದಾಃ||",
+            "transliteration": "kaṭv-amla-lavaṇāty-uṣhṇa- tīkṣhṇa-rūkṣha-vidāhinaḥ\nāhārā rājasasyeṣhṭā duḥkha-śhokāmaya-pradāḥ",
+            "translation": "Foods that are bitter, sour, very salty, excessively heating, highly pungent, dry, and burning are all dear to Rajasika men; they cause pain, sorrow, and disease."
+        },
+        {
+            "verse_number": 10,
+            "shloka": "ಯಾತಯಾಮಂ ಗತರಸಂ ಪೂತಿ ಪರ್ಯುಷಿತಂ ಚ ಯತ್|ಉಚ್ಛಿಷ್ಟಮಪಿ ಚಾಮೇಧ್ಯಂ ಭೋಜನಂ ತಾಮಸಪ್ರಿಯಮ್||",
+            "transliteration": "yāta-yāmaṁ gata-rasaṁ pūti paryuṣhitaṁ cha yat\nuchchhiṣhṭam api chāmedhyaṁ bhojanaṁ tāmasa-priyam",
+            "translation": "That food which is stale, tasteless, putrid, decayed, rejected, unclean, is dear to those of a Tamasic nature."
+        },
+        {
+            "verse_number": 11,
+            "shloka": "ಅಫಲಾಕಾಙ್ಕ್ಷಿಭಿರ್ಯಜ್ಞೋ ವಿಧಿದೃಷ್ಟೋ ಯ ಇಜ್ಯತೇ|ಯಷ್ಟವ್ಯಮೇವೇತಿ ಮನಃ ಸಮಾಧಾಯ ಸ ಸಾತ್ತ್ವಿಕಃ||",
+            "transliteration": "aphalākāṅkṣhibhir yajño vidhi-driṣhṭo ya ijyate\nyaṣhṭavyam eveti manaḥ samādhāya sa sāttvikaḥ",
+            "translation": "The sacrifice (worship) marked by Sattva is what is offered by those who desire no fruit and have the conviction that it should be performed as prescribed in the scriptures."
+        },
+        {
+            "verse_number": 12,
+            "shloka": "ಅಭಿಸಂಧಾಯ ತು ಫಲಂ ದಮ್ಭಾರ್ಥಮಪಿ ಚೈವ ಯತ್|ಇಜ್ಯತೇ ಭರತಶ್ರೇಷ್ಠ ತಂ ಯಜ್ಞಂ ವಿದ್ಧಿ ರಾಜಸಮ್||",
+            "transliteration": "abhisandhāya tu phalaṁ dambhārtham api chaiva yat\nijyate bharata-śhreṣhṭha taṁ yajñaṁ viddhi rājasam",
+            "translation": "But that sacrifice which is offered with the intention of gaining a reward and for the sake of show, know it, O Arjuna, to be Rajasic."
+        },
+        {
+            "verse_number": 13,
+            "shloka": "ವಿಧಿಹೀನಮಸೃಷ್ಟಾನ್ನಂ ಮನ್ತ್ರಹೀನಮದಕ್ಷಿಣಮ್|ಶ್ರದ್ಧಾವಿರಹಿತಂ ಯಜ್ಞಂ ತಾಮಸಂ ಪರಿಚಕ್ಷತೇ||",
+            "transliteration": "vidhi-hīnam asṛiṣhṭānnaṁ mantra-hīnam adakṣhiṇam\nśhraddhā-virahitaṁ yajñaṁ tāmasaṁ parichakṣhate",
+            "translation": "That sacrifice which is devoid of authority, which uses offerings not sanctioned by the Sastras, which is performed without recitation of hymns and devoid of gifts and faith - that, they say, is marked by Tamas."
+        },
+        {
+            "verse_number": 14,
+            "shloka": "ದೇವದ್ವಿಜಗುರುಪ್ರಾಜ್ಞಪೂಜನಂ ಶೌಚಮಾರ್ಜವಮ್|ಬ್ರಹ್ಮಚರ್ಯಮಹಿಂಸಾ ಚ ಶಾರೀರಂ ತಪ ಉಚ್ಯತೇ||",
+            "transliteration": "deva-dwija-guru-prājña- pūjanaṁ śhaucham ārjavam\nbrahmacharyam ahinsā cha śhārīraṁ tapa uchyate",
+            "translation": "Worshiping the gods, the twice-born, the preceptors, the enlightened ones, practicing purity, uprightness, continence, and non-injury—these are called austerity of the body."
+        },
+        {
+            "verse_number": 15,
+            "shloka": "ಅನುದ್ವೇಗಕರಂ ವಾಕ್ಯಂ ಸತ್ಯಂ ಪ್ರಿಯಹಿತಂ ಚ ಯತ್|ಸ್ವಾಧ್ಯಾಯಾಭ್ಯಸನಂ ಚೈವ ವಾಙ್ಮಯಂ ತಪ ಉಚ್ಯತೇ||",
+            "transliteration": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ cha yat\nsvādhyāyābhyasanaṁ chaiva vāṅ-mayaṁ tapa uchyate",
+            "translation": "Speech that causes no shock, is true, pleasant, and beneficial, and also the practice of reciting scriptures, is called the austerity of speech."
+        },
+        {
+            "verse_number": 16,
+            "shloka": "ಮನಃಪ್ರಸಾದಃ ಸೌಮ್ಯತ್ವಂ ಮೌನಮಾತ್ಮವಿನಿಗ್ರಹಃ|ಭಾವಸಂಶುದ್ಧಿರಿತ್ಯೇತತ್ತಪೋ ಮಾನಸಮುಚ್ಯತೇ||",
+            "transliteration": "manaḥ-prasādaḥ saumyatvaṁ maunam ātma-vinigrahaḥ\nbhāva-sanśhuddhir ity etat tapo mānasam uchyate",
+            "translation": "Serenity of mind, benevolence, silence, self-control, and purity of mind—these are known as austerity of the mind."
+        },
+        {
+            "verse_number": 17,
+            "shloka": "ಶ್ರದ್ಧಯಾ ಪರಯಾ ತಪ್ತಂ ತಪಸ್ತತ್ಿತ್ರವಿಧಂ ನರೈಃ|ಅಫಲಾಕಾಙ್ಕ್ಷಿಭಿರ್ಯುಕ್ತೈಃ ಸಾತ್ತ್ವಿಕಂ ಪರಿಚಕ್ಷತೇ||",
+            "transliteration": "śhraddhayā parayā taptaṁ tapas tat tri-vidhaṁ naraiḥ\naphalākāṅkṣhibhir yuktaiḥ sāttvikaṁ parichakṣhate",
+            "translation": "The threefold austerity, practiced with supreme faith by men who desire no fruit and are devoted—they call it austerity of Sattva."
+        },
+        {
+            "verse_number": 18,
+            "shloka": "ಸತ್ಕಾರಮಾನಪೂಜಾರ್ಥಂ ತಪೋ ದಮ್ಭೇನ ಚೈವ ಯತ್|ಕ್ರಿಯತೇ ತದಿಹ ಪ್ರೋಕ್ತಂ ರಾಜಸಂ ಚಲಮಧ್ರುವಮ್||",
+            "transliteration": "satkāra-māna-pūjārthaṁ tapo dambhena chaiva yat\nkriyate tad iha proktaṁ rājasaṁ chalam adhruvam",
+            "translation": "That austerity, practiced with ostentation for the sake of gaining respect, praise, and reverence, is here said to be Rajasa. It is unsteady and impermanent."
+        },
+        {
+            "verse_number": 19,
+            "shloka": "ಮೂಢಗ್ರಾಹೇಣಾತ್ಮನೋ ಯತ್ಪೀಡಯಾ ಕ್ರಿಯತೇ ತಪಃ|ಪರಸ್ಯೋತ್ಸಾದನಾರ್ಥಂ ವಾ ತತ್ತಾಮಸಮುದಾಹೃತಮ್||",
+            "transliteration": "mūḍha-grāheṇātmano yat pīḍayā kriyate tapaḥ\nparasyotsādanārthaṁ vā tat tāmasam udāhṛitam",
+            "translation": "That austerity which is practised from deluded notions by means of self-torture or to injure another is said to be Tamasika."
+        },
+        {
+            "verse_number": 20,
+            "shloka": "ದಾತವ್ಯಮಿತಿ ಯದ್ದಾನಂ ದೀಯತೇಽನುಪಕಾರಿಣೇ|ದೇಶೇ ಕಾಲೇ ಚ ಪಾತ್ರೇ ಚ ತದ್ದಾನಂ ಸಾತ್ತ್ವಿಕಂ ಸ್ಮೃತಮ್||",
+            "transliteration": "dātavyam iti yad dānaṁ dīyate ‘nupakāriṇe\ndeśhe kāle cha pātre cha tad dānaṁ sāttvikaṁ smṛitam",
+            "translation": "Gifts given with the feeling that it is one's own duty to give, to one who makes no return, at the proper place and time to the deserving person—that is said to be sattvika."
+        },
+        {
+            "verse_number": 21,
+            "shloka": "ಯತ್ತು ಪ್ರತ್ಯುಪಕಾರಾರ್ಥಂ ಫಲಮುದ್ದಿಶ್ಯ ವಾ ಪುನಃ|ದೀಯತೇ ಚ ಪರಿಕ್ಲಿಷ್ಟಂ ತದ್ದಾನಂ ರಾಜಸಂ ಸ್ಮೃತಮ್||",
+            "transliteration": "yat tu pratyupakārārthaṁ phalam uddiśhya vā punaḥ\ndīyate cha parikliṣhṭaṁ tad dānaṁ rājasaṁ smṛitam",
+            "translation": "But that which is given as a consideration for something received or in expectation of a future reward, or grudgingly, is called a Rajasika gift."
+        },
+        {
+            "verse_number": 22,
+            "shloka": "ಅದೇಶಕಾಲೇ ಯದ್ದಾನಮಪಾತ್ರೇಭ್ಯಶ್ಚ ದೀಯತೇ|ಅಸತ್ಕೃತಮವಜ್ಞಾತಂ ತತ್ತಾಮಸಮುದಾಹೃತಮ್||",
+            "transliteration": "adeśha-kāle yad dānam apātrebhyaśh cha dīyate\nasat-kṛitam avajñātaṁ tat tāmasam udāhṛitam",
+            "translation": "That gift which is given at the wrong place, wrong time, to an unworthy recipient, without due respect and with contempt, is called the gift of a Tamasa nature."
+        },
+        {
+            "verse_number": 23,
+            "shloka": "ತತ್ಸದಿತಿ ನಿರ್ದೇಶೋ ಬ್ರಹ್ಮಣಸ್ತ್ರಿವಿಧಃ ಸ್ಮೃತಃ|ಬ್ರಾಹ್ಮಣಾಸ್ತೇನ ವೇದಾಶ್ಚ ಯಜ್ಞಾಶ್ಚ ವಿಹಿತಾಃ ಪುರಾ||",
+            "transliteration": "oṁ tat sad iti nirdeśho brahmaṇas tri-vidhaḥ smṛitaḥ\nbrāhmaṇās tena vedāśh cha yajñāśh cha vihitāḥ purā",
+            "translation": "Om, Tat, Sat—thus, Brahman is denoted by this threefold expression. In the past, Brahmanas, the Vedas, and sacrifices were ordained in association with these."
+        },
+        {
+            "verse_number": 24,
+            "shloka": "ತಸ್ಮಾದೋಮಿತ್ಯುದಾಹೃತ್ಯ ಯಜ್ಞದಾನತಪಃಕ್ರಿಯಾಃ|ಪ್ರವರ್ತನ್ತೇ ವಿಧಾನೋಕ್ತಾಃ ಸತತಂ ಬ್ರಹ್ಮವಾದಿನಾಮ್||",
+            "transliteration": "tasmād oṁ ity udāhṛitya yajña-dāna-tapaḥ-kriyāḥ\npravartante vidhānoktāḥ satataṁ brahma-vādinām",
+            "translation": "Therefore, the Veda-enjoined sacrificial acts, gifts, and austerities, expounded by the Vedas, or those belonging to the first three stations, are always begun after pronouncing Om at the beginning."
+        },
+        {
+            "verse_number": 25,
+            "shloka": "ತದಿತ್ಯನಭಿಸನ್ಧಾಯ ಫಲಂ ಯಜ್ಞತಪಃಕ್ರಿಯಾಃ|ದಾನಕ್ರಿಯಾಶ್ಚ ವಿವಿಧಾಃ ಕ್ರಿಯನ್ತೇ ಮೋಕ್ಷಕಾಙ್ಕ್ಷಿ||",
+            "transliteration": "tad ity anabhisandhāya phalaṁ yajña-tapaḥ-kriyāḥ\ndāna-kriyāśh cha vividhāḥ kriyante mokṣha-kāṅkṣhibhiḥ",
+            "translation": "Acts of sacrifice, austerity, and various gifts are performed without aiming at a reward by those who seek release, after pronouncing Tat."
+        },
+        {
+            "verse_number": 26,
+            "shloka": "ಸದ್ಭಾವೇ ಸಾಧುಭಾವೇ ಚ ಸದಿತ್ಯೇತತ್ಪ್ರಯುಜ್ಯತೇ|ಪ್ರಶಸ್ತೇ ಕರ್ಮಣಿ ತಥಾ ಸಚ್ಛಬ್ದಃ ಪಾರ್ಥ ಯುಜ್ಯತೇ||",
+            "transliteration": "sad-bhāve sādhu-bhāve cha sad ity etat prayujyate\npraśhaste karmaṇi tathā sach-chhabdaḥ pārtha yujyate",
+            "translation": "This term \"Sat\" is used in the sense of existence and goodness. And so also, O Arjuna, the word \"Sat\" is applied to an auspicious action."
+        },
+        {
+            "verse_number": 27,
+            "shloka": "ಯಜ್ಞೇ ತಪಸಿ ದಾನೇ ಚ ಸ್ಥಿತಿಃ ಸದಿತಿ ಚೋಚ್ಯತೇ|ಕರ್ಮ ಚೈವ ತದರ್ಥೀಯಂ ಸದಿತ್ಯೇವಾಭಿಧೀಯತೇ||",
+            "transliteration": "yajñe tapasi dāne cha sthitiḥ sad iti chochyate\nkarma chaiva tad-arthīyaṁ sad ity evābhidhīyate",
+            "translation": "Devotion to sacrifice, austerity, and gifts is also referred to as Sat; and thus, any action for such purposes is known as Sat."
+        },
+        {
+            "verse_number": 28,
+            "shloka": "ಅಶ್ರದ್ಧಯಾ ಹುತಂ ದತ್ತಂ ತಪಸ್ತಪ್ತಂ ಕೃತಂ ಚ ಯತ್|ಅಸದಿತ್ಯುಚ್ಯತೇ ಪಾರ್ಥ ನ ಚ ತತ್ಪ್ರೇತ್ಯ ನೋ ಇಹ||",
+            "transliteration": "aśhraddhayā hutaṁ dattaṁ tapas taptaṁ kṛitaṁ cha yat\nasad ity uchyate pārtha na cha tat pretya no iha",
+            "translation": "Whatever offering or gift is made, whatever austerity is practiced, and whatever action is performed without faith, that is called Asat, O Arjuna. It is of no value here or hereafter."
         }
     ]
 }

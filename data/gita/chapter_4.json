@@ -5,6 +5,42 @@
     "verses_intro_kn": "ಇಮಂ ವಿವಸ್ವತೇ ಯೋಗಂ... (4.1)",
     "verses": [
         {
+            "verse_number": 1,
+            "shloka": "ಶ್ರೀ ಭಗವಾನುವಾಚ\n\nಇಮಂ ವಿವಸ್ವತೇ ಯೋಗಂ ಪ್ರೋಕ್ತವಾನಹಮವ್ಯಯಮ್|\n\nವಿವಸ್ವಾನ್ ಮನವೇ ಪ್ರಾಹ ಮನುರಿಕ್ಷ್ವಾಕವೇಽಬ್ರವೀತ್||",
+            "transliteration": "śhrī bhagavān uvācha\nimaṁ vivasvate yogaṁ proktavān aham avyayam\nvivasvān manave prāha manur ikṣhvākave ’bravīt",
+            "translation": "The Lord said, \"I taught this imperishable Yoga to Vivasvan; Vivasvan taught it to Manu; Manu declared it to Iksvaku.\""
+        },
+        {
+            "verse_number": 2,
+            "shloka": "ಏವಂ ಪರಮ್ಪರಾಪ್ರಾಪ್ತಮಿಮಂ ರಾಜರ್ಷಯೋ ವಿದುಃ|\n\nಸ ಕಾಲೇನೇಹ ಮಹತಾ ಯೋಗೋ ನಷ್ಟಃ ಪರನ್ತಪ||",
+            "transliteration": "evaṁ paramparā-prāptam imaṁ rājarṣhayo viduḥ\nsa kāleneha mahatā yogo naṣhṭaḥ parantapa",
+            "translation": "Thus handed down in succession, the royal sages knew this (Karma Yoga). But with a long lapse of time, O Arjuna, that Yoga was lost to the world."
+        },
+        {
+            "verse_number": 3,
+            "shloka": "ಸ ಏವಾಯಂ ಮಯಾ ತೇಽದ್ಯ ಯೋಗಃ ಪ್ರೋಕ್ತಃ ಪುರಾತನಃ|\n\nಭಕ್ತೋಽಸಿ ಮೇ ಸಖಾ ಚೇತಿ ರಹಸ್ಯಂ ಹ್ಯೇತದುತ್ತಮಮ್||",
+            "transliteration": "sa evāyaṁ mayā te ’dya yogaḥ proktaḥ purātanaḥ\nbhakto ’si me sakhā cheti rahasyaṁ hyetad uttamam",
+            "translation": "It is the same ancient Yoga that I am now teaching you, for you are My devotee and My friend. For, this is a supreme mystery."
+        },
+        {
+            "verse_number": 4,
+            "shloka": "ಅರ್ಜುನ ಉವಾಚ\n\nಅಪರಂ ಭವತೋ ಜನ್ಮ ಪರಂ ಜನ್ಮ ವಿವಸ್ವತಃ|\n\nಕಥಮೇತದ್ವಿಜಾನೀಯಾಂ ತ್ವಮಾದೌ ಪ್ರೋಕ್ತವಾನಿತಿ||",
+            "transliteration": "arjuna uvācha\naparaṁ bhavato janma paraṁ janma vivasvataḥ\nkatham etad vijānīyāṁ tvam ādau proktavān iti",
+            "translation": "Arjuna said, \"Your birth was later, and Vivasvan's birth was earlier. How then can I understand that you taught it in the beginning?\""
+        },
+        {
+            "verse_number": 5,
+            "shloka": "ಶ್ರೀ ಭಗವಾನುವಾಚ\n\nಬಹೂನಿ ಮೇ ವ್ಯತೀತಾನಿ ಜನ್ಮಾನಿ ತವ ಚಾರ್ಜುನ|\n\nತಾನ್ಯಹಂ ವೇದ ಸರ್ವಾಣಿ ನ ತ್ವಂ ವೇತ್ಥ ಪರನ್ತಪ||",
+            "transliteration": "śhrī bhagavān uvācha\nbahūni me vyatītāni janmāni tava chārjuna\ntānyahaṁ veda sarvāṇi na tvaṁ vettha parantapa",
+            "translation": "The Lord said, \"Many of My births have passed, O Arjuna, as have yours. I know them all, but you do not know them.\""
+        },
+        {
+            "verse_number": 6,
+            "shloka": "ಅಜೋಽಪಿ ಸನ್ನವ್ಯಯಾತ್ಮಾ ಭೂತಾನಾಮೀಶ್ವರೋಽಪಿ ಸನ್|\n\nಪ್ರಕೃತಿಂ ಸ್ವಾಮಧಿಷ್ಠಾಯ ಸಂಭವಾಮ್ಯಾತ್ಮಮಾಯಯಾ||",
+            "transliteration": "ajo ’pi sannavyayātmā bhūtānām īśhvaro ’pi san\nprakṛitiṁ svām adhiṣhṭhāya sambhavāmyātma-māyayā",
+            "translation": "Though I am birthless and of immutable nature, and the Lord of all beings, yet by employing My own Nature (Prakrti), I am born out of My own free will."
+        },
+        {
             "verse_number": 7,
             "shloka": "ಯದಾ ಯದಾ ಹಿ ಧರ್ಮಸ್ಯ ಗ್ಲಾನಿರ್ಭವತಿ ಭಾರತ |\nಅಭ್ಯುತ್ಥಾನಮಧರ್ಮಸ್ಯ ತದಾತ್ಮಾನಂ ಸೃಜಾಮ್ಯಹಮ್ ||",
             "transliteration": "Yada yada hi dharmasya glanirbhavati Bharata...",
@@ -23,16 +59,202 @@
             "translation": "ನನ್ನ ದಿವ್ಯ ಜನ್ಮ ಮತ್ತು ಕರ್ಮಗಳ ರಹಸ್ಯವನ್ನು ಯಾರು ತತ್ತ್ವತಃ ಅರಿಯುತ್ತಾರೋ, ಅವರು ಈ ಶರೀರವನ್ನು ಬಿಟ್ಟ ಮೇಲೆ ಮತ್ತೆ ಜನ್ಮ ತಾಳುವುದಿಲ್ಲ; ಎಲೈ ಅರ್ಜುನನೇ, ಅವರು ನನ್ನನ್ನೇ ಸೇರುತ್ತಾರೆ."
         },
         {
+            "verse_number": 10,
+            "shloka": "ವೀತರಾಗಭಯಕ್ರೋಧಾ ಮನ್ಮಯಾ ಮಾಮುಪಾಶ್ರಿತಾಃ|\n\nಬಹವೋ ಜ್ಞಾನತಪಸಾ ಪೂತಾ ಮದ್ಭಾವಮಾಗತಾಃ||",
+            "transliteration": "vīta-rāga-bhaya-krodhā man-mayā mām upāśhritāḥ\nbahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ",
+            "translation": "Freed from desire, fear, and wrath, absorbed in Me, depending upon Me, purified by the austerity of knowledge, many have attained My state."
+        },
+        {
+            "verse_number": 11,
+            "shloka": "ಯೇ ಯಥಾ ಮಾಂ ಪ್ರಪದ್ಯನ್ತೇ ತಾಂಸ್ತಥೈವ ಭಜಾಮ್ಯಹಮ್|\n\nಮಮ ವರ್ತ್ಮಾನುವರ್ತನ್ತೇ ಮನುಷ್ಯಾಃ ಪಾರ್ಥ ಸರ್ವಶಃ||",
+            "transliteration": "ye yathā māṁ prapadyante tāns tathaiva bhajāmyaham\nmama vartmānuvartante manuṣhyāḥ pārtha sarvaśhaḥ",
+            "translation": "Whoever resorts to Me in any manner, I favor them in the same manner; men experience Me alone in different ways, O Arjuna."
+        },
+        {
+            "verse_number": 12,
+            "shloka": "ಕಾಙ್ಕ್ಷನ್ತಃ ಕರ್ಮಣಾಂ ಸಿದ್ಧಿಂ ಯಜನ್ತ ಇಹ ದೇವತಾಃ|\n\nಕ್ಷಿಪ್ರಂ ಹಿ ಮಾನುಷೇ ಲೋಕೇ ಸಿದ್ಧಿರ್ಭವತಿ ಕರ್ಮಜಾ||",
+            "transliteration": "kāṅkṣhantaḥ karmaṇāṁ siddhiṁ yajanta iha devatāḥ\nkṣhipraṁ hi mānuṣhe loke siddhir bhavati karmajā",
+            "translation": "Those who desire the fruits of their ritualistic acts, sacrifice to the gods here; for, success quickly accrues in the world of men."
+        },
+        {
+            "verse_number": 13,
+            "shloka": "ಚಾತುರ್ವರ್ಣ್ಯಂ ಮಯಾ ಸೃಷ್ಟಂ ಗುಣಕರ್ಮವಿಭಾಗಶಃ|\n\nತಸ್ಯ ಕರ್ತಾರಮಪಿ ಮಾಂ ವಿದ್ಧ್ಯಕರ್ತಾರಮವ್ಯಯಮ್||",
+            "transliteration": "chātur-varṇyaṁ mayā sṛiṣhṭaṁ guṇa-karma-vibhāgaśhaḥ\ntasya kartāram api māṁ viddhyakartāram avyayam",
+            "translation": "The system of four stations was created by Me, according to the distinction of Gunas and Karma. Though I am their creator, know Me to be non-agent and immutable."
+        },
+        {
+            "verse_number": 14,
+            "shloka": "ನ ಮಾಂ ಕರ್ಮಾಣಿ ಲಿಮ್ಪನ್ತಿ ನ ಮೇ ಕರ್ಮಫಲೇ ಸ್ಪೃಹಾ|\n\nಇತಿ ಮಾಂ ಯೋಽಭಿಜಾನಾತಿ ಕರ್ಮಭಿರ್ನ ಸ ಬಧ್ಯತೇ||",
+            "transliteration": "na māṁ karmāṇi limpanti na me karma-phale spṛihā\niti māṁ yo ’bhijānāti karmabhir na sa badhyate",
+            "translation": "Works cannot contaminate Me. There is no desire for the fruits of actions in Me. He who understands this is not bound by actions."
+        },
+        {
+            "verse_number": 15,
+            "shloka": "ಏವಂ ಜ್ಞಾತ್ವಾ ಕೃತಂ ಕರ್ಮ ಪೂರ್ವೈರಪಿ ಮುಮುಕ್ಷುಭಿಃ|\n\nಕುರು ಕರ್ಮೈವ ತಸ್ಮಾತ್ತ್ವಂ ಪೂರ್ವೈಃ ಪೂರ್ವತರಂ ಕೃತಮ್||",
+            "transliteration": "evaṁ jñātvā kṛitaṁ karma pūrvair api mumukṣhubhiḥ\nkuru karmaiva tasmāttvaṁ pūrvaiḥ pūrvataraṁ kṛitam",
+            "translation": "Knowing thus, even ancient seekers of liberation did their work. Therefore, do your work only as the ancients did in olden times."
+        },
+        {
+            "verse_number": 16,
+            "shloka": "ಕಿಂ ಕರ್ಮ ಕಿಮಕರ್ಮೇತಿ ಕವಯೋಽಪ್ಯತ್ರ ಮೋಹಿತಾಃ|\n\nತತ್ತೇ ಕರ್ಮ ಪ್ರವಕ್ಷ್ಯಾಮಿ ಯಜ್ಜ್ಞಾತ್ವಾ ಮೋಕ್ಷ್ಯಸೇಽಶುಭಾತ್||",
+            "transliteration": "kiṁ karma kim akarmeti kavayo ’pyatra mohitāḥ\ntat te karma pravakṣhyāmi yaj jñātvā mokṣhyase ’śhubhāt",
+            "translation": "What is action? What is non-action? Even the wise are puzzled in respect of these. I shall declare to you that kind of action, knowing which you will be freed from evil."
+        },
+        {
+            "verse_number": 17,
+            "shloka": "ಕರ್ಮಣೋ ಹ್ಯಪಿ ಬೋದ್ಧವ್ಯಂ ಬೋದ್ಧವ್ಯಂ ಚ ವಿಕರ್ಮಣಃ|\n\nಅಕರ್ಮಣಶ್ಚ ಬೋದ್ಧವ್ಯಂ ಗಹನಾ ಕರ್ಮಣೋ ಗತಿಃ||",
+            "transliteration": "karmaṇo hyapi boddhavyaṁ boddhavyaṁ cha vikarmaṇaḥ\nakarmaṇaśh cha boddhavyaṁ gahanā karmaṇo gatiḥ",
+            "translation": "For, there is what ought to be known in action; likewise, there is what ought to be known in multi-form action; and there is what ought to be understood in non-action. Thus, mysterious is the way of action."
+        },
+        {
+            "verse_number": 18,
+            "shloka": "ಕರ್ಮಣ್ಯಕರ್ಮ ಯಃ ಪಶ್ಯೇದಕರ್ಮಣಿ ಚ ಕರ್ಮ ಯಃ|\n\nಸ ಬುದ್ಧಿಮಾನ್ ಮನುಷ್ಯೇಷು ಸ ಯುಕ್ತಃ ಕೃತ್ಸ್ನಕರ್ಮಕೃತ್||",
+            "transliteration": "karmaṇyakarma yaḥ paśhyed akarmaṇi cha karma yaḥ\nsa buddhimān manuṣhyeṣhu sa yuktaḥ kṛitsna-karma-kṛit",
+            "translation": "He who sees inaction in action and also action in inaction is wise among men. He is fit for release and has accomplished all actions."
+        },
+        {
+            "verse_number": 19,
+            "shloka": "ಯಸ್ಯ ಸರ್ವೇ ಸಮಾರಮ್ಭಾಃ ಕಾಮಸಙ್ಕಲ್ಪವರ್ಜಿತಾಃ|\n\nಜ್ಞಾನಾಗ್ನಿದಗ್ಧಕರ್ಮಾಣಂ ತಮಾಹುಃ ಪಣ್ಡಿತಂ ಬುಧಾಃ||",
+            "transliteration": "yasya sarve samārambhāḥ kāma-saṅkalpa-varjitāḥ\njñānāgni-dagdha-karmāṇaṁ tam āhuḥ paṇḍitaṁ budhāḥ",
+            "translation": "He whose every undertaking is free from desire and delusive identification (of the body with the self), whose actions are burned up in the fire of knowledge—the wise describe him as a sage."
+        },
+        {
+            "verse_number": 20,
+            "shloka": "ತ್ಯಕ್ತ್ವಾ ಕರ್ಮಫಲಾಸಙ್ಗಂ ನಿತ್ಯತೃಪ್ತೋ ನಿರಾಶ್ರಯಃ|\n\nಕರ್ಮಣ್ಯಭಿಪ್ರವೃತ್ತೋಽಪಿ ನೈವ ಕಿಞ್ಚಿತ್ಕರೋತಿ ಸಃ||",
+            "transliteration": "tyaktvā karma-phalāsaṅgaṁ nitya-tṛipto nirāśhrayaḥ\nkarmaṇyabhipravṛitto ’pi naiva kiñchit karoti saḥ",
+            "translation": "Having renounced attachment to the fruits of their actions, ever contented with the eternal self, and dependent on none, one does not act at all, even while being engaged in action."
+        },
+        {
+            "verse_number": 21,
+            "shloka": "ನಿರಾಶೀರ್ಯತಚಿತ್ತಾತ್ಮಾ ತ್ಯಕ್ತಸರ್ವಪರಿಗ್ರಹಃ|\n\nಶಾರೀರಂ ಕೇವಲಂ ಕರ್ಮ ಕುರ್ವನ್ನಾಪ್ನೋತಿ ಕಿಲ್ಬಿಷಮ್||",
+            "transliteration": "nirāśhīr yata-chittātmā tyakta-sarva-parigrahaḥ\nśhārīraṁ kevalaṁ karma kurvan nāpnoti kilbiṣham",
+            "translation": "Free from desire, his intellect and mind controlled, having given up all possessions, and doing bodily work only, he is not subject to evil."
+        },
+        {
+            "verse_number": 22,
+            "shloka": "ಯದೃಚ್ಛಾಲಾಭಸನ್ತುಷ್ಟೋ ದ್ವನ್ದ್ವಾತೀತೋ ವಿಮತ್ಸರಃ|\n\nಸಮಃ ಸಿದ್ಧಾವಸಿದ್ಧೌ ಚ ಕೃತ್ವಾಪಿ ನ ನಿಬಧ್ಯತೇ||",
+            "transliteration": "yadṛichchhā-lābha-santuṣhṭo dvandvātīto vimatsaraḥ\nsamaḥ siddhāvasiddhau cha kṛitvāpi na nibadhyate",
+            "translation": "Content with what chance may bring, rising above the pairs of opposites, free from ill-will, even-minded in success and failure, he acts, yet is not bound."
+        },
+        {
+            "verse_number": 23,
+            "shloka": "ಗತಸಙ್ಗಸ್ಯ ಮುಕ್ತಸ್ಯ ಜ್ಞಾನಾವಸ್ಥಿತಚೇತಸಃ|\n\nಯಜ್ಞಾಯಾಚರತಃ ಕರ್ಮ ಸಮಗ್ರಂ ಪ್ರವಿಲೀಯತೇ||",
+            "transliteration": "gata-saṅgasya muktasya jñānāvasthita-chetasaḥ\nyajñāyācharataḥ karma samagraṁ pravilīyate",
+            "translation": "One whose attachments have been relinquished, who is liberated, whose mind is established in knowledge, and who works only for sacrifices—their Karma is entirely dissolved."
+        },
+        {
+            "verse_number": 24,
+            "shloka": "ಬ್ರಹ್ಮಾರ್ಪಣಂ ಬ್ರಹ್ಮಹವಿರ್ಬ್ರಹ್ಮಾಗ್ನೌ ಬ್ರಹ್ಮಣಾ ಹುತಮ್|\n\nಬ್ರಹ್ಮೈವ ತೇನ ಗನ್ತವ್ಯಂ ಬ್ರಹ್ಮಕರ್ಮಸಮಾಧಿನಾ||",
+            "transliteration": "brahmārpaṇaṁ brahma havir brahmāgnau brahmaṇā hutam\nbrahmaiva tena gantavyaṁ brahma-karma-samādhinā",
+            "translation": "Brahman is the instrument with which to offer; Brahman is the oblation. By Brahman is the oblation offered into the fire of Brahman; Brahman alone is to be attained by one who meditates on Him in their works."
+        },
+        {
+            "verse_number": 25,
+            "shloka": "ದೈವಮೇವಾಪರೇ ಯಜ್ಞಂ ಯೋಗಿನಃ ಪರ್ಯುಪಾಸತೇ|\n\nಬ್ರಹ್ಮಾಗ್ನಾವಪರೇ ಯಜ್ಞಂ ಯಜ್ಞೇನೈವೋಪಜುಹ್ವತಿ||",
+            "transliteration": "daivam evāpare yajñaṁ yoginaḥ paryupāsate\nbrahmāgnāvapare yajñaṁ yajñenaivopajuhvati",
+            "translation": "Some yogis resort only to the sacrifice relating to gods; others offer sacrifice into the fire of Brahman solely through sacrifice."
+        },
+        {
+            "verse_number": 26,
+            "shloka": "ಶ್ರೋತ್ರಾದೀನೀನ್ದ್ರಿಯಾಣ್ಯನ್ಯೇ ಸಂಯಮಾಗ್ನಿಷು ಜುಹ್ವತಿ|\n\nಶಬ್ದಾದೀನ್ವಿಷಯಾನನ್ಯ ಇನ್ದ್ರಿಯಾಗ್ನಿಷು ಜುಹ್ವತಿ||",
+            "transliteration": "śhrotrādīnīndriyāṇyanye sanyamāgniṣhu juhvati\nśhabdādīn viṣhayānanya indriyāgniṣhu juhvati",
+            "translation": "Others offer as oblations hearing and other senses into the fires of restraint. Some others offer as oblations the objects of the senses, such as sound and the rest, into the fires of their senses."
+        },
+        {
+            "verse_number": 27,
+            "shloka": "ಸರ್ವಾಣೀನ್ದ್ರಿಯಕರ್ಮಾಣಿ ಪ್ರಾಣಕರ್ಮಾಣಿ ಚಾಪರೇ|\n\nಆತ್ಮಸಂಯಮಯೋಗಾಗ್ನೌ ಜುಹ್ವತಿ ಜ್ಞಾನದೀಪಿತೇ||",
+            "transliteration": "sarvāṇīndriya-karmāṇi prāṇa-karmāṇi chāpare\nātma-sanyama-yogāgnau juhvati jñāna-dīpite",
+            "translation": "Some again offer as an oblation the functions of the senses and the activity of the vital breaths into the fire of the Yoga of restraint of the mind, kindled by knowledge."
+        },
+        {
+            "verse_number": 28,
+            "shloka": "ದ್ರವ್ಯಯಜ್ಞಾಸ್ತಪೋಯಜ್ಞಾ ಯೋಗಯಜ್ಞಾಸ್ತಥಾಪರೇ|\n\nಸ್ವಾಧ್ಯಾಯಜ್ಞಾನಯಜ್ಞಾಶ್ಚ ಯತಯಃ ಸಂಶಿತವ್ರತಾಃ||",
+            "transliteration": "dravya-yajñās tapo-yajñā yoga-yajñās tathāpare\nswādhyāya-jñāna-yajñāśh cha yatayaḥ sanśhita-vratāḥ",
+            "translation": "Self-controlled and firm of resolve, others perform the sacrifice of material objects or austerities or yoga; while others offer their scriptural study and knowledge."
+        },
+        {
+            "verse_number": 29,
+            "shloka": "ಅಪಾನೇ ಜುಹ್ವತಿ ಪ್ರಾಣ ಪ್ರಾಣೇಽಪಾನಂ ತಥಾಽಪರೇ|\n\nಪ್ರಾಣಾಪಾನಗತೀ ರುದ್ಧ್ವಾ ಪ್ರಾಣಾಯಾಮಪರಾಯಣಾಃ||",
+            "transliteration": "apāne juhvati prāṇaṁ prāṇe ’pānaṁ tathāpare\nprāṇāpāna-gatī ruddhvā prāṇāyāma-parāyaṇāḥ\n apare niyatāhārāḥ prāṇān prāṇeṣhu juhvati\nsarve ’pyete yajña-vido yajña-kṣhapita-kalmaṣhāḥ",
+            "translation": "Others, with restricted diets, are devoted to the control of breath. Some sacrifice the inward breath in the outward breath; similarly, others sacrifice the outward breath in the inward breath. Some others, stopping the flow of both the inward and outward breaths, sacrifice the inward and outward breaths."
+        },
+        {
+            "verse_number": 30,
+            "shloka": "ಅಪರೇ ನಿಯತಾಹಾರಾಃ ಪ್ರಾಣಾನ್ಪ್ರಾಣೇಷು ಜುಹ್ವತಿ|\n\nಸರ್ವೇಽಪ್ಯೇತೇ ಯಜ್ಞವಿದೋ ಯಜ್ಞಕ್ಷಪಿತಕಲ್ಮಷಾಃ||",
+            "transliteration": "apare niyatāhārāḥ prāṇān  prāṇeṣu juhvati\n\nsarve py 'ete yajña-vido yajña-kṣapita-kalmaṣāḥ",
+            "translation": "All these know the meaning of sacrifices, and through sacrifices, their sins are eradicated. Those who subsist on the ambrosial food, the remnants of sacrifices, go to eternal Brahman."
+        },
+        {
+            "verse_number": 31,
+            "shloka": "ಯಜ್ಞಶಿಷ್ಟಾಮೃತಭುಜೋ ಯಾನ್ತಿ ಬ್ರಹ್ಮ ಸನಾತನಮ್|\n\nನಾಯಂ ಲೋಕೋಽಸ್ತ್ಯಯಜ್ಞಸ್ಯ ಕುತೋ़ಽನ್ಯಃ ಕುರುಸತ್ತಮ||",
+            "transliteration": "yajña-śhiṣhṭāmṛita-bhujo yānti brahma sanātanam\nnāyaṁ loko ’styayajñasya kuto ’nyaḥ kuru-sattama",
+            "translation": "This world is not for one who makes no sacrifice; how then for the other, O Arjuna?"
+        },
+        {
+            "verse_number": 32,
+            "shloka": "ಏವಂ ಬಹುವಿಧಾ ಯಜ್ಞಾ ವಿತತಾ ಬ್ರಹ್ಮಣೋ ಮುಖೇ|\n\nಕರ್ಮಜಾನ್ವಿದ್ಧಿ ತಾನ್ಸರ್ವಾನೇವಂ ಜ್ಞಾತ್ವಾ ವಿಮೋಕ್ಷ್ಯಸೇ||",
+            "transliteration": "evaṁ bahu-vidhā yajñā vitatā brahmaṇo mukhe\nkarma-jān viddhi tān sarvān evaṁ jñātvā vimokṣhyase",
+            "translation": "Thus, many forms of sacrifices have been spread out as means of reaching Brahman (individual self in its own nature). Know that all of these are born of actions. Knowing thus, you will be free."
+        },
+        {
+            "verse_number": 33,
+            "shloka": "ಶ್ರೇಯಾನ್ದ್ರವ್ಯಮಯಾದ್ಯಜ್ಞಾಜ್ಜ್ಞಾನಯಜ್ಞಃ ಪರನ್ತಪ|\n\nಸರ್ವಂ ಕರ್ಮಾಖಿಲಂ ಪಾರ್ಥ ಜ್ಞಾನೇ ಪರಿಸಮಾಪ್ಯತೇ||",
+            "transliteration": "śhreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa\nsarvaṁ karmākhilaṁ pārtha jñāne parisamāpyate",
+            "translation": "The sacrifice of knowledge is superior to material sacrifice. O Arjuna, all actions and everything else culminate in knowledge."
+        },
+        {
             "verse_number": 34,
             "shloka": "ತದ್ವಿಧ್ಧಿ ಪ್ರಣಿಪಾತೇನ ಪರಿಪ್ರಶ್ನೇನ ಸೇವಯಾ |\nಉಪದೇಕ್ಷ್ಯಂತಿ ತೇ ಜ್ಞಾನಂ ಜ್ಞಾನಿನಸ್ತತ್ತ್ವದರ್ಶಿನಃ ||",
             "transliteration": "Tadviddhi pranipatena pariprashnena sevaya...",
             "translation": "ಗುರುಗಳಿಗೆ ಸಾಷ್ಟಾಂಗ ನಮಸ್ಕಾರ ಮಾಡಿ, ವಿನಯದಿಂದ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿ ಮತ್ತು ಅವರ ಸೇವೆ ನೀಡಿ ಆ ಜ್ಞಾನವನ್ನು ಅರಿತುಕೋ. ತತ್ತ್ವದರ್ಶಿಗಳಾದ ಆ ಜ್ಞಾನಿಗಳು ನಿನಗೆ ಜ್ಞಾನವನ್ನು ಉಪದೇಶಿಸುತ್ತಾರೆ."
         },
         {
+            "verse_number": 35,
+            "shloka": "ಯಜ್ಜ್ಞಾತ್ವಾ ನ ಪುನರ್ಮೋಹಮೇವಂ ಯಾಸ್ಯಸಿ ಪಾಣ್ಡವ|\n\nಯೇನ ಭೂತಾನ್ಯಶೇಷೇಣ ದ್ರಕ್ಷ್ಯಸ್ಯಾತ್ಮನ್ಯಥೋ ಮಯಿ||",
+            "transliteration": "yaj jñātvā na punar moham evaṁ yāsyasi pāṇḍava\nyena bhūtānyaśheṣheṇa drakṣhyasyātmanyatho mayi",
+            "translation": "Knowing this, O Arjuna, you will not fall again into delusion in this way—by that knowledge, you will see all beings without exception in yourself and then in Me."
+        },
+        {
+            "verse_number": 36,
+            "shloka": "ಅಪಿ ಚೇದಸಿ ಪಾಪೇಭ್ಯಃ ಸರ್ವೇಭ್ಯಃ ಪಾಪಕೃತ್ತಮಃ|\n\nಸರ್ವಂ ಜ್ಞಾನಪ್ಲವೇನೈವ ವೃಜಿನಂ ಸನ್ತರಿಷ್ಯಸಿ||",
+            "transliteration": "api ched asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛit-tamaḥ\nsarvaṁ jñāna-plavenaiva vṛijinaṁ santariṣhyasi",
+            "translation": "Even if you are the most sinful of all sinners, you can cross over all sins by the boat of knowledge alone."
+        },
+        {
+            "verse_number": 37,
+            "shloka": "ಯಥೈಧಾಂಸಿ ಸಮಿದ್ಧೋಽಗ್ನಿರ್ಭಸ್ಮಸಾತ್ಕುರುತೇಽರ್ಜುನ|\n\nಜ್ಞಾನಾಗ್ನಿಃ ಸರ್ವಕರ್ಮಾಣಿ ಭಸ್ಮಸಾತ್ಕುರುತೇ ತಥಾ||",
+            "transliteration": "yathaidhānsi samiddho ’gnir bhasma-sāt kurute ’rjuna\njñānāgniḥ sarva-karmāṇi bhasma-sāt kurute tathā",
+            "translation": "Just as a burning fire turns fuel to ashes, O Arjuna, so does the fire of knowledge turn all karmas to ashes."
+        },
+        {
             "verse_number": 38,
             "shloka": "ನ ಹಿ ಜ್ಞಾನೇನ ಸದೃಶಂ ಪವಿತ್ರಮಿಹ ವಿದ್ಯತೇ |\nತತ್ಸ್ವಯಂ ಯೋಗಸಂಸಿದ್ಧಃ ಕಾಲೇನಾತ್ಮನಿ ವಿಂದತಿ || ೩೮ ||",
             "transliteration": "na hi jñānena sadṛśaṃ pavitramiha vidyate\ntatsvayaṃ yogasaṃsiddhaḥ kālenātmani vindati",
             "translation": "ಈ ಪ್ರಪಂಚದಲ್ಲಿ ಜ್ಞಾನಕ್ಕೆ ಸಮಾನವಾದ ಪವಿತ್ರ ವಸ್ತು ಬೇರೊಂದಿಲ್ಲ. ಯೋಗವನ್ನು ಸಿದ್ಧಿಸಿಕೊಂಡವನು ಕಾಲಕ್ರಮೇಣ ತನ್ನ ಆತ್ಮನಲ್ಲಿಯೇ ಈ ಜ್ಞಾನವನ್ನು ಕಂಡುಕೊಳ್ಳುತ್ತಾನೆ."
+        },
+        {
+            "verse_number": 39,
+            "shloka": "ಶ್ರದ್ಧಾವಾँಲ್ಲಭತೇ ಜ್ಞಾನಂ ತತ್ಪರಃ ಸಂಯತೇನ್ದ್ರಿಯಃ|\n\nಜ್ಞಾನಂ ಲಬ್ಧ್ವಾ ಪರಾಂ ಶಾನ್ತಿಮಚಿರೇಣಾಧಿಗಚ್ಛತಿ||",
+            "transliteration": "śhraddhāvān labhate jñānaṁ tat-paraḥ sanyatendriyaḥ\njñānaṁ labdhvā parāṁ śhāntim achireṇādhigachchhati",
+            "translation": "He who has faith, is intent on it, and has mastered his senses, attains knowledge. Having attained knowledge, he quickly goes to supreme peace."
+        },
+        {
+            "verse_number": 40,
+            "shloka": "ಅಜ್ಞಶ್ಚಾಶ್ರದ್ದಧಾನಶ್ಚ ಸಂಶಯಾತ್ಮಾ ವಿನಶ್ಯತಿ|\n\nನಾಯಂ ಲೋಕೋಽಸ್ತಿ ನ ಪರೋ ನ ಸುಖಂ ಸಂಶಯಾತ್ಮನಃ||",
+            "transliteration": "ajñaśh chāśhraddadhānaśh cha sanśhayātmā vinaśhyati\nnāyaṁ loko ’sti na paro na sukhaṁ sanśhayātmanaḥ",
+            "translation": "The ignorant, the faithless, and the doubting one perish; for the doubting one, there is neither this world nor the one beyond, nor happiness."
+        },
+        {
+            "verse_number": 41,
+            "shloka": "ಯೋಗಸಂನ್ಯಸ್ತಕರ್ಮಾಣಂ ಜ್ಞಾನಸಂಛಿನ್ನಸಂಶಯಮ್|\n\nಆತ್ಮವನ್ತಂ ನ ಕರ್ಮಾಣಿ ನಿಬಧ್ನನ್ತಿ ಧನಞ್ಜಯ||",
+            "transliteration": "yoga-sannyasta-karmāṇaṁ jñāna-sañchhinna-sanśhayam\nātmavantaṁ na karmāṇi nibadhnanti dhanañjaya",
+            "translation": "Actions do not bind him, O Arjuna, who has renounced them through Karma Yoga and whose doubts have been dispelled by knowledge, and who thus possesses a steady mind."
+        },
+        {
+            "verse_number": 42,
+            "shloka": "ತಸ್ಮಾದಜ್ಞಾನಸಂಭೂತಂ ಹೃತ್ಸ್ಥಂ ಜ್ಞಾನಾಸಿನಾಽಽತ್ಮನಃ|\n\nಛಿತ್ತ್ವೈನಂ ಸಂಶಯಂ ಯೋಗಮಾತಿಷ್ಠೋತ್ತಿಷ್ಠ ಭಾರತ||",
+            "transliteration": "tasmād ajñāna-sambhūtaṁ hṛit-sthaṁ jñānāsinātmanaḥ\nchhittvainaṁ sanśhayaṁ yogam ātiṣhṭhottiṣhṭha bhārata",
+            "translation": "Therefore, sever, with the sword of knowledge, this doubt present in your heart resulting from ignorance concerning the Self. Practice this Yoga, O Arjuna, and arise."
         }
     ]
 }
