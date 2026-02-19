@@ -1,0 +1,16 @@
+{
+    "name": "Sanatana Samskruti",
+    "short_name": "Samskruti",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0F0F0F",
+    "theme_color": "#FF9933",
+    "description": "A guide to Ancient Indian Wisdom, Culture, and Spirituality.",
+    "icons": [
+        {
+            "src": "app-icon.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+        }
+    ]
+}
