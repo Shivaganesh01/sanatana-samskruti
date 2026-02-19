@@ -96,5 +96,12 @@
         "title_en": "Vivekananda Quotes",
         "description": "ಯುವಶಕ್ತಿಗೆ ಸ್ಫೂರ್ತಿ ನೀಡುವ ವಿಚಾರಗಳು.",
         "icon": "Zap"
+    },
+    {
+        "id": "suktas",
+        "title_kn": "ವೈದಿಕ ಸೂಕ್ತಗಳು",
+        "title_en": "Vedic Suktas",
+        "description": "ಪುರುಷ ಸೂಕ್ತ, ಶ್ರೀ ಸೂಕ್ತ ಮತ್ತು ನಾರಾಯಣ ಸೂಕ್ತಗಳ ಸಂಗ್ರಹ.",
+        "icon": "BookOpen"
     }
 ]

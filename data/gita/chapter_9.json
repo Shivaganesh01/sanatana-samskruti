@@ -5,11 +5,23 @@
     "verses_intro_kn": "ಇದಂ ತು ತೇ ಗುಹ್ಯತಮಂ... (9.1)",
     "verses": [
         {
+            "verse_number": 22,
+            "shloka": "ಅನನ್ಯಾಶ್ಚಿಂತಯಂತೋ ಮಾಂ ಯೇ ಜನಾಃ ಪರ್ಯುಪಾಸತೇ |\nತೇಷಾಂ ನಿತ್ಯಾಭಿಯುಕ್ತಾನಾಂ ಯೋಗಕ್ಷೇಮಂ ವಹಾಮ್ಯಹಮ್ || ೨೨ ||",
+            "transliteration": "ananyāścintayanto māṃ ye janāḥ paryupāsate\nteṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham",
+            "translation": "ಯಾರು ನನ್ನನ್ನೇ ಅನನ್ಯವಾಗಿ (ಬೇರೆ ಆಲೋಚನೆ ಇಲ್ಲದೆ) ಚಿಂತಿಸುತ್ತಾ ಉಪಾಸನೆ ಮಾಡುತ್ತಾರೋ, ಅಂತಹ ನಿತ್ಯ ನಿರತ ಭಕ್ತರ ಯೋಗ (ಬೇಕಾದದ್ದನ್ನು ಪಡೆಯುವುದು) ಮತ್ತು ಕ್ಷೇಮವನ್ನು (ಪಡೆದದ್ದನ್ನು ಉಳಿಸಿಕೊಳ್ಳುವುದು) ನಾನೇ ನೋಡಿಕೊಳ್ಳುತ್ತೇನೆ."
+        },
+        {
             "verse_number": 26,
-            "shloka": "ಪತ್ರಂ ಪುಷ್ಪಂ ಫಲಂ ತೋಯಂ ಯೋ ಮೇ ಭಕ್ತ್ಯಾ ಪ್ರಯಚ್ಛತಿ |\nತದಹಂ ಭಕ್ತ್ಯುಪಹೃತಮಶ್ನಾಮಿ ಪ್ರಯತಾತ್ಮನಃ ||",
-            "transliteration": "Patram pushpam phalam toyam yo me bhaktya prayacchati...",
+            "shloka": "ಪತ್ರಂ ಪುಷ್ಪಂ ಫಲಂ ತೋಯಂ ಯೋ ಮೇ ಭಕ್ತ್ಯಾ ಪ್ರಯಚ್ಛತಿ |\nತದಹಂ ಭಕ್ತ್ಯುಪಹೃತಮಶ್ನಾಮಿ ಪ್ರಯತಾತ್ಮನಃ || ೨೬ ||",
+            "transliteration": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati\ntadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ",
             "translation": "ಯಾರು ನನಗೆ ಭಕ್ತಿಯಿಂದ ಒಂದು ಎಲೆ, ಹೂವು, ಹಣ್ಣು ಅಥವಾ ನೀರನ್ನು ಅರ್ಪಿಸುತ್ತಾರೋ, ಆ ಶುದ್ಧ ಮನಸ್ಸಿನ ಭಕ್ತನು ಪ್ರೀತಿಯಿಂದ ನೀಡಿದ್ದನ್ನು ನಾನು ಸ್ವೀಕರಿಸುತ್ತೇನೆ.",
             "purport": "ದೇವರಿಗೆ ಆಡಂಬರ ಬೇಕಿಲ್ಲ, ಶುದ್ಧವಾದ ಭಕ್ತಿ ಮತ್ತು ಪ್ರೀತಿ ಮಾತ್ರ ಸಾಕು."
+        },
+        {
+            "verse_number": 27,
+            "shloka": "ಯತ್ಕರೋಷಿ ಯದಶ್ನಾಸಿ ಯಜ್ಜುಹೋಷಿ ದದಾಸಿ ಯತ್ |\nಯತ್ತಪಸ್ಯಸಿ ಕೌಂತೇಯ ತತ್ಕುರುಷ್ವ ಮದರ್ಪಣಮ್ || ೨೭ ||",
+            "transliteration": "yatkaroṣi yadaśnāsi yajjuhoṣi dadāsi yat\nyattapasyasi kaunteya tatkuruṣva madarpaṇam",
+            "translation": "ಕೌಂತೇಯನೇ, ನೀನು ಏನನ್ನು ಮಾಡುವೆಯೋ, ಏನನ್ನು ತಿನ್ನುವೆಯೋ, ಏನನ್ನು ಹೋಮ ಮಾಡುವೆಯೋ, ಏನನ್ನು ದಾನ ಮಾಡುವೆಯೋ ಮತ್ತು ಯಾವ ತಪಸ್ಸನ್ನು ಮಾಡುವೆಯೋ, ಅದನ್ನೆಲ್ಲವನ್ನೂ ನನಗೇ ಅರ್ಪಿಸು."
         }
     ]
 }
