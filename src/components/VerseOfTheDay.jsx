@@ -121,7 +121,8 @@ const VerseOfTheDay = () => {
                     {verse.text}
                 </p>
                 {verse.transliteration && (
-                    <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginTop: '1rem', fontStyle: 'italic', opacity: 0.8, lineHeight: 1.5 }}>
+
+                    <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginTop: '1rem', fontStyle: 'italic', opacity: 0.8, lineHeight: 1.5, overflowWrap: 'break-word', wordWrap: 'break-word' }}>
                         {verse.transliteration}
                     </p>
                 )}

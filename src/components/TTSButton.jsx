@@ -47,11 +47,12 @@ const TTSButton = ({ text, lang = 'kn-IN', label = 'Read' }) => {
         if (!input) return "";
         return input
             // Remove verse numbers like ॥ 1 ॥, || 1 ||, ॥ ೧ ॥, || ೧ ||, (1), 1.
-            .replace(/[॥\|]{1,2}\s*[\d೧-೯೦]+\s*[॥\|]{1,2}/g, ' ')
-            .replace(/\(\d+\)/g, ' ')
-            .replace(/\b\d+\./g, ' ')
+            // Remove verse numbers like ॥ 1 ॥, || 1 ||, ॥ ೧ ॥, || ೧ ||, (1), 1.
+            .replace(/[॥\|]{1,2}\s*[\d೧-೯೦]+\s*[॥\|]{1,2}/g, '. ')
+            .replace(/\(\d+\)/g, '. ')
+            .replace(/\b\d+\./g, '. ')
             // Remove the ornamental symbols but keep basic punctuation for splitting
-            .replace(/[॥\|]/g, '.')
+            .replace(/[॥\|]+/g, '.')
             // Clean up extra spaces
             .replace(/\s+/g, ' ')
             .trim();

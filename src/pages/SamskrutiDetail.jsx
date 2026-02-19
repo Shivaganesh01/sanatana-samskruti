@@ -124,7 +124,8 @@ const SamskrutiDetail = ({ categories }) => {
                         </div>
                     )}
 
-                    <div style={{ fontSize: '1.1rem', lineHeight: '1.8', whiteSpace: 'pre-line', color: 'var(--text-primary)', marginBottom: '2.5rem' }}>
+
+                    <div style={{ fontSize: '1.1rem', lineHeight: '1.8', whiteSpace: 'pre-line', color: 'var(--text-primary)', marginBottom: '2.5rem', overflowWrap: 'break-word', wordWrap: 'break-word' }}>
                         {item.content_kn}
                     </div>
 

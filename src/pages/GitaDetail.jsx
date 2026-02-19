@@ -91,7 +91,8 @@ const GitaDetail = () => {
                             />
                         </button>
                     </div>
-                    <p style={{ fontSize: '1.1rem', lineHeight: '1.8', margin: 0, color: 'var(--text-primary)' }}>
+
+                    <p style={{ fontSize: '1.1rem', lineHeight: '1.8', margin: 0, color: 'var(--text-primary)', overflowWrap: 'break-word', wordWrap: 'break-word' }}>
                         {chapter.summary_kn}
                     </p>
                     <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'flex-end' }}>

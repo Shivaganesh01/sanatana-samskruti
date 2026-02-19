@@ -293,6 +293,8 @@ h6 {
   font-weight: 700;
   line-height: 1.7;
   white-space: pre-line;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   color: var(--primary-light);
   text-shadow: 0 0 10px rgba(255, 153, 51, 0.2);
 }
