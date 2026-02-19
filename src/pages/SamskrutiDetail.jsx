@@ -1,17 +1,20 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Zap } from 'lucide-react';
+import { Zap, Heart } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
 import TTSButton from '../components/TTSButton';
+import { useFavorites } from '../context/FavoritesContext';
 
 const SamskrutiDetail = ({ categories }) => {
     const { categoryId, itemId } = useParams();
     const [item, setItem] = useState(null);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
+    const { toggleFavorite, isFavorite } = useFavorites();
 
     useEffect(() => {
+        // ... (fetch logic remains same)
         const fetchItem = async () => {
             try {
                 setLoading(true);
@@ -29,12 +32,9 @@ const SamskrutiDetail = ({ categories }) => {
                 // If content is missing (e.g. for split files like suktas), try fetching individual file
                 if (!found.content && !found.shloka && !found.content_kn) {
                     try {
-                        // Check if specific file exists based on structure (e.g. data/samskruti/suktas/purusha_suktam.json)
-                        // But categoryId is 'suktas', so we check data/samskruti/suktas/itemId.json
                         const detailRes = await fetch(`data/samskruti/${categoryId}/${itemId}.json`);
                         if (detailRes.ok) {
                             const detailData = await detailRes.json();
-                            // Merge detail data into found item
                             found = { ...found, ...detailData };
                         } else {
                             console.warn(`Individual file for ${itemId} not found at data/samskruti/${categoryId}/${itemId}.json`);
@@ -59,14 +59,57 @@ const SamskrutiDetail = ({ categories }) => {
     if (error) return <div className="container text-center" style={{ paddingTop: '4rem' }}><h3 style={{ color: 'var(--danger)' }}>ನೋಂದಣಿ ದೋಷ</h3><p>{error}</p></div>;
     if (!item) return <div className="container">Item not found</div>;
 
+    const isSaved = isFavorite(item.id);
+
     return (
         <div className="content-area animate-fade-in">
             <Header title={item.title_kn} showBack />
 
             <div className="container">
-                <article className="card glass" style={{ padding: '1.5rem', marginBottom: '1.5rem' }}>
-                    <h2 style={{ fontSize: '1.75rem', marginBottom: '0.25rem', color: 'var(--primary)' }}>{item.title_kn}</h2>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '2rem' }}>{item.title_en}</p>
+                <article className="static-card glass" style={{ padding: '1.5rem', marginBottom: '1.5rem' }}>
+                    <div style={{ position: 'relative', marginBottom: '1.5rem' }}>
+                        <div style={{ paddingRight: '3rem' }}>
+                            <h2 style={{ fontSize: '1.75rem', marginBottom: '0.25rem', color: 'var(--primary)', marginTop: 0 }}>{item.title_kn}</h2>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '1rem' }}>{item.title_en}</p>
+                        </div>
+                        <button
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                console.log("Toggle Favorite Clicked for:", item.id);
+                                toggleFavorite({
+                                    id: item.id,
+                                    title_kn: item.title_kn,
+                                    title_en: item.title_en,
+                                    type: 'samskruti',
+                                    categoryId: categoryId
+                                });
+                            }}
+                            className="favorite-btn"
+                            style={{
+                                position: 'absolute',
+                                top: 0,
+                                right: 0,
+                                background: isSaved ? 'rgba(255, 75, 75, 0.1)' : 'rgba(255, 255, 255, 0.05)',
+                                border: 'none',
+                                borderRadius: '50%',
+                                width: '48px',
+                                height: '48px',
+                                padding: 0,
+                                cursor: 'pointer',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                transition: 'all 0.2s ease',
+                                zIndex: 10
+                            }}
+                        >
+                            <Heart
+                                size={24}
+                                color={isSaved ? '#ff4b4b' : 'var(--text-secondary)'}
+                                fill={isSaved ? '#ff4b4b' : 'none'}
+                            />
+                        </button>
+                    </div>
 
                     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
                         <TTSButton
@@ -88,35 +131,31 @@ const SamskrutiDetail = ({ categories }) => {
                     {item.content && Array.isArray(item.content) && (
                         <div className="verses-container" style={{ display: 'grid', gap: '1.5rem' }}>
                             {item.content.map((verse, idx) => (
-                                <div key={idx} className="verse-box" style={{
-                                    padding: '1.5rem',
-                                    background: 'rgba(255, 255, 255, 0.05)',
-                                    borderRadius: '12px',
-                                    border: '1px solid rgba(255, 255, 255, 0.1)'
-                                }}>
-                                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.8rem' }}>
-                                        <h4 style={{ margin: 0, color: 'var(--primary)', opacity: 0.8, fontSize: '0.9rem' }}>Verse {verse.verse}</h4>
+                                <div key={idx} className="static-card glass" style={{ background: 'rgba(255, 255, 255, 0.03)', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
+                                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', borderBottom: '1px solid rgba(255, 255, 255, 0.05)', paddingBottom: '0.5rem' }}>
+                                        <h4 style={{ margin: 0, color: 'var(--primary)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Verse {verse.verse}</h4>
                                     </div>
-                                    <p className="shloka-text" style={{
-                                        fontSize: '1.1rem',
-                                        fontWeight: 500,
-                                        marginBottom: '1rem',
-                                        lineHeight: 1.6
-                                    }}>{verse.shloka_kn}</p>
+
+                                    <p className="shloka-text" style={{ fontSize: '1.2rem', marginBottom: '1rem', textAlign: 'left' }}>
+                                        {verse.shloka_kn}
+                                    </p>
 
                                     {verse.shloka_en && (
                                         <p style={{
                                             fontStyle: 'italic',
                                             color: 'var(--text-secondary)',
-                                            marginBottom: '1rem',
-                                            fontSize: '0.9rem'
+                                            marginBottom: '1.25rem',
+                                            fontSize: '0.9rem',
+                                            lineHeight: '1.6',
+                                            paddingBottom: '1.25rem',
+                                            borderBottom: '1px solid rgba(255, 255, 255, 0.05)'
                                         }}>{verse.shloka_en}</p>
                                     )}
 
                                     {verse.meaning_kn && (
-                                        <div style={{ marginTop: '0.8rem', borderTop: '1px solid rgba(255, 255, 255, 0.1)', paddingTop: '0.8rem' }}>
-                                            <p style={{ margin: 0, color: 'var(--text-primary)', fontSize: '0.95rem' }}>
-                                                <span style={{ fontWeight: 600, color: 'var(--success)' }}>Meaning: </span>
+                                        <div style={{ marginTop: '0.5rem' }}>
+                                            <p style={{ margin: '0 0 0.5rem', color: 'var(--text-primary)', fontSize: '0.95rem', lineHeight: '1.7' }}>
+                                                <span style={{ fontWeight: 600, color: 'var(--success)', marginRight: '0.5rem' }}>ಅರ್ಥ:</span>
                                                 {verse.meaning_kn}
                                             </p>
                                         </div>
@@ -124,8 +163,8 @@ const SamskrutiDetail = ({ categories }) => {
 
                                     {verse.meaning_en && (
                                         <div style={{ marginTop: '0.5rem' }}>
-                                            <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-                                                <span style={{ fontWeight: 600, opacity: 0.7 }}>English: </span>
+                                            <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6' }}>
+                                                <span style={{ fontWeight: 600, opacity: 0.7, marginRight: '0.5rem' }}>Meaning:</span>
                                                 {verse.meaning_en}
                                             </p>
                                         </div>
@@ -155,8 +194,8 @@ const SamskrutiDetail = ({ categories }) => {
                         </div>
                     )}
                 </article>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

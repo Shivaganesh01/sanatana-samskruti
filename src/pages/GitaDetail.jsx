@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Quote, Zap } from 'lucide-react';
+import { Quote, Zap, Heart } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
 import TTSButton from '../components/TTSButton';
+import { useFavorites } from '../context/FavoritesContext';
 
 const GitaDetail = () => {
     const { chapterId } = useParams();
     const [chapter, setChapter] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const { toggleFavorite, isFavorite } = useFavorites();
 
     useEffect(() => {
         const fetchChapter = async () => {
@@ -31,6 +33,20 @@ const GitaDetail = () => {
     if (loading) return <LoadingScreen />;
     if (error || !chapter) return <div className="container">Error: {error || "Chapter not found"}</div>;
 
+    const favId = `gita_chapter_${chapterId}`;
+    const isSaved = isFavorite(favId);
+
+    const handleToggleFavorite = () => {
+        toggleFavorite({
+            id: favId,
+            title_kn: chapter.title_kn,
+            title_en: chapter.title_en || `Chapter ${chapterId}`,
+            type: 'gita_chapter',
+            chapterId: chapterId,
+            summary: chapter.summary_kn
+        });
+    };
+
     return (
         <div className="content-area animate-fade-in">
             <Header title={`ಅಧ್ಯಾಯ ${chapter.chapter}`} showBack subtitle={chapter.title_kn} />
@@ -41,10 +57,39 @@ const GitaDetail = () => {
                     {chapter.title_en && <p style={{ color: 'var(--text-secondary)', margin: '0.25rem 0 0', fontSize: '1rem' }}>{chapter.title_en}</p>}
                 </div>
 
-                <div className="card glass" style={{ marginBottom: '2.5rem', padding: '1.75rem' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.25rem' }}>
-                        <Quote size={20} color="var(--primary)" />
-                        <h4 style={{ color: 'var(--primary)', margin: 0, textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.9rem' }}>ಸಾರಾಂಶ</h4>
+                <div className="static-card glass" style={{ marginBottom: '2.5rem', padding: '1.75rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <Quote size={20} color="var(--primary)" />
+                            <h4 style={{ color: 'var(--primary)', margin: 0, textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.9rem' }}>ಸಾರಾಂಶ</h4>
+                        </div>
+                        <button
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                handleToggleFavorite();
+                            }}
+                            style={{
+                                background: isSaved ? 'rgba(255, 75, 75, 0.1)' : 'rgba(255, 255, 255, 0.05)',
+                                border: 'none',
+                                borderRadius: '50%',
+                                width: '40px',
+                                height: '40px',
+                                padding: 0,
+                                cursor: 'pointer',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                transition: 'all 0.2s ease',
+                                position: 'relative',
+                                zIndex: 10
+                            }}
+                        >
+                            <Heart
+                                size={22}
+                                color={isSaved ? '#ff4b4b' : 'var(--text-secondary)'}
+                                fill={isSaved ? '#ff4b4b' : 'none'}
+                            />
+                        </button>
                     </div>
                     <p style={{ fontSize: '1.1rem', lineHeight: '1.8', margin: 0, color: 'var(--text-primary)' }}>
                         {chapter.summary_kn}
@@ -63,7 +108,7 @@ const GitaDetail = () => {
                         </div>
 
                         {chapter.verses.map((verse, index) => (
-                            <div key={verse.verse_number} className="card animate-slide-up" style={{ padding: '1.5rem', marginBottom: '1.5rem', animationDelay: `${index * 0.1}s` }}>
+                            <div key={verse.verse_number} className="static-card animate-slide-up" style={{ padding: '1.5rem', marginBottom: '1.5rem', animationDelay: `${index * 0.1}s` }}>
                                 <div style={{
                                     background: 'rgba(255, 153, 51, 0.1)',
                                     color: 'var(--primary)',

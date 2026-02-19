@@ -2,10 +2,10 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import { Search, X, ChevronRight, Book, Music, Folder } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const SearchDialog = ({ isOpen, onClose }) => {
+const SearchDialog = ({ isOpen, onClose, initialQuery }) => {
     const [query, setQuery] = useState('');
     const [loading, setLoading] = useState(false);
-    const [allData, setAllData] = useState({ gita: [], categories: [], stotras: [] });
+    const [allData, setAllData] = useState({ gita: [], categories: [], details: {} });
     const inputRef = useRef(null);
     const navigate = useNavigate();
 
@@ -13,39 +13,49 @@ const SearchDialog = ({ isOpen, onClose }) => {
     useEffect(() => {
         if (!isOpen) return;
 
+        setQuery(initialQuery || '');
+
         const loadData = async () => {
             setLoading(true);
             try {
                 // Fetch basics
                 const [samskrutiRes, gitaRes] = await Promise.all([
-                    fetch('data/samskruti_index.json'),
-                    fetch('data/gita_index.json')
+                    fetch('/data/samskruti_index.json'),
+                    fetch('/data/gita_index.json')
                 ]);
 
                 const samskrutiIndex = samskrutiRes.ok ? await samskrutiRes.json() : [];
                 const gitaIndex = gitaRes.ok ? await gitaRes.json() : [];
 
-                // Fetch Deep Content (Stotras)
-                let stotras = [];
-                try {
-                    const stotraRes = await fetch('data/samskruti/stotras.json');
-                    if (stotraRes.ok) {
-                        stotras = await stotraRes.json();
+                // Fetch Deep Content for ALL categories (including stotras)
+                const detailPromises = samskrutiIndex.map(cat =>
+                    fetch(`/data/samskruti/${cat.id}.json`)
+                        .then(res => res.ok ? res.json() : null)
+                        .catch(err => {
+                            console.warn(`Failed to load ${cat.id}`, err);
+                            return null;
+                        })
+                );
+
+                const detailResults = await Promise.all(detailPromises);
+
+                // Map category ID to its content
+                const detailsMap = {};
+                samskrutiIndex.forEach((cat, index) => {
+                    if (detailResults[index]) {
+                        detailsMap[cat.id] = detailResults[index];
                     }
-                } catch (e) {
-                    console.warn("Stotra load error", e);
-                }
+                });
 
                 setAllData({
                     gita: gitaIndex || [],
                     categories: samskrutiIndex || [],
-                    stotras: stotras || []
+                    details: detailsMap
                 });
             } catch (err) {
                 console.error("Search init error:", err);
             } finally {
                 setLoading(false);
-                // Auto-focus input
                 setTimeout(() => {
                     if (inputRef.current) inputRef.current.focus();
                 }, 150);
@@ -53,7 +63,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
         };
 
         loadData();
-    }, [isOpen]);
+    }, [isOpen, initialQuery]);
 
     // 2. Filter Logic: Run locally on the loaded data
     const results = useMemo(() => {
@@ -61,63 +71,104 @@ const SearchDialog = ({ isOpen, onClose }) => {
         if (q.length < 2) return [];
 
         const hits = [];
-        console.log(`Global Search matching for: "${q}"`, {
-            gita: allData.gita.length,
-            cats: allData.categories.length,
-            stotras: allData.stotras.length
-        });
+        // Helper to find snippet
+        const getSnippet = (text) => {
+            if (!text) return null;
+            const str = String(text);
+            const lowerStr = str.toLowerCase();
+            const index = lowerStr.indexOf(q);
 
-        // A. Search Gita
+            if (index === -1) return null;
+
+            if (str.length < 60) return str;
+
+            const start = Math.max(0, index - 30);
+            const end = Math.min(str.length, index + q.length + 50);
+            let snippet = str.substring(start, end);
+
+            if (start > 0) snippet = '...' + snippet;
+            if (end < str.length) snippet = snippet + '...';
+
+            return snippet;
+        };
+
+        // Helper text search
+        const matches = (text) => (text || '').toLowerCase().includes(q);
+
+        // A. Search Gita (Chapters)
         allData.gita.forEach(chapter => {
-            const kn = (chapter.title_kn || '').toLowerCase();
-            const en = (chapter.title_en || '').toLowerCase();
-            const sum = (chapter.summary_kn || '').toLowerCase();
+            const kn = chapter.title_kn;
+            const en = chapter.title_en;
+            const sum = chapter.summary_kn;
             const ch = String(chapter.chapter || '');
 
-            // Allow searching for "Gita" plus chapter number, or just the chapter content
             const isGitaTerm = q.includes('gita') || q.includes('geeta') || q.includes('ಭಗವದ್ಗೀತೆ');
+            const matchInCh = ch === q || (isGitaTerm && q.includes(ch));
 
-            if (kn.includes(q) || en.includes(q) || sum.includes(q) || ch === q || (isGitaTerm && q.includes(ch))) {
+            let snippet = null;
+            if (matches(kn) || matches(en)) snippet = null; // Title match
+            else if (matches(sum)) snippet = getSnippet(sum);
+
+            if (matches(kn) || matches(en) || snippet || matchInCh) {
                 hits.push({
                     type: 'gita',
                     icon: <Book size={18} />,
                     title: `ಅಧ್ಯಾಯ ${chapter.chapter}: ${chapter.title_kn}`,
-                    subtitle: chapter.title_en || 'ಭಗವದ್ಗೀತೆ',
+                    subtitle: snippet || chapter.title_en || 'ಭಗವದ್ಗೀತೆ',
                     link: `/gita/${chapter.chapter}`
                 });
             }
         });
 
-        // B. Search Top Categories
+        // B. Search Top Categories (Titles)
         allData.categories.forEach(cat => {
-            const kn = (cat.title_kn || '').toLowerCase();
-            const en = (cat.title_en || '').toLowerCase();
-            if (kn.includes(q) || en.includes(q)) {
+            let snippet = null;
+            if (matches(cat.title_kn) || matches(cat.title_en)) snippet = null;
+            else if (matches(cat.description)) snippet = getSnippet(cat.description);
+
+            if (matches(cat.title_kn) || matches(cat.title_en) || snippet) {
                 hits.push({
                     type: 'category',
                     icon: <Folder size={18} />,
                     title: cat.title_kn,
-                    subtitle: cat.title_en,
+                    subtitle: snippet || cat.title_en,
                     link: `/samskruti/${cat.id}`
                 });
             }
         });
 
-        // C. Search Stotras (Deep Search)
-        allData.stotras.forEach(s => {
-            const kn = (s.title_kn || '').toLowerCase();
-            const en = (s.title_en || '').toLowerCase();
-            const shloka = (s.shloka || '').toLowerCase();
+        // C. Deep Search Content (Inside Categories)
+        Object.entries(allData.details).forEach(([catId, items]) => {
+            if (!Array.isArray(items)) return;
 
-            if (kn.includes(q) || en.includes(q) || shloka.includes(q)) {
-                hits.push({
-                    type: 'stotra',
-                    icon: <Music size={18} />,
-                    title: s.title_kn,
-                    subtitle: s.title_en || 'ಸ್ತೋತ್ರ',
-                    link: `/samskruti/stotras/${s.id}`
-                });
-            }
+            const catInfo = allData.categories.find(c => c.id === catId);
+            const catName = catInfo ? catInfo.title_kn : 'ಸಂಸ್ಕೃತಿ';
+            const isStotra = catId === 'stotras';
+
+            items.forEach(item => {
+                // Check all relevant fields
+                const titleMatch = matches(item.title_kn) || matches(item.title_en);
+
+                let snippet = null;
+                if (!titleMatch) {
+                    snippet =
+                        getSnippet(item.content_kn) ||
+                        getSnippet(item.content_en) ||
+                        getSnippet(item.description) ||
+                        getSnippet(item.shloka) ||
+                        getSnippet(item.meaning);
+                }
+
+                if (titleMatch || snippet) {
+                    hits.push({
+                        type: 'item',
+                        icon: isStotra ? <Music size={18} /> : <Book size={18} />,
+                        title: item.title_kn || item.title_en || 'ವಿವರ',
+                        subtitle: snippet ? `${catName} | ${snippet}` : `${catName} - ${item.title_en || ''}`,
+                        link: `/samskruti/${catId}/${item.id}`
+                    });
+                }
+            });
         });
 
         console.log(`Search hits: ${hits.length}`);

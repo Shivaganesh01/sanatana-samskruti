@@ -10,6 +10,8 @@ import SamskrutiCategory from './pages/SamskrutiCategory';
 import SamskrutiDetail from './pages/SamskrutiDetail';
 import GitaList from './pages/GitaList';
 import GitaDetail from './pages/GitaDetail';
+import Explore from './pages/Explore';
+import Favorites from './pages/Favorites';
 import { SettingsProvider } from './context/SettingsContext';
 
 // --- Back Button Handler for Mobile ---
@@ -24,21 +26,15 @@ const BackButtonHandler = () => {
       window.speechSynthesis.cancel();
     }
 
-    const handleBackButton = async () => {
-      // If we are at the root (home page), we let the OS handle it (usually exit)
-      // Otherwise, we navigate back within the app history
-      if (location.pathname === '/' || location.pathname === '/gita') {
-        CapacitorApp.exitApp();
-      } else {
-        navigate(-1);
-      }
-    };
-
     const listener = CapacitorApp.addListener('backButton', ({ canGoBack }) => {
-      if (canGoBack) {
+      const isRoot = ['/', '/gita', '/explore', '/favorites'].includes(location.pathname);
+
+      if (isRoot) {
+        CapacitorApp.exitApp();
+      } else if (canGoBack) {
         window.history.back();
       } else {
-        handleBackButton();
+        navigate(-1);
       }
     });
 
@@ -76,8 +72,8 @@ const AppContent = () => {
       try {
         setLoading(true);
         const [samskrutiRes, gitaRes] = await Promise.all([
-          fetch('data/samskruti_index.json'),
-          fetch('data/gita_index.json')
+          fetch('/data/samskruti_index.json'),
+          fetch('/data/gita_index.json')
         ]);
 
         if (!samskrutiRes.ok) throw new Error("Samskruti index not found");
@@ -139,6 +135,21 @@ const AppContent = () => {
               <BottomNavigation />
             </>
           } />
+
+          {/* New Routes */}
+          <Route path="/explore" element={
+            <>
+              <Explore />
+              <BottomNavigation />
+            </>
+          } />
+
+          <Route path="/favorites" element={
+            <>
+              <Favorites />
+              <BottomNavigation />
+            </>
+          } />
         </Routes>
       </div>
     </>
@@ -147,12 +158,19 @@ const AppContent = () => {
 
 // --- App Root ---
 
+// ... imports
+import { FavoritesProvider } from './context/FavoritesContext';
+
+// ... 
+
 function App() {
   return (
     <SettingsProvider>
-      <Router>
-        <AppContent />
-      </Router>
+      <FavoritesProvider>
+        <Router>
+          <AppContent />
+        </Router>
+      </FavoritesProvider>
     </SettingsProvider>
   );
 }
