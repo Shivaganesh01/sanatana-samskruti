@@ -5,10 +5,328 @@
     "verses_intro_kn": "ಮದನುಗ್ರಹಾಯ ಪರಮಂ... (11.1)",
     "verses": [
         {
+            "verse_number": 1,
+            "shloka": "ಅರ್ಜುನ ಉವಾಚ\n\nಮದನುಗ್ರಹಾಯ ಪರಮಂ ಗುಹ್ಯಮಧ್ಯಾತ್ಮಸಂಜ್ಞಿತಮ್|\n\nಯತ್ತ್ವಯೋಕ್ತಂ ವಚಸ್ತೇನ ಮೋಹೋಽಯಂ ವಿಗತೋ ಮಮ||",
+            "transliteration": "arjuna uvācha\nmad-anugrahāya paramaṁ guhyam adhyātma-sanjñitam\nyat tvayoktaṁ vachas tena moho ’yaṁ vigato mama",
+            "translation": "Arjuna said, \"To show favor to me, You have told me that most profound mystery concerning the Self; by that, this delusion of mine has been dispelled.\""
+        },
+        {
+            "verse_number": 2,
+            "shloka": "ಭವಾಪ್ಯಯೌ ಹಿ ಭೂತಾನಾಂ ಶ್ರುತೌ ವಿಸ್ತರಶೋ ಮಯಾ|\n\nತ್ವತ್ತಃ ಕಮಲಪತ್ರಾಕ್ಷ ಮಾಹಾತ್ಮ್ಯಮಪಿ ಚಾವ್ಯಯಮ್||",
+            "transliteration": "bhavāpyayau hi bhūtānāṁ śhrutau vistaraśho mayā\ntvattaḥ kamala-patrākṣha māhātmyam api chāvyayam",
+            "translation": "O Krsna, I have heard in detail about the origin and dissolution of all beings, which come from You, as well as Your immutable greatness."
+        },
+        {
+            "verse_number": 3,
+            "shloka": "ಏವಮೇತದ್ಯಥಾತ್ಥ ತ್ವಮಾತ್ಮಾನಂ ಪರಮೇಶ್ವರ|\n\nದ್ರಷ್ಟುಮಿಚ್ಛಾಮಿ ತೇ ರೂಪಮೈಶ್ವರಂ ಪುರುಷೋತ್ತಮ||",
+            "transliteration": "evam etad yathāttha tvam ātmānaṁ parameśhvara\ndraṣhṭum ichchhāmi te rūpam aiśhwaraṁ puruṣhottama",
+            "translation": "O Supreme Lord, as You have described Yourself, so You are. I wish to behold Your divine form, O Supreme Person."
+        },
+        {
+            "verse_number": 4,
+            "shloka": "ಮನ್ಯಸೇ ಯದಿ ತಚ್ಛಕ್ಯಂ ಮಯಾ ದ್ರಷ್ಟುಮಿತಿ ಪ್ರಭೋ|\n\nಯೋಗೇಶ್ವರ ತತೋ ಮೇ ತ್ವಂ ದರ್ಶಯಾಽತ್ಮಾನಮವ್ಯಯಮ್||",
+            "transliteration": "manyase yadi tach chhakyaṁ mayā draṣhṭum iti prabho\nyogeśhvara tato me tvaṁ darśhayātmānam avyayam",
+            "translation": "If you think, O Lord, that it can be seen by me, then, O Lord of Yoga, reveal Yourself fully to me."
+        },
+        {
+            "verse_number": 5,
+            "shloka": "ಶ್ರೀ ಭಗವಾನುವಾಚ\n\nಪಶ್ಯ ಮೇ ಪಾರ್ಥ ರೂಪಾಣಿ ಶತಶೋಽಥ ಸಹಸ್ರಶಃ|\n\nನಾನಾವಿಧಾನಿ ದಿವ್ಯಾನಿ ನಾನಾವರ್ಣಾಕೃತೀನಿ ಚ||",
+            "transliteration": "śhrī-bhagavān uvācha\npaśhya me pārtha rūpāṇi śhataśho ’tha sahasraśhaḥ\nnānā-vidhāni divyāni nānā-varṇākṛitīni cha",
+            "translation": "The Lord said, \"Behold, O Arjuna, My forms, hundreds upon thousands, manifold, divine, varied in hue and shape.\""
+        },
+        {
+            "verse_number": 6,
+            "shloka": "ಪಶ್ಯಾದಿತ್ಯಾನ್ವಸೂನ್ರುದ್ರಾನಶ್ಿವನೌ ಮರುತಸ್ತಥಾ|\n\nಬಹೂನ್ಯದೃಷ್ಟಪೂರ್ವಾಣಿ ಪಶ್ಯಾಽಶ್ಚರ್ಯಾಣಿ ಭಾರತ||",
+            "transliteration": "paśhyādityān vasūn rudrān aśhvinau marutas tathā\nbahūny adṛiṣhṭa-pūrvāṇi paśhyāśhcharyāṇi bhārata",
+            "translation": "Behold, O Arjuna, the Adityas, the Vasus, the Rudras, the two Asvins, and the Maruts—many marvels never seen before."
+        },
+        {
+            "verse_number": 7,
+            "shloka": "ಇಹೈಕಸ್ಥಂ ಜಗತ್ಕೃತ್ಸ್ನಂ ಪಶ್ಯಾದ್ಯ ಸಚರಾಚರಮ್|\n\nಮಮ ದೇಹೇ ಗುಡಾಕೇಶ ಯಚ್ಚಾನ್ಯದ್ದ್ರಷ್ಟುಮಿಚ್ಛಸಿ||",
+            "transliteration": "ihaika-sthaṁ jagat kṛitsnaṁ paśhyādya sa-charācharam\nmama dehe guḍākeśha yach chānyad draṣhṭum ichchhasi",
+            "translation": "Behold here, O Arjuna, the entire universe with its mobile and immobile things, all centered in My body, and whatever else you desire to see."
+        },
+        {
+            "verse_number": 8,
+            "shloka": "ನ ತು ಮಾಂ ಶಕ್ಯಸೇ ದ್ರಷ್ಟುಮನೇನೈವ ಸ್ವಚಕ್ಷುಷಾ|\n\nದಿವ್ಯಂ ದದಾಮಿ ತೇ ಚಕ್ಷುಃ ಪಶ್ಯ ಮೇ ಯೋಗಮೈಶ್ವರಮ್||",
+            "transliteration": "na tu māṁ śhakyase draṣhṭum anenaiva sva-chakṣhuṣhā\ndivyaṁ dadāmi te chakṣhuḥ paśhya me yogam aiśhwaram",
+            "translation": "But you will not be able to see Me with your own eyes. I give you a divine eye, so behold My Lordly Yoga!"
+        },
+        {
+            "verse_number": 9,
+            "shloka": "ಸಞ್ಜಯ ಉವಾಚ\n\nಏವಮುಕ್ತ್ವಾ ತತೋ ರಾಜನ್ಮಹಾಯೋಗೇಶ್ವರೋ ಹರಿಃ|\n\nದರ್ಶಯಾಮಾಸ ಪಾರ್ಥಾಯ ಪರಮಂ ರೂಪಮೈಶ್ವರಮ್||",
+            "transliteration": "sañjaya uvācha\nevam uktvā tato rājan mahā-yogeśhvaro hariḥ\ndarśhayām āsa pārthāya paramaṁ rūpam aiśhwaram",
+            "translation": "Sanjaya said, \"O King, having spoken, Sri Krishna, the great Lord of Yoga, then revealed to Arjuna the supreme, lordly form.\""
+        },
+        {
+            "verse_number": 10,
+            "shloka": "ಅನೇಕವಕ್ತ್ರನಯನಮನೇಕಾದ್ಭುತದರ್ಶನಮ್|\n\nಅನೇಕದಿವ್ಯಾಭರಣಂ ದಿವ್ಯಾನೇಕೋದ್ಯತಾಯುಧಮ್||",
+            "transliteration": "aneka-vaktra-nayanam anekādbhuta-darśhanam\naneka-divyābharaṇaṁ divyānekodyatāyudham",
+            "translation": "With innumerable mouths and eyes, many marvelous aspects, numerous divine ornaments, and numerous divine weapons."
+        },
+        {
+            "verse_number": 11,
+            "shloka": "ದಿವ್ಯಮಾಲ್ಯಾಮ್ಬರಧರಂ ದಿವ್ಯಗನ್ಧಾನುಲೇಪನಮ್|\n\nಸರ್ವಾಶ್ಚರ್ಯಮಯಂ ದೇವಮನನ್ತಂ ವಿಶ್ವತೋಮುಖಮ್||",
+            "transliteration": "divya-mālyāmbara-dharaṁ divya-gandhānulepanam\nsarvāśhcharya-mayaṁ devam anantaṁ viśhvato-mukham",
+            "translation": "Wearing celestial garlands and raiments, anointed with divine perfumes, full of wonders, resplendent, boundless, and facing all directions."
+        },
+        {
+            "verse_number": 12,
+            "shloka": "ದಿವಿ ಸೂರ್ಯಸಹಸ್ರಸ್ಯ ಭವೇದ್ಯುಗಪದುತ್ಥಿತಾ|\n\nಯದಿ ಭಾಃ ಸದೃಶೀ ಸಾ ಸ್ಯಾದ್ಭಾಸಸ್ತಸ್ಯ ಮಹಾತ್ಮನಃ||",
+            "transliteration": "divi sūrya-sahasrasya bhaved yugapad utthitā\nyadi bhāḥ sadṛiśhī sā syād bhāsas tasya mahātmanaḥ",
+            "translation": "If a thousand suns were to rise at once in the sky, the resulting splendour would be like the splendour of that mighty One."
+        },
+        {
+            "verse_number": 13,
+            "shloka": "ತತ್ರೈಕಸ್ಥಂ ಜಗತ್ಕೃತ್ಸ್ನಂ ಪ್ರವಿಭಕ್ತಮನೇಕಧಾ|\n\nಅಪಶ್ಯದ್ದೇವದೇವಸ್ಯ ಶರೀರೇ ಪಾಣ್ಡವಸ್ತದಾ||",
+            "transliteration": "tatraika-sthaṁ jagat kṛitsnaṁ pravibhaktam anekadhā\napaśhyad deva-devasya śharīre pāṇḍavas tadā",
+            "translation": "There, Arjuna beheld the whole universe, with its manifold divisions gathered together in one single spot within the body of the God of gods."
+        },
+        {
+            "verse_number": 14,
+            "shloka": "ತತಃ ಸ ವಿಸ್ಮಯಾವಿಷ್ಟೋ ಹೃಷ್ಟರೋಮಾ ಧನಞ್ಜಯಃ|\n\nಪ್ರಣಮ್ಯ ಶಿರಸಾ ದೇವಂ ಕೃತಾಞ್ಜಲಿರಭಾಷತ||",
+            "transliteration": "tataḥ sa vismayāviṣhṭo hṛiṣhṭa-romā dhanañjayaḥ\npraṇamya śhirasā devaṁ kṛitāñjalir abhāṣhata",
+            "translation": "Then, Arjuna, overcome with amazement, his hairs standing on end, bowed his head to the Lord and spoke with folded hands."
+        },
+        {
+            "verse_number": 15,
+            "shloka": "ಅರ್ಜುನ ಉವಾಚ\n\nಪಶ್ಯಾಮಿ ದೇವಾಂಸ್ತವ ದೇವ ದೇಹೇ\n\nಸರ್ವಾಂಸ್ತಥಾ ಭೂತವಿಶೇಷಸಙ್ಘಾನ್|\n\nಬ್ರಹ್ಮಾಣಮೀಶಂ ಕಮಲಾಸನಸ್ಥ\n\nಮೃಷೀಂಶ್ಚ ಸರ್ವಾನುರಗಾಂಶ್ಚ ದಿವ್ಯಾನ್||",
+            "transliteration": "arjuna uvācha\npaśhyāmi devāns tava deva dehe\nsarvāns tathā bhūta-viśheṣha-saṅghān\nbrahmāṇam īśhaṁ kamalāsana-stham\nṛiṣhīnśh cha sarvān uragānśh cha divyān",
+            "translation": "Arjuna said, \"O Lord, I behold in Your body all the gods, and all the diverse hosts of beings—Brahma, Siva, who is in Brahma, the seers, and the lustrous snakes.\""
+        },
+        {
+            "verse_number": 16,
+            "shloka": "ಅನೇಕಬಾಹೂದರವಕ್ತ್ರನೇತ್ರಂ\n\nಪಶ್ಯಾಮಿ ತ್ವಾಂ ಸರ್ವತೋಽನನ್ತರೂಪಮ್|\n\nನಾನ್ತಂ ನ ಮಧ್ಯಂ ನ ಪುನಸ್ತವಾದಿಂ\n\nಪಶ್ಯಾಮಿ ವಿಶ್ವೇಶ್ವರ ವಿಶ್ವರೂಪ||",
+            "transliteration": "aneka-bāhūdara-vaktra-netraṁ\npaśhyāmi tvāṁ sarvato ’nanta-rūpam\nnāntaṁ na madhyaṁ na punas tavādiṁ\npaśhyāmi viśhveśhvara viśhva-rūpa",
+            "translation": "With manifold arms, stomachs, mouths, and eyes, I behold Your infinite form on all sides. I see no end, no middle, nor the beginning of You, O Lord of the universe, O You of Universal Form."
+        },
+        {
+            "verse_number": 17,
+            "shloka": "ಕಿರೀಟಿನಂ ಗದಿನಂ ಚಕ್ರಿಣಂ ಚ\n\nತೇಜೋರಾಶಿಂ ಸರ್ವತೋದೀಪ್ತಿಮನ್ತಮ್|\n\nಪಶ್ಯಾಮಿ ತ್ವಾಂ ದುರ್ನಿರೀಕ್ಷ್ಯಂ ಸಮನ್ತಾ\n\nದ್ದೀಪ್ತಾನಲಾರ್ಕದ್ಯುತಿಮಪ್ರಮೇಯಮ್||",
+            "transliteration": "kirīṭinaṁ gadinaṁ chakriṇaṁ cha\ntejo-rāśhiṁ sarvato dīptimantam\npaśhyāmi tvāṁ durnirīkṣhyaṁ samantād\ndīptānalārka-dyutim aprameyam",
+            "translation": "I behold You as a mass of light, shining everywhere, with a diadem, mace, and discus, hard to behold, blazing like a burning fire and the sun, and immeasurable."
+        },
+        {
+            "verse_number": 18,
+            "shloka": "ತ್ವಮಕ್ಷರಂ ಪರಮಂ ವೇದಿತವ್ಯಂ\n\nತ್ವಮಸ್ಯ ವಿಶ್ವಸ್ಯ ಪರಂ ನಿಧಾನಮ್|\n\nತ್ವಮವ್ಯಯಃ ಶಾಶ್ವತಧರ್ಮಗೋಪ್ತಾ\n\nಸನಾತನಸ್ತ್ವಂ ಪುರುಷೋ ಮತೋ ಮೇ||",
+            "transliteration": "tvam akṣharaṁ paramaṁ veditavyaṁ\ntvam asya viśhvasya paraṁ nidhānam\ntvam avyayaḥ śhāśhvata-dharma-goptā\nsanātanas tvaṁ puruṣho mato me",
+            "translation": "You are the Imperishable, Supreme One to be realized. You are the Supreme Substratum of this universe. You are immutable, the guardian of the eternal law; I know You are the Supreme Person who is everlasting."
+        },
+        {
+            "verse_number": 19,
+            "shloka": "ಅನಾದಿಮಧ್ಯಾನ್ತಮನನ್ತವೀರ್ಯ\n\nಮನನ್ತಬಾಹುಂ ಶಶಿಸೂರ್ಯನೇತ್ರಮ್|\n\nಪಶ್ಯಾಮಿ ತ್ವಾಂ ದೀಪ್ತಹುತಾಶವಕ್ತ್ರಮ್\n\nಸ್ವತೇಜಸಾ ವಿಶ್ವಮಿದಂ ತಪನ್ತಮ್||",
+            "transliteration": "स्वतेजसा विश्वमिदं तपन्तम् || 19||",
+            "translation": "I behold You as having no beginning, middle, or end; Your might is infinite. You are endowed with an innumerable number of arms. The sun and moon are Your eyes, and Your mouth emits burning fire. With Your own radiance, You are warning the entire universe."
+        },
+        {
+            "verse_number": 20,
+            "shloka": "ದ್ಯಾವಾಪೃಥಿವ್ಯೋರಿದಮನ್ತರಂ ಹಿ\n\nವ್ಯಾಪ್ತಂ ತ್ವಯೈಕೇನ ದಿಶಶ್ಚ ಸರ್ವಾಃ|\n\nದೃಷ್ಟ್ವಾಽದ್ಭುತಂ ರೂಪಮುಗ್ರಂ ತವೇದಂ\n\nಲೋಕತ್ರಯಂ ಪ್ರವ್ಯಥಿತಂ ಮಹಾತ್ಮನ್||",
+            "transliteration": "dyāv ā-pṛithivyor idam antaraṁ hi\nvyāptaṁ tvayaikena diśhaśh cha sarvāḥ\ndṛiṣhṭvādbhutaṁ rūpam ugraṁ tavedaṁ\nloka-trayaṁ pravyathitaṁ mahātman",
+            "translation": "You alone have pervaded the interspace between heaven and earth, and all the quarters. Beholding your marvelous and terrible form, O Mahatman, the three worlds are greatly overwhelmed with fear."
+        },
+        {
+            "verse_number": 21,
+            "shloka": "ಅಮೀ ಹಿ ತ್ವಾಂ ಸುರಸಙ್ಘಾಃ ವಿಶನ್ತಿ\n\nಕೇಚಿದ್ಭೀತಾಃ ಪ್ರಾಞ್ಜಲಯೋ ಗೃಣನ್ತಿ|\n\nಸ್ವಸ್ತೀತ್ಯುಕ್ತ್ವಾ ಮಹರ್ಷಿಸಿದ್ಧಸಙ್ಘಾಃ\n\nಸ್ತುವನ್ತಿ ತ್ವಾಂ ಸ್ತುತಿಭಿಃ ಪುಷ್ಕಲಾಭಿಃ||",
+            "transliteration": "amī hi tvāṁ sura-saṅghā viśhanti\nkechid bhītāḥ prāñjalayo gṛiṇanti\nsvastīty uktvā maharṣhi-siddha-saṅghāḥ\nstuvanti tvāṁ stutibhiḥ puṣhkalābhiḥ",
+            "translation": "Verily, the hosts of Devas enter into You. Some, in fear, extol You with clasped hands, crying \"Hail!\" The bands of great seers and Siddhas praise You with meaningful hymns."
+        },
+        {
+            "verse_number": 22,
+            "shloka": "ರುದ್ರಾದಿತ್ಯಾ ವಸವೋ ಯೇ ಚ ಸಾಧ್ಯಾ\n\nವಿಶ್ವೇಽಶ್ಿವನೌ ಮರುತಶ್ಚೋಷ್ಮಪಾಶ್ಚ|\n\nಗನ್ಧರ್ವಯಕ್ಷಾಸುರಸಿದ್ಧಸಙ್ಘಾ\n\nವೀಕ್ಷನ್ತೇ ತ್ವಾಂ ವಿಸ್ಮಿತಾಶ್ಚೈವ ಸರ್ವೇ||",
+            "transliteration": "rudrādityā vasavo ye cha sādhyā\nviśhve ’śhvinau marutaśh choṣhmapāśh cha\ngandharva-yakṣhāsura-siddha-saṅghā\nvīkṣhante tvāṁ vismitāśh chaiva sarve",
+            "translation": "The Rudras, the Adityas, the Vasus, the Sadhyas, the Visvas, the Asvins, the Maruts, and the Manes, as well as the hosts of Gandharvas, Yaksas, Asuras, and Siddhas—all gaze upon You in amazement."
+        },
+        {
+            "verse_number": 23,
+            "shloka": "ರೂಪಂ ಮಹತ್ತೇ ಬಹುವಕ್ತ್ರನೇತ್ರಂ\n\nಮಹಾಬಾಹೋ ಬಹುಬಾಹೂರುಪಾದಮ್|\n\nಬಹೂದರಂ ಬಹುದಂಷ್ಟ್ರಾಕರಾಲಂ\n\nದೃಷ್ಟ್ವಾ ಲೋಕಾಃ ಪ್ರವ್ಯಥಿತಾಸ್ತಥಾಽಹಮ್||",
+            "transliteration": "rūpaṁ mahat te bahu-vaktra-netraṁ\nmahā-bāho bahu-bāhūru-pādam\nbahūdaraṁ bahu-danṣhṭrā-karālaṁ\ndṛiṣhṭvā lokāḥ pravyathitās tathāham",
+            "translation": "Beholding Your great form with many mouths and eyes, many arms, thighs, and feet, many stomachs, and terrible with many teeth, the worlds tremble, and I too quake, O mighty-armed one."
+        },
+        {
+            "verse_number": 24,
+            "shloka": "ನಭಃಸ್ಪೃಶಂ ದೀಪ್ತಮನೇಕವರ್ಣಂ\n\nವ್ಯಾತ್ತಾನನಂ ದೀಪ್ತವಿಶಾಲನೇತ್ರಮ್|\n\nದೃಷ್ಟ್ವಾ ಹಿ ತ್ವಾಂ ಪ್ರವ್ಯಥಿತಾನ್ತರಾತ್ಮಾ\n\nಧೃತಿಂ ನ ವಿನ್ದಾಮಿ ಶಮಂ ಚ ವಿಷ್ಣೋ||",
+            "transliteration": "nabhaḥ-spṛiśhaṁ dīptam aneka-varṇaṁ\nvyāttānanaṁ dīpta-viśhāla-netram\ndṛiṣhṭvā hi tvāṁ pravyathitāntar-ātmā\ndhṛitiṁ na vindāmi śhamaṁ cha viṣhṇo",
+            "translation": "When I behold You touching the Supreme Heaven, shining, multicolored, with yawning mouths and large, resplendent eyes, my inner being trembles in fear. I am unable to find support or peace, O Vishnu."
+        },
+        {
+            "verse_number": 25,
+            "shloka": "ದಂಷ್ಟ್ರಾಕರಾಲಾನಿ ಚ ತೇ ಮುಖಾನಿ\n\nದೃಷ್ಟ್ವೈವ ಕಾಲಾನಲಸನ್ನಿಭಾನಿ|\n\nದಿಶೋ ನ ಜಾನೇ ನ ಲಭೇ ಚ ಶರ್ಮ\n\nಪ್ರಸೀದ ದೇವೇಶ ಜಗನ್ನಿವಾಸ||",
+            "transliteration": "danṣhṭrā-karālāni cha te mukhāni\ndṛiṣhṭvaiva kālānala-sannibhāni\ndiśho na jāne na labhe cha śharma\nprasīda deveśha jagan-nivāsa",
+            "translation": "Viewing Your mouths, presenting awe-generating fangs and looking like the consuming fire of final destruction, I know not the quarters of the globe nor do I find repose. Be gracious, O Lord of the Devas! O Abode of the universe!"
+        },
+        {
+            "verse_number": 26,
+            "shloka": "ಅಮೀ ಚ ತ್ವಾಂ ಧೃತರಾಷ್ಟ್ರಸ್ಯ ಪುತ್ರಾಃ\n\nಸರ್ವೇ ಸಹೈವಾವನಿಪಾಲಸಙ್ಘೈಃ|\n\nಭೀಷ್ಮೋ ದ್ರೋಣಃ ಸೂತಪುತ್ರಸ್ತಥಾಽಸೌ\n\nಸಹಾಸ್ಮದೀಯೈರಪಿ ಯೋಧಮುಖ್ಯೈಃ||",
+            "transliteration": "amī cha tvāṁ dhṛitarāśhtrasya putrāḥ\nsarve sahaivāvani-pāla-saṅghaiḥ\nbhīṣhmo droṇaḥ sūta-putras tathāsau\nsahāsmadīyair api yodha-mukhyaiḥ\n vaktrāṇi te tvaramāṇā viśhanti\ndanṣhṭrā-karālāni bhayānakāni\nkechid vilagnā daśhanāntareṣhu\nsandṛiśhyante chūrṇitair uttamāṅgaiḥ",
+            "translation": "All these sons of Dhrtarastra, together with the hosts of monarchs, Bhisma, Drona, and Karna, along with the leading warriors of our side,"
+        },
+        {
+            "verse_number": 27,
+            "shloka": "ವಕ್ತ್ರಾಣಿ ತೇ ತ್ವರಮಾಣಾ ವಿಶನ್ತಿ\n\nದಂಷ್ಟ್ರಾಕರಾಲಾನಿ ಭಯಾನಕಾನಿ|\n\nಕೇಚಿದ್ವಿಲಗ್ನಾ ದಶನಾನ್ತರೇಷು\n\nಸಂದೃಶ್ಯನ್ತೇ ಚೂರ್ಣಿತೈರುತ್ತಮಾಙ್ಗೈಃ||",
+            "transliteration": "vaktrāṇi te  tvaramāṇā   viśanti daṁṣṭrā-karālāni    bhayānakāni kecid   vilagnā daśanāntareṣu   sandṛśyante cūrṇitair   uttamāṅgaiḥ",
+            "translation": "Hasten to enter Your fearful mouths with terrible fangs, crushing some of those caught between the teeth to powder."
+        },
+        {
+            "verse_number": 28,
+            "shloka": "ಯಥಾ ನದೀನಾಂ ಬಹವೋಽಮ್ಬುವೇಗಾಃ\n\nಸಮುದ್ರಮೇವಾಭಿಮುಖಾಃ ದ್ರವನ್ತಿ|\n\nತಥಾ ತವಾಮೀ ನರಲೋಕವೀರಾ\n\nವಿಶನ್ತಿ ವಕ್ತ್ರಾಣ್ಯಭಿವಿಜ್ವಲನ್ತಿ||",
+            "transliteration": "yathā nadīnāṁ bahavo ’mbu-vegāḥ\nsamudram evābhimukhā dravanti\ntathā tavāmī nara-loka-vīrā\nviśhanti vaktrāṇy abhivijvalanti",
+            "translation": "As many torrents of rivers flow towards the ocean, so do these heroes of the world of men enter into Your flaming mouths."
+        },
+        {
+            "verse_number": 29,
+            "shloka": "ಯಥಾ ಪ್ರದೀಪ್ತಂ ಜ್ವಲನಂ ಪತಙ್ಗಾ\n\nವಿಶನ್ತಿ ನಾಶಾಯ ಸಮೃದ್ಧವೇಗಾಃ|\n\nತಥೈವ ನಾಶಾಯ ವಿಶನ್ತಿ ಲೋಕಾ\n\nಸ್ತವಾಪಿ ವಕ್ತ್ರಾಣಿ ಸಮೃದ್ಧವೇಗಾಃ||",
+            "transliteration": "yathā pradīptaṁ jvalanaṁ pataṅgā\nviśhanti nāśhāya samṛiddha-vegāḥ\ntathaiva nāśhāya viśhanti lokās\ntavāpi vaktrāṇi samṛiddha-vegāḥ",
+            "translation": "As moths rush swiftly into a blazing fire, leading to their destruction, so do these men swiftly rush into Your mouths, leading to their destruction."
+        },
+        {
+            "verse_number": 30,
+            "shloka": "ಲೇಲಿಹ್ಯಸೇ ಗ್ರಸಮಾನಃ ಸಮನ್ತಾ\n\nಲ್ಲೋಕಾನ್ಸಮಗ್ರಾನ್ವದನೈರ್ಜ್ವಲದ್ಭಿಃ|\n\nತೇಜೋಭಿರಾಪೂರ್ಯ ಜಗತ್ಸಮಗ್ರಂ\n\nಭಾಸಸ್ತವೋಗ್ರಾಃ ಪ್ರತಪನ್ತಿ ವಿಷ್ಣೋ||",
+            "transliteration": "lelihyase grasamānaḥ samantāl\nlokān samagrān vadanair jvaladbhiḥ\ntejobhir āpūrya jagat samagraṁ\nbhāsas tavogrāḥ pratapanti viṣhṇo",
+            "translation": "Devouring all the worlds on every side with your flaming mouths, you lick them up. Your fiery rays, filling the whole universe with their radiance, scorch it, O Vishnu."
+        },
+        {
+            "verse_number": 31,
+            "shloka": "ಆಖ್ಯಾಹಿ ಮೇ ಕೋ ಭವಾನುಗ್ರರೂಪೋ\n\nನಮೋಽಸ್ತು ತೇ ದೇವವರ ಪ್ರಸೀದ|\n\nವಿಜ್ಞಾತುಮಿಚ್ಛಾಮಿ ಭವನ್ತಮಾದ್ಯಂ\n\nನ ಹಿ ಪ್ರಜಾನಾಮಿ ತವ ಪ್ರವೃತ್ತಿಮ್||",
+            "transliteration": "ākhyāhi me ko bhavān ugra-rūpo\nnamo ’stu te deva-vara prasīda\nvijñātum ichchhāmi bhavantam ādyaṁ\nna hi prajānāmi tava pravṛittim",
+            "translation": "Tell me, who are You with this terrible form? Salutations to You, O Supreme God. Be gracious to me. I desire to know You, the Primal One. I do not know Your activities."
+        },
+        {
             "verse_number": 32,
             "shloka": "ಕಾಲೋಽಸ್ಮಿ ಲೋಕಕ್ಷಯಕೃತ್ಪ್ರವೃದ್ಧೋ \nಲೋಕಾನ್ಸಮಾಹರ್ತುಮಿಹ ಪ್ರವೃತ್ತಃ |\nಯತೇಽಪಿ ತ್ವಾಂ ನ ಭವಿಷ್ಯಂತಿ ಸರ್ವೇ \nಯೇಽವಸ್ಥಿತಾಃ ಪ್ರತ್ಯನೀಕೇಷು ಯೋಧಾಃ || ೩೨ ||",
             "transliteration": "kālo'smi lokakṣayakṛtpravṛddho\nlokānsamāhartumiha pravṛttaḥ\nṛte'pi tvāṃ na bhaviṣyanti sarve\nye'vasthitāḥ pratyanīkeṣu yodhāḥ",
             "translation": "ಶ್ರೀಭಗವಂತನು ಹೇಳಿದನು: ನಾನು ಲೋಕಗಳನ್ನು ನಾಶಮಾಡುವ ಪ್ರಬಲವಾದ 'ಕಾಲ'ವಾಗಿದ್ದೇನೆ. ಈಗ ಈ ಲೋಕಗಳನ್ನು ಸಂಹರಿಸಲು ಇಲ್ಲಿ ಉದ್ಯುಕ್ತನಾಗಿದ್ದೇನೆ. ನೀನು ಯುದ್ಧ ಮಾಡದಿದ್ದರೂ, ಶತ್ರುಪಕ್ಷದಲ್ಲಿರುವ ಈ ಯೋಧರ್ಯಾರೂ ಉಳಿಯುವುದಿಲ್ಲ."
+        },
+        {
+            "verse_number": 33,
+            "shloka": "ತಸ್ಮಾತ್ತ್ವಮುತ್ತಿಷ್ಠ ಯಶೋ ಲಭಸ್ವ\n\nಜಿತ್ವಾ ಶತ್ರೂನ್ ಭುಙ್ಕ್ಷ್ವ ರಾಜ್ಯಂ ಸಮೃದ್ಧಮ್|\n\nಮಯೈವೈತೇ ನಿಹತಾಃ ಪೂರ್ವಮೇವ\n\nನಿಮಿತ್ತಮಾತ್ರಂ ಭವ ಸವ್ಯಸಾಚಿನ್||",
+            "transliteration": "tasmāt tvam uttiṣhṭha yaśho labhasva\njitvā śhatrūn bhuṅkṣhva rājyaṁ samṛiddham\nmayaivaite nihatāḥ pūrvam eva\nnimitta-mātraṁ bhava savya-sāchin",
+            "translation": "Therefore, arise, win glory. Conquering your foes, enjoy a prosperous kingdom. By Me they have already been slain. You be merely an instrument, O Arjuna, you great archer!"
+        },
+        {
+            "verse_number": 34,
+            "shloka": "ದ್ರೋಣಂ ಚ ಭೀಷ್ಮಂ ಚ ಜಯದ್ರಥಂ ಚ\n\nಕರ್ಣಂ ತಥಾಽನ್ಯಾನಪಿ ಯೋಧವೀರಾನ್|\n\nಮಯಾ ಹತಾಂಸ್ತ್ವಂ ಜಹಿ ಮಾ ವ್ಯಥಿಷ್ಠಾ\n\nಯುಧ್ಯಸ್ವ ಜೇತಾಸಿ ರಣೇ ಸಪತ್ನಾನ್||",
+            "transliteration": "droṇaṁ cha bhīṣhmaṁ cha jayadrathaṁ cha\nkarṇaṁ tathānyān api yodha-vīrān\nmayā hatāṁs tvaṁ jahi mā vyathiṣhṭhā\nyudhyasva jetāsi raṇe sapatnān",
+            "translation": "Slay Drona, Bhisma, Jayadratha, Karna, as well as other mighty warriors who have been doomed by Me. Do not feel distressed. Fight; you shall conquer your rivals in the battle."
+        },
+        {
+            "verse_number": 35,
+            "shloka": "ಸಞ್ಜಯ ಉವಾಚ\n\nಏತಚ್ಛ್ರುತ್ವಾ ವಚನಂ ಕೇಶವಸ್ಯ\n\nಕೃತಾಞ್ಜಲಿರ್ವೇಪಮಾನಃ ಕಿರೀಟೀ|\n\nನಮಸ್ಕೃತ್ವಾ ಭೂಯ ಏವಾಹ ಕೃಷ್ಣಂ\n\nಸಗದ್ಗದಂ ಭೀತಭೀತಃ ಪ್ರಣಮ್ಯ||",
+            "transliteration": "sañjaya uvācha\netach chhrutvā vachanaṁ keśhavasya\nkṛitāñjalir vepamānaḥ kirīṭī\nnamaskṛitvā bhūya evāha kṛiṣhṇaṁ\nsa-gadgadaṁ bhīta-bhītaḥ praṇamya",
+            "translation": "Sanjaya said, Having heard this speech of Krsna, Arjuna did Him obeisance; and trembling with awe, he bowed down again, and with folded palms, his voice choked with emotion, he spoke to Krsna."
+        },
+        {
+            "verse_number": 36,
+            "shloka": "ಅರ್ಜುನ ಉವಾಚ\n\nಸ್ಥಾನೇ ಹೃಷೀಕೇಶ ತವ ಪ್ರಕೀರ್ತ್ಯಾ\n\nಜಗತ್ ಪ್ರಹೃಷ್ಯತ್ಯನುರಜ್ಯತೇ ಚ|\n\nರಕ್ಷಾಂಸಿ ಭೀತಾನಿ ದಿಶೋ ದ್ರವನ್ತಿ\n\nಸರ್ವೇ ನಮಸ್ಯನ್ತಿ ಚ ಸಿದ್ಧಸಙ್ಘಾಃ||",
+            "transliteration": "arjuna uvācha\nsthāne hṛiṣhīkeśha tava prakīrtyā\njagat prahṛiṣhyaty anurajyate cha\nrakṣhānsi bhītāni diśho dravanti\nsarve namasyanti cha siddha-saṅghāḥ",
+            "translation": "Arjuna said, Rightly it is, O Krsna, that Your praise should move the world to joy and love. The rakshasas flee in fear on all sides, and all the hosts of siddhas bow down to You."
+        },
+        {
+            "verse_number": 37,
+            "shloka": "ಕಸ್ಮಾಚ್ಚ ತೇ ನ ನಮೇರನ್ಮಹಾತ್ಮನ್\n\nಗರೀಯಸೇ ಬ್ರಹ್ಮಣೋಽಪ್ಯಾದಿಕರ್ತ್ರೇ|\n\nಅನನ್ತ ದೇವೇಶ ಜಗನ್ನಿವಾಸ\n\nತ್ವಮಕ್ಷರಂ ಸದಸತ್ತತ್ಪರಂ ಯತ್||",
+            "transliteration": "kasmāch cha te na nameran mahātman\ngarīyase brahmaṇo ’py ādi-kartre\nananta deveśha jagan-nivāsa\ntvam akṣharaṁ sad-asat tat paraṁ yat",
+            "translation": "(a) And why should they not, O Mahatma, bow down to You who are great, being the first Creator, even of Brahma?\n(b) O Infinite, Lord of gods, O You who have the universe as Your abode! You are the imperishable individual self, the existent and the non-existent, and that which is beyond both."
+        },
+        {
+            "verse_number": 38,
+            "shloka": "ತ್ವಮಾದಿದೇವಃ ಪುರುಷಃ ಪುರಾಣ\n\nಸ್ತ್ವಮಸ್ಯ ವಿಶ್ವಸ್ಯ ಪರಂ ನಿಧಾನಮ್|\n\nವೇತ್ತಾಸಿ ವೇದ್ಯಂ ಚ ಪರಂ ಚ ಧಾಮ\n\nತ್ವಯಾ ತತಂ ವಿಶ್ವಮನನ್ತರೂಪ||",
+            "transliteration": "tvam ādi-devaḥ puruṣhaḥ purāṇas\ntvam asya viśhvasya paraṁ nidhānam\nvettāsi vedyaṁ cha paraṁ cha dhāma\ntvayā tataṁ viśhvam ananta-rūpa",
+            "translation": "(a) You are the Primal God and the Ancient One. You are the Supreme resting place of the universe...\n(b)...You are the Knower and the object of knowledge, and the Supreme Abode. Through You, O infinite of form, is this universe pervaded."
+        },
+        {
+            "verse_number": 39,
+            "shloka": "ವಾಯುರ್ಯಮೋಽಗ್ನಿರ್ವರುಣಃ ಶಶಾಙ್ಕಃ\n\nಪ್ರಜಾಪತಿಸ್ತ್ವಂ ಪ್ರಪಿತಾಮಹಶ್ಚ|\n\nನಮೋ ನಮಸ್ತೇಽಸ್ತು ಸಹಸ್ರಕೃತ್ವಃ\n\nಪುನಶ್ಚ ಭೂಯೋಽಪಿ ನಮೋ ನಮಸ್ತೇ||",
+            "transliteration": "vāyur yamo ’gnir varuṇaḥ śhaśhāṅkaḥ\nprajāpatis tvaṁ prapitāmahaśh cha\nnamo namas te ’stu sahasra-kṛitvaḥ\npunaśh cha bhūyo ’pi namo namas te",
+            "translation": "(a) You are Yayu, Yama, Agni, Varuna, Sashanka, Prajapati, and the great-grandsire.\n(b) Hail to You a thousand times! Hail to You again and yet again!"
+        },
+        {
+            "verse_number": 40,
+            "shloka": "ನಮಃ ಪುರಸ್ತಾದಥ ಪೃಷ್ಠತಸ್ತೇ\n\nನಮೋಽಸ್ತು ತೇ ಸರ್ವತ ಏವ ಸರ್ವ|\n\nಅನನ್ತವೀರ್ಯಾಮಿತವಿಕ್ರಮಸ್ತ್ವಂ\n\nಸರ್ವಂ ಸಮಾಪ್ನೋಷಿ ತತೋಽಸಿ ಸರ್ವಃ||",
+            "transliteration": "namaḥ purastād atha pṛiṣhṭhatas te\nnamo ’stu te sarvata eva sarva\nananta-vīryāmita-vikramas tvaṁ\nsarvaṁ samāpnoṣhi tato ’si sarvaḥ",
+            "translation": "(a) Salutations to You from before and behind! Salutations to You from all sides, O All!৷৷.\n\n(b) ৷৷. O You of infinite prowess and heroic action, which are measureless! You pervade all beings, and therefore, You are all."
+        },
+        {
+            "verse_number": 41,
+            "shloka": "ಸಖೇತಿ ಮತ್ವಾ ಪ್ರಸಭಂ ಯದುಕ್ತಂ\n\nಹೇ ಕೃಷ್ಣ ಹೇ ಯಾದವ ಹೇ ಸಖೇತಿ|\n\nಅಜಾನತಾ ಮಹಿಮಾನಂ ತವೇದಂ\n\nಮಯಾ ಪ್ರಮಾದಾತ್ಪ್ರಣಯೇನ ವಾಪಿ||",
+            "transliteration": "sakheti matvā prasabhaṁ yad uktaṁ\nhe kṛiṣhṇa he yādava he sakheti\najānatā mahimānaṁ tavedaṁ\nmayā pramādāt praṇayena vāpi",
+            "translation": "Unaware of Your majesty, and either out of negligence or love, or considering You to be a friend, whatever I have said rudely, such as 'O Krsna, O Yadava, O Comrade,'"
+        },
+        {
+            "verse_number": 42,
+            "shloka": "ಯಚ್ಚಾವಹಾಸಾರ್ಥಮಸತ್ಕೃತೋಽಸಿ\n\nವಿಹಾರಶಯ್ಯಾಸನಭೋಜನೇಷು|\n\nಏಕೋಽಥವಾಪ್ಯಚ್ಯುತ ತತ್ಸಮಕ್ಷಂ\n\nತತ್ಕ್ಷಾಮಯೇ ತ್ವಾಮಹಮಪ್ರಮೇಯಮ್||",
+            "transliteration": "yach chāvahāsārtham asat-kṛito ’si\nvihāra-śhayyāsana-bhojaneṣhu\neko ’tha vāpy achyuta tat-samakṣhaṁ\ntat kṣhāmaye tvām aham aprameyam",
+            "translation": "And whatever disrespect has been shown to You in jest, while playing, resting, sitting, or eating, whether alone or in the presence of others, O Acyuta—I implore You for forgiveness, You who are incomprehensible."
+        },
+        {
+            "verse_number": 43,
+            "shloka": "ಪಿತಾಸಿ ಲೋಕಸ್ಯ ಚರಾಚರಸ್ಯ\n\nತ್ವಮಸ್ಯ ಪೂಜ್ಯಶ್ಚ ಗುರುರ್ಗರೀಯಾನ್|\n\nನ ತ್ವತ್ಸಮೋಽಸ್ತ್ಯಭ್ಯಧಿಕಃ ಕುತೋಽನ್ಯೋ\n\nಲೋಕತ್ರಯೇಽಪ್ಯಪ್ರತಿಮಪ್ರಭಾವ||",
+            "transliteration": "pitāsi lokasya charācharasya\ntvam asya pūjyaśh cha gurur garīyān\nna tvat-samo ’sty abhyadhikaḥ kuto ’nyo\nloka-traye ’py apratima-prabhāva",
+            "translation": "You are the father of this world, of all that moves and does not move. You are its teacher and the one most worthy of reverence. There is none equal to You. How then could there be in the three worlds another greater than You, O Being of matchless greatness?"
+        },
+        {
+            "verse_number": 44,
+            "shloka": "ತಸ್ಮಾತ್ಪ್ರಣಮ್ಯ ಪ್ರಣಿಧಾಯ ಕಾಯಂ\n\nಪ್ರಸಾದಯೇ ತ್ವಾಮಹಮೀಶಮೀಡ್ಯಮ್|\n\nಪಿತೇವ ಪುತ್ರಸ್ಯ ಸಖೇವ ಸಖ್ಯುಃ\n\nಪ್ರಿಯಃ ಪ್ರಿಯಾಯಾರ್ಹಸಿ ದೇವ ಸೋಢುಮ್||",
+            "transliteration": "tasmāt praṇamya praṇidhāya kāyaṁ\nprasādaye tvām aham īśham īḍyam\npiteva putrasya sakheva sakhyuḥ\npriyaḥ priyāyārhasi deva soḍhum",
+            "translation": "Therefore, bowing down and prostrating my body, I implore Your mercy, O adorable Lord. As a father listens to his son or a friend to his friend, it is fitting, O Lord, that You, who are dear to me, should bear with me who am dear to You."
+        },
+        {
+            "verse_number": 45,
+            "shloka": "ಅದೃಷ್ಟಪೂರ್ವಂ ಹೃಷಿತೋಽಸ್ಮಿ ದೃಷ್ಟ್ವಾ\n\nಭಯೇನ ಚ ಪ್ರವ್ಯಥಿತಂ ಮನೋ ಮೇ|\n\nತದೇವ ಮೇ ದರ್ಶಯ ದೇವ ರೂಪಂ\n\nಪ್ರಸೀದ ದೇವೇಶ ಜಗನ್ನಿವಾಸ||",
+            "transliteration": "adṛiṣhṭa-pūrvaṁ hṛiṣhito ’smi dṛiṣhṭvā\nbhayena cha pravyathitaṁ mano me\ntad eva me darśhaya deva rūpaṁ\nprasīda deveśha jagan-nivāsa",
+            "translation": "Seeing something never seen before, I am delighted. But my mind is also filled with awe. Show me, O Lord! Your other form. O Lord of the gods! Be gracious, O Abode of the universe!"
+        },
+        {
+            "verse_number": 46,
+            "shloka": "ಕಿರೀಟಿನಂ ಗದಿನಂ ಚಕ್ರಹಸ್ತ\n\nಮಿಚ್ಛಾಮಿ ತ್ವಾಂ ದ್ರಷ್ಟುಮಹಂ ತಥೈವ|\n\nತೇನೈವ ರೂಪೇಣ ಚತುರ್ಭುಜೇನ\n\nಸಹಸ್ರಬಾಹೋ ಭವ ವಿಶ್ವಮೂರ್ತೇ||",
+            "transliteration": "kirīṭinaṁ gadinaṁ chakra-hastam\nichchhāmi tvāṁ draṣhṭum ahaṁ tathaiva\ntenaiva rūpeṇa chatur-bhujena\nsahasra-bāho bhava viśhva-mūrte",
+            "translation": "I wish to see You ever as before, with crown and mace and discus in hand. Assume again that four-armed shape, O Thou the thousand-armed, of Universal Form!"
+        },
+        {
+            "verse_number": 47,
+            "shloka": "ಶ್ರೀ ಭಗವಾನುವಾಚ\n\nಮಯಾ ಪ್ರಸನ್ನೇನ ತವಾರ್ಜುನೇದಂ\n\nರೂಪಂ ಪರಂ ದರ್ಶಿತಮಾತ್ಮಯೋಗಾತ್|\n\nತೇಜೋಮಯಂ ವಿಶ್ವಮನನ್ತಮಾದ್ಯಂ\n\nಯನ್ಮೇ ತ್ವದನ್ಯೇನ ನ ದೃಷ್ಟಪೂರ್ವಮ್||",
+            "transliteration": "śhrī-bhagavān uvācha\nmayā prasannena tavārjunedaṁ\nrūpaṁ paraṁ darśhitam ātma-yogāt\ntejo-mayaṁ viśhvam anantam ādyaṁ\nyan me tvad anyena na dṛiṣhṭa-pūrvam",
+            "translation": "The Lord said, \"By My grace, O Arjuna, this Supreme Form, luminous, universal, infinite, and primal—never seen before by anyone but you—has been revealed to you through My own free will.\""
+        },
+        {
+            "verse_number": 48,
+            "shloka": "ನ ವೇದಯಜ್ಞಾಧ್ಯಯನೈರ್ನ ದಾನೈ\n\nರ್ನ ಚ ಕ್ರಿಯಾಭಿರ್ನ ತಪೋಭಿರುಗ್ರೈಃ|\n\nಏವಂರೂಪಃ ಶಕ್ಯ ಅಹಂ ನೃಲೋಕೇ\n\nದ್ರಷ್ಟುಂ ತ್ವದನ್ಯೇನ ಕುರುಪ್ರವೀರ||",
+            "transliteration": "na veda-yajñādhyayanair na dānair\nna cha kriyābhir na tapobhir ugraiḥ\nevaṁ-rūpaḥ śhakya ahaṁ nṛi-loke\ndraṣhṭuṁ tvad anyena kuru-pravīra",
+            "translation": "Neither through the study of the Vedas, nor by sacrifices, nor by recitations of the scriptures, nor by gifts, nor by rituals, nor by strict austerities can I be realized in a form like this in the world of men by anyone else but you. O Arjuna!"
+        },
+        {
+            "verse_number": 49,
+            "shloka": "ಮಾ ತೇ ವ್ಯಥಾ ಮಾ ಚ ವಿಮೂಢಭಾವೋ\n\nದೃಷ್ಟ್ವಾ ರೂಪಂ ಘೋರಮೀದೃಙ್ಮಮೇದಮ್|\n\nವ್ಯಪೇತಭೀಃ ಪ್ರೀತಮನಾಃ ಪುನಸ್ತ್ವಂ\n\nತದೇವ ಮೇ ರೂಪಮಿದಂ ಪ್ರಪಶ್ಯ||",
+            "transliteration": "mā te vyathā mā cha vimūḍha-bhāvo\ndṛiṣhṭvā rūpaṁ ghoram īdṛiṅ mamedam\nvyapeta-bhīḥ prīta-manāḥ punas tvaṁ\ntad eva me rūpam idaṁ prapaśhya",
+            "translation": "You need not fear any longer, nor be perplexed, looking upon this awe-inspiring form of Mine. Free from fear and with a gladdened heart, behold once again that other form of Mine."
+        },
+        {
+            "verse_number": 50,
+            "shloka": "ಸಞ್ಜಯ ಉವಾಚ\n\nಇತ್ಯರ್ಜುನಂ ವಾಸುದೇವಸ್ತಥೋಕ್ತ್ವಾ\n\nಸ್ವಕಂ ರೂಪಂ ದರ್ಶಯಾಮಾಸ ಭೂಯಃ|\n\nಆಶ್ವಾಸಯಾಮಾಸ ಚ ಭೀತಮೇನಂ\n\nಭೂತ್ವಾ ಪುನಃ ಸೌಮ್ಯವಪುರ್ಮಹಾತ್ಮಾ||",
+            "transliteration": "sañjaya uvācha\nity arjunaṁ vāsudevas tathoktvā\nsvakaṁ rūpaṁ darśhayām āsa bhūyaḥ\nāśhvāsayām āsa cha bhītam enaṁ\nbhūtvā punaḥ saumya-vapur mahātmā",
+            "translation": "Sanjaya said, Having thus spoken to Arjuna, Sri Krsna once more revealed His own form. The Mahatman, assuming a benign form again, reassured him who had been struck with awe."
+        },
+        {
+            "verse_number": 51,
+            "shloka": "ಅರ್ಜುನ ಉವಾಚ\n\nದೃಷ್ಟ್ವೇದಂ ಮಾನುಷಂ ರೂಪಂ ತವಸೌಮ್ಯಂ ಜನಾರ್ದನ|\n\nಇದಾನೀಮಸ್ಮಿ ಸಂವೃತ್ತಃ ಸಚೇತಾಃ ಪ್ರಕೃತಿಂ ಗತಃ||",
+            "transliteration": "arjuna uvācha\ndṛiṣhṭvedaṁ mānuṣhaṁ rūpaṁ tava saumyaṁ janārdana\nidānīm asmi saṁvṛittaḥ sa-chetāḥ prakṛitiṁ gataḥ",
+            "translation": "Arjuna said, \"Having beheld Your human and pleasing form, O Krsna, I am now composed in mind and have been restored to my normal nature.\""
+        },
+        {
+            "verse_number": 52,
+            "shloka": "ಶ್ರೀ ಭಗವಾನುವಾಚ\n\nಸುದುರ್ದರ್ಶಮಿದಂ ರೂಪಂ ದೃಷ್ಟವಾನಸಿ ಯನ್ಮಮ|\n\nದೇವಾ ಅಪ್ಯಸ್ಯ ರೂಪಸ್ಯ ನಿತ್ಯಂ ದರ್ಶನಕಾಙ್ಕ್ಷಿಣಃ||",
+            "transliteration": "śhrī-bhagavān uvācha\nsu-durdarśham idaṁ rūpaṁ dṛiṣhṭavān asi yan mama\ndevā apy asya rūpasya nityaṁ darśhana-kāṅkṣhiṇaḥ",
+            "translation": "The Lord said, \"It is very hard to behold this form of Mine which you have seen. Even the gods everlong to behold this form.\""
+        },
+        {
+            "verse_number": 53,
+            "shloka": "ನಾಹಂ ವೇದೈರ್ನ ತಪಸಾ ನ ದಾನೇನ ನ ಚೇಜ್ಯಯಾ|\n\nಶಕ್ಯ ಏವಂವಿಧೋ ದ್ರಷ್ಟುಂ ದೃಷ್ಟವಾನಸಿ ಮಾಂ ಯಥಾ||",
+            "transliteration": "nāhaṁ vedair na tapasā na dānena na chejyayā\nśhakya evaṁ-vidho draṣhṭuṁ dṛiṣhṭavān asi māṁ yathā",
+            "translation": "Sri Krishna says, \"I cannot be seen in such a form as You have seen Me, not by the Vedas, nor by austerities, nor by gifts, nor by sacrifice.\""
+        },
+        {
+            "verse_number": 54,
+            "shloka": "ಭಕ್ತ್ಯಾ ತ್ವನನ್ಯಯಾ ಶಕ್ಯಮಹಮೇವಂವಿಧೋಽರ್ಜುನ|\n\nಜ್ಞಾತುಂ ದೃಷ್ಟುಂ ಚ ತತ್ತ್ವೇನ ಪ್ರವೇಷ್ಟುಂ ಚ ಪರಂತಪ||",
+            "transliteration": "bhaktyā tv ananyayā śhakya aham evaṁ-vidho ’rjuna\njñātuṁ draṣhṭuṁ cha tattvena praveṣhṭuṁ cha parantapa",
+            "translation": "But by single-minded devotion, O Arjuna, it is possible to truly know, to see, and to enter into Me, who am of this form, O harasser of foes."
         },
         {
             "verse_number": 55,
