@@ -1,6 +1,6 @@
 {
-    "name": "Sanatana Samskruti",
-    "short_name": "Samskruti",
+    "name": "ಸನಾತನ ಸಂಸ್ಕೃತಿ",
+    "short_name": "ಸನಾತನ ಸಂಸ್ಕೃತಿ",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0F0F0F",
@@ -8,9 +8,10 @@
     "description": "A guide to Ancient Indian Wisdom, Culture, and Spirituality.",
     "icons": [
         {
-            "src": "app-icon.svg",
+            "src": "app-icon.svg?v=2",
             "type": "image/svg+xml",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any maskable"
         }
     ]
 }
