@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { X, Volume2, Sliders } from 'lucide-react';
+import { X, Volume2, Sliders, Type } from 'lucide-react';
 import { useSettings } from '../context/SettingsContext';
 import { TextToSpeech } from '@capacitor-community/text-to-speech';
 import { Capacitor } from '@capacitor/core';
 
 const SettingsDialog = ({ isOpen, onClose }) => {
-    const { ttsSettings, updateTtsSettings } = useSettings();
+    const { ttsSettings, updateTtsSettings, textSize, updateTextSize } = useSettings();
     const [availableVoices, setAvailableVoices] = useState([]);
     const isNative = Capacitor.isNativePlatform();
 
@@ -58,6 +58,49 @@ const SettingsDialog = ({ isOpen, onClose }) => {
                 </div>
 
                 <div style={{ display: 'grid', gap: '2rem' }}>
+
+                    {/* Text Size */}
+                    <div>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                <Type size={16} color="var(--text-secondary)" />
+                                <label style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Text Size</label>
+                            </div>
+                        </div>
+                        <div style={{
+                            display: 'flex',
+                            background: 'rgba(255,255,255,0.05)',
+                            borderRadius: '12px',
+                            padding: '4px',
+                            border: '1px solid var(--border-color)'
+                        }}>
+                            {['small', 'medium', 'large', 'xlarge'].map((size) => (
+                                <button
+                                    key={size}
+                                    onClick={() => updateTextSize(size)}
+                                    style={{
+                                        flex: 1,
+                                        padding: '0.75rem 0',
+                                        background: textSize === size ? 'var(--primary)' : 'transparent',
+                                        color: textSize === size ? '#000' : 'var(--text-primary)',
+                                        border: 'none',
+                                        borderRadius: '8px',
+                                        fontSize: size === 'small' ? '0.8rem' : size === 'medium' ? '0.9rem' : size === 'large' ? '1rem' : '1.1rem',
+                                        fontWeight: textSize === size ? 700 : 500,
+                                        cursor: 'pointer',
+                                        transition: 'all 0.2s',
+                                        textTransform: 'capitalize'
+                                    }}
+                                >
+                                    A
+                                </button>
+                            ))}
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0.5rem' }}>
+                            <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Small</span>
+                            <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Extra Large</span>
+                        </div>
+                    </div>
                     {/* Speech Speed */}
                     <div>
                         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>

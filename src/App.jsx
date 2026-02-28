@@ -12,6 +12,7 @@ import GitaList from './pages/GitaList';
 import GitaDetail from './pages/GitaDetail';
 import Explore from './pages/Explore';
 import Favorites from './pages/Favorites';
+import JapaMala from './pages/JapaMala';
 import { SettingsProvider } from './context/SettingsContext';
 
 // --- Back Button Handler for Mobile ---
@@ -27,7 +28,7 @@ const BackButtonHandler = () => {
     }
 
     const listener = CapacitorApp.addListener('backButton', ({ canGoBack }) => {
-      const isRoot = ['/', '/gita', '/explore', '/favorites'].includes(location.pathname);
+      const isRoot = ['/', '/gita', '/explore', '/favorites', '/japa'].includes(location.pathname);
 
       if (isRoot) {
         CapacitorApp.exitApp();
@@ -147,6 +148,13 @@ const AppContent = () => {
           <Route path="/favorites" element={
             <>
               <Favorites />
+              <BottomNavigation />
+            </>
+          } />
+
+          <Route path="/japa" element={
+            <>
+              <JapaMala />
               <BottomNavigation />
             </>
           } />

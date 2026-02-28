@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Sun, BookOpen, Search, Heart } from 'lucide-react';
+import { Sun, BookOpen, Search, Heart, Activity } from 'lucide-react';
 
 const BottomNavigation = () => {
     const location = useLocation();
@@ -33,6 +33,13 @@ const BottomNavigation = () => {
                     <Heart size={22} />
                 </div>
                 <span>ಮೆಚ್ಚಿನವು</span>
+            </Link>
+
+            <Link to="/japa" className={`nav-item ${isActive('/japa') ? 'active' : ''}`}>
+                <div className="nav-icon-container">
+                    <Activity size={22} />
+                </div>
+                <span>ಜಪ</span>
             </Link>
         </nav>
     );

@@ -4,6 +4,7 @@ import { Quote, Zap, Heart } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
 import TTSButton from '../components/TTSButton';
+import ShareButton from '../components/ShareButton';
 import { useFavorites } from '../context/FavoritesContext';
 
 const GitaDetail = () => {
@@ -110,17 +111,22 @@ const GitaDetail = () => {
 
                         {chapter.verses.map((verse, index) => (
                             <div key={verse.verse_number} className="static-card animate-slide-up" style={{ padding: '1.5rem', marginBottom: '1.5rem', animationDelay: `${index * 0.1}s` }}>
-                                <div style={{
-                                    background: 'rgba(255, 153, 51, 0.1)',
-                                    color: 'var(--primary)',
-                                    padding: '0.4rem 0.8rem',
-                                    borderRadius: '8px',
-                                    display: 'inline-flex',
-                                    fontSize: '0.8rem',
-                                    fontWeight: 700,
-                                    marginBottom: '1.5rem'
-                                }}>
-                                    ಶ್ಲೋಕ {chapter.chapter}.{verse.verse_number}
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+                                    <div style={{
+                                        background: 'rgba(255, 153, 51, 0.1)',
+                                        color: 'var(--primary)',
+                                        padding: '0.4rem 0.8rem',
+                                        borderRadius: '8px',
+                                        display: 'inline-flex',
+                                        fontSize: '0.8rem',
+                                        fontWeight: 700
+                                    }}>
+                                        ಶ್ಲೋಕ {chapter.chapter}.{verse.verse_number}
+                                    </div>
+                                    <ShareButton
+                                        title={`ಭಗವದ್ಗೀತೆ- ಶ್ಲೋಕ ${chapter.chapter}.${verse.verse_number}`}
+                                        text={`🌺 ಸನಾತನ ಸಂಸ್ಕೃತಿ- ಭಗವದ್ಗೀತೆ (ಅಧ್ಯಾಯ ${chapter.chapter}) 🌺\n\n${verse.shloka}\n\nಅರ್ಥ: ${verse.translation}\n${verse.purport ? `\nವಿವರಣೆ: ${verse.purport}` : ''}`}
+                                    />
                                 </div>
 
                                 <div className="shloka-box" style={{ margin: '0 0 1.5rem' }}>

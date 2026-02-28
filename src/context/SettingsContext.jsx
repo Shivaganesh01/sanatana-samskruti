@@ -11,16 +11,37 @@ export const SettingsProvider = ({ children }) => {
         };
     });
 
+    const [textSize, setTextSize] = useState(() => {
+        return localStorage.getItem('text_size') || 'medium';
+    });
+
     useEffect(() => {
         localStorage.setItem('tts_settings', JSON.stringify(ttsSettings));
     }, [ttsSettings]);
+
+    useEffect(() => {
+        localStorage.setItem('text_size', textSize);
+        // Apply CSS variable for root sizing
+        let fontSize = '16px';
+        switch (textSize) {
+            case 'small': fontSize = '14px'; break;
+            case 'medium': fontSize = '16px'; break;
+            case 'large': fontSize = '18px'; break;
+            case 'xlarge': fontSize = '20px'; break;
+        }
+        document.documentElement.style.setProperty('--font-base-size', fontSize);
+    }, [textSize]);
 
     const updateTtsSettings = (newSettings) => {
         setTtsSettings(prev => ({ ...prev, ...newSettings }));
     };
 
+    const updateTextSize = (newSize) => {
+        setTextSize(newSize);
+    };
+
     return (
-        <SettingsContext.Provider value={{ ttsSettings, updateTtsSettings }}>
+        <SettingsContext.Provider value={{ ttsSettings, updateTtsSettings, textSize, updateTextSize }}>
             {children}
         </SettingsContext.Provider>
     );

@@ -4,6 +4,7 @@ import { Zap, Heart } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
 import TTSButton from '../components/TTSButton';
+import ShareButton from '../components/ShareButton';
 import { useFavorites } from '../context/FavoritesContext';
 
 const SamskrutiDetail = ({ categories }) => {
@@ -68,47 +69,51 @@ const SamskrutiDetail = ({ categories }) => {
             <div className="container">
                 <article className="static-card glass" style={{ padding: '1.5rem', marginBottom: '1.5rem' }}>
                     <div style={{ position: 'relative', marginBottom: '1.5rem' }}>
-                        <div style={{ paddingRight: '3rem' }}>
+                        <div style={{ paddingRight: '5rem' }}>
                             <h2 style={{ fontSize: '1.75rem', marginBottom: '0.25rem', color: 'var(--primary)', marginTop: 0 }}>{item.title_kn}</h2>
                             <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '1rem' }}>{item.title_en}</p>
                         </div>
-                        <button
-                            onClick={(e) => {
-                                e.stopPropagation();
-                                console.log("Toggle Favorite Clicked for:", item.id);
-                                toggleFavorite({
-                                    id: item.id,
-                                    title_kn: item.title_kn,
-                                    title_en: item.title_en,
-                                    type: 'samskruti',
-                                    categoryId: categoryId
-                                });
-                            }}
-                            className="favorite-btn"
-                            style={{
-                                position: 'absolute',
-                                top: 0,
-                                right: 0,
-                                background: isSaved ? 'rgba(255, 75, 75, 0.1)' : 'rgba(255, 255, 255, 0.05)',
-                                border: 'none',
-                                borderRadius: '50%',
-                                width: '48px',
-                                height: '48px',
-                                padding: 0,
-                                cursor: 'pointer',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                transition: 'all 0.2s ease',
-                                zIndex: 10
-                            }}
-                        >
-                            <Heart
-                                size={24}
-                                color={isSaved ? '#ff4b4b' : 'var(--text-secondary)'}
-                                fill={isSaved ? '#ff4b4b' : 'none'}
+                        <div style={{ position: 'absolute', top: 0, right: 0, display: 'flex', gap: '4px', alignItems: 'center' }}>
+                            <ShareButton
+                                title={item.title_kn}
+                                text={`🌺 ಸನಾತನ ಸಂಸ್ಕೃತಿ 🌺\n\n*${item.title_kn}*\n${item.shloka ? `\n${item.shloka}\n` : ''}\n${item.content_kn}`}
                             />
-                        </button>
+                            <button
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    console.log("Toggle Favorite Clicked for:", item.id);
+                                    toggleFavorite({
+                                        id: item.id,
+                                        title_kn: item.title_kn,
+                                        title_en: item.title_en,
+                                        type: 'samskruti',
+                                        categoryId: categoryId
+                                    });
+                                }}
+                                className="favorite-btn"
+                                style={{
+                                    position: 'relative',
+                                    background: isSaved ? 'rgba(255, 75, 75, 0.1)' : 'rgba(255, 255, 255, 0.05)',
+                                    border: 'none',
+                                    borderRadius: '50%',
+                                    width: '40px',
+                                    height: '40px',
+                                    padding: 0,
+                                    cursor: 'pointer',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    transition: 'all 0.2s ease',
+                                    zIndex: 10
+                                }}
+                            >
+                                <Heart
+                                    size={24}
+                                    color={isSaved ? '#ff4b4b' : 'var(--text-secondary)'}
+                                    fill={isSaved ? '#ff4b4b' : 'none'}
+                                />
+                            </button>
+                        </div>
                     </div>
 
                     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
@@ -135,6 +140,10 @@ const SamskrutiDetail = ({ categories }) => {
                                 <div key={idx} className="static-card glass" style={{ background: 'rgba(255, 255, 255, 0.03)', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', borderBottom: '1px solid rgba(255, 255, 255, 0.05)', paddingBottom: '0.5rem' }}>
                                         <h4 style={{ margin: 0, color: 'var(--primary)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Verse {verse.verse}</h4>
+                                        <ShareButton
+                                            title={`Verse ${verse.verse}`}
+                                            text={`🌺 ಸನಾತನ ಸಂಸ್ಕೃತಿ 🌺\n\n${verse.shloka_kn}\n\nಅರ್ಥ: ${verse.meaning_kn}${verse.meaning_en ? `\nMeaning: ${verse.meaning_en}` : ''}`}
+                                        />
                                     </div>
 
                                     <p className="shloka-text" style={{ fontSize: '1.2rem', marginBottom: '1rem', textAlign: 'left' }}>
