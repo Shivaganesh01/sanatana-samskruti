@@ -1,0 +1,91 @@
+{
+    "yogaMargas": {
+        "title_kn": "ಮೋಕ್ಷ ಮಾರ್ಗಗಳು (Yoga Margas)",
+        "title_en": "Paths to Liberation",
+        "description_kn": "ಭಗವದ್ಗೀತೆಯಲ್ಲಿ ಶ್ರೀಕೃಷ್ಣನು ವಿವರಿಸಿದಂತೆ ಮೋಕ್ಷವನ್ನು ಪಡೆಯಲು ಮುಖ್ಯವಾಗಿ ಮೂರು ಮಾರ್ಗಗಳಿವೆ: ಕರ್ಮ, ಭಕ್ತಿ ಮತ್ತು ಜ್ಞಾನ.",
+        "description_en": "Modern life is like a complex game; Moksha is the ultimate 'Level Up'. Here's how to play it through Action, Devotion, and Knowledge.",
+        "paths": [
+            {
+                "id": "karma",
+                "title_kn": "ಕರ್ಮ ಯೋಗ (Path of Action)",
+                "title_en": "Karma Yoga",
+                "icon": "Activity",
+                "color": "#FF9500",
+                "philosophy_kn": "ಫಲಾಪೇಕ್ಷೆಯಿಲ್ಲದೆ ಕರ್ತವ್ಯವನ್ನು ನಿರ್ವಹಿಸುವುದು. 'ಕರ್ಮಣ್ಯೇವಾಧಿಕಾರಸ್ತೇ ಮಾ ಫಲೇಷು ಕದಾಚನ'.",
+                "philosophy_en": "Focusing on the 'Process' rather than the 'Result'. In a world obsessed with 'Likes' and 'KPIs', Karma Yoga is about doing the work for the work's sake.",
+                "scientific_kn": "ನಿಸ್ವಾರ್ಥ ಸೇವೆಯು ಆಕ್ಸಿಟೋಸಿನ್ ಎಂಬ ಸಂತೋಷದ ಹಾರ್ಮೋನ್ ಅನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ ಮತ್ತು ಒತ್ತಡವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.",
+                "scientific_en": "Redirecting focus from results to tasks reduces 'performance anxiety' and lowers cortisol. It's the ultimate hack for long-term productivity and fulfillment.",
+                "practice_kn": "ಪ್ರತಿದಿನ ಮಾಡುವ ಕೆಲಸವನ್ನು ಈಶ್ವರಾರ್ಪಣ ಬುದ್ಧಿಯಿಂದ ಮಾಡಿ. ಫಲಿತಾಂಶದ ಬಗ್ಗೆ ಚಿಂತಿಸಬೇಡಿ.",
+                "practice_en": "Practice 'Deep Work' without checking the 'Stats'. Offer your coding, studying, or chores as a contribution to the universe.",
+                "shloka": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् | यत्तपस्यसि कौन्تهय तत्कुरुष्व मदर्पणम् || (Gita 9.27)",
+                "modern_analogy": "Life is the code; your actions are the logic. Don't worry about the UI (results), focus on the clean backend (intent)."
+            },
+            {
+                "id": "bhakti",
+                "title_kn": "ಭಕ್ತಿ ಯೋಗ (Path of Devotion)",
+                "title_en": "Bhakti Yoga",
+                "icon": "Heart",
+                "color": "#FF3B30",
+                "philosophy_kn": "ದೇವರಿಗೆ ಸಂಪೂರ್ಣ ಶರಣಾಗತಿ. ಒಂಬತ್ತು ವಿಧದ ಭಕ್ತಿಗಳ ಮೂಲಕ ಈಶ್ವರನನ್ನು ಸೇರುವುದು.",
+                "philosophy_en": "Emotional Intelligence (EQ) meets Spirituality. It's about 'The Heart Connection' in a world of digital isolation.",
+                "scientific_kn": "ಭಕ್ತಿ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯು ಮೆದುಳಿನ ಅಮೈಗ್ಡಲಾವನ್ನು ಶಾಂತಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಆಂತರಿಕ ಶಾಂತಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+                "scientific_en": "Devotional chanting activates the Vagus nerve and reduces the 'Noise' in the Default Mode Network (DMN) of the brain, easing anxiety.",
+                "practice_kn": "ಜಪ, ಕೀರ್ತನೆ ಮತ್ತು ಪೂಜೆಯ ಮೂಲಕ ದೈವಿಕ ಪ್ರೇಮವನ್ನು ಬೆಳೆಸಿಕೊಳ್ಳಿ.",
+                "practice_en": "Use Japa as a 'Digital Detox'. Spend 10 minutes connecting with your inner 'Source' instead of infinite scrolling.",
+                "shloka": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु | (Gita 18.65)",
+                "modern_analogy": "Think of Devotion as sync-ing your local server with the Master Server (God). It ensures you're always updated with Peace."
+            },
+            {
+                "id": "jnana",
+                "title_kn": "ಜ್ಞಾನ ಯೋಗ (Path of Knowledge)",
+                "title_en": "Jnana Yoga",
+                "icon": "BookOpen",
+                "color": "#AF52DE",
+                "philosophy_kn": "ವಿವೇಕದ ಮೂಲಕ ಸತ್ಯವನ್ನು ತಿಳಿಯುವುದು. 'ಅಹಂ ಬ್ರಹ್ಮಾಸ್ಮಿ' ಎಂಬ ಅರಿವನ್ನು ಪಡೆಯುವುದು.",
+                "philosophy_en": "Information vs. Intelligence. In an age of 'Fake News' and AI, Jnana Yoga is the 'Critical Thinking' for the Soul.",
+                "scientific_kn": "ಆಳವಾದ ಚಿಂತನೆ ಮತ್ತು ವಿಶ್ಲೇಷಣೆಯು ಮೆದುಳಿನ ನರಕೋಶಗಳ ಸಂಪರ್ಕವನ್ನು (neuroplasticity) ಬಲಪಡಿಸುತ್ತದೆ.",
+                "scientific_en": "Self-inquiry (Atma-Vichara) is like a Debugger for the mind. It clears the 'Mental Cache' and identifies the bugs (ego/misconceptions).",
+                "practice_kn": "ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ (ಶ್ರವಣ), ಮನನ ಮತ್ತು ನಿದಿಧ್ಯಾಸನ.",
+                "practice_en": "Read original scriptures as 'Open Source' wisdom. Contemplate: 'Am I the user, or the data being used?'",
+                "shloka": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते | (Gita 4.38)",
+                "modern_analogy": "You are the 'User Experience (UX)', but the Atma is the 'Hardware'. Know the hardware to fix the glitches in the UX."
+            }
+        ]
+    },
+    "sadhanaChatustaya": {
+        "title_kn": "ಸಾಧನಾ ಚತುಷ್ಟಯ (Fourfold Path)",
+        "title_en": "The Pro-Seeker Toolkit",
+        "description_kn": "ಆತ್ಮಜ್ಞಾನವನ್ನು ಪಡೆಯಲು ಒಬ್ಬ ಸಾಧಕನಿಗೆ ಇರಬೇಕಾದ ನಾಲ್ಕು ಮುಖ್ಯ ಗುಣಗಳು.",
+        "description_en": "The essential 'Soft Skills' for navigating life and reaching the ultimate goal of Moksha.",
+        "qualifications": [
+            {
+                "title_kn": "ವಿವೇಕ (Viveka)",
+                "title_en": "Deep Filter (Discernment)",
+                "description_kn": "ನಿತ್ಯ (ಶಾಶ್ವತ) ಮತ್ತು ಅನಿತ್ಯ (ತಾತ್ಕಾಲಿಕ) ವಸ್ತುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವನ್ನು ತಿಳಿಯುವುದು.",
+                "description_en": "Discriminating between the Real (Eternal) and the Viral (Temporary). Don't confuse 'Likes' with 'Legacy'.",
+                "lesson": "Filters are for photos, Viveka is for reality."
+            },
+            {
+                "title_kn": "ವೈರಾಗ್ಯ (Vairagya)",
+                "title_en": "Digital Minimalism (Dispassion)",
+                "description_kn": "ತಾತ್ಕಾಲಿಕ ಸುಖಗಳ ಮೇಲಿನ ಮೋಹವನ್ನು ತೊರೆಯುವುದು.",
+                "description_en": "Freedom from 'FOMO' (Fear Of Missing Out). Choosing what matters over what is shiny.",
+                "lesson": "Vairagya isn't hating the world; it's loving your peace more."
+            },
+            {
+                "title_kn": "ಷಟ್-ಸಂಪತ್ತಿ (Shat-Sampat)",
+                "title_en": "Mental OS (Sixfold Wealth)",
+                "description_kn": "ಶಮ, ದಮ, ಉಪರತಿ, ತಿತಿಕ್ಷಾ, ಶ್ರದ್ಧಾ ಮತ್ತು ಸಮಾಧಾನ — ಈ ಆರು ಮಾನಸಿಕ ಗುಣಗಳು.",
+                "description_en": "Optimizing your internal system: Focus, Resilience, and Balance. It's the ultimate 'Peace Mode'.",
+                "lesson": "Your attention is your currency; spend it wisely."
+            },
+            {
+                "title_kn": "ಮುಮುಕ್ಷುತ್ವ (Mumukshutva)",
+                "title_en": "The 'Breakout' Desire (Longing)",
+                "description_kn": "ಸಂಸಾರದಿಂದ ಮುಕ್ತಿಯನ್ನು ಪಡೆಯಬೇಕೆಂಬ ತೀವ್ರ ಆಕಾಂಕ್ಷೆ.",
+                "description_en": "The burning desire to 'Exit the Matrix'. Finding the door to true, unconditional freedom.",
+                "lesson": "Don't just survive the simulation; master it and find the exit."
+            }
+        ]
+    }
+}

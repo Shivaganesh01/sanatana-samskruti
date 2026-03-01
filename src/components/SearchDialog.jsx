@@ -165,7 +165,7 @@ const SearchDialog = ({ isOpen, onClose, initialQuery }) => {
                         icon: isStotra ? <Music size={18} /> : <Book size={18} />,
                         title: item.title_kn || item.title_en || 'ವಿವರ',
                         subtitle: snippet ? `${catName} | ${snippet}` : `${catName} - ${item.title_en || ''}`,
-                        link: `/samskruti/${catId}/${item.id}`
+                        link: item.customRoute || `/samskruti/${catId}/${item.id}`
                     });
                 }
             });

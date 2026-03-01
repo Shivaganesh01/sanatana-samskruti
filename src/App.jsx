@@ -14,6 +14,8 @@ import Explore from './pages/Explore';
 import Favorites from './pages/Favorites';
 import JapaMala from './pages/JapaMala';
 import ChakraSadhana from './pages/ChakraSadhana';
+import MokshaMarga from './pages/MokshaMarga';
+import DharmicLifestyle from './pages/DharmicLifestyle';
 import { SettingsProvider } from './context/SettingsContext';
 
 // --- Back Button Handler for Mobile ---
@@ -163,6 +165,20 @@ const AppContent = () => {
           <Route path="/chakra-sadhana" element={
             <>
               <ChakraSadhana />
+              <BottomNavigation />
+            </>
+          } />
+
+          <Route path="/moksha-marga" element={
+            <>
+              <MokshaMarga />
+              <BottomNavigation />
+            </>
+          } />
+
+          <Route path="/dharmic-lifestyle" element={
+            <>
+              <DharmicLifestyle />
               <BottomNavigation />
             </>
           } />

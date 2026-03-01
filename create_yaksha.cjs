@@ -1,0 +1,110 @@
+const fs = require('fs');
+const path = require('path');
+
+const dharmaCulturePath = path.join(__dirname, 'public/data/samskruti/dharma_culture.json');
+const yakshaPrashnaPath = path.join(__dirname, 'public/data/samskruti/dharma_culture/yaksha_prashna.json');
+
+let dharmaData = JSON.parse(fs.readFileSync(dharmaCulturePath, 'utf8'));
+
+// Find yaksha_prashna
+let yakshaIndex = dharmaData.findIndex(item => item.id === 'yaksha_prashna');
+if (yakshaIndex !== -1) {
+    // Remove content_kn and content_en so it prompts the app to fetch the separate file
+    delete dharmaData[yakshaIndex].content_kn;
+    delete dharmaData[yakshaIndex].content_en;
+    fs.writeFileSync(dharmaCulturePath, JSON.stringify(dharmaData, null, 2));
+    console.log('Updated dharma_culture.json');
+}
+
+// Ensure dir exists
+if (!fs.existsSync(path.dirname(yakshaPrashnaPath))) {
+    fs.mkdirSync(path.dirname(yakshaPrashnaPath), { recursive: true });
+}
+
+// Create Yaksha Prashna complete data
+const completeYakshaPrashna = {
+    content_kn: "ಮಹಾಭಾರತದ ವನಪರ್ವದಲ್ಲಿ ಬರುವ 'ಯಕ್ಷ ಪ್ರಶ್ನೆ' ಯುಧಿಷ್ಠಿರ ಮತ್ತು ಯಕ್ಷನ (ಸಾವಿನ ದೇವತೆಯಾದ ಯಮ) ನಡುವಿನ ಅದ್ಭುತ ಸಂವಾದ. ಯಕ್ಷನು ಕೇಳಿದ ಕ್ಲಿಷ್ಟಕರ ಪ್ರಶ್ನೆಗಳಿಗೆ ಯುಧಿಷ್ಠಿರನು ಅತ್ಯಂತ ಬುದ್ಧಿವಂತಿಕೆಯಿಂದ ಉತ್ತರಿಸುತ್ತಾನೆ. ಈ ಸಂವಾದವು ಧರ್ಮ, ನೀತಿ ಮತ್ತು ತತ್ವಶಾಸ್ತ್ರದ ಸಾರವಾಗಿದೆ. ಪ್ರಮುಖ ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಉತ್ತರಗಳು ಇಲ್ಲಿವೆ:",
+    content_en: "The Yaksha Prashna, appearing in the Vana Parva of the Mahabharata, is a profound dialogue between Yudhishthira and a Yaksha (Yama, the Lord of Death in disguise). Yudhishthira answers the Yaksha's complex riddles with immense wisdom. This dialogue encapsulates the essence of Dharma, ethics, and philosophy. Here are the prominent questions and answers:",
+    content: [
+        {
+            verse: 1,
+            shloka_kn: "ಕಿಂಸ್ವಿದ್ಗುರುತರಂ ಭೂಮೇಃ ಕಿಂಸ್ವಿದುಚ್ಚತರಂ ಚ ಖಾತ್ | ಕಿಂಸ್ವಿಚ್ಛೀಘ್ರತರಂ ವಾಯೋಃ ಕಿಂಸ್ವಿದ್ಬಹುತರಂ ತೃಣಾತ್ ||",
+            shloka_en: "Kimsvid-gurutaram bhoomeh, kimsvid-uchchataram cha khaat? | Kimsvich-chhighrataram vaayoh, kimsvid-bahutaram trunaat? ||",
+            meaning_kn: "ಯಕ್ಷ: ಭೂಮಿಗಿಂತ ಭಾರವಾದದ್ದು ಯಾವುದು? ಆಕಾಶಕ್ಕಿಂತ ಎತ್ತರವಾದದ್ದು ಯಾವುದು? ಗಾಳಿಗಿಂತ ವೇಗವಾದದ್ದು ಯಾವುದು? ಹುಲ್ಲಿಗಿಂತ ದಟ್ಟವಾಗಿ ಬೆಳೆಯುವುದು ಯಾವುದು?\nಯುಧಿಷ್ಠಿರ: ತಾಯಿಯು ಭೂಮಿಗಿಂತ ಭಾರ (ಶ್ರೇಷ್ಠ), ತಂದೆಯು ಆಕಾಶಕ್ಕಿಂತ ಎತ್ತರ. ಮನಸ್ಸು ಗಾಳಿಗಿಂತ ವೇಗ, ಮತ್ತು ಚಿಂತೆಯು ಹುಲ್ಲಿಗಿಂತ ದಟ್ಟವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+            meaning_en: "Yaksha: What is heavier than earth? What is taller than the sky? What is faster than the wind? What is more numerous than grass?\nYudhishthira: The mother is heavier (more revered) than the earth; the father is taller than the sky. The mind is faster than the wind; and worries/anxieties are more numerous than grass."
+        },
+        {
+            verse: 2,
+            shloka_kn: "ಕಿಂಸ್ವಿತ್ ಪ್ರವಸತೋ ಮಿತ್ರಂ ಕಿಂಸ್ವಿನ್ಮಿತ್ರಂ ಗೃಹೇ ಸತಃ | ಆತುರಸ್ಯ ಚ ಕಿಂ ಮಿತ್ರಂ ಕಿಂಸ್ವಿನ್ಮಿತ್ರಂ ಮರಿಷ್ಯತಃ ||",
+            shloka_en: "Kimsvit pravasato mitram, kimsvin-mitram gruhe satah? | Aaturasya cha kim mitram, kimsvin-mitram marishyatah? ||",
+            meaning_kn: "ಯಕ್ಷ: ಪ್ರವಾಸದಲ್ಲಿರುವವನಿಗೆ (ಪರದೇಶದಲ್ಲಿರುವವನಿಗೆ) ಮಿತ್ರ ಯಾರು? ಮನೆಯಲ್ಲಿರುವವನಿಗೆ ಮಿತ್ರ ಯಾರು? ರೋಗಿಗೆ ಮಿತ್ರ ಯಾರು? ಸಾಯುತ್ತಿರುವವನಿಗೆ ಮಿತ್ರ ಯಾರು?\nಯುಧಿಷ್ಠಿರ: ಪರದೇಶದಲ್ಲಿರುವವನಿಗೆ 'ವಿದ್ಯೆ'ಯೇ ಮಿತ್ರ. ಮನೆಯಲ್ಲಿರುವವನಿಗೆ 'ಹೆಂಡತಿ'ಯೇ ಮಿತ್ರ. ರೋಗಿಗೆ 'ವೈದ್ಯ'ನೇ ಮಿತ್ರ. ಸಾಯುತ್ತಿರುವವನಿಗೆ 'ದಾನ / ಪುಣ್ಯ'ವೇ ಮಿತ್ರ.",
+            meaning_en: "Yaksha: Who is the friend of a traveler? Who is the friend of one staying at home? Who is the friend of the sick? And who is the friend of a dying man?\nYudhishthira: Learning (Knowledge) is the friend of a traveler. The wife is the friend of one at home. The physician is the friend of the sick. And charity (merit of good deeds) is the friend of someone who is dying."
+        },
+        {
+            verse: 3,
+            shloka_kn: "ಕಿಮ್ ಜ್ಞಾನಂ ಪ್ರೋಚ್ಯತೇ ರಾಜನ್ ಕಃ ಶಮಶ್ಚ ಪ್ರಕೀರ್ತಿತಃ | ದಯಾ ಚ ಕಾ ಪರಾ ಪ್ರೋಕ್ತಾ ಕಿಂ ಚಾರ್ಜವಮುದಾಹೃತಮ್ ||",
+            shloka_en: "Kim jnaanam prochyate raajan, kah shamascha prakeertitah? | Daya cha ka para prokta, kim chaarjavam-udaahrutam? ||",
+            meaning_kn: "ಯಕ್ಷ: ನಿಜವಾದ ಜ್ಞಾನ ಯಾವುದು? ಶಾಂತಿ (ಶಮ) ಎಂದರೆ ಏನು? ಶ್ರೇಷ್ಠ ದಯೆ ಯಾವುದು? ಮತ್ತು ಸರಳತೆ (ಆರ್ಜವ) ಎಂದರೆ ಏನು?\nಯುಧಿಷ್ಠಿರ: ಪರಮಾತ್ಮನ ಸಾಕ್ಷಾತ್ಕಾರವೇ ನಿಜವಾದ ಜ್ಞಾನ. ಮನಸ್ಸನ್ನು ಅಹಂಕಾರದಿಂದ ಮುಕ್ತವಾಗಿಡುವುದೇ ಶಾಂತಿ. ಎಲ್ಲರ ಒಳಿತನ್ನು ಬಯಸುವುದೇ ನಿಜವಾದ ದಯೆ. ಮತ್ತು ಮನಸ್ಸು ಹಾಗೂ ಕೃತ್ಯಗಳಲ್ಲಿ ಏಕರೂಪವಾಗಿರುವುದೇ (ಸಮತೆ-ಸತ್ಯತೆ) ಸರಳತೆ.",
+            meaning_en: "Yaksha: What is true knowledge? What is meant by tranquility? What is supreme compassion? And what is simplicity/rectitude?\nYudhishthira: True knowledge is the realization of the Divine (understanding true nature of divinity). Tranquility is keeping the heart still (free from ego). True compassion is wishing well for all. And simplicity is equanimity of mind."
+        },
+        {
+            verse: 4,
+            shloka_kn: "ಕಿಮಜ್ಞಾನಂ ಪುಮಾನ್ ಪ್ರೋಕ್ತಃ ಕಶ್ವಾಹಂಕಾರ ಉಚ್ಯತೇ | ದಂಭಃ ಕಃ ಸ್ಮೃತೋ ರಾಜನ್ ಕಿಂ ಚ ದೈವಮುದಾಹೃತಮ್ ||",
+            shloka_en: "Kimajnaanam pumaan proktah, kashvaahamkaara uchyate? | Dambhah kah smruto raajan, kim cha daivamudaahrutam? ||",
+            meaning_kn: "ಯಕ್ಷ: ಅಜ್ಞಾನ ಎಂದರೆ ಏನು? ಅಹಂಕಾರ ಎಂದರೆ ಏನು? ಡಂಭ (ಆಷಾಢಭೂತಿತನ) ಎಂದರೆ ಏನು? ದೈವ (ಪುಣ್ಯ/ಅದೃಷ್ಟ) ಎಂದರೆ ಏನು?\nಯುಧಿಷ್ಠಿರ: ತನ್ನ ಕರ್ತವ್ಯದ (ಧರ್ಮದ) ಅರಿವಿಲ್ಲದಿರುವುದೇ ಅಜ್ಞಾನ. ತಾನೇ ಕರ್ತೃ ಎಂಬ ಅಹಮಿಕೆಯೇ ಅಹಂಕಾರ. ತಾನು ಧರ್ಮದವನು ಎಂದು ತೋರಿಕೆಗೆ ವರ್ತಿಸುವುದೇ ಡಂಭ. ದಾನ/ಧರ್ಮಗಳ ಫಲವೇ ದೈವ (ಅದೃಷ್ಟ).",
+            meaning_en: "Yaksha: What is ignorance? What is egoism? What is hypocrisy? And what is destiny?\nYudhishthira: Ignorance is not knowing one's duty (Dharma). Egoism is the feeling that 'I am the doer'. Hypocrisy is pretending to be righteous. And destiny is the result of good deeds."
+        },
+        {
+            verse: 5,
+            shloka_kn: "ಮೃತಃ ಕಥಂ ಸ್ಯಾತ್ಪುರುಷಃ ಕಥಂ ರಾಷ್ಟ್ರಂ ಮೃತಂ ಭವೇತ್ | ಶ್ರಾದ್ಧಂ ಮೃತಂ ಕಥಂ ವಾ ಸ್ಯಾತ್ ಕಥಂ ಯಜ್ಞೋ ಮೃತೋ ಭವೇತ್ ||",
+            shloka_en: "Mrutah katham syaat-purushah, katham raashtram mrutam bhavet? | Shraaddham mrutam katham va syaat, katham yajno mruto bhavet? ||",
+            meaning_kn: "ಯಕ್ಷ: ಮನುಷ್ಯನು ಹೇಗೆ ಸತ್ತಂತಾಗುತ್ತಾನೆ? ಒಂದು ರಾಷ್ಟ್ರವು ಹೇಗೆ ಸತ್ತಂತಾಗುತ್ತದೆ? ಶ್ರಾದ್ಧವು ಹೇಗೆ ವ್ಯರ್ಥವಾಗುತ್ತದೆ? ಯಜ್ಞವು ಹೇಗೆ ವ್ಯರ್ಥವಾಗುತ್ತದೆ?\nಯುಧಿಷ್ಠಿರ: ಬಡತನವು (ಜ್ಞಾನ ಮತ್ತು ಸಂಪತ್ತಿನ) ಮನುಷ್ಯನನ್ನು ಸತ್ತಂತೆ ಮಾಡುತ್ತದೆ. ರಾಜನಿಲ್ಲದ (ಅಥವಾ ಒಳ್ಳೆಯ ನಾಯಕನಿಲ್ಲದ) ರಾಷ್ಟ್ರವು ಸತ್ತಂತೆ. ಅರ್ಹನಲ್ಲದ ಪುರೋಹಿತನಿಂದ ಮಾಡಿಸಿದ ಶ್ರಾದ್ಧವು ವ್ಯರ್ಥ. ಮತ್ತು ದಕ್ಷಿಣೆ (ದಾನ) ಇಲ್ಲದ ಯಜ್ಞ ವ್ಯರ್ಥ.",
+            meaning_en: "Yaksha: When is a man considered dead? When is a kingdom considered dead? When is a Shraaddha (ancestral ritual) considered useless? When is a Yajna (sacrifice) considered dead?\nYudhishthira: A man in extreme poverty is as good as dead. A kingdom without a capable king is dead. A Shraaddha performed by an unqualified priest is dead. A Yajna without Dakshina (charity) is dead."
+        },
+        {
+            verse: 6,
+            shloka_kn: "ತಪಃ ಕಿಂ ಲಕ್ಷಣಂ ಪ್ರೋಕ್ತಂ ಕೋ ದಮಃ ಪ್ರಕೀರ್ತಿತಃ | ಕ್ಷಮಾ ಚ ಕಾ ಪರಾ ಪ್ರೋಕ್ತಾ ಹ್ರೀಶ್ವಾ ಕಾ ಪರಿಕೀರ್ತಿತಾ ||",
+            shloka_en: "Tapah kim lakshanam proktam, ko damah prakeertitah? | Kshama cha ka para prokta, hreeshva ka parikeertita? ||",
+            meaning_kn: "ಯಕ್ಷ: ತಪಸ್ಸಿನ ಲಕ್ಷಣವೇನು? ದಮ (ಸಂಯಮ) ಎಂದರೆ ಏನು? ಶ್ರೇಷ್ಠ ಕ್ಷಮೆ ಯಾವುದು? ಮತ್ತು ನಿಜವಾದ ನಾಚಿಕೆ (ಹ್ರೀ) ಯಾವುದು?\nಯುಧಿಷ್ಠಿರ: ತನ್ನ ಕರ್ತವ್ಯವನ್ನು ಅತ್ಯಂತ ಕಷ್ಟದಲ್ಲೂ ಶ್ರದ್ಧೆಯಿಂದ ಮಾಡುವುದೇ ತಪಸ್ಸು. ಮನಸ್ಸು ಮತ್ತು ಇಂದ್ರಿಯಗಳನ್ನು ಹತೋಟಿಯಲ್ಲಿಡುವುದೇ ದಮ. ದ್ವೇಷವನ್ನು ಎದುರಿಸುವ ಶಕ್ತಿಯೇ ಕ್ಷಮೆ. ಮತ್ತು ಪಾಪಕಾರ್ಯಗಳನ್ನು ಮಾಡಲು ಹಿಂಜರಿಯುವುದೇ ನಾಚಿಕೆ (ಹ್ರೀ).",
+            meaning_en: "Yaksha: What is the true characteristic of Tapas (penance)? What is Dama (self-restraint)? What is supreme forgiveness? And what is true modesty?\nYudhishthira: Steadfastness in one's duty is Tapas. Control over the mind and senses is Dama. Enduring enmity (remaining calm against animosity) is supreme forgiveness. Shrinking from doing bad or sinful deeds is true modesty."
+        },
+        {
+            verse: 7,
+            shloka_kn: "ಕಿಂಸ್ವಿದೇಕಪದಂ ಧರ್ಮ್ಯಂ ಕಿಂಸ್ವಿದೇಕಪದಂ ಯಶಸ್ | ಕಿಂಸ್ವಿದೇಕಪದಂ ಸ್ವರ್ಗ್ಯಂ ಕಿಂಸ್ವಿದೇಕಪದಂ ಸುಖಮ್ ||",
+            shloka_en: "Kimsvidekapadam dharmyam, kimsvidekapadam yashas? | Kimsvidekapadam svargyam, kimsvidekapadam sukham? ||",
+            meaning_kn: "ಯಕ್ಷ: ಧರ್ಮಕ್ಕೆ ಮೂಲ ಯಾವುದು? ಕೀರ್ತಿಗೆ ಮೂಲ ಯಾವುದು? ಸ್ವರ್ಗಕ್ಕೆ ಮೂಲ ಯಾವುದು? ಮತ್ತು ಸುಖ-ಸಂತೋಷಕ್ಕೆ ಮೂಲ ಯಾವುದು?\nಯುಧಿಷ್ಠಿರ: ಕುಶಲತೆ (Skillfulness/Right action) ಧರ್ಮಕ್ಕೆ ಮೂಲ. ದಾನ-ಧರ್ಮವು ಕೀರ್ತಿಗೆ ಮೂಲ. ಸತ್ಯವು ಸ್ವರ್ಗಕ್ಕೆ ಮೂಲ. ಮತ್ತು ಶೀಲ (ಒಳ್ಳೆಯ ನಡತೆ) ಸುಖ-ಸಂತೋಷಕ್ಕೆ ಮೂಲ.",
+            meaning_en: "Yaksha: What is the sole root of Dharma? What is the sole root of fame? What is the sole root of heaven? And what is the sole root of happiness?\nYudhishthira: Skillfulness (dexterity in right action) is the root of Dharma. Charity is the root of fame. Truthfulness is the root of heaven. And good character (Sheela) is the root of happiness."
+        },
+        {
+            verse: 8,
+            shloka_kn: " ಧಾನ್ಯಾನಾಮ್ ಮುತ್ತಮಂ ಕಿಂಸ್ವಿದ್ ಧನಾನಾಂ ಸ್ಯಾತ್ ಕಿಮುತ್ತಮಮ್ | ಲಾಭಾನಾಮ್ ಮುತ್ತಮಂ ಕಿಂಸ್ವಿದ್ ಸುಖಾನಾಂ ಸ್ಯಾತ್ ಕಿಮುತ್ತಮಮ್ ||",
+            shloka_en: "Dhaanyaanaam muttamam kimsvid, dhanaanaam syaat kimuttamam? | Laabhaanaam muttamam kimsvid, sukhaanaam syaat kimuttamam? ||",
+            meaning_kn: "ಯಕ್ಷ: ಧಾನ್ಯಗಳಲ್ಲಿ (ಆಹಾರದಲ್ಲಿ) ಶ್ರೇಷ್ಠವಾದದ್ದು ಯಾವುದು? ಧನ-ಸಂಪತ್ತಿನಲ್ಲಿ ಶ್ರೇಷ್ಠವಾದದ್ದು ಯಾವುದು? ಲಾಭಗಳಲ್ಲಿ ಅತ್ಯಂತ ಶ್ರೇಷ್ಠವಾದದ್ದು ಯಾವುದು? ಸುಖಗಳಲ್ಲಿ ಅತ್ಯುತ್ತಮವಾದದ್ದು ಯಾವುದು?\nಯುಧಿಷ್ಠಿರ: ಕೌಶಲ್ಯವೇ (ಬುದ್ಧಿವಂತಿಕೆ) ಶ್ರೇಷ್ಠ ಆಹಾರ (ಬದುಕಲು). ಜ್ಞಾನவே ಸರ್ವಶ್ರೇಷ್ಠ ಸಂಪತ್ತು. ಆರೋಗ್ಯವೇ ಅತೀ ದೊಡ್ಡ ಲಾಭ. ಮತ್ತು ಸಂತೃಪ್ತಿಯೇ ಸರ್ವೋತ್ಕೃಷ್ಟ ಸುಖ.",
+            meaning_en: "Yaksha: What is the best of grains (food)? What is the highest form of wealth? What is the greatest of all gains? And what is the highest of all happiness?\nYudhishthira: Skill is the best cultivator (or resource). Knowledge is the highest wealth. Good health is the greatest gain. And contentment is the ultimate happiness."
+        },
+        {
+            verse: 9,
+            shloka_kn: "ಕಶ್ಚ ಶತ್ರುರ್ದುರ್ಜಯಃ ಪುಂಸಾಂ ಕಶ್ಚ ವ್ಯಾಧಿರನಂತಕಃ | ಕೀದೃಶಶ್ವಾ ಸಾಧುಃ ಪ್ರೋಕ್ತೋ ಅಸಾಧುಃ ಕೀದೃಶಃ ಸ್ಮೃತಃ ||",
+            shloka_en: "Kashcha shatrur-durjayah pumsaam, kashcha vyaadhir-anantakah? | Keedrushashva saadhuh prokto, asaadhuh keedrushah smrutah? ||",
+            meaning_kn: "ಯಕ್ಷ: ಮನುಷ್ಯರ, ಗೆಲ್ಲಲಾಗದ ಅತೀ ದೊಡ್ಡ ಶತ್ರು ಯಾರು? ಅಂತ್ಯವೇ ಇಲ್ಲದ ಗುಣಪಡಿಸಲಾಗದ ಕಾಯಿಲೆ (ರೋಗ) ಯಾವುದು? ನಿಜವಾದ ಸಾಧು (ಒಳ್ಳೆಯವನು) ಯಾರು? ಮತ್ತು ಅಸಾಧು (ಕೆಟ್ಟವನು) ಯಾರು?\nಯುಧಿಷ್ಠಿರ: ಕೋಪವೇ ಗೆಲ್ಲಲಾಗದ ಅತೀ ದೊಡ್ಡ ಶತ್ರು. ಲೋಭ (ದುರಾಸೆ) ಅತ್ಯಂತ ಕಠೋರವಾದ ಹಾಗೂ ಗುಣಪಡಿಸಲಾಗದ ಕಾಯಿಲೆ. ಎಲ್ಲ ಪ್ರಾಣಿಗಳ ಒಳಿತನ್ನು ಬಯಸುವವನೇ ಸಾಧು. ನಿರ್ದಯಿಯೇ ಅಸಾಧು.",
+            meaning_en: "Yaksha: Who is the invincible enemy of men? What is the incurable, endless disease? Who is considered truly good (Sadhu)? And who is considered bad (Asadhu)?\nYudhishthira: Anger is the invincible enemy. Greed is the incurable disease. One who wishes well for all beings is truly good. And the cruel/merciless one is truly bad."
+        },
+        {
+            verse: 10,
+            shloka_kn: "ಅಹನ್ಯಹನಿ ಭೂತಾನಿ ಗಚ್ಛಂತಿ ಯಮಮಂದಿರಮ್ | ಶೇಷಾಃ ಸ್ಥಿರತ್ವಮಿಚ್ಛಂತಿ ಕಿಮಾಶ್ಚರ್ಯಮತಃ ಪರಮ್ ||",
+            shloka_en: "Ahanyahani bhootaani, gachchhanti Yamamandiram | Sheshaah sthiratvamichchhanti, kimaashcharyamatah param? ||",
+            meaning_kn: "ಯಕ್ಷ: ಈ ಜಗತ್ತಿನಲ್ಲಿ ಅತೀ ದೊಡ್ಡ ಆಶ್ಚರ್ಯ (ವಿಸ್ಮಯ) ಯಾವುದು?\nಯುಧಿಷ್ಠಿರ: ಪ್ರತಿದಿನವೂ ಅದೆಷ್ಟೋ ಜೀವಿಗಳು ಯಮಲೋಕವನ್ನು ಸೇರುತ್ತಿರುವುದನ್ನು (ಸಾಯುವುದನ್ನು) ನೋಡಿಯೂ, ಉಳಿದವರು ತಾವು ಶಾಶ್ವತವಾಗಿ ಬದುಕಿರುತ್ತೇವೆ ಎಂದುಕೊಂಡು ಬದುಕುತ್ತಾರಲ್ಲ, ಇದಕ್ಕಿಂತ ದೊಡ್ಡ ಆಶ್ಚರ್ಯ ಇನ್ನಾವುದಿದೆ? (ಮರಣ ನಿಶ್ಚಿತ ಎಂದು ತಿಳಿದಿದ್ದರೂ ಮಾನವನು ಅಮರನಂತೆ ವರ್ತಿಸುತ್ತಾನೆ).",
+            meaning_en: "Yaksha: What is the greatest wonder in this world?\nYudhishthira: Day after day, countless beings enter the abode of Yama (death), yet those who remain believe they will live forever. What could be a greater wonder than this? (Despite visible mortality, human delusion of immortality)."
+        },
+        {
+            verse: 11,
+            shloka_kn: "ತರ್ಕೋಽಪ್ರತಿಷ್ಠಃ ಶ್ರುತಯೋ ವಿಭಿನ್ನಾ ನೈಕೋ ಋಷಿರ್ಯಸ್ಯ ವಚಃ ಪ್ರಮಾಣಮ್ | ಧರ್ಮಸ್ಯ ತತ್ತ್ವಂ ನಿಹಿತಂ ಗುಹಾಯಾಂ ಮಹಾಜನೋ ಯೇನ ಗತಃ ಸ ಪಂಥಾಃ ||",
+            shloka_en: "Tarko-pratishthah shrutayo vibhinnaa, naiko rushir-yasya vachah pramaanam | Dharmasya tattvam nihitam guhaayaam, mahaajano yena gatah sa panthaah ||",
+            meaning_kn: "ಯಕ್ಷ: ಸರಿಯಾದ ಮಾರ್ಗ ಯಾವುದು? (ಧರ್ಮದ ಪಥ ಯಾವುದು?)\nಯುಧಿಷ್ಠಿರ: ತರ್ಕಕ್ಕೆ ಸ್ಥಿರತೆಯಿಲ್ಲ, ವೇದ-ಶಾಸ್ತ್ರಗಳು ಭಿನ್ನವಾಗಿವೆ, ಒಪ್ಪಿಕೊಳ್ಳಲು ಯಾವುದೇ ಒಬ್ಬ ಋಷಿಯ ಮಾತೇ ಅಂತಿಮವಲ್ಲ. ಧರ್ಮದ ರಹಸ್ಯವು ಗುಹೆಯಲ್ಲಿ ಅಡಗಿದೆ (ಗ್ರಹಿಸಲು ಕಷ್ಟ). ಆದ್ದರಿಂದ ಶ್ರೇಷ್ಠ ವ್ಯಕ್ತಿಗಳು (ಮಹಾಜನರು) ನಡೆದು ತೋರಿಸಿದ ಮಾರ್ಗವೇ ಸರಿಯಾದ ಮಾರ್ಗ.",
+            meaning_en: "Yaksha: What is the true path? (How to find Dharma?)\nYudhishthira: Argument is inconclusive; the scriptures are manifold and differ; there is no single sage whose words are conclusive. The truth of Dharma is hidden in a dark cave. Therefore, the path that great and righteous people have walked is the true path."
+        }
+    ]
+};
+
+fs.writeFileSync(yakshaPrashnaPath, JSON.stringify(completeYakshaPrashna, null, 2));
+console.log('Created yaksha_prashna.json');

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Sun, Quote, MapPin, Activity, Library, Book, Leaf, Music, Flame, Mic2, Calendar, User, PenTool, Zap, HeartPulse } from 'lucide-react';
+import { Search, Sun, Quote, MapPin, Activity, Library, Book, Leaf, Music, Flame, Mic2, Calendar, User, PenTool, Zap, HeartPulse, Sparkles } from 'lucide-react';
 import VerseOfTheDay from '../components/VerseOfTheDay';
 
 import Header from '../components/Header';
@@ -8,7 +8,7 @@ import SearchDialog from '../components/SearchDialog';
 
 const IconMap = {
     Sun, Quote, MapPin, Activity, Library, Book, Leaf, Music,
-    Flame, Mic2, Calendar, User, PenTool, Zap, HeartPulse
+    Flame, Mic2, Calendar, User, PenTool, Zap, HeartPulse, Sparkles
 };
 
 const getGreeting = () => {
@@ -116,6 +116,54 @@ const SamskrutiHome = ({ categories }) => {
                                 <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--text-primary)', fontWeight: 600 }}>ಚಕ್ರ ಮತ್ತು ಆತ್ಮ ಸಾಧನೆ</h3>
                                 <p style={{ margin: '0.4rem 0 0', fontSize: '0.75rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                                     Chakra Sadhana
+                                </p>
+                            </div>
+                        </Link>
+                    )}
+
+                    {/* Moksha Marga Card */}
+                    {("ಮೋಕ್ಷ ಮಾರ್ಗ moksha marga".includes(searchTerm.toLowerCase())) && (
+                        <Link
+                            to="/moksha-marga"
+                            style={{ textDecoration: 'none', animationDelay: `${(filteredData.length + 1) * 0.05}s` }}
+                            className="animate-slide-up"
+                        >
+                            <div className="card h-full" style={{ textAlign: 'center', padding: '1.75rem 1rem' }}>
+                                <div style={{
+                                    background: 'rgba(255, 149, 0, 0.1)',
+                                    width: '56px', height: '56px', borderRadius: '16px',
+                                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                    margin: '0 auto 1.25rem'
+                                }}>
+                                    <Sparkles size={28} color="#FF9500" />
+                                </div>
+                                <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--text-primary)', fontWeight: 600 }}>ಮೋಕ್ಷ ಮಾರ್ಗ</h3>
+                                <p style={{ margin: '0.4rem 0 0', fontSize: '0.75rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                    Moksha Marga
+                                </p>
+                            </div>
+                        </Link>
+                    )}
+
+                    {/* Dharmic Lifestyle Card */}
+                    {("ಧಾರ್ಮಿಕ ಜೀವನ ಜೀವನ ಶೈಲಿ lifestyle".includes(searchTerm.toLowerCase())) && (
+                        <Link
+                            to="/dharmic-lifestyle"
+                            style={{ textDecoration: 'none', animationDelay: `${(filteredData.length + 2) * 0.05}s` }}
+                            className="animate-slide-up"
+                        >
+                            <div className="card h-full" style={{ textAlign: 'center', padding: '1.75rem 1rem' }}>
+                                <div style={{
+                                    background: 'rgba(52, 199, 89, 0.1)',
+                                    width: '56px', height: '56px', borderRadius: '16px',
+                                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                    margin: '0 auto 1.25rem'
+                                }}>
+                                    <Leaf size={28} color="#34C759" />
+                                </div>
+                                <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--text-primary)', fontWeight: 600 }}>ಧಾರ್ಮಿಕ ಜೀವನ</h3>
+                                <p style={{ margin: '0.4rem 0 0', fontSize: '0.75rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                    Dharmic Life
                                 </p>
                             </div>
                         </Link>
