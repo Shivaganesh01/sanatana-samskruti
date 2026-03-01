@@ -96,6 +96,30 @@ const SamskrutiHome = ({ categories }) => {
                             </Link>
                         );
                     })}
+
+                    {/* Chakra & Atma Sadhana Card */}
+                    {("ಚಕ್ರ ಮತ್ತು ಆತ್ಮ ಸಾಧನೆ chakra saadhana".includes(searchTerm.toLowerCase())) && (
+                        <Link
+                            to="/chakra-sadhana"
+                            style={{ textDecoration: 'none', animationDelay: `${filteredData.length * 0.05}s` }}
+                            className="animate-slide-up"
+                        >
+                            <div className="card h-full" style={{ textAlign: 'center', padding: '1.75rem 1rem' }}>
+                                <div style={{
+                                    background: 'rgba(255, 153, 51, 0.1)',
+                                    width: '56px', height: '56px', borderRadius: '16px',
+                                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                    margin: '0 auto 1.25rem'
+                                }}>
+                                    <Activity size={28} color="var(--primary)" />
+                                </div>
+                                <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--text-primary)', fontWeight: 600 }}>ಚಕ್ರ ಮತ್ತು ಆತ್ಮ ಸಾಧನೆ</h3>
+                                <p style={{ margin: '0.4rem 0 0', fontSize: '0.75rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                    Chakra Sadhana
+                                </p>
+                            </div>
+                        </Link>
+                    )}
                 </div>
             </div>
         </div>

@@ -142,7 +142,7 @@ const SamskrutiDetail = ({ categories }) => {
                                         <h4 style={{ margin: 0, color: 'var(--primary)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Verse {verse.verse}</h4>
                                         <ShareButton
                                             title={`Verse ${verse.verse}`}
-                                            text={`🌺 ಸನಾತನ ಸಂಸ್ಕೃತಿ 🌺\n\n${verse.shloka_kn}\n\nಅರ್ಥ: ${verse.meaning_kn}${verse.meaning_en ? `\nMeaning: ${verse.meaning_en}` : ''}`}
+                                            text={`🌺 ಸನಾತನ ಸಂಸ್ಕೃತಿ 🌺\n\n${verse.shloka_kn}${verse.meaning_kn ? `\n\nಅರ್ಥ: ${verse.meaning_kn}` : ''}${verse.meaning_en ? `\nMeaning: ${verse.meaning_en}` : ''}`}
                                         />
                                     </div>
 

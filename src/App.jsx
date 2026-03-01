@@ -13,6 +13,7 @@ import GitaDetail from './pages/GitaDetail';
 import Explore from './pages/Explore';
 import Favorites from './pages/Favorites';
 import JapaMala from './pages/JapaMala';
+import ChakraSadhana from './pages/ChakraSadhana';
 import { SettingsProvider } from './context/SettingsContext';
 
 // --- Back Button Handler for Mobile ---
@@ -155,6 +156,13 @@ const AppContent = () => {
           <Route path="/japa" element={
             <>
               <JapaMala />
+              <BottomNavigation />
+            </>
+          } />
+
+          <Route path="/chakra-sadhana" element={
+            <>
+              <ChakraSadhana />
               <BottomNavigation />
             </>
           } />
