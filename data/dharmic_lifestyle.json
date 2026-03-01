@@ -1,0 +1,110 @@
+{
+    "yamasNiyamas": {
+        "title_kn": "ಯಮ ಮತ್ತು ನಿಯಮ (Yamas & Niyamas)",
+        "title_en": "Dharmic Ethics (Modern Life Hacks)",
+        "description_kn": "ಪತಂಜಲಿ ಯೋಗ ಸೂತ್ರಗಳಲ್ಲಿ ವಿವರಿಸಿದಂತೆ ಅಷ್ಟಾಂಗ ಯೋಗದ ಮೊದಲ ಎರಡು ಹಂತಗಳು. ಇವು ಚಾರಿತ್ರ್ಯ ನಿರ್ಮಾಣದ ಬುನಾದಿ.",
+        "description_en": "Think of Yamas and Niyamas as the 'Terms of Service' and 'Security Settings' for a peaceful and high-performance life.",
+        "yamas": [
+            {
+                "title_kn": "ಅಹಿಂಸೆ (Ahimsa)",
+                "title_en": "Non-violence (Digital Kindness)",
+                "desc_kn": "ನುಡಿ, ನಡೆ ಮತ್ತು ಆಲೋಚನೆಯಲ್ಲಿ ಯಾರಿಗೂ ತೊಂದರೆ ಕೊಡದಿರುವುದು.",
+                "desc_en": "Beyond physical harm. It means no 'Cyber-bullying', no hateful comments, and being kind to yourself (no harsh self-talk)."
+            },
+            {
+                "title_kn": "ಸತ್ಯ (Satya)",
+                "title_en": "Truthfulness (Authenticity)",
+                "desc_kn": "ಸತ್ಯವನ್ನು ಸದಾ ಪಾಲಿಸುವುದು ಮತ್ತು ಸತ್ಯವನ್ನೇ ಹೇಳುವುದು.",
+                "desc_en": "Being authentic. Don't fake your life for social media. Speak truth even if it's not 'Trending'."
+            },
+            {
+                "title_kn": "ಅಸ್ತೇಯ (Asteya)",
+                "title_en": "Non-stealing (Respecting IP)",
+                "desc_kn": "ಅನ್ಯರ ವಸ್ತುಗಳ ಮೇಲೆ ಆಸೆ ಪಡದಿರುವುದು.",
+                "desc_en": "Not just money. Respecting others' time, space, and intellectual property. No 'Content Piracy' or claiming others' ideas."
+            },
+            {
+                "title_kn": "ಬ್ರಹ್ಮಚರ್ಯ (Brahmacharya)",
+                "title_en": "Self-restraint (Dopamine Control)",
+                "desc_kn": "ಶಕ್ತಿಯನ್ನು ದೈವಿಕ ಚಿಂತನೆಗೆ ಬಳಸುವುದು.",
+                "desc_en": "Controlling the urge for 'Quick Dopamine Hits'. Directing your energy towards high-value goals instead of low-value distractions."
+            },
+            {
+                "title_kn": "ಅಪರಿಗ್ರಹ (Aparigraha)",
+                "title_en": "Non-attachment (Digital Minimalism)",
+                "desc_kn": "ಅಗತ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ವಸ್ತುಗಳನ್ನು ಸಂಗ್ರಹಿಸದಿರುವುದು.",
+                "desc_en": "Minimalism. De-clutter your physical space, your hard drive, and your mental 'Tabs'. Wanting less means being free."
+            }
+        ],
+        "niyamas": [
+            {
+                "title_kn": "ಶೌಚ (Sauca)",
+                "title_en": "Purity (Mental De-clutter)",
+                "desc_kn": "ದೈಹಿಕ ಮತ್ತು ಆಂತರಿಕ ಶೌಚ (ಶುದ್ಧತೆ).",
+                "desc_en": "Clean body, clean diet, and a clean 'Social Media Feed'. If someone spreads poison, 'Unfollow' and keep your mind pure."
+            },
+            {
+                "title_kn": "ಸಂತೋಷ (Santosa)",
+                "title_en": "Contentment (Anti-Comparison)",
+                "desc_kn": "ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಸಂತೃಪ್ತಿಯಿಂದ ಇರುವುದು.",
+                "desc_en": "Comparison is the thief of joy. Moksha begins with being happy with 'The Now' instead of waiting for 'The Next Update'."
+            },
+            {
+                "title_kn": "ತಪಸ್ಸು (Tapas)",
+                "title_en": "Discipline (Deep Consistency)",
+                "desc_kn": "ಗುರಿಯನ್ನು ತಲುಪಲು ಮಾಡುವ ಕಠಿಣ ಪರಿಶ್ರಮ ಮತ್ತು ಶಿಸ್ತು.",
+                "desc_en": "Grind with a Purpose. Consistent effort in skills and spiritual practice. It's the 'Deep Work' mode of life."
+            },
+            {
+                "title_kn": "ಸ್ವಾಧ್ಯಯನ (Svadhyaya)",
+                "title_en": "Self-study (Mindful Learning)",
+                "desc_kn": "ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ ಮತ್ತು ಆತ್ಮಾವಲೋಕನ.",
+                "desc_en": "Learning from the masters and your own mistakes. Analyze your thought patterns like you analyze a game replay."
+            },
+            {
+                "title_kn": "ಈಶ್ವರ ಪ್ರಣಿಧಾನ (Ishvara Pranidhana)",
+                "title_en": "Surrender (Trust in the Universe)",
+                "desc_kn": "ಎಲ್ಲವನ್ನೂ ದೇವರಿಗೆ ಸಮರ್ಪಿಸಿ ಆತನಲ್ಲಿ ಅಚಲ ನಂಬಿಕೆ ಇಡುವುದು.",
+                "desc_en": "Surrendering the outcome. Doing your best and trusting the 'Universal Algorithm' to bring what is right for you."
+            }
+        ]
+    },
+    "panchaMahaYajna": {
+        "title_kn": "ಪಂಚ ಮಹಾಯಜ್ಞ (Five Great Sacrifices)",
+        "title_en": "The Five Daily Eco-Obligations",
+        "description_kn": "ಪ್ರತಿದಿನ ಪ್ರತಿಯೊಬ್ಬ ಸನಾತನಿ ಸಲ್ಲಿಸಬೇಕಾದ ಐದು ಋಣಗಳು.",
+        "description_en": "Understanding our connectivity. We aren't isolated users; we are part of a giant ecosystem.",
+        "yajnas": [
+            {
+                "title_kn": "ದೇವ ಯಜ್ಞ (Deva Yajna)",
+                "title_en": "Divine Gratitude",
+                "desc_kn": "ಪೂಜೆ, ಅಗ್ನಿಹೋತ್ರ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಮೂಲಕ ದೇವರಿಗೆ ಕೃತಜ್ಞತೆ ಸಲ್ಲಿಸುವುದು.",
+                "desc_en": "Thanking the 'Global Controller' (Nature/Divine) for your existence. Rituals are the UI for gratitude."
+            },
+            {
+                "title_kn": "ಋಷಿ ಯಜ್ಞ (Rishi Yajna)",
+                "title_en": "Intellectual Debt",
+                "desc_kn": "ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ ಮತ್ತು ಜ್ಞಾನ ಪ್ರಸಾರ ಮಾಡುವುದು.",
+                "desc_en": "Honoring the 'Original Developers' (Ancient Sages). Spread wisdom, not rumors or 'Fake News'."
+            },
+            {
+                "title_kn": "ಪಿತೃ ಯಜ್ಞ (Pitri Yajna)",
+                "title_en": "Ancestral Roots",
+                "desc_kn": "ಹಿರಿಯರನ್ನು ಗೌರವಿಸುವುದು ಮತ್ತು ಪಿತೃಗಳಿಗೆ ತರ್ಪಣ ನೀಡುವುದು.",
+                "desc_en": "Respecting your 'Root Directory' (Parents/Elders). Remember the people who built the foundation you stand on."
+            },
+            {
+                "title_kn": "ಮನುಷ್ಯ ಯಜ್ಞ (Manushya Yajna)",
+                "title_en": "Human Service",
+                "desc_kn": "ಅತಿಥಿ ಸತ್ಕಾರ ಮತ್ತು ಬಡವರಿಗೆ ಅನ್ನದಾನ ಮಾಡುವುದು (ಅತಿಥಿ ಹರತಿ).",
+                "desc_en": "Helping fellow 'Users'. Acts of kindness, charity, and meaningful social service."
+            },
+            {
+                "title_kn": "ಭೂತ ಯಜ್ಞ (Bhuta Yajna)",
+                "title_en": "Earth Stewardship",
+                "desc_kn": "ಪ್ರಾಣಿ-ಪಕ್ಷಿಗಳಿಗೆ ಆಹಾರ ನೀಡುವುದು ಮತ್ತು ಪ್ರಕೃತಿಯನ್ನು ರಕ್ಷಿಸುವುದು.",
+                "desc_en": "Saving the 'Server Assets' (Planet). Feeding birds/animals and taking local action against climate change."
+            }
+        ]
+    }
+}

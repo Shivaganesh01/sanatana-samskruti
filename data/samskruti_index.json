@@ -1,107 +1,37 @@
 [
     {
-        "id": "dinacharya",
-        "title_kn": "ದಿನಚರ್ಯ",
-        "title_en": "Daily Routine",
-        "description": "ಆರೋಗ್ಯಕರ ಜೀವನಕ್ಕಾಗಿ ಆದರ್ಶ ದಿನಚರಿ.",
-        "icon": "Sun"
+        "id": "health_yoga",
+        "title_kn": "ಆರೋಗ್ಯ ಮತ್ತು ಯೋಗ",
+        "title_en": "Health & Yoga",
+        "description": "ಆಯುರ್ವೇದ, ಮುದ್ರೆಗಳು ಮತ್ತು ದಿನಚರಿಯ ಮೂಲಕ ಸುಸ್ಥಿರ ಫಿಟ್‌ನೆಸ್.",
+        "icon": "HeartPulse"
     },
     {
-        "id": "subhashita",
-        "title_kn": "ಸುಭಾಷಿತಗಳು",
-        "title_en": "Moral Quotes",
-        "description": "ಜೀವನಕ್ಕೆ ದಾರಿದೀಪವಾಗುವ ಸಂಸ್ಕೃತ ಮುತ್ತುಗಳು.",
-        "icon": "Quote"
-    },
-    {
-        "id": "temples",
-        "title_kn": "ಪ್ರಸಿದ್ಧ ದೇವಾಲಯಗಳು",
-        "title_en": "Famous Temples",
-        "description": "ಭಾರತದ ಪವಿತ್ರ ಕ್ಷೇತ್ರಗಳ ಇತಿಹಾಸ ಮತ್ತು ಮಹತ್ವ.",
-        "icon": "MapPin"
-    },
-    {
-        "id": "mudras",
-        "title_kn": "ಯೋಗ ಮುದ್ರೆಗಳು",
-        "title_en": "Yoga Mudras",
-        "description": "ಹಸ್ತ ಮುದ್ರೆಗಳ ಮೂಲಕ ಆರೋಗ್ಯ ಮತ್ತು ಶಕ್ತಿ.",
-        "icon": "Activity"
-    },
-    {
-        "id": "ancient_science",
-        "title_kn": "ವೈದಿಕ ವಿಜ್ಞಾನ",
-        "title_en": "Ancient Indian Science",
-        "description": "ಪ್ರಾಚೀನ ಭಾರತದ ವಿಜ್ಞಾನ ಮತ್ತು ಗಣಿತದ ಕೊಡುಗೆಗಳು.",
+        "id": "vedic_wisdom",
+        "title_kn": "ವೇದ ಮತ್ತು ವಿಜ್ಞಾನ",
+        "title_en": "Vedic Wisdom",
+        "description": "ಸೂಕ್ತಗಳು, ಮಂತ್ರಗಳು ಮತ್ತು ಪ್ರಾಚೀನ ಭಾರತೀಯ ವಿಜ್ಞಾನದ ಕೊಡುಗೆಗಳು.",
         "icon": "Library"
     },
     {
-        "id": "maha_bharata",
-        "title_kn": "ಮಹಾಭಾರತದ ಪಾಠಗಳು",
-        "title_en": "Mahabharata Lessons",
-        "description": "ಧರ್ಮ ಮತ್ತು ನೀತಿಯ ಮಹಾಕಾವ್ಯ.",
-        "icon": "Book"
-    },
-    {
-        "id": "ayurveda",
-        "title_kn": "ಆಯುರ್ವೇದ ಮತ್ತು ಆರೋಗ್ಯ",
-        "title_en": "Ayurveda & Health",
-        "description": "ಆರೋಗ್ಯ ಮತ್ತು ದೀರ್ಘಾಯುಷ್ಯದ ಸನಾತನ ಸೂತ್ರಗಳು.",
-        "icon": "Leaf"
-    },
-    {
-        "id": "dasara_padagalu",
-        "title_kn": "ದಾಸರ ಪದಗಳು",
-        "title_en": "Devotional Songs",
-        "description": "ಕನ್ನಡದ ದಾಸ ಶ್ರೇಷ್ಠರ ಭಕ್ತಿಗೀತೆಗಳು.",
-        "icon": "Music"
-    },
-    {
-        "id": "pooja",
-        "title_kn": "ಪೂಜೆ ಮತ್ತು ಆರಾಧನೆ",
-        "title_en": "Pooja & Worship",
-        "description": "ಪೂಜಾ ವಿಧಾನ ಮತ್ತು ಅದರ ಹಿಂದಿರುವ ವಿಜ್ಞಾನ.",
-        "icon": "Flame"
-    },
-    {
-        "id": "stotras",
-        "title_kn": "ನಿತ್ಯ ಸ್ಮರಣೆ",
-        "title_en": "Stotras & Mantras",
-        "description": "ಪ್ರತಿದಿನ ಪಠಿಸಬೇಕಾದ ಶಕ್ತಿಶಾಲಿ ಮಂತ್ರಗಳು.",
-        "icon": "Mic2"
-    },
-    {
-        "id": "utsava",
-        "title_kn": "ಹಬ್ಬಗಳು (Utsava)",
-        "title_en": "Major Festivals",
-        "description": "ಭಾರತೀಯ ಹಬ್ಬಗಳ ಆಂತರಿಕ ಅರ್ಥ ಮತ್ತು ಆಚರಣೆ.",
-        "icon": "Calendar"
-    },
-    {
-        "id": "general",
-        "title_kn": "ಸಾಮಾನ್ಯ ಧರ್ಮ",
-        "title_en": "Dharma & Etiquette",
-        "description": "ದೈಹಿಕ ಮತ್ತು ಆತ್ಮಿಕ ಶುದ್ಧತೆಯ ಘಟಕಗಳು.",
-        "icon": "User"
-    },
-    {
-        "id": "kannada_saints",
-        "title_kn": "ಸಂತರ ವಚನಗಳು",
-        "title_en": "Saints of Karnataka",
-        "description": "ಬಸವಣ್ಣ, ಸರ್ವಜ್ಞ ಮತ್ತು ಅಕ್ಕಮಹಾದೇವಿಯ ವಿಚಾರಧಾರೆ.",
-        "icon": "PenTool"
-    },
-    {
-        "id": "vivekananda_quotes",
-        "title_kn": "ಸ್ವಾಮಿ ವಿವೇಕಾನಂದ",
-        "title_en": "Vivekananda Quotes",
-        "description": "ಯುವಶಕ್ತಿಗೆ ಸ್ಫೂರ್ತಿ ನೀಡುವ ವಿಚಾರಗಳು.",
+        "id": "spirituality_sadhana",
+        "title_kn": "ಅಧ್ಯಾತ್ಮ ಮತ್ತು ಸಾಧನೆ",
+        "title_en": "Spirituality & Sadhana",
+        "description": "ಮೋಕ್ಷ ಮಾರ್ಗಗಳು, ಸಾಧನಾ ಚತುಷ್ಟಯ ಮತ್ತು ಧಾರ್ಮಿಕ ನೈತಿಕತೆ.",
         "icon": "Zap"
     },
     {
-        "id": "suktas",
-        "title_kn": "ವೈದಿಕ ಸೂಕ್ತಗಳು",
-        "title_en": "Vedic Suktas",
-        "description": "ಪುರುಷ ಸೂಕ್ತ, ಶ್ರೀ ಸೂಕ್ತ ಮತ್ತು ನಾರಾಯಣ ಸೂಕ್ತಗಳ ಸಂಗ್ರಹ.",
-        "icon": "BookOpen"
+        "id": "dharma_culture",
+        "title_kn": "ಧರ್ಮ ಮತ್ತು ಸಂಸ್ಕೃತಿ",
+        "title_en": "Dharma & Culture",
+        "description": "ಮಹಾಭಾರತದ ಪಾಠಗಳು, ಸುಭಾಷಿತಗಳು ಮತ್ತು ಹಬ್ಬಗಳ ಮಹತ್ವ.",
+        "icon": "Book"
+    },
+    {
+        "id": "saints_temples",
+        "title_kn": "ಸಂತರು ಮತ್ತು ಪುಣ್ಯಕ್ಷೇತ್ರಗಳು",
+        "title_en": "Saints & Sacred Places",
+        "description": "ದಾಸ ಸಾಹಿತ್ಯ, ಶರಣರ ವಚನಗಳು ಮತ್ತು ಪವಿತ್ರ ದೇವಾಲಯಗಳ ಇತಿಹಾಸ.",
+        "icon": "MapPin"
     }
 ]

@@ -1,0 +1,888 @@
+{
+  "content_kn": "ಮಹಾಭಾರತದ ವನಪರ್ವದಲ್ಲಿ ಬರುವ 'ಯಕ್ಷ ಪ್ರಶ್ನೆ' ಯಮಧರ್ಮರಾಜ ಮತ್ತು ಯುಧಿಷ್ಠಿರನ ನಡುವಿನ 126 ಪ್ರಶ್ನೋತ್ತರಗಳ ಸಂಗ್ರಹವಾಗಿದೆ. ಈ ಸಂವಾದವು ಧರ್ಮ, ನೀತಿ ಮತ್ತು ತತ್ವಶಾಸ್ತ್ರದ ಸಾರವಾಗಿದೆ. ಆ 126 ಪ್ರಮುಖ ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಉತ್ತರಗಳು ಇಲ್ಲಿವೆ:",
+  "content_en": "The Yaksha Prashna involves a profound dialogue of 126 questions between Yudhishthira and a Yaksha. Yudhishthira answers the complex riddles with immense wisdom. Here are the 126 questions and answers:",
+  "content": [
+    {
+      "verse": 1,
+      "shloka_kn": "ಯಕ್ಷ: ಭೂಮಿಗಿಂತ ಭಾರವಾದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is heavier than earth?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಾಯಿಯು",
+      "meaning_en": "Yudhishthira: The mother"
+    },
+    {
+      "verse": 2,
+      "shloka_kn": "ಯಕ್ಷ: ಆಕಾಶಕ್ಕಿಂತ ಎತ್ತರವಾದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is taller than the sky?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಂದೆಯು",
+      "meaning_en": "Yudhishthira: The father"
+    },
+    {
+      "verse": 3,
+      "shloka_kn": "ಯಕ್ಷ: ಗಾಳಿಗಿಂತ ವೇಗವಾದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is faster than wind?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮನಸ್ಸು",
+      "meaning_en": "Yudhishthira: The mind"
+    },
+    {
+      "verse": 4,
+      "shloka_kn": "ಯಕ್ಷ: ಹುಲ್ಲಿಗಿಂತ ದಟ್ಟವಾಗಿ ಬೆಳೆಯುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is more numerous than grass?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಚಿಂತೆ",
+      "meaning_en": "Yudhishthira: Thoughts/Worries"
+    },
+    {
+      "verse": 5,
+      "shloka_kn": "ಯಕ್ಷ: ಪ್ರವಾಸದಲ್ಲಿರುವವನಿಗೆ ಮಿತ್ರ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is the friend of a traveler?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ವಿದ್ಯೆ",
+      "meaning_en": "Yudhishthira: Knowledge"
+    },
+    {
+      "verse": 6,
+      "shloka_kn": "ಯಕ್ಷ: ಮನೆಯಲ್ಲಿರುವವನಿಗೆ ಮಿತ್ರ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is the friend of a householder?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಹೆಂಡತಿ",
+      "meaning_en": "Yudhishthira: Wife"
+    },
+    {
+      "verse": 7,
+      "shloka_kn": "ಯಕ್ಷ: ರೋಗಿಗೆ ಮಿತ್ರ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is the friend of the sick?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ವೈದ್ಯ",
+      "meaning_en": "Yudhishthira: Doctor"
+    },
+    {
+      "verse": 8,
+      "shloka_kn": "ಯಕ್ಷ: ಸಾಯುತ್ತಿರುವವನಿಗೆ ಮಿತ್ರ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is the friend of the dying?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದಾನ-ಧರ್ಮ",
+      "meaning_en": "Yudhishthira: Charity/Dharma"
+    },
+    {
+      "verse": 9,
+      "shloka_kn": "ಯಕ್ಷ: ಸೂರ್ಯನನ್ನು ಹುಟ್ಟಿಸುವವರು ಯಾರು?",
+      "shloka_en": "Yaksha: What makes the sun rise?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಬ್ರಹ್ಮ",
+      "meaning_en": "Yudhishthira: Brahma"
+    },
+    {
+      "verse": 10,
+      "shloka_kn": "ಯಕ್ಷ: ಸೂರ್ಯನೊಂದಿಗೆ ಸಂಚರಿಸುವವರು ಯಾರು?",
+      "shloka_en": "Yaksha: Who travels with the sun?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದೇವತೆಗಳು",
+      "meaning_en": "Yudhishthira: Gods"
+    },
+    {
+      "verse": 11,
+      "shloka_kn": "ಯಕ್ಷ: ಸೂರ್ಯನನ್ನು ಮುಳುಗಿಸುವವರು ಯಾರು?",
+      "shloka_en": "Yaksha: What makes the sun set?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಧರ್ಮ",
+      "meaning_en": "Yudhishthira: Dharma"
+    },
+    {
+      "verse": 12,
+      "shloka_kn": "ಯಕ್ಷ: ಸೂರ್ಯನು ಎಲ್ಲಿ ನೆಲೆಸಿದ್ದಾನೆ?",
+      "shloka_en": "Yaksha: Where is the sun established?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸತ್ಯದಲ್ಲಿ",
+      "meaning_en": "Yudhishthira: Truth"
+    },
+    {
+      "verse": 13,
+      "shloka_kn": "ಯಕ್ಷ: ಬ್ರಾಹ್ಮಣನ ನಿಜವಾದ ಗುಣ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What makes one a true Brahmin?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ವೇದಾಧ್ಯಯನ ಮತ್ತು ಆಚರಣೆ",
+      "meaning_en": "Yudhishthira: Scriptural knowledge and behavior"
+    },
+    {
+      "verse": 14,
+      "shloka_kn": "ಯಕ್ಷ: ಬ್ರಾಹ್ಮಣನ ಶ್ರೇಷ್ಠ ಗುಣ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Brahmin's virtue?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಪಸ್ಸು",
+      "meaning_en": "Yudhishthira: Penance"
+    },
+    {
+      "verse": 15,
+      "shloka_kn": "ಯಕ್ಷ: ಬ್ರಾಹ್ಮಣನ ದೋಷ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Brahmin's mortal flaw?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಹಂಕಾರ",
+      "meaning_en": "Yudhishthira: Pride"
+    },
+    {
+      "verse": 16,
+      "shloka_kn": "ಯಕ್ಷ: ಕ್ಷತ್ರಿಯನ ದೈವಿಕತೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Kshatriya's divinity?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಸ್ತ್ರವಿದ್ಯೆ",
+      "meaning_en": "Yudhishthira: Weapons/Archery"
+    },
+    {
+      "verse": 17,
+      "shloka_kn": "ಯಕ್ಷ: ಕ್ಷತ್ರಿಯನ ಶ್ರೇಷ್ಠ ಗುಣ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Kshatriya's virtue?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಯಜ್ಞ-ಕರ್ತವ್ಯ",
+      "meaning_en": "Yudhishthira: Sacrifice/Duty"
+    },
+    {
+      "verse": 18,
+      "shloka_kn": "ಯಕ್ಷ: ಕ್ಷತ್ರಿಯನ ದೋಷ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Kshatriya's mortal flaw?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಭಯ",
+      "meaning_en": "Yudhishthira: Fear"
+    },
+    {
+      "verse": 19,
+      "shloka_kn": "ಯಕ್ಷ: ವೈಶ್ಯನ ದೈವಿಕತೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Vaishya's divinity?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದಾನ",
+      "meaning_en": "Yudhishthira: Charity"
+    },
+    {
+      "verse": 20,
+      "shloka_kn": "ಯಕ್ಷ: ವೈಶ್ಯನ ಶ್ರೇಷ್ಠ ಗುಣ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Vaishya's virtue?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕೃಷಿ ಮತ್ತು ವ್ಯಾಪಾರ",
+      "meaning_en": "Yudhishthira: Agriculture/Trade"
+    },
+    {
+      "verse": 21,
+      "shloka_kn": "ಯಕ್ಷ: ಶೂದ್ರನ ದೈವಿಕತೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Shudra's divinity?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸೇವೆ",
+      "meaning_en": "Yudhishthira: Service"
+    },
+    {
+      "verse": 22,
+      "shloka_kn": "ಯಕ್ಷ: ಶೂದ್ರನ ಶ್ರೇಷ್ಠ ಗುಣ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a Shudra's virtue?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಾಳ್ಮೆ",
+      "meaning_en": "Yudhishthira: Patience"
+    },
+    {
+      "verse": 23,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯುನ್ನತ ಧರ್ಮ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the highest duty?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಹಿಂಸೆ",
+      "meaning_en": "Yudhishthira: Ahimsa (Non-violence)"
+    },
+    {
+      "verse": 24,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರೇಷ್ಠ ಸಂಪತ್ತು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the supreme wealth?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಜ್ಞಾನ",
+      "meaning_en": "Yudhishthira: Knowledge"
+    },
+    {
+      "verse": 25,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರೇಷ್ಠ ಲಾಭ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the greatest gain?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಆರೋಗ್ಯ",
+      "meaning_en": "Yudhishthira: Health"
+    },
+    {
+      "verse": 26,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರೇಷ್ಠ ಸುಖ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the highest happiness?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸಂತೃಪ್ತಿ",
+      "meaning_en": "Yudhishthira: Contentment"
+    },
+    {
+      "verse": 27,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಜ್ಞಾನ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is true knowledge?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಬ್ರಹ್ಮಜ್ಞಾನ",
+      "meaning_en": "Yudhishthira: Experiencing the Divine"
+    },
+    {
+      "verse": 28,
+      "shloka_kn": "ಯಕ್ಷ: ಶಾಂತಿ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is peace?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪ್ರಶಾಂತ ಮನಸ್ಸು",
+      "meaning_en": "Yudhishthira: A calm mind"
+    },
+    {
+      "verse": 29,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರೇಷ್ಠ ದಯೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is true mercy?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಎಲ್ಲರ ಒಳಿತನ್ನು ಬಯಸುವುದು",
+      "meaning_en": "Yudhishthira: Wishing well for all"
+    },
+    {
+      "verse": 30,
+      "shloka_kn": "ಯಕ್ಷ: ಸರಳತೆ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is simplicity?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸಮಚಿತ್ತ",
+      "meaning_en": "Yudhishthira: Equanimity"
+    },
+    {
+      "verse": 31,
+      "shloka_kn": "ಯಕ್ಷ: ಗೆಲ್ಲಲಾಗದ ಶತ್ರು ಯಾರು?",
+      "shloka_en": "Yaksha: What is invincible?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕೋಪ",
+      "meaning_en": "Yudhishthira: Anger"
+    },
+    {
+      "verse": 32,
+      "shloka_kn": "ಯಕ್ಷ: ಗುಣಪಡಿಸಲಾಗದ ರೋಗ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the incurable disease?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದುರಾಸೆ",
+      "meaning_en": "Yudhishthira: Greed"
+    },
+    {
+      "verse": 33,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಸಾಧು ಯಾರು?",
+      "shloka_en": "Yaksha: Who is truly good?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಎಲ್ಲರಿಗೂ ಒಳ್ಳೆಯದನ್ನು ಬಯಸುವವನು",
+      "meaning_en": "Yudhishthira: One who wishes well for everyone"
+    },
+    {
+      "verse": 34,
+      "shloka_kn": "ಯಕ್ಷ: ಅಸಾಧು ಯಾರು?",
+      "shloka_en": "Yaksha: Who is bad?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕ್ರೂರಿ",
+      "meaning_en": "Yudhishthira: A cruel person"
+    },
+    {
+      "verse": 35,
+      "shloka_kn": "ಯಕ್ಷ: ಅಜ್ಞಾನ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is ignorance?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕರ್ತವ್ಯದ ಅರಿವಿಲ್ಲದಿರುವುದು",
+      "meaning_en": "Yudhishthira: Not knowing one's duty"
+    },
+    {
+      "verse": 36,
+      "shloka_kn": "ಯಕ್ಷ: ಅಹಂಕಾರ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is egoism?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: 'ನಾನೇ ಮಾಡುತ್ತಿದ್ದೇನೆ' ಎಂಬ ಭಾವನೆ",
+      "meaning_en": "Yudhishthira: Thinking 'I am the doer'"
+    },
+    {
+      "verse": 37,
+      "shloka_kn": "ಯಕ್ಷ: ಡಂಭ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is hypocrisy?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಧರ್ಮಿಷ್ಠನಂತೆ ನಟಿಸುವುದು",
+      "meaning_en": "Yudhishthira: Pretending to be righteous"
+    },
+    {
+      "verse": 38,
+      "shloka_kn": "ಯಕ್ಷ: ದೈವ (ಅದೃಷ್ಟ) ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is destiny?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಹಿಂದಿನ ಕರ್ಮಗಳ ಫಲ",
+      "meaning_en": "Yudhishthira: Result of past actions"
+    },
+    {
+      "verse": 39,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯನು ಯಾವಾಗ ಸತ್ತಂತೆ?",
+      "shloka_en": "Yaksha: When is a man considered dead?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಬಡತನದಲ್ಲಿದ್ದಾಗ",
+      "meaning_en": "Yudhishthira: In extreme poverty"
+    },
+    {
+      "verse": 40,
+      "shloka_kn": "ಯಕ್ಷ: ರಾಷ್ಟ್ರವು ಯಾವಾಗ ಸತ್ತಂತೆ?",
+      "shloka_en": "Yaksha: When is a kingdom dead?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಒಳ್ಳೆಯ ನಾಯಕನಿಲ್ಲದಾಗ",
+      "meaning_en": "Yudhishthira: Without a capable king"
+    },
+    {
+      "verse": 41,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರಾದ್ಧವು ಯಾವಾಗ ವ್ಯರ್ಥ?",
+      "shloka_en": "Yaksha: When is a ritual dead?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅರ್ಹನಲ್ಲದವನಿಂದ ಮಾಡಿಸಿದಾಗ",
+      "meaning_en": "Yudhishthira: When done by an unqualified priest"
+    },
+    {
+      "verse": 42,
+      "shloka_kn": "ಯಕ್ಷ: ಯಜ್ಞವು ಯಾವಾಗ ವ್ಯರ್ಥ?",
+      "shloka_en": "Yaksha: When is a sacrifice dead?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದಾನ-ದಕ್ಷಿಣೆಯಿಲ್ಲದಾಗ",
+      "meaning_en": "Yudhishthira: Without charity"
+    },
+    {
+      "verse": 43,
+      "shloka_kn": "ಯಕ್ಷ: ತಪಸ್ಸಿನ ಲಕ್ಷಣವೇನು?",
+      "shloka_en": "Yaksha: What is true penance?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕರ್ತವ್ಯವನ್ನು ಶ್ರದ್ಧೆಯಿಂದ ಮಾಡುವುದು",
+      "meaning_en": "Yudhishthira: Doing one's duty steadily"
+    },
+    {
+      "verse": 44,
+      "shloka_kn": "ಯಕ್ಷ: ದಮ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is self-restraint?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮನಸ್ಸಿನ ನಿಯಂತ್ರಣ",
+      "meaning_en": "Yudhishthira: Control of mind"
+    },
+    {
+      "verse": 45,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರೇಷ್ಠ ಕ್ಷಮೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is supreme forgiveness?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದ್ವೇಷವನ್ನು ಸಹಿಸಿಕೊಳ್ಳುವುದು",
+      "meaning_en": "Yudhishthira: Enduring enmity"
+    },
+    {
+      "verse": 46,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ನಾಚಿಕೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is true modesty?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪಾಪಕಾರ್ಯಕ್ಕೆ ಹಿಂಜರಿಯುವುದು",
+      "meaning_en": "Yudhishthira: Shrinking from sin"
+    },
+    {
+      "verse": 47,
+      "shloka_kn": "ಯಕ್ಷ: ಧರ್ಮಕ್ಕೆ ಮೂಲ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the root of Dharma?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕರ್ಮಕೌಶಲ",
+      "meaning_en": "Yudhishthira: Skill in action"
+    },
+    {
+      "verse": 48,
+      "shloka_kn": "ಯಕ್ಷ: ಕೀರ್ತಿಗೆ ಮೂಲ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the root of fame?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದಾನ",
+      "meaning_en": "Yudhishthira: Charity"
+    },
+    {
+      "verse": 49,
+      "shloka_kn": "ಯಕ್ಷ: ಸ್ವರ್ಗಕ್ಕೆ ಮೂಲ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the root of heaven?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸತ್ಯ",
+      "meaning_en": "Yudhishthira: Truthfulness"
+    },
+    {
+      "verse": 50,
+      "shloka_kn": "ಯಕ್ಷ: ಸುಖಕ್ಕೆ ಮೂಲ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the root of happiness?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಒಳ್ಳೆಯ ನಡತೆ",
+      "meaning_en": "Yudhishthira: Good character"
+    },
+    {
+      "verse": 51,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರೇಷ್ಠ ಆಹಾರ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the best food?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಬುದ್ಧಿವಂತಿಕೆ",
+      "meaning_en": "Yudhishthira: Skill/Wisdom"
+    },
+    {
+      "verse": 52,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯಂತ ಲಾಭದಾಯಕವಾದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the best gain?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಆರೋಗ್ಯ",
+      "meaning_en": "Yudhishthira: Health"
+    },
+    {
+      "verse": 53,
+      "shloka_kn": "ಯಕ್ಷ: ಅತೀ ದೊಡ್ಡ ಆಶ್ಚರ್ಯ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the greatest wonder?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸಾವನ್ನು ನೋಡಿದರೂ ತಾನು ಶಾಶ್ವತವೆಂದು ತಿಳಿಯುವುದು",
+      "meaning_en": "Yudhishthira: People think they will live forever"
+    },
+    {
+      "verse": 54,
+      "shloka_kn": "ಯಕ್ಷ: ಸರಿಯಾದ ಮಾರ್ಗ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the true path?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮಹಾಜನರು ನಡೆದ ಮಾರ್ಗ",
+      "meaning_en": "Yudhishthira: The path walked by the great ones"
+    },
+    {
+      "verse": 55,
+      "shloka_kn": "ಯಕ್ಷ: ಜಗತ್ತನ್ನು ಆವರಿಸಿರುವಂಥದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What envelops the world?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಜ್ಞಾನ",
+      "meaning_en": "Yudhishthira: Ignorance"
+    },
+    {
+      "verse": 56,
+      "shloka_kn": "ಯಕ್ಷ: ವಸ್ತುಗಳನ್ನು ಕಾಣದಂತೆ ಮಾಡುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What causes things to be unseen?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕತ್ತಲೆ",
+      "meaning_en": "Yudhishthira: Darkness/Tamas"
+    },
+    {
+      "verse": 57,
+      "shloka_kn": "ಯಕ್ಷ: ಸ್ನೇಹಿತರು ದೂರವಾಗಲು ಕಾರಣವೇನು?",
+      "shloka_en": "Yaksha: Why do friends fade?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದುರಾಸೆ",
+      "meaning_en": "Yudhishthira: Avarice/Greed"
+    },
+    {
+      "verse": 58,
+      "shloka_kn": "ಯಕ್ಷ: ಸ್ವರ್ಗವನ್ನು ತಲುಪಲು ಅಡ್ಡಿಯೇನು?",
+      "shloka_en": "Yaksha: Why one fails to reach heaven?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪ್ರಾಪಂಚಿಕ ವ್ಯಾಮೋಹ",
+      "meaning_en": "Yudhishthira: Worldly attachments"
+    },
+    {
+      "verse": 59,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಸುಖಿ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is truly happy?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸಾಲವಿಲ್ಲದವನು",
+      "meaning_en": "Yudhishthira: One free from debt"
+    },
+    {
+      "verse": 60,
+      "shloka_kn": "ಯಕ್ಷ: ವಾರ್ತೆ ಏನು?",
+      "shloka_en": "Yaksha: What is the news?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕಾಲಪುರುಷನು ಎಲ್ಲ ಜೀವಿಗಳನ್ನು ಬೇಯಿಸುತ್ತಿದ್ದಾನೆ",
+      "meaning_en": "Yudhishthira: Time is cooking all beings"
+    },
+    {
+      "verse": 61,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯ ಅಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is a man?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪುಣ್ಯದ ಕೀರ್ತಿ ಉಳ್ಳವನು",
+      "meaning_en": "Yudhishthira: Fame that reaches heaven"
+    },
+    {
+      "verse": 62,
+      "shloka_kn": "ಯಕ್ಷ: ಒಳ್ಳೆಯ ಮಾರ್ಗವನ್ನು ಹೇಗೆ ಜಯಿಸಬಹುದು?",
+      "shloka_en": "Yaksha: How does one conquer the path of goodness?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಇಂದ್ರಿಯಗಳ ನಿಯಂತ್ರಣದಿಂದ",
+      "meaning_en": "Yudhishthira: By controlling senses"
+    },
+    {
+      "verse": 63,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯಂತ ಭಯ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What constitutes the highest fear?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸಾವಿನ ಭಯ",
+      "meaning_en": "Yudhishthira: Fear of death"
+    },
+    {
+      "verse": 64,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯಂತ ಆನಂದ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What constitutes highest joy?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮೋಕ್ಷ",
+      "meaning_en": "Yudhishthira: Liberation"
+    },
+    {
+      "verse": 65,
+      "shloka_kn": "ಯಕ್ಷ: ಸ್ನೇಹಿತರನ್ನು ಕಳೆದುಕೊಳ್ಳಲು ಕಾರಣವೇನು?",
+      "shloka_en": "Yaksha: What makes a man lose friends?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಹಂಕಾರ",
+      "meaning_en": "Yudhishthira: Arrogance"
+    },
+    {
+      "verse": 66,
+      "shloka_kn": "ಯಕ್ಷ: ಶತ್ರುಗಳನ್ನು ಸೃಷ್ಟಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What creates enemies?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕಾಮ ಮತ್ತು ಕ್ರೋಧ",
+      "meaning_en": "Yudhishthira: Lust and anger"
+    },
+    {
+      "verse": 67,
+      "shloka_kn": "ಯಕ್ಷ: ಪುಣ್ಯ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is spiritual merit?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಉದ್ದೇಶಗಳ ಶುದ್ಧಿ",
+      "meaning_en": "Yudhishthira: Purity of intentions"
+    },
+    {
+      "verse": 68,
+      "shloka_kn": "ಯಕ್ಷ: ಪಾಪ ಎಂದರೆ ಏನು?",
+      "shloka_en": "Yaksha: What is sin?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಇತರರಿಗೆ ತೊಂದರೆ ಕೊಡುವುದು",
+      "meaning_en": "Yudhishthira: Harming others"
+    },
+    {
+      "verse": 69,
+      "shloka_kn": "ಯಕ್ಷ: ಕಣ್ಣು ತೆರೆದೇ ಮಲಗುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: Who sleeps with open eyes?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮೀನು",
+      "meaning_en": "Yudhishthira: Fish"
+    },
+    {
+      "verse": 70,
+      "shloka_kn": "ಯಕ್ಷ: ಹುಟ್ಟಿದರೂ ಚಲಿಸದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What does not move after birth?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮೊಟ್ಟೆ",
+      "meaning_en": "Yudhishthira: Egg"
+    },
+    {
+      "verse": 71,
+      "shloka_kn": "ಯಕ್ಷ: ಹೃದಯವಿಲ್ಲದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What has no heart?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕಲ್ಲು",
+      "meaning_en": "Yudhishthira: Stone"
+    },
+    {
+      "verse": 72,
+      "shloka_kn": "ಯಕ್ಷ: ವೇಗವಾಗಿ ಬೆಳೆಯುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What grows rapidly?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ನದಿ",
+      "meaning_en": "Yudhishthira: River"
+    },
+    {
+      "verse": 73,
+      "shloka_kn": "ಯಕ್ಷ: ಅಮೃತ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is nectar (Amrita)?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಆಸೆಯಿಲ್ಲದಿರುವುದು",
+      "meaning_en": "Yudhishthira: Desirelessness"
+    },
+    {
+      "verse": 74,
+      "shloka_kn": "ಯಕ್ಷ: ವಿಷ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is poison?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕಾಮ",
+      "meaning_en": "Yudhishthira: Lust"
+    },
+    {
+      "verse": 75,
+      "shloka_kn": "ಯಕ್ಷ: ಸತ್ಯವನ್ನು ಮುಚ್ಚುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What covers truth?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮಾಯೆ",
+      "meaning_en": "Yudhishthira: Illusion (Maya)"
+    },
+    {
+      "verse": 76,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಸ್ನಾನ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the true bath?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮನಸ್ಸಿನ ಶುದ್ಧಿ",
+      "meaning_en": "Yudhishthira: Cleansing the mind"
+    },
+    {
+      "verse": 77,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಶುದ್ಧಿ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is ultimate purity?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಆಸೆಗಳಿಂದ ಮುಕ್ತವಾಗಿರುವುದು",
+      "meaning_en": "Yudhishthira: Being free from desires"
+    },
+    {
+      "verse": 78,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯನನ್ನು ಕುರುಡನನ್ನಾಗಿ ಮಾಡುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What makes a person blind?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕಾಮ",
+      "meaning_en": "Yudhishthira: Lust"
+    },
+    {
+      "verse": 79,
+      "shloka_kn": "ಯಕ್ಷ: ಕಿವುಡ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is deaf?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಒಳ್ಳೆಯ ಮಾತನ್ನು ಕೇಳದವನು",
+      "meaning_en": "Yudhishthira: One who doesn't listen to good advice"
+    },
+    {
+      "verse": 80,
+      "shloka_kn": "ಯಕ್ಷ: ಜ್ಞಾನವನ್ನು ನಾಶಮಾಡುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What destroys wisdom?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದುರಾಸೆ",
+      "meaning_en": "Yudhishthira: Greed"
+    },
+    {
+      "verse": 81,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯನನ್ನು ಮೇಲೇರಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What elevates a person?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ವಿನಯ",
+      "meaning_en": "Yudhishthira: Humility"
+    },
+    {
+      "verse": 82,
+      "shloka_kn": "ಯಕ್ಷ: ದುಃಖವನ್ನು ಹೇಗೆ ಮೀರುವುದು?",
+      "shloka_en": "Yaksha: How is suffering overcome?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಾಳ್ಮೆಯಿಂದ",
+      "meaning_en": "Yudhishthira: Through patience"
+    },
+    {
+      "verse": 83,
+      "shloka_kn": "ಯಕ್ಷ: ಭಯದ ಮೂಲ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the source of fear?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಮಮತೆ",
+      "meaning_en": "Yudhishthira: Attachment"
+    },
+    {
+      "verse": 84,
+      "shloka_kn": "ಯಕ್ಷ: ಬಡವ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is poor?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಹೆಚ್ಚು ಆಸೆಗಳಿರುವವನು",
+      "meaning_en": "Yudhishthira: One with immense desires"
+    },
+    {
+      "verse": 85,
+      "shloka_kn": "ಯಕ್ಷ: ಶ್ರೀಮಂತ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is rich?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತೃಪ್ತಿಯಿದ್ದವನು",
+      "meaning_en": "Yudhishthira: One who is satisfied"
+    },
+    {
+      "verse": 86,
+      "shloka_kn": "ಯಕ್ಷ: ಶಕ್ತಿ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is strength?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸತ್ಯ",
+      "meaning_en": "Yudhishthira: Truth"
+    },
+    {
+      "verse": 87,
+      "shloka_kn": "ಯಕ್ಷ: ದೌರ್ಬಲ್ಯ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is weakness?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪರಾವಲಂಬನೆ",
+      "meaning_en": "Yudhishthira: Dependence on others"
+    },
+    {
+      "verse": 88,
+      "shloka_kn": "ಯಕ್ಷ: ಮೂರ್ಖ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is a fool?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತನ್ನ ತಪ್ಪುಗಳನ್ನು ತಿಳಿಯದವನು",
+      "meaning_en": "Yudhishthira: One who doesn't know his own flaws"
+    },
+    {
+      "verse": 89,
+      "shloka_kn": "ಯಕ್ಷ: ಜ್ಞಾನಿ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is wise?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಪ್ಪುಗಳಿಂದ ಕಲಿಯುವವನು",
+      "meaning_en": "Yudhishthira: One who learns from mistakes"
+    },
+    {
+      "verse": 90,
+      "shloka_kn": "ಯಕ್ಷ: ನರಕಕ್ಕೆ ದಾರಿ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What leads to hell?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕಾಮ, ಕ್ರೋಧ, ಲೋಭ",
+      "meaning_en": "Yudhishthira: Lust, Anger, Greed"
+    },
+    {
+      "verse": 91,
+      "shloka_kn": "ಯಕ್ಷ: ಮೋಕ್ಷಕ್ಕೆ ದಾರಿ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What leads to liberation?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಆತ್ಮಜ್ಞಾನ",
+      "meaning_en": "Yudhishthira: Knowledge of the Self"
+    },
+    {
+      "verse": 92,
+      "shloka_kn": "ಯಕ್ಷ: ಜೀವನವನ್ನು ಸಾರ್ಥಕಗೊಳಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What makes life fruitful?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಇತರರ ಸೇವೆ",
+      "meaning_en": "Yudhishthira: Serving others"
+    },
+    {
+      "verse": 93,
+      "shloka_kn": "ಯಕ್ಷ: ಹೊರೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is a burden?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಜ್ಞಾನ",
+      "meaning_en": "Yudhishthira: Ignorance"
+    },
+    {
+      "verse": 94,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಸೌಂದರ್ಯ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is true beauty?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸದ್ಗುಣ",
+      "meaning_en": "Yudhishthira: Virtue"
+    },
+    {
+      "verse": 95,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಶೌರ್ಯ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is true bravery?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತನ್ನ ಮನಸ್ಸನ್ನೇ ಗೆಲ್ಲುವುದು",
+      "meaning_en": "Yudhishthira: Overcoming one's own mind"
+    },
+    {
+      "verse": 96,
+      "shloka_kn": "ಯಕ್ಷ: ವಂಶವನ್ನು ನಾಶಮಾಡುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What ruins a lineage?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಧರ್ಮದ ನಡತೆ",
+      "meaning_en": "Yudhishthira: Immorality"
+    },
+    {
+      "verse": 97,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯನನ್ನು ನಾಶಮಾಡುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What ruins an individual?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸೋಮಾರಿತನ",
+      "meaning_en": "Yudhishthira: Laziness"
+    },
+    {
+      "verse": 98,
+      "shloka_kn": "ಯಕ್ಷ: ಆಹಾರವನ್ನು ಶುದ್ಧಗೊಳಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What makes food pure?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಧರ್ಮದ ಸಂಪಾದನೆ",
+      "meaning_en": "Yudhishthira: Earnings through righteous means"
+    },
+    {
+      "verse": 99,
+      "shloka_kn": "ಯಕ್ಷ: ಮಾತನ್ನು ಮಧುರವಾಗಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What makes words sweet?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸತ್ಯ ಮತ್ತು ಪ್ರೀತಿ",
+      "meaning_en": "Yudhishthira: Truth combined with kindness"
+    },
+    {
+      "verse": 100,
+      "shloka_kn": "ಯಕ್ಷ: ಜೀವನದ ನಿಜವಾದ ಸಂಗಾತಿ ಯಾರು?",
+      "shloka_en": "Yaksha: What is the real companion in life?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಧರ್ಮ",
+      "meaning_en": "Yudhishthira: Dharma"
+    },
+    {
+      "verse": 101,
+      "shloka_kn": "ಯಕ್ಷ: ಅಂತಿಮ ಗುರಿ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the ultimate destination?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪರಮಾತ್ಮ",
+      "meaning_en": "Yudhishthira: God"
+    },
+    {
+      "verse": 102,
+      "shloka_kn": "ಯಕ್ಷ: ಎಲ್ಲವನ್ನೂ ನುಂಗುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What consumes everything?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಕಾಲ",
+      "meaning_en": "Yudhishthira: Time"
+    },
+    {
+      "verse": 103,
+      "shloka_kn": "ಯಕ್ಷ: ಗುಲಾಮ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is a slave?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಇಂದ್ರಿಯಗಳಿಗೆ ದಾಸನಾದವನು",
+      "meaning_en": "Yudhishthira: One enslaved by senses"
+    },
+    {
+      "verse": 104,
+      "shloka_kn": "ಯಕ್ಷ: ಯಜಮಾನ ಯಾರು?",
+      "shloka_en": "Yaksha: Who is a master?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತನ್ನನ್ನು ತಾನು ಗೆದ್ದವನು",
+      "meaning_en": "Yudhishthira: One who has conquered himself"
+    },
+    {
+      "verse": 105,
+      "shloka_kn": "ಯಕ್ಷ: ಬಂಧನಕ್ಕೆ ಕಾರಣ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What causes bondage?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಹಂಕಾರ",
+      "meaning_en": "Yudhishthira: The ego"
+    },
+    {
+      "verse": 106,
+      "shloka_kn": "ಯಕ್ಷ: ಆಶ್ರಯ ನೀಡುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What provides comfort?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸತ್ಸಂಗ",
+      "meaning_en": "Yudhishthira: Satsanga (Good company)"
+    },
+    {
+      "verse": 107,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯನನ್ನು ದೊಡ್ಡವನನ್ನಾಗಿ ಮಾಡುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What makes a man truly great?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅವನ ಕರ್ಮಗಳು",
+      "meaning_en": "Yudhishthira: His actions"
+    },
+    {
+      "verse": 108,
+      "shloka_kn": "ಯಕ್ಷ: ಯಾವಾಗಲೂ ಸೋಲದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What never fails?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸತ್ಯ",
+      "meaning_en": "Yudhishthira: Truth"
+    },
+    {
+      "verse": 109,
+      "shloka_kn": "ಯಕ್ಷ: ತ್ಯಜಿಸಬೇಕಾದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What should be abandoned?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಹಂಕಾರ",
+      "meaning_en": "Yudhishthira: Arrogance"
+    },
+    {
+      "verse": 110,
+      "shloka_kn": "ಯಕ್ಷ: ಪಡೆಯಬೇಕಾದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What should be acquired?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಜ್ಞಾನ",
+      "meaning_en": "Yudhishthira: Wisdom"
+    },
+    {
+      "verse": 111,
+      "shloka_kn": "ಯಕ್ಷ: ರಕ್ಷಿಸಬೇಕಾದದ್ದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What should be protected?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಧರ್ಮ",
+      "meaning_en": "Yudhishthira: Righteousness"
+    },
+    {
+      "verse": 112,
+      "shloka_kn": "ಯಕ್ಷ: ನೆಮ್ಮದಿಯನ್ನು ಕೆಡಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What destroys a family's peace?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಪ್ಪು ತಿಳುವಳಿಕೆ",
+      "meaning_en": "Yudhishthira: Misunderstandings"
+    },
+    {
+      "verse": 113,
+      "shloka_kn": "ಯಕ್ಷ: ನಂಬಿಕೆಯನ್ನು ಬೆಳೆಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What builds trust?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ನಡತೆಯಲ್ಲಿನ ಸ್ಥಿರತೆ",
+      "meaning_en": "Yudhishthira: Consistency in action"
+    },
+    {
+      "verse": 114,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ದೃಷ್ಟಿ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is true vision?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಎಲ್ಲರಲ್ಲೂ ದೇವರನ್ನು ಕಾಣುವುದು",
+      "meaning_en": "Yudhishthira: Seeing God in all"
+    },
+    {
+      "verse": 115,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯಮೂಲ್ಯ ರತ್ನ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the finest gem?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಗುಣ",
+      "meaning_en": "Yudhishthira: Character"
+    },
+    {
+      "verse": 116,
+      "shloka_kn": "ಯಕ್ಷ: ಮನೆಯನ್ನು ಮನೆಯಾಗಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What makes a house a home?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪ್ರೀತಿ ಮತ್ತು ಗೌರವ",
+      "meaning_en": "Yudhishthira: Love and respect"
+    },
+    {
+      "verse": 117,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯನ ನಿಜವಾದ ಅಳತೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the true measure of a man?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಬಡವರು, ದುರ್ಬಲರೊಡನೆ ಅವನ ವರ್ತನೆ",
+      "meaning_en": "Yudhishthira: How he treats those who can do nothing for him"
+    },
+    {
+      "verse": 118,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯಂತ ದೊಡ್ಡ ಭ್ರಮೆ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the greatest illusion?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ದೇಹವೇ ನಾನೇ ಎಂಬ ಭಾವನೆ",
+      "meaning_en": "Yudhishthira: That the body is the self"
+    },
+    {
+      "verse": 119,
+      "shloka_kn": "ಯಕ್ಷ: ಜೀವನದ ಗುರಿ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the goal of life?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಆತ್ಮಸಾಕ್ಷಾತ್ಕಾರ",
+      "meaning_en": "Yudhishthira: Self-realization"
+    },
+    {
+      "verse": 120,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯಂತ ದೊಡ್ಡ ತಪಸ್ಸು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the highest penance?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಅಹಿಂಸೆ",
+      "meaning_en": "Yudhishthira: Ahimsa"
+    },
+    {
+      "verse": 121,
+      "shloka_kn": "ಯಕ್ಷ: ಅತ್ಯಂತ ಶ್ರೇಷ್ಠ ದಾನ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is the highest charity?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಜ್ಞಾನದಾನ",
+      "meaning_en": "Yudhishthira: Giving knowledge"
+    },
+    {
+      "verse": 122,
+      "shloka_kn": "ಯಕ್ಷ: ಮುಗಿಯದ ಸಂಪತ್ತು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is unending wealth?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ತಾಳ್ಮೆ",
+      "meaning_en": "Yudhishthira: Patience"
+    },
+    {
+      "verse": 123,
+      "shloka_kn": "ಯಕ್ಷ: ದುರಾಸೆಯನ್ನು ಗುಣಪಡಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What cures greed?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಸಂತೃಪ್ತಿ",
+      "meaning_en": "Yudhishthira: Contentment"
+    },
+    {
+      "verse": 124,
+      "shloka_kn": "ಯಕ್ಷ: ದ್ವೇಷವನ್ನು ಗೆಲ್ಲುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What overcomes hate?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಪ್ರೀತಿ",
+      "meaning_en": "Yudhishthira: Love"
+    },
+    {
+      "verse": 125,
+      "shloka_kn": "ಯಕ್ಷ: ನಿಜವಾದ ಸ್ವಾತಂತ್ರ್ಯ ಯಾವುದು?",
+      "shloka_en": "Yaksha: What is true freedom?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ಆಸೆಗಳಿಂದ ಮುಕ್ತರಾಗುವುದು",
+      "meaning_en": "Yudhishthira: Freedom from desires"
+    },
+    {
+      "verse": 126,
+      "shloka_kn": "ಯಕ್ಷ: ಮನುಷ್ಯನನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು ಯಾವುದು?",
+      "shloka_en": "Yaksha: What completes a man?",
+      "meaning_kn": "ಯುಧಿಷ್ಠಿರ: ನಿಸ್ವಾರ್ಥ ಸೇವೆ",
+      "meaning_en": "Yudhishthira: Selfless service"
+    }
+  ]
+}
