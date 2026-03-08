@@ -1,109 +1,134 @@
 {
     "yamasNiyamas": {
         "title_kn": "ಯಮ ಮತ್ತು ನಿಯಮ (Yamas & Niyamas)",
-        "title_en": "Dharmic Ethics (Modern Life Hacks)",
-        "description_kn": "ಪತಂಜಲಿ ಯೋಗ ಸೂತ್ರಗಳಲ್ಲಿ ವಿವರಿಸಿದಂತೆ ಅಷ್ಟಾಂಗ ಯೋಗದ ಮೊದಲ ಎರಡು ಹಂತಗಳು. ಇವು ಚಾರಿತ್ರ್ಯ ನಿರ್ಮಾಣದ ಬುನಾದಿ.",
-        "description_en": "Think of Yamas and Niyamas as the 'Terms of Service' and 'Security Settings' for a peaceful and high-performance life.",
+        "title_en": "Dharmic Ethics",
+        "description_kn": "ಪತಂಜಲಿ ಮಹರ್ಷಿಗಳ ಯೋಗ ಸೂತ್ರಗಳಲ್ಲಿ ವಿವರಿಸಿದಂತೆ ಅಷ್ಟಾಂಗ ಯೋಗದ ಮೊದಲ ಎರಡು ಹಂತಗಳು. ಯಮಗಳು ಸಮಾಜದೊಂದಿಗಿನ ನಮ್ಮ ನಡವಳಿಕೆಯನ್ನು ನಿಯಂತ್ರಿಸುತ್ತವೆ. ನಿಯಮಗಳು ನಮ್ಮ ಅಂತರಂಗದ ಶಿಸ್ತು ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸಗಳನ್ನು ನಿರ್ದೇಶಿಸುತ್ತವೆ. ಈ ಹತ್ತು ತತ್ವಗಳು ಧಾರ್ಮಿಕ ಜೀವನದ ಬುನಾದಿಯಾಗಿದ್ದು, ಅವುಗಳನ್ನು ನಿತ್ಯ ಜೀವನದಲ್ಲಿ ಅಳವಡಿಸಿಕೊಳ್ಳುವುದು ಪ್ರತಿಯೊಬ್ಬರ ಕರ್ತವ್ಯ.",
+        "description_en": "The first two limbs of Patanjali's Ashtanga Yoga that form the foundation of character building and ethical living.",
         "yamas": [
             {
                 "title_kn": "ಅಹಿಂಸೆ (Ahimsa)",
-                "title_en": "Non-violence (Digital Kindness)",
-                "desc_kn": "ನುಡಿ, ನಡೆ ಮತ್ತು ಆಲೋಚನೆಯಲ್ಲಿ ಯಾರಿಗೂ ತೊಂದರೆ ಕೊಡದಿರುವುದು.",
-                "desc_en": "Beyond physical harm. It means no 'Cyber-bullying', no hateful comments, and being kind to yourself (no harsh self-talk)."
+                "title_en": "Non-violence",
+                "desc_kn": "ಅಹಿಂಸೆ ಎಂದರೆ ಕೇವಲ ದೈಹಿಕ ಹಿಂಸೆಯಿಲ್ಲದಿರುವುದು ಮಾತ್ರವಲ್ಲ. ಮನಸ್ಸಿನಲ್ಲಿ, ಮಾತಿನಲ್ಲಿ ಮತ್ತು ಕ್ರಿಯೆಯಲ್ಲಿ ಯಾವುದೇ ಜೀವಿಗೆ ನೋವು ಅಥವಾ ಹಾನಿ ಮಾಡದಿರುವುದು. ಮಹಾತ್ಮ ಗಾಂಧೀಜಿಯವರು ಈ ತತ್ವವನ್ನು ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟದಲ್ಲಿ ಅಳವಡಿಸಿ ಜಗತ್ತಿಗೆ ಮಾದರಿಯಾದರು. ಅಹಿಂಸೆಯನ್ನು ಪಾಲಿಸುವವನು ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳಲ್ಲಿ ತನ್ನನ್ನೇ ಕಾಣುತ್ತಾನೆ, ಎಲ್ಲಾ ಜೀವಿಗಳೊಂದಿಗೆ ಸಹಾನುಭೂತಿಯಿಂದ ನಡೆದುಕೊಳ್ಳುತ್ತಾನೆ.",
+                "desc_en": "Non-violence in thought, word, and deed towards all living beings. The highest dharma.",
+                "shloka": "अहिंसा परमो धर्मः — Mahabharata",
+                "practice_kn": "ಪ್ರತಿ ದಿನ ರಾತ್ರಿ ಮಲಗುವ ಮುನ್ನ ಆಲೋಚಿಸಿ: 'ಇಂದು ನಾನು ಯಾರಿಗಾದರೂ ನೋವು ಮಾಡಿದೆನೇ — ಮಾತಿನಲ್ಲಿ, ಕೃತಿಯಲ್ಲಿ ಅಥವಾ ಆಲೋಚನೆಯಲ್ಲಿ?' ಈ ಆತ್ಮಾವಲೋಕನವು ಅಹಿಂಸೆಯ ಅಷ್ಟ."
             },
             {
                 "title_kn": "ಸತ್ಯ (Satya)",
-                "title_en": "Truthfulness (Authenticity)",
-                "desc_kn": "ಸತ್ಯವನ್ನು ಸದಾ ಪಾಲಿಸುವುದು ಮತ್ತು ಸತ್ಯವನ್ನೇ ಹೇಳುವುದು.",
-                "desc_en": "Being authentic. Don't fake your life for social media. Speak truth even if it's not 'Trending'."
+                "title_en": "Truthfulness",
+                "desc_kn": "ಸತ್ಯವನ್ನು ಸದಾ ಪಾಲಿಸುವುದು ಮತ್ತು ಸತ್ಯವನ್ನೇ ಹೇಳುವುದು. ಆದರೆ ಸತ್ಯವು ಅಹಿಂಸೆಗೆ ವಿರುದ್ಧವಾಗಿದ್ದಲ್ಲಿ, ಪ್ರೀತಿಯಿಂದ ಸತ್ಯ ಹೇಳಬೇಕು, ಕ್ರೌರ್ಯದಿಂದ ಅಲ್ಲ. 'ಸತ್ಯಂ ಬ್ರೂಯಾತ್ ಪ್ರಿಯಂ ಬ್ರೂಯಾತ್' — ಸತ್ಯ ಹೇಳು, ಪ್ರಿಯವಾದದ್ದನ್ನು ಹೇಳು, ಆದರೆ ಅಪ್ರಿಯ ಸತ್ಯವನ್ನು ಹೇಳಬೇಡ. ಸತ್ಯವಾಕ್ಯವು ತಪಸ್ಸಿಗಿಂತಲೂ ಶ್ರೇಷ್ಠ. ಸತ್ಯದಿಂದ ಧರ್ಮವು ನಿಲ್ಲುತ್ತದೆ, ಸತ್ಯದಿಂದ ಲೋಕವು ನಡೆಯುತ್ತದೆ.",
+                "desc_en": "Speaking, thinking, and living in truth. Truth is the foundation of Dharma.",
+                "shloka": "सत्यमेव जयते नानृतम् — Mundaka Upanishad 3.1.6",
+                "practice_kn": "ಒಂದು ವಾರ ಸತ್ಯ ವ್ರತ ಮಾಡಿ ನೋಡಿ — ಯಾವುದೇ ಸಣ್ಣ ಸುಳ್ಳೂ ಹೇಳದೆ. ಇದು ಎಷ್ಟು ಕಠಿಣವೆಂದು ನಿಮಗೇ ಅರ್ಥವಾಗುತ್ತದೆ."
             },
             {
                 "title_kn": "ಅಸ್ತೇಯ (Asteya)",
-                "title_en": "Non-stealing (Respecting IP)",
-                "desc_kn": "ಅನ್ಯರ ವಸ್ತುಗಳ ಮೇಲೆ ಆಸೆ ಪಡದಿರುವುದು.",
-                "desc_en": "Not just money. Respecting others' time, space, and intellectual property. No 'Content Piracy' or claiming others' ideas."
+                "title_en": "Non-stealing",
+                "desc_kn": "ಅನ್ಯರ ವಸ್ತು, ಸಮಯ, ಶ್ರಮ ಅಥವಾ ಬೌದ್ಧಿಕ ಸಂಪತ್ತಿನ ಮೇಲೆ ಆಸೆ ಪಡದಿರುವುದು. ಕೇವಲ ಹಣ ಅಥವಾ ವಸ್ತುಗಳನ್ನು ಕದಿಯುವುದು ಮಾತ್ರ ಕಳ್ಳತನ ಅಲ್ಲ — ಇನ್ನೊಬ್ಬರ ಸಮಯವನ್ನು ವ್ಯರ್ಥ ಮಾಡುವುದು, ಅವರ ಆಲೋಚನೆಗಳನ್ನು ತಮ್ಮದೆಂದು ಹೇಳಿಕೊಳ್ಳುವುದು, ಅನ್ಯಾಯವಾಗಿ ಇತರರ ಶ್ರಮವನ್ನು ಶೋಷಿಸುವುದು — ಇವೆಲ್ಲವೂ ಕಳ್ಳತನವೇ. ಅಸ್ತೇಯ ವ್ರತ ಪಾಲಿಸಿದರೆ ಎಲ್ಲಾ ಸಂಪತ್ತು ತಾನಾಗಿಯೇ ನಿಮ್ಮ ಬಳಿ ಬರುತ್ತದೆ ಎಂದು ಪತಂಜಲಿ ಹೇಳುತ್ತಾರೆ.",
+                "desc_en": "Not taking anything — physical or intangible — that doesn't rightfully belong to you.",
+                "shloka": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम् — Yoga Sutra 2.37",
+                "practice_kn": "ಇತರರ ಸಮಯವನ್ನು ಗೌರವಿಸಿ. ಸಭೆಗಳಿಗೆ, ಸಂಭಾಷಣೆಗಳಿಗೆ ಸಮಯಪಾಲನೆ ಮಾಡಿ. ಬೇರೆಯವರ ಕೆಲಸವನ್ನು ಗೌರವಿಸಿ ಮತ್ತು ಕ್ರೆಡಿಟ್ ಕೊಡಿ."
             },
             {
                 "title_kn": "ಬ್ರಹ್ಮಚರ್ಯ (Brahmacharya)",
-                "title_en": "Self-restraint (Dopamine Control)",
-                "desc_kn": "ಶಕ್ತಿಯನ್ನು ದೈವಿಕ ಚಿಂತನೆಗೆ ಬಳಸುವುದು.",
-                "desc_en": "Controlling the urge for 'Quick Dopamine Hits'. Directing your energy towards high-value goals instead of low-value distractions."
+                "title_en": "Self-restraint & Moderation",
+                "desc_kn": "ಬ್ರಹ್ಮಚರ್ಯ ಎಂದರೆ 'ಬ್ರಹ್ಮನ ಮಾರ್ಗದಲ್ಲಿ ನಡೆಯುವುದು.' ಇದು ಕೇವಲ ಲೈಂಗಿಕ ನಿಗ್ರಹ ಮಾತ್ರವಲ್ಲ, ಎಲ್ಲಾ ಇಂದ್ರಿಯಗಳ ಮೇಲೆ ನಿಯಂತ್ರಣ ಸಾಧಿಸುವುದು. ನಮ್ಮ ಶಕ್ತಿಯನ್ನು ಕ್ಷುಲ್ಲಕ ಸುಖಗಳಲ್ಲಿ ವ್ಯರ್ಥ ಮಾಡದೆ, ಉನ್ನತ ಗುರಿಗಳಿಗೆ ಬಳಸುವುದು. ಆಯುರ್ವೇದದ ಪ್ರಕಾರ ಬ್ರಹ್ಮಚರ್ಯವು ಓಜಸ್ (ಜೀವಶಕ್ತಿ) ಅನ್ನು ವೃದ್ಧಿಸಿ ದೀರ್ಘಾಯುಷ್ಯ ಮತ್ತು ತೀಕ್ಷ್ಣ ಬುದ್ಧಿಯನ್ನು ಕೊಡುತ್ತದೆ.",
+                "desc_en": "Walking the path of Brahman — channeling vital energy towards higher goals through moderation in all things.",
+                "shloka": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः — Yoga Sutra 2.38",
+                "practice_kn": "ದಿನಕ್ಕೆ ಒಂದು ಗಂಟೆ ಫೋನ್-ಮುಕ್ತ ಸಮಯ (ಡಿಜಿಟಲ್ ಫಾಸ್ಟ್) ಮಾಡಿ. ಆ ಸಮಯವನ್ನು ಓದು, ಧ್ಯಾನ ಅಥವಾ ಸೃಜನಶೀಲ ಕೆಲಸಕ್ಕೆ ಬಳಸಿ."
             },
             {
                 "title_kn": "ಅಪರಿಗ್ರಹ (Aparigraha)",
-                "title_en": "Non-attachment (Digital Minimalism)",
-                "desc_kn": "ಅಗತ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ವಸ್ತುಗಳನ್ನು ಸಂಗ್ರಹಿಸದಿರುವುದು.",
-                "desc_en": "Minimalism. De-clutter your physical space, your hard drive, and your mental 'Tabs'. Wanting less means being free."
+                "title_en": "Non-possessiveness",
+                "desc_kn": "ಅಗತ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಸಂಗ್ರಹಿಸದಿರುವುದು ಮತ್ತು ವಸ್ತುಗಳ ಮೇಲೆ ಅತಿಯಾದ ಮೋಹ ಬೆಳೆಸಿಕೊಳ್ಳದಿರುವುದು. ಶ್ರೀಕೃಷ್ಣನು ಗೀತೆಯಲ್ಲಿ ಹೇಳುತ್ತಾನೆ: 'ಯೋಗಿಯು ಯಾವುದನ್ನೂ ಸಂಗ್ರಹಿಸಬಾರದು' — ಇದು ಕೇವಲ ವಸ್ತುಗಳಿಗೆ ಮಾತ್ರ ಅಲ್ಲ, ಸಂಬಂಧಗಳು, ಪದವಿಗಳು, ಹೊಗಳಿಕೆ ಇವೆಲ್ಲವನ್ನೂ ಬಿಗಿಯಾಗಿ ಹಿಡಿಯಬೇಡಿ. ಬಂದದ್ದು ಬರಲಿ, ಹೋದದ್ದು ಹೋಗಲಿ — ಈ ಮನೋಭಾವವೇ ಅಪರಿಗ್ರಹ.",
+                "desc_en": "Non-hoarding and non-attachment to possessions. Practicing minimalism in material and mental life.",
+                "shloka": "अपरिग्रहस्थैर्ये जन्मकथन्तासम्बोधः — Yoga Sutra 2.39",
+                "practice_kn": "ಪ್ರತಿ ತಿಂಗಳು ನಿಮ್ಮ ಬಳಿ ಅಗತ್ಯವಿಲ್ಲದ ಐದು ವಸ್ತುಗಳನ್ನು ಗುರುತಿಸಿ ದಾನ ಮಾಡಿ ಅಥವಾ ಬಿಸಾಕಿ."
             }
         ],
         "niyamas": [
             {
-                "title_kn": "ಶೌಚ (Sauca)",
-                "title_en": "Purity (Mental De-clutter)",
-                "desc_kn": "ದೈಹಿಕ ಮತ್ತು ಆಂತರಿಕ ಶೌಚ (ಶುದ್ಧತೆ).",
-                "desc_en": "Clean body, clean diet, and a clean 'Social Media Feed'. If someone spreads poison, 'Unfollow' and keep your mind pure."
+                "title_kn": "ಶೌಚ (Shaucha)",
+                "title_en": "Purity & Cleanliness",
+                "desc_kn": "ಶೌಚವು ಎರಡು ವಿಧ — ಬಾಹ್ಯ ಶೌಚ (ದೈಹಿಕ ಶುಚಿತ್ವ, ಸ್ನಾನ, ಶುದ್ಧ ಆಹಾರ, ಸ್ವಚ್ಛ ವಾತಾವರಣ) ಮತ್ತು ಅಂತರ ಶೌಚ (ಮನಸ್ಸಿನ ಶುದ್ಧತೆ, ಕಾಮ-ಕ್ರೋಧ-ಲೋಭ-ಮೋಹ-ಮದ-ಮಾತ್ಸರ್ಯ ಎಂಬ ಆರು ಅರಿಷಡ್ವರ್ಗಗಳನ್ನು ತ್ಯಜಿಸುವುದು). ಶುದ್ಧ ಆಹಾರ ಸೇವನೆಯಿಂದ ಶುದ್ಧ ಮನಸ್ಸು ಉಂಟಾಗುತ್ತದೆ ಎಂದು ಛಾಂದೋಗ್ಯ ಉಪನಿಷದ್ ಹೇಳುತ್ತದೆ.",
+                "desc_en": "Inner and outer purity — clean body, clean food, clean environment, and clean thoughts.",
+                "shloka": "आहारशुद्धौ सत्त्वशुद्धिः — Chandogya Upanishad 7.26.2",
+                "practice_kn": "ದಿನಕ್ಕೆ ಒಮ್ಮೆ ನಿಮ್ಮ ವಾಸಸ್ಥಳದ ಒಂದು ಭಾಗವನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ. ಸಾತ್ವಿಕ ಆಹಾರ ಸೇವಿಸಿ."
             },
             {
-                "title_kn": "ಸಂತೋಷ (Santosa)",
-                "title_en": "Contentment (Anti-Comparison)",
-                "desc_kn": "ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಸಂತೃಪ್ತಿಯಿಂದ ಇರುವುದು.",
-                "desc_en": "Comparison is the thief of joy. Moksha begins with being happy with 'The Now' instead of waiting for 'The Next Update'."
+                "title_kn": "ಸಂತೋಷ (Santosha)",
+                "title_en": "Contentment",
+                "desc_kn": "ಸಂತೋಷವೆಂದರೆ 'ಯಾವ ಸ್ಥಿತಿಯಲ್ಲಿ ಇರುವೆನೋ ಅದರಲ್ಲಿ ತೃಪ್ತಿ.' ಇದು ಅಂಬಿಶನ್ ಇಲ್ಲದಿರುವುದು ಎಂಬ ಅರ್ಥವಲ್ಲ. ಪ್ರಯತ್ನ ಮಾಡು ಆದರೆ ಫಲಿತಾಂಶ ಏನೇ ಬಂದರೂ ಸ್ವೀಕರಿಸು ಎಂಬ ಅರ್ಥ. ಚಾಣಕ್ಯ ಹೇಳುತ್ತಾರೆ: 'ಸಂತೋಷವೇ ಪರಮ ಸುಖ.' ದುಡ್ಡು, ಅಧಿಕಾರ, ಖ್ಯಾತಿ ಬಂದರೂ ಸಂತೋಷ ಕೊಡುವುದು ನಿಮ್ಮ ಮನೋಭಾವನೆ ಮಾತ್ರ, ಹೊರಗಿನ ವಸ್ತುಗಳಲ್ಲ.",
+                "desc_en": "Finding contentment regardless of circumstances. The greatest wealth is inner peace.",
+                "shloka": "सन्तोषादनुत्तमः सुखलाभः — Yoga Sutra 2.42",
+                "practice_kn": "ಪ್ರತಿ ರಾತ್ರಿ ಮಲಗುವ ಮುನ್ನ ಮೂರು ವಿಷಯಗಳಿಗೆ ಕೃತಜ್ಞತೆ ಹೇಳಿ (gratitude journal)."
             },
             {
-                "title_kn": "ತಪಸ್ಸು (Tapas)",
-                "title_en": "Discipline (Deep Consistency)",
-                "desc_kn": "ಗುರಿಯನ್ನು ತಲುಪಲು ಮಾಡುವ ಕಠಿಣ ಪರಿಶ್ರಮ ಮತ್ತು ಶಿಸ್ತು.",
-                "desc_en": "Grind with a Purpose. Consistent effort in skills and spiritual practice. It's the 'Deep Work' mode of life."
+                "title_kn": "ತಪಸ್ (Tapas)",
+                "title_en": "Discipline & Austerity",
+                "desc_kn": "ತಪಸ್ ಎಂದರೆ 'ಉರಿಯುವುದು' — ಆಲಸ್ಯ, ಆಸೆ, ಭಯ ಮತ್ತು ಕೆಟ್ಟ ಅಭ್ಯಾಸಗಳನ್ನು ಸುಡುವ ಅಂತರಿಕ ಅಗ್ನಿ. ಗೀತೆಯಲ್ಲಿ ಶ್ರೀಕೃಷ್ಣನು ಮೂರು ವಿಧದ ತಪಸ್ಸನ್ನು ವಿವರಿಸುತ್ತಾನೆ: ಶಾರೀರಿಕ ತಪಸ್ (ಶರೀರದ ಶಿಸ್ತು), ವಾಚಿಕ ತಪಸ್ (ಮಾತಿನ ಶಿಸ್ತು), ಮತ್ತು ಮಾನಸಿಕ ತಪಸ್ (ಮನಸ್ಸಿನ ಶಿಸ್ತು). ತಪಸ್ಸಿಲ್ಲದ ಜೀವನ ರಸವಿಲ್ಲದ ಹಣ್ಣಿನಂತೆ.",
+                "desc_en": "The inner fire of discipline that burns away laziness, desires, and bad habits.",
+                "shloka": "तपसा देवा अपाम्-अरणम् — Taittiriya Upanishad",
+                "practice_kn": "ಒಂದು ಕಠಿಣ ಕೆಲಸವನ್ನು ಪ್ರತಿ ದಿನ ಬೆಳಗ್ಗೆ ಮಾಡಿ — ಠಂಡಿ ಸ್ನಾನ, ಯೋಗ, ಓಟ ಅಥವಾ ಉಪವಾಸ."
             },
             {
-                "title_kn": "ಸ್ವಾಧ್ಯಯನ (Svadhyaya)",
-                "title_en": "Self-study (Mindful Learning)",
-                "desc_kn": "ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ ಮತ್ತು ಆತ್ಮಾವಲೋಕನ.",
-                "desc_en": "Learning from the masters and your own mistakes. Analyze your thought patterns like you analyze a game replay."
+                "title_kn": "ಸ್ವಾಧ್ಯಾಯ (Svadhyaya)",
+                "title_en": "Self-study & Sacred Study",
+                "desc_kn": "ಸ್ವಾಧ್ಯಾಯ ಎರಡು ಅರ್ಥಗಳನ್ನು ಹೊಂದಿದೆ: ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ (ವೇದ, ಉಪನಿಷತ್, ಗೀತೆ, ಸೂತ್ರಗಳು) ಮತ್ತು ಆತ್ಮಾವಲೋಕನ (ನನ್ನ ಯೋಚನೆಗಳೇನು? ನನ್ನ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಏಕೆ ಹೀಗಿವೆ? ನಾನು ಬೆಳೆಯುತ್ತಿದ್ದೇನೆಯೇ?). ಸ್ವಾಧ್ಯಾಯದಿಂದ ಇಷ್ಟ ದೇವತಾ ಸಂಪರ್ಕ ಎಂದು ಪತಂಜಲಿ ಹೇಳುತ್ತಾರೆ. ನಿಮ್ಮ ಮನಸ್ಸಿನ patterns ಅನ್ನು ಗಮನಿಸುವುದು ಅತ್ಯಂತ ಶಕ್ತಿಶಾಲಿ ಸಾಧನೆ.",
+                "desc_en": "Sacred study of scriptures and honest self-reflection to understand one's patterns and grow.",
+                "shloka": "स्वाध्यायादिष्टदेवतासम्प्रयोगः — Yoga Sutra 2.44",
+                "practice_kn": "ಪ್ರತಿ ದಿನ ಕನಿಷ್ಠ 15 ನಿಮಿಷ ಒಂದು ಆಧ್ಯಾತ್ಮಿಕ ಗ್ರಂಥವನ್ನು ಓದಿ. ವಾರಕ್ಕೊಮ್ಮೆ ಜರ್ನಲ್ ಬರೆಯಿರಿ."
             },
             {
                 "title_kn": "ಈಶ್ವರ ಪ್ರಣಿಧಾನ (Ishvara Pranidhana)",
-                "title_en": "Surrender (Trust in the Universe)",
-                "desc_kn": "ಎಲ್ಲವನ್ನೂ ದೇವರಿಗೆ ಸಮರ್ಪಿಸಿ ಆತನಲ್ಲಿ ಅಚಲ ನಂಬಿಕೆ ಇಡುವುದು.",
-                "desc_en": "Surrendering the outcome. Doing your best and trusting the 'Universal Algorithm' to bring what is right for you."
+                "title_en": "Surrender to the Divine",
+                "desc_kn": "ಎಲ್ಲಾ ಕರ್ಮಗಳ ಫಲವನ್ನು ಈಶ್ವರನಿಗೆ ಸಮರ್ಪಿಸುವುದು ಮತ್ತು ಆತನ ಇಚ್ಛೆಗೆ ಸಂಪೂರ್ಣ ಶರಣಾಗತಿ. ಇದು ಗೀತೆಯ ಅಂತಿಮ ಸಂದೇಶವೂ ಹೌದು — 'ಸರ್ವಧರ್ಮಾನ್ ಪರಿತ್ಯಜ್ಯ ಮಾಮೇಕಂ ಶರಣಂ ವ್ರಜ.' ಈಶ್ವರ ಪ್ರಣಿಧಾನದಿಂದ ಸಮಾಧಿ ಸಿದ್ಧಿಯಾಗುತ್ತದೆ ಎಂದು ಪತಂಜಲಿ ಹೇಳುತ್ತಾರೆ. ಇದು ಹೇಡಿತನವಲ್ಲ — ಪೂರ್ಣ ಪ್ರಯತ್ನ ಮಾಡಿ ಫಲಿತಾಂಶವನ್ನು ದೇವರಿಗೆ ಬಿಡುವುದು.",
+                "desc_en": "Total surrender of all actions and their results to the Divine. Full effort, no anxiety about results.",
+                "shloka": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज — Gita 18.66",
+                "practice_kn": "ಪ್ರತಿ ಕೆಲಸ ಶುರು ಮಾಡುವ ಮುನ್ನ 'ಈ ಕೆಲಸವನ್ನು ಈಶ್ವರನಿಗೆ ಸಮರ್ಪಿಸುತ್ತೇನೆ' ಎಂದು ಭಾವಿಸಿ."
             }
         ]
     },
     "panchaMahaYajna": {
         "title_kn": "ಪಂಚ ಮಹಾಯಜ್ಞ (Five Great Sacrifices)",
-        "title_en": "The Five Daily Eco-Obligations",
-        "description_kn": "ಪ್ರತಿದಿನ ಪ್ರತಿಯೊಬ್ಬ ಸನಾತನಿ ಸಲ್ಲಿಸಬೇಕಾದ ಐದು ಋಣಗಳು.",
-        "description_en": "Understanding our connectivity. We aren't isolated users; we are part of a giant ecosystem.",
+        "title_en": "The Five Daily Obligations",
+        "description_kn": "ಪ್ರತಿಯೊಬ್ಬ ಸನಾತನಧರ್ಮಿ ಪ್ರತಿದಿನ ಸಲ್ಲಿಸಬೇಕಾದ ಐದು ಋಣಗಳು. ಮನು ಸ್ಮೃತಿ ಮತ್ತು ಶತಪಥ ಬ್ರಾಹ್ಮಣದಲ್ಲಿ ಈ ಐದು ಯಜ್ಞಗಳನ್ನು ವಿವರಿಸಲಾಗಿದೆ. ನಾವು ಕೇವಲ ವ್ಯಕ್ತಿಗಳಲ್ಲ — ನಾವು ಒಂದು ವಿಶಾಲ ಜೀವ ಜಾಲದ ಭಾಗ. ದೇವರಿಗೆ, ಋಷಿಗಳಿಗೆ, ಪಿತೃಗಳಿಗೆ, ಮನುಷ್ಯರಿಗೆ ಮತ್ತು ಪ್ರಕೃತಿಗೆ ನಮ್ಮ ಋಣ ಇದೆ.",
+        "description_en": "Five daily spiritual duties prescribed in Manu Smriti and Shatapatha Brahmana. We are part of a larger ecosystem of obligations.",
         "yajnas": [
             {
                 "title_kn": "ದೇವ ಯಜ್ಞ (Deva Yajna)",
                 "title_en": "Divine Gratitude",
-                "desc_kn": "ಪೂಜೆ, ಅಗ್ನಿಹೋತ್ರ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಮೂಲಕ ದೇವರಿಗೆ ಕೃತಜ್ಞತೆ ಸಲ್ಲಿಸುವುದು.",
-                "desc_en": "Thanking the 'Global Controller' (Nature/Divine) for your existence. Rituals are the UI for gratitude."
+                "desc_kn": "ಪೂಜೆ, ಹೋಮ, ಅಗ್ನಿಹೋತ್ರ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯ ಮೂಲಕ ದೇವರಿಗೆ ಕೃತಜ್ಞತೆ ಸಲ್ಲಿಸುವುದು. ದಿನದ ಮೊದಲ ಅಡುಗೆಯ ಮೊದಲ ತುತ್ತನ್ನು ಅಗ್ನಿಗೆ ಸಮರ್ಪಿಸುವ ಸಂಪ್ರದಾಯ ಇಂದಿಗೂ ಅನೇಕ ಮನೆಗಳಲ್ಲಿ ಇದೆ. ಸೂರ್ಯೋದಯ-ಸೂರ್ಯಾಸ್ತಗಳಲ್ಲಿ ಸಂಧ್ಯಾವಂದನೆ ಮಾಡುವುದು ದೇವಯಜ್ಞದ ಮೂಲರೂಪ. ನಮಗೆ ಜೀವನ ಕೊಟ್ಟ ಸೃಷ್ಟಿಕರ್ತನಿಗೆ ನಿತ್ಯ ಕೃತಜ್ಞರಾಗಿರಬೇಕು.",
+                "desc_en": "Expressing daily gratitude to the Divine through prayer, homa, and sandhyavandana.",
+                "practice_kn": "ಬೆಳಗ್ಗೆ ಎದ್ದ ತಕ್ಷಣ ಮತ್ತು ರಾತ್ರಿ ಮಲಗುವ ಮೊದಲು ಕನಿಷ್ಠ 5 ನಿಮಿಷ ಪ್ರಾರ್ಥನೆ/ಧ್ಯಾನ ಮಾಡಿ."
             },
             {
-                "title_kn": "ಋಷಿ ಯಜ್ಞ (Rishi Yajna)",
-                "title_en": "Intellectual Debt",
-                "desc_kn": "ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ ಮತ್ತು ಜ್ಞಾನ ಪ್ರಸಾರ ಮಾಡುವುದು.",
-                "desc_en": "Honoring the 'Original Developers' (Ancient Sages). Spread wisdom, not rumors or 'Fake News'."
+                "title_kn": "ಋಷಿ ಯಜ್ಞ / ಬ್ರಹ್ಮ ಯಜ್ಞ (Rishi Yajna)",
+                "title_en": "Intellectual & Spiritual Debt",
+                "desc_kn": "ವೇದ, ಉಪನಿಷತ್, ಗೀತೆ ಮುಂತಾದ ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ ಮತ್ತು ಜ್ಞಾನವನ್ನು ಇತರರಿಗೆ ಪ್ರಸಾರ ಮಾಡುವುದು. ಋಷಿಮುನಿಗಳು ಸಹಸ್ರಾರು ವರ್ಷಗಳಿಂದ ತಪಸ್ಸನ್ನು ಮಾಡಿ ಈ ಜ್ಞಾನವನ್ನು ನಮಗೆ ಕೊಟ್ಟಿದ್ದಾರೆ. ಅವರಿಗೆ ಋಣವನ್ನು ತೀರಿಸಲು ನಾವು ಈ ಜ್ಞಾನವನ್ನು ಅಧ್ಯಯನ ಮಾಡಿ, ಆಚರಿಸಿ, ಮುಂದಿನ ಪೀಳಿಗೆಗೆ ದಾಟಿಸಬೇಕು. ಪ್ರತಿ ದಿನ ಒಂದು ಶ್ಲೋಕವನ್ನಾದರೂ ಓದಿ ಮನನ ಮಾಡುವುದು ಋಷಿ ಯಜ್ಞ.",
+                "desc_en": "Studying scriptures from the sages and passing on their wisdom to the next generation.",
+                "practice_kn": "ಪ್ರತಿ ದಿನ ಒಂದು ಶ್ಲೋಕ ಅಥವಾ ಸುಭಾಷಿತ ಓದಿ, ಅರ್ಥ ತಿಳಿದು, ಕುಟುಂಬದೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ."
             },
             {
-                "title_kn": "ಪಿತೃ ಯಜ್ಞ (Pitri Yajna)",
-                "title_en": "Ancestral Roots",
-                "desc_kn": "ಹಿರಿಯರನ್ನು ಗೌರವಿಸುವುದು ಮತ್ತು ಪಿತೃಗಳಿಗೆ ತರ್ಪಣ ನೀಡುವುದು.",
-                "desc_en": "Respecting your 'Root Directory' (Parents/Elders). Remember the people who built the foundation you stand on."
+                "title_kn": "ಪಿತೃ ಯಜ್ಞ (Pitru Yajna)",
+                "title_en": "Ancestral Gratitude",
+                "desc_kn": "ಹಿರಿಯರನ್ನು ಗೌರವಿಸುವುದು, ಅವರ ಸೇವೆ ಮಾಡುವುದು ಮತ್ತು ಮೃತ ಪಿತೃಗಳಿಗೆ ತರ್ಪಣ-ಶ್ರಾದ್ಧ ನೀಡುವುದು. ನಮಗೆ ಈ ಶರೀರ ಕೊಟ್ಟವರು ನಮ್ಮ ತಂದೆ-ತಾಯಿ. ಅವರ ಮೂಲಕ ಅವರ ಹಿರಿಯರು. ಈ ಸರಪಳಿಯ ಎಲ್ಲರಿಗೂ ನಮ್ಮ ಋಣ ಇದೆ. ಜೀವಂತ ಹಿರಿಯರ ಸೇವೆ ಮಾಡುವುದೇ ಅತ್ಯುತ್ತಮ ಪಿತೃ ಯಜ್ಞ. 'ಮಾತೃ ದೇವೋ ಭವ, ಪಿತೃ ದೇವೋ ಭವ' — ತಾಯಿ ದೇವರು, ತಂದೆ ದೇವರು.",
+                "desc_en": "Honoring parents, elders, and ancestors through service, respect, and ritual remembrance.",
+                "practice_kn": "ಹಿರಿಯರ ಬಳಿ ಕುಟುಂಬದ ಇತಿಹಾಸ ಕೇಳಿ. ಅವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯಿರಿ. ಪಿತೃ ಪಕ್ಷದಲ್ಲಿ ತರ್ಪಣ ಕೊಡಿ."
             },
             {
-                "title_kn": "ಮನುಷ್ಯ ಯಜ್ಞ (Manushya Yajna)",
-                "title_en": "Human Service",
-                "desc_kn": "ಅತಿಥಿ ಸತ್ಕಾರ ಮತ್ತು ಬಡವರಿಗೆ ಅನ್ನದಾನ ಮಾಡುವುದು (ಅತಿಥಿ ಹರತಿ).",
-                "desc_en": "Helping fellow 'Users'. Acts of kindness, charity, and meaningful social service."
+                "title_kn": "ಮನುಷ್ಯ ಯಜ್ಞ / ಅತಿಥಿ ಯಜ್ಞ (Manushya Yajna)",
+                "title_en": "Service to Humanity",
+                "desc_kn": "ಅತಿಥಿ ಸತ್ಕಾರ, ಬಡವರಿಗೆ ಅನ್ನದಾನ ಮತ್ತು ಸಮಾಜ ಸೇವೆ. 'ಅತಿಥಿ ದೇವೋ ಭವ' — ಅತಿಥಿ ಬಂದಾಗ ದೇವರು ಬಂದಿದ್ದಾನೆಂದು ಸತ್ಕರಿಸಬೇಕು. ಹಸಿದವರಿಗೆ ಅನ್ನ ಕೊಡುವುದು, ದೀನರಿಗೆ ಸಹಾಯ ಮಾಡುವುದು, ಸಮಾಜದಲ್ಲಿ ಸೌಹಾರ್ದ ಬೆಳೆಸುವುದು — ಇವೆಲ್ಲ ಮನುಷ್ಯ ಯಜ್ಞ. ಭಗವಂತನ ಸೇವೆ ಎಂದರೆ ಮನುಷ್ಯರ ಸೇವೆ.",
+                "desc_en": "Hospitality, feeding the hungry, and selfless service to fellow human beings.",
+                "practice_kn": "ತಿಂಗಳಿಗೊಮ್ಮೆ ಅನ್ನದಾನ ಅಥವಾ ಸ್ವಯಂಸೇವಾ ಕಾರ್ಯ ಮಾಡಿ. ಅತಿಥಿಗಳನ್ನು ಪ್ರೀತಿಯಿಂದ ಸತ್ಕರಿಸಿ."
             },
             {
                 "title_kn": "ಭೂತ ಯಜ್ಞ (Bhuta Yajna)",
-                "title_en": "Earth Stewardship",
-                "desc_kn": "ಪ್ರಾಣಿ-ಪಕ್ಷಿಗಳಿಗೆ ಆಹಾರ ನೀಡುವುದು ಮತ್ತು ಪ್ರಕೃತಿಯನ್ನು ರಕ್ಷಿಸುವುದು.",
-                "desc_en": "Saving the 'Server Assets' (Planet). Feeding birds/animals and taking local action against climate change."
+                "title_en": "Service to Nature & Animals",
+                "desc_kn": "ಪ್ರಾಣಿ-ಪಕ್ಷಿಗಳಿಗೆ ಆಹಾರ-ನೀರು ನೀಡುವುದು ಮತ್ತು ಪ್ರಕೃತಿಯನ್ನು ರಕ್ಷಿಸುವುದು. ಸನಾತನ ಧರ್ಮದಲ್ಲಿ ಪ್ರಕೃತಿಯ ಪ್ರತಿ ಅಂಶವನ್ನು ಪವಿತ್ರವೆಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ — ನದಿ, ಮರ, ಪರ್ವತ, ಗೋವು, ಹಾವು ಎಲ್ಲವೂ ಪೂಜ್ಯ. ಮನೆಯ ಅಡುಗೆಯಲ್ಲಿ ಮೊದಲ ರೊಟ್ಟಿಯನ್ನು ಗೋವಿಗೆ, ಕೊನೆಯ ತುತ್ತನ್ನು ನಾಯಿ/ಕಾಗೆಗೆ ಕೊಡುವ ಸಂಪ್ರದಾಯ ಇಂದಿಗೂ ಅನೇಕ ಮನೆಗಳಲ್ಲಿದೆ. ಮರ ನೆಡುವುದು, ನೀರು ಉಳಿಸುವುದು ಕೂಡ ಭೂತ ಯಜ್ಞವೇ.",
+                "desc_en": "Feeding animals/birds and protecting nature — every part of creation is sacred.",
+                "practice_kn": "ಮನೆಯ ಹೊರಗೆ ಪಕ್ಷಿಗಳಿಗೆ ನೀರು-ಕಾಳು ಇಡಿ. ಮರ ನೆಡಿ. ಪ್ಲಾಸ್ಟಿಕ್ ಬಳಕೆ ಕಡಿಮೆ ಮಾಡಿ."
             }
         ]
     }

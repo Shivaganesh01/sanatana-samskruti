@@ -7,6 +7,8 @@
   --secondary: #FFD700;
   --bg-color: #0F0F0F;
   --surface-color: #1A1A1A;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
   --surface-hover: #242424;
   --text-primary: #F5F5F5;
   --text-secondary: #A0A0A0;
@@ -42,10 +44,17 @@ body {
   line-height: 1.6;
   font-size: var(--font-base-size, 16px);
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
   background-image:
     radial-gradient(circle at 10% 20%, rgba(255, 153, 51, 0.05) 0%, transparent 40%),
     radial-gradient(circle at 90% 80%, rgba(255, 153, 51, 0.05) 0%, transparent 40%);
   background-attachment: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 #root {
@@ -263,6 +272,74 @@ h6 {
   animation: fadeIn 0.4s ease-out forwards;
 }
 
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 8px rgba(255, 153, 51, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(255, 153, 51, 0.4);
+  }
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+/* Hide scrollbar for horizontal scroll containers */
+.tabs-container::-webkit-scrollbar,
+div[style*="overflowX"]::-webkit-scrollbar {
+  display: none;
+}
+
+/* Progress bar base */
+.progress-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+/* Badge */
+.badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Full height helper */
+.h-full {
+  height: 100%;
+}
+
 /* Shloka Stylings */
 .shloka-box {
   background: linear-gradient(135deg, #1A1A1A, #242424);
@@ -315,8 +392,10 @@ h6 {
 
 /* Content Area */
 .content-area {
-  padding-bottom: 120px;
-  padding-top: env(safe-area-inset-top);
+  padding-bottom: calc(120px + var(--safe-bottom));
+  padding-top: var(--safe-top);
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 /* Touch Targets for Android/iOS */
@@ -326,21 +405,84 @@ button {
   min-width: 44px;
 }
 
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--bg-color);
+/* Input styling for mobile */
+input,
+textarea,
+select {
+  font-size: 16px;
+  /* Prevents iOS zoom on focus */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--surface-color);
-  border-radius: 4px;
+/* Custom Scrollbar (desktop) */
+@media (hover: hover) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--bg-color);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--surface-color);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--border-color);
+  }
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--border-color);
+/* Mobile hidden scrollbar for horizontal scrollers */
+@media (hover: none) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    scrollbar-width: none;
+  }
+}
+
+/* --- Mobile Responsive --- */
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 0.75rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .card {
+    padding: 0.85rem;
+    border-radius: 12px;
+  }
 }

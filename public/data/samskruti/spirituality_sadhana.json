@@ -3,64 +3,140 @@
     "id": "namaste",
     "title_kn": "ನಮಸ್ಕಾರ (ಗೌರವದ ಸಂಕೇತ)",
     "title_en": "Namaste: The Divine Greeting",
-    "content_kn": "ಎರಡು ಅಂಗೈಗಳನ್ನು ಜೋಡಿಸಿ 'ನಮಸ್ಕಾರ' ಮಾಡುವುದು ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಹೆಗ್ಗುರುತು. 'ನಮಃ' ಎಂದರೆ 'ನನ್ನದಲ್ಲ' (ಅಹಂಕಾರ ತ್ಯಾಗ) ಮತ್ತು 'ತೇ' ಎಂದರೆ 'ನಿನಗೆ' (ಅರ್ಪಣೆ). ಇದರ ಅರ್ಥ: 'ನನ್ನಲ್ಲಿರುವ ದೈವತ್ವವು ನಿಮ್ಮಲ್ಲಿರುವ ದೈವತ್ವಕ್ಕೆ ವಂದಿಸುತ್ತದೆ'. ವೈಜ್ಞಾನಿಕವಾಗಿ, ಬೆರಳುಗಳ ತುದಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಸೇರಿಸುವುದು ಮೆದುಳಿನ ಒತ್ತಡದ ಬಿಂದುಗಳನ್ನು (Pressure Points) ಸಕ್ರಿಯಗೊಳಿಸಿ, ಎದುರಿಗಿರುವ ವ್ಯಕ್ತಿಯನ್ನು ಹೆಚ್ಚು ಕಾಲ ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಹಸ್ತಲಾಘವ (Shakehand) ಮಾಡುವುದಕ್ಕಿಂತ ಇದು ನೈರ್ಮಲ್ಯದ ದಿನದಿಂದಲೂ ಉತ್ತಮ.",
-    "content_en": "Ideally, Namaste is performed by joining both palms together near the heart chakra. 'Nama' means 'bow', 'as' means 'I', and 'te' means 'you'. It translates to 'I bow to the divine in you'. Scientifically, pressing the fingertips together activates the pressure points of the eyes, ears, and mind, aiding memory. It also avoids physical contact, preventing the spread of germs, unlike a handshake.",
+    "content_kn": "ಎರಡು ಅಂಗೈಗಳನ್ನು ಜೋಡಿಸಿ 'ನಮಸ್ಕಾರ' ಮಾಡುವುದು ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಹೆಗ್ಗುರುತು. 'ನಮಃ' ಎಂದರೆ 'ನನ್ನದಲ್ಲ' (ಅಹಂಕಾರ ತ್ಯಾಗ) ಮತ್ತು 'ತೇ' ಎಂದರೆ 'ನಿನಗೆ' (ಅರ್ಪಣೆ). ಇದರ ಅರ್ಥ: 'ನನ್ನಲ್ಲಿರುವ ದೈವತ್ವವು ನಿಮ್ಮಲ್ಲಿರುವ ದೈವತ್ವಕ್ಕೆ ವಂದಿಸುತ್ತದೆ'. ವೈಜ್ಞಾನಿಕವಾಗಿ, ಬೆರಳುಗಳ ತುದಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಸೇರಿಸುವುದು ಮೆದುಳಿನ ಒತ್ತಡದ ಬಿಂದುಗಳನ್ನು (Pressure Points) ಸಕ್ರಿಯಗೊಳಿಸಿ, ಎದುರಿಗಿರುವ ವ್ಯಕ್ತಿಯನ್ನು ಹೆಚ್ಚು ಕಾಲ ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+    "content_en": "Namaste is performed by joining both palms together near the heart chakra. 'Nama' means 'bow', 'as' means 'I', and 'te' means 'you'. It translates to 'I bow to the divine in you'.",
     "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
-    "subCategory_en": "Etiquette"
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ಅಹಂಕಾರ ನಿವಾರಣೆ",
+      "ಮೆದುಳಿನ ಒತ್ತಡ ಕಡಿಮೆ",
+      "ನೈರ್ಮಲ್ಯ ಕಾಪಾಡುವಿಕೆ"
+    ]
   },
   {
     "id": "tilaka",
-    "title_kn": "ತಿಲಕ ಧಾರಣೆ (ಆಜ್ಞಾ ಚಕ್ರ)",
-    "title_en": "Applying Tilaka (Third Eye)",
-    "content_kn": "ಹಣೆಯ ಮಧ್ಯಭಾಗದಲ್ಲಿ ಕುಂಕುಮ, ಗಂಧ ಅಥವಾ ವಿಭೂತಿಯನ್ನು ಹಚ್ಚುವುದು ಏಕಾಗ್ರತೆಯ ಸಂಕೇತ. ಈ ಜಾಗವನ್ನು 'ಆಜ್ಞಾ ಚಕ್ರ' ಅಥವಾ 'ಮೂರನೇ ಕಣ್ಣು' ಎನ್ನಲಾಗುತ್ತದೆ. ಇಲ್ಲಿ ತಿಲಕ ಹಚ್ಚುವುದರಿಂದ ದೇಹದ ಶಕ್ತಿ (Prana) ನಷ್ಟವಾಗುವುದನ್ನು ತಡೆಯುತ್ತದೆ ಮತ್ತು ಮನಸ್ಸನ್ನು ಶಾಂತವಾಗಿರಿಸುತ್ತದೆ. ಕುಂಕುಮವು ರಕ್ತದೊತ್ತಡವನ್ನು ನಿಯಂತ್ರಿಸಿದರೆ, ಗಂಧವು ತಂಪನ್ನು ನೀಡುತ್ತದೆ. ಇದು ನಮ್ಮ ಧಾರ್ಮಿಕ ಗುರುತೂ ಹೌದು.",
-    "content_en": "The spot between the eyebrows is the seat of the 'Ajna Chakra' (concentration point). Applying Tilaka (Kumkum, Chandan, or Vibhuti) cools the forehead, prevents energy loss, and improves focus. Red Kumkum retains energy, Sandalwood (Chandan) calms the mind, and Sacred Ash (Vibhuti) reminds us of mortality. It also activates the pituitary gland and helps in relieving stress and headaches.",
+    "title_kn": "ತಿಲಕ ಧಾರಣೆ (ಆಜ್ಞಾ ಚಕ್ರ ಜಾಗೃತಿ)",
+    "title_en": "Applying Tilaka (Third Eye Activation)",
+    "content_kn": "ಹಣೆಯ ಮಧ್ಯಭಾಗದಲ್ಲಿ ಕುಂಕುಮ, ಗಂಧ ಅಥವಾ ವಿಭೂತಿಯನ್ನು ಹಚ್ಚುವುದು ಏಕಾಗ್ರತೆಯ ಸಂಕೇತ. ಈ ಜಾಗವನ್ನು 'ಆಜ್ಞಾ ಚಕ್ರ' ಅಥವಾ 'ಮೂರನೇ ಕಣ್ಣು' ಎನ್ನಲಾಗುತ್ತದೆ. ಇಲ್ಲಿ ತಿಲಕ ಹಚ್ಚುವುದರಿಂದ ಪ್ರಾಣ ಶಕ್ತಿ ನಷ್ಟವಾಗುವುದನ್ನು ತಡೆಯುತ್ತದೆ ಮತ್ತು ಮನಸ್ಸನ್ನು ಶಾಂತವಾಗಿರಿಸುತ್ತದೆ. ಕುಂಕುಮವು ರಕ್ತದೊತ್ತಡವನ್ನು ನಿಯಂತ್ರಿಸಿದರೆ, ಗಂಧವು ತಂಪನ್ನು ನೀಡುತ್ತದೆ, ವಿಭೂತಿಯು ನಶ್ವರತೆಯ ಸ್ಮರಣೆ. ಮೂರು ಬೆರಳುಗಳಿಂದ ಅಡ್ಡ ವಿಭೂತಿ ಧರಿಸುವ ಶೈವ ಪದ್ಧತಿ ಮತ್ತು ಊರ್ಧ್ವ ಪುಂಡ್ರ ಧರಿಸುವ ವೈಷ್ಣವ ಪದ್ಧತಿ — ಎರಡೂ ಭಕ್ತಿ ಮತ್ತು ಗುರುತಿನ ಸಂಕೇತ.",
+    "content_en": "The spot between the eyebrows is the seat of the Ajna Chakra. Applying Tilaka cools the forehead, prevents energy loss, and improves focus.",
     "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
-    "subCategory_en": "Etiquette"
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ಏಕಾಗ್ರತೆ ಹೆಚ್ಚಳ",
+      "ಆಜ್ಞಾ ಚಕ್ರ ಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆ",
+      "ಒತ್ತಡ ನಿವಾರಣೆ"
+    ]
   },
   {
     "id": "charana_sparsha",
-    "title_kn": "ಪಾದ ನಮಸ್ಕಾರ (ನಮ್ರತೆ)",
+    "title_kn": "ಪಾದ ನಮಸ್ಕಾರ (ಶಕ್ತಿ ವಿನಿಮಯ)",
     "title_en": "Charana Sparsha (Touching Feet)",
-    "content_kn": "ಹಿರಿಯರ ಪಾದ ಮುಟ್ಟಿ ನಮಸ್ಕರಿಸುವುದು ಅಹಂಕಾರವನ್ನು ತ್ಯಜಿಸುವ ಕ್ರಿಯೆ. ನಾವು ಬಾಗಿ ಅವರ ಕಾಲನ್ನು ಮುಟ್ಟಿದಾಗ, ಅವರ ಹೃದಯದಿಂದ ಬರುವ ಸಕಾರಾತ್ಮಕ ಶಕ್ತಿ ಮತ್ತು ಆಶೀರ್ವಾದ ನಮ್ಮನ್ನು ತಲುಪುತ್ತದೆ. ಇದು ಕಿರಿಯರಲ್ಲಿ ವಿನಯವನ್ನು (Humility) ಮತ್ತು ಹಿರಿಯರಲ್ಲಿ ವಾತ್ಸಲ್ಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ವೈಜ್ಞಾನಿಕವಾಗಿ, ಇದು ಶಕ್ತಿಯ ವಿನಿಮಯದ (Energy Exchange) ಪ್ರಕ್ರಿಯೆ.",
-    "content_en": "Touching the feet of elders represents the surrender of ego (Ahamkara). When an elder blesses by touching the head, a circuit of positive energy is completed. It fosters humility in the seeker and invokes genuine affection in the giver. This tradition keeps the family bond strong and teaches respect for experience and wisdom.",
+    "content_kn": "ಹಿರಿಯರ ಪಾದ ಮುಟ್ಟಿ ನಮಸ್ಕರಿಸುವುದು ಅಹಂಕಾರವನ್ನು ತ್ಯಜಿಸುವ ಕ್ರಿಯೆ. ನಾವು ಬಾಗಿ ಅವರ ಕಾಲನ್ನು ಮುಟ್ಟಿದಾಗ, ಅವರ ಹೃದಯದಿಂದ ಬರುವ ಸಕಾರಾತ್ಮಕ ಶಕ್ತಿ ಮತ್ತು ಆಶೀರ್ವಾದ ನಮ್ಮನ್ನು ತಲುಪುತ್ತದೆ. ಇದು ವಿನಯವನ್ನು ಬೆಳೆಸುತ್ತದೆ ಮತ್ತು ಹಿರಿಯರಲ್ಲಿ ವಾತ್ಸಲ್ಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಭಗವದ್ಗೀತೆಯಲ್ಲಿ ಶ್ರೀಕೃಷ್ಣನೇ ಅರ್ಜುನನಿಗೆ 'ತದ್ ವಿದ್ಧಿ ಪ್ರಣಿಪಾತೇನ ಪರಿಪ್ರಶ್ನೇನ ಸೇವಯಾ' ಎಂದು ಹೇಳುತ್ತಾನೆ — ಜ್ಞಾನ ಪಡೆಯಲು ಗುರುವಿನ ಬಳಿ ನಮ್ರತೆಯಿಂದ ಹೋಗು ಎಂದು.",
+    "content_en": "Touching the feet of elders represents the surrender of ego. When an elder blesses by touching the head, a circuit of positive energy is completed.",
     "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
-    "subCategory_en": "Etiquette"
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ವಿನಯ ಬೆಳವಣಿಗೆ",
+      "ಆಶೀರ್ವಾದ ಪ್ರಾಪ್ತಿ",
+      "ಶಕ್ತಿ ವಿನಿಮಯ"
+    ]
   },
   {
     "id": "lighting_deepa",
     "title_kn": "ದೀಪ ಹಚ್ಚುವ ಸಂಪ್ರದಾಯ",
-    "title_en": "Listing the Lamp",
-    "content_kn": "ಸಂಜೆ ಸಂಧ್ಯಾ ಸಮಯದಲ್ಲಿ (ಗೋದೂಳಿ ಲಗ್ನ) ಮನೆಯಲ್ಲಿ ದೀಪ ಹಚ್ಚುವುದು ಕಡ್ಡಾಯ. ಕತ್ತಲೆ ಅಜ್ಞಾನದ ಸಂಕೇತ, ದೀಪ ಜ್ಞಾನದ ಸಂಕೇತ. ದೀಪದ ಎಣ್ಣೆ ನಮ್ಮ ವಾಸನೆಗಳು (ದುರ್ಗುಣಗಳು), ಬತ್ತಿ ನಮ್ಮ ಅಹಂಕಾರ. ಜ್ಞಾನಾಗ್ನಿಯು ಬೆಳಗಿದಾಗ ಇವೆರಡೂ ಸುಟ್ಟು ಹೋಗುತ್ತವೆ. ದೀಪವು ಆಮ್ಲಜನಕವನ್ನು ಹೀರಿಕೊಂಡು ಸುತ್ತಲೂ ಕಾಂತೀಯ ಶಕ್ತಿಯನ್ನು (Magnetic field) ಉಂಟುಮಾಡುತ್ತದೆ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ.",
-    "content_en": "Lighting a lamp marks the absence of darkness (ignorance) and the presence of light (knowledge). Traditionally, oil represents our negative tendencies (Vasanas) and the wick represents the ego. When lit by knowledge, they burn away. The heat from the lamp also kills airborne bacteria and creates a warm, auspicious aura in the house.",
+    "title_en": "Lighting the Sacred Lamp",
+    "content_kn": "ಸಂಜೆ ಸಂಧ್ಯಾ ಸಮಯದಲ್ಲಿ (ಗೋಧೂಳಿ ಲಗ್ನ) ಮನೆಯಲ್ಲಿ ದೀಪ ಹಚ್ಚುವುದು ಅತ್ಯಂತ ಪವಿತ್ರ ಆಚರಣೆ. ಕತ್ತಲೆ ಅಜ್ಞಾನದ ಸಂಕೇತ, ದೀಪ ಜ್ಞಾನದ ಸಂಕೇತ. 'ತಮಸೋ ಮಾ ಜ್ಯೋತಿರ್ಗಮಯ' — ಕತ್ತಲೆಯಿಂದ ಬೆಳಕಿಗೆ ನಡೆಸು ಎಂಬ ಉಪನಿಷದ್ ಪ್ರಾರ್ಥನೆ ಇದರ ತಾತ್ಪರ್ಯ. ದೀಪದ ಎಣ್ಣೆ ನಮ್ಮ ವಾಸನೆಗಳು (ದುರ್ಗುಣಗಳು), ಬತ್ತಿ ನಮ್ಮ ಅಹಂಕಾರ. ಜ್ಞಾನಾಗ್ನಿಯಿಂದ ಇವೆರಡೂ ಸುಟ್ಟು ಹೋಗುತ್ತವೆ. ಎಳ್ಳೆಣ್ಣೆ ದೀಪ ಧನಾತ್ಮಕ ಶಕ್ತಿ ಉತ್ಪಾದಿಸುತ್ತದೆ ಎಂದು ನಂಬಲಾಗಿದೆ. ತುಪ್ಪದ ದೀಪವು ವಾತಾವರಣವನ್ನು ಶುದ್ಧಗೊಳಿಸುತ್ತದೆ.",
+    "content_en": "Lighting a lamp marks the removal of darkness (ignorance) and the presence of light (knowledge). 'Tamaso ma jyotirgamaya' — Lead us from darkness to light.",
     "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
-    "subCategory_en": "Etiquette"
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ಸಕಾರಾತ್ಮಕ ಶಕ್ತಿ",
+      "ವಾತಾವರಣ ಶುದ್ಧಿ",
+      "ಜ್ಞಾನದ ಸಂಕೇತ"
+    ]
+  },
+  {
+    "id": "sandhyavandana",
+    "title_kn": "ಸಂಧ್ಯಾವಂದನೆ (ದಿನದ ಮೂರು ಸಂಧಿ)",
+    "title_en": "Sandhyavandana (Three Junctions of the Day)",
+    "content_kn": "ಸೂರ್ಯೋದಯ, ಮಧ್ಯಾಹ್ನ ಮತ್ತು ಸೂರ್ಯಾಸ್ತ — ಈ ಮೂರು ಸಂಧಿ ಕಾಲಗಳಲ್ಲಿ ಮಾಡುವ ಪ್ರಾರ್ಥನೆ ಮತ್ತು ಧ್ಯಾನವೇ ಸಂಧ್ಯಾವಂದನೆ. ಗಾಯತ್ರೀ ಮಂತ್ರ ಜಪ ಇದರ ಕೇಂದ್ರ. 'ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ | ತತ್ ಸವಿತುರ್ವರೇಣ್ಯಂ | ಭರ್ಗೋ ದೇವಸ್ಯ ಧೀಮಹಿ | ಧಿಯೋ ಯೋ ನಃ ಪ್ರಚೋದಯಾತ್' — ಆ ಸವಿತಾ ದೇವನ ಶ್ರೇಷ್ಠವಾದ ತೇಜಸ್ಸನ್ನು ನಾವು ಧ್ಯಾನಿಸುತ್ತೇವೆ, ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ. ಪ್ರಾತಃಕಾಲ ಮಾಡಿದರೆ ದೇಹ-ಮನಸ್ಸಿಗೆ ಶಕ್ತಿ, ಸಂಜೆ ಮಾಡಿದರೆ ದಿನಪೂರ್ತಿ ಕೆಲಸದ ಆಯಾಸ ನಿವಾರಣೆ. ಆಚಮನ, ಪ್ರಾಣಾಯಾಮ, ಮಾರ್ಜನ ಇವು ಸಂಧ್ಯಾವಂದನೆಯ ಅಂಗಗಳು.",
+    "content_en": "Sandhyavandana is the daily prayer performed at the three junctions — sunrise, noon, and sunset. The Gayatri Mantra is its core practice.",
+    "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ಬೌದ್ಧಿಕ ಪ್ರೇರಣೆ",
+      "ಆಧ್ಯಾತ್ಮಿಕ ಶಕ್ತಿ",
+      "ದಿನಚರ್ಯೆ ಶಿಸ್ತು"
+    ]
+  },
+  {
+    "id": "anna_prashana",
+    "title_kn": "ಊಟದ ಮೊದಲು ಪ್ರಾರ್ಥನೆ (ಅನ್ನ ಪ್ರಾಶನ)",
+    "title_en": "Prayer Before Eating",
+    "content_kn": "ಊಟ ಮಾಡುವ ಮೊದಲು 'ಬ್ರಹ್ಮಾರ್ಪಣಂ ಬ್ರಹ್ಮ ಹವಿಃ...' ಎಂಬ ಶ್ಲೋಕ ಹೇಳುವ ಸಂಪ್ರದಾಯ ಗಮನಾರ್ಹ. ಭಗವದ್ಗೀತೆ 4.24ನೇ ಶ್ಲೋಕದಲ್ಲಿ ಕೃಷ್ಣ ಹೇಳುತ್ತಾನೆ: ಅರ್ಪಣೆಯೂ ಬ್ರಹ್ಮ, ಹವಿಸ್ಸೂ ಬ್ರಹ್ಮ, ಅಗ್ನಿಯೂ ಬ್ರಹ್ಮ, ಅರ್ಪಿಸುವವನೂ ಬ್ರಹ್ಮ — ಸಕಲವೂ ಬ್ರಹ್ಮ ಮಯ. ಊಟವನ್ನು ಕೇವಲ ಹೊಟ್ಟೆ ತುಂಬಿಸುವ ಕ್ರಿಯೆಯಾಗಿ ನೋಡದೆ, ಪ್ರಾಣಾಗ್ನಿಗೆ ಅರ್ಪಿಸುವ ಯಜ್ಞವಾಗಿ ನೋಡಬೇಕು. ಇಲ್ಲಿ ಅಡುಗೆ ಮಾಡಿದವರಿಗೂ ಕೃತಜ್ಞತೆ, ಅನ್ನ ಬೆಳೆದ ರೈತನಿಗೂ ಕೃತಜ್ಞತೆ, ಪ್ರಕೃತಿಗೂ ಕೃತಜ್ಞತೆ.",
+    "content_en": "Saying a prayer before eating transforms the act of eating into a sacred offering (yajna). Bhagavad Gita 4.24 teaches that everything in the act is Brahman.",
+    "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ಕೃತಜ್ಞತಾ ಭಾವ",
+      "ಆಹಾರ ಸಾತ್ವಿಕತೆ",
+      "ಪ್ರಜ್ಞಾಪೂರ್ವಕ ಆಹಾರ ಸೇವನೆ"
+    ]
+  },
+  {
+    "id": "pradakshine",
+    "title_kn": "ಪ್ರದಕ್ಷಿಣೆ (ಓಂಕಾರದ ರೂಪ)",
+    "title_en": "Pradakshina (Circumambulation)",
+    "content_kn": "ದೇವಸ್ಥಾನ, ತುಳಸಿ ಕಟ್ಟೆ ಅಥವಾ ಅಶ್ವತ್ಥ ವೃಕ್ಷಕ್ಕೆ ಪ್ರದಕ್ಷಿಣೆ ಹಾಕುವುದು ಪ್ರಾಚೀನ ಆಚರಣೆ. 'ಪ್ರ' (ಮುಂದೆ) + 'ಧಕ್ಷಿಣ' (ಬಲಕ್ಕೆ) = ಬಲಭಾಗಕ್ಕೆ ಸುತ್ತುವುದು. ದೇವಸ್ಥಾನದ ಗರ್ಭಗೃಹದ ಸುತ್ತ ಸಕಾರಾತ್ಮಕ ಶಕ್ತಿ ಕ್ಷೇತ್ರ ಇರುತ್ತದೆ ಎಂದು ನಂಬಲಾಗುತ್ತದೆ. ಪ್ರದಕ್ಷಿಣೆ ಮಾಡುವಾಗ ಈ ಶಕ್ತಿಯನ್ನು ನಾವು ಗ್ರಹಿಸುತ್ತೇವೆ. ಗಿರಿವಲಂ (ಬೆಟ್ಟ ಪ್ರದಕ್ಷಿಣೆ) ಮತ್ತು ಗ್ರಾಮ ಪ್ರದಕ್ಷಿಣೆ ಕೂಡ ಈ ಸಂಪ್ರದಾಯದ ಭಾಗ. ಕೆಲವು ದೇವಸ್ಥಾನಗಳಲ್ಲಿ 108 ಪ್ರದಕ್ಷಿಣೆ ಮಾಡುವ ಪರಿಪಾಠವಿದೆ.",
+    "content_en": "Circumambulation (Pradakshina) of a temple or sacred object absorbs the positive energy emanating from the sanctum.",
+    "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ಸಕಾರಾತ್ಮಕ ಶಕ್ತಿ",
+      "ಆಧ್ಯಾತ್ಮಿಕ ಶಿಸ್ತು",
+      "ದೈಹಿಕ ವ್ಯಾಯಾಮ"
+    ]
+  },
+  {
+    "id": "tulasi_puje",
+    "title_kn": "ತುಳಸಿ ಪೂಜೆ (ಔಷಧೀಯ ದೇವಿ)",
+    "title_en": "Tulasi Worship (Sacred Basil)",
+    "content_kn": "ತುಳಸಿ ಸಸ್ಯವನ್ನು ಭಾರತೀಯ ಕುಟುಂಬಗಳಲ್ಲಿ ದೇವತೆಯಂತೆ ಪೂಜಿಸುತ್ತಾರೆ. ಸಂಜೆ ತುಳಸಿ ಕಟ್ಟೆಗೆ ದೀಪ ಹಚ್ಚಿ ಪೂಜೆ ಮಾಡುವುದು ಅನೇಕ ಮನೆಗಳಲ್ಲಿ ಇಂದಿಗೂ ನಡೆಯುತ್ತಿದೆ. ವೈಜ್ಞಾನಿಕವಾಗಿ, ತುಳಸಿ ಗಿಡವು ಪ್ರತಿ ಗಂಟೆಗೆ ಸುಮಾರು 20mg ಓಝೋನ್ ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ ಮತ್ತು 24 ಗಂಟೆ ಆಮ್ಲಜನಕ ಬಿಡುಗಡೆ ಮಾಡುವ ಅಪರೂಪದ ಸಸ್ಯಗಳಲ್ಲಿ ಒಂದು. ಇದರ ಎಲೆಗಳಲ್ಲಿ Eugenol, Ursolic acid ಮುಂತಾದ ಔಷಧೀಯ ಗುಣಗಳಿವೆ. ಜ್ವರ, ನೆಗಡಿ, ಕೆಮ್ಮು, ಮಧುಮೇಹ ನಿಯಂತ್ರಣಕ್ಕೆ ತುಳಸಿ ಬಳಕೆ.",
+    "content_en": "Tulasi (Holy Basil) is worshipped for its immense medicinal and spiritual value. It releases ozone and oxygen 24 hours a day.",
+    "subCategory_kn": "ಧರ್ಮ ನಡವಳಿಕೆ",
+    "subCategory_en": "Etiquette",
+    "benefits": [
+      "ಆಮ್ಲಜನಕ ಉತ್ಪಾದನೆ",
+      "ಔಷಧೀಯ ಗುಣ",
+      "ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿ"
+    ]
   },
   {
     "id": "moksha_paths_link",
-    "title_kn": "ಮಕಷ ಮರಗ",
-    "title_en": "Paths to Moksha",
-    "content_kn": "ಕರಮ, ಭಕತ ಮತತ ಜಞನ ಯಗಗಳ ವವರಣ.",
-    "content_en": "Detailed paths of Karma, Bhakti and Jnana Yoga.",
+    "title_kn": "ಮೋಕ್ಷ ಮಾರ್ಗ (ಮುಕ್ತಿಯ ದಾರಿ)",
+    "title_en": "Paths to Moksha (Liberation)",
+    "content_kn": "ಕರ್ಮ ಯೋಗ, ಭಕ್ತಿ ಯೋಗ ಮತ್ತು ಜ್ಞಾನ ಯೋಗ — ಭಗವದ್ಗೀತೆಯಲ್ಲಿ ವಿವರಿಸಿದ ಮೋಕ್ಷದ ಮೂರು ಮಾರ್ಗಗಳು ಮತ್ತು ಸಾಧನಾ ಚತುಷ್ಟಯ ವಿವರಣೆ.",
+    "content_en": "Three paths to liberation — Karma Yoga, Bhakti Yoga, and Jnana Yoga — as described in the Bhagavad Gita.",
     "customRoute": "/moksha-marga",
     "subCategory_kn": "ಮೋಕ್ಷ ಮಾರ್ಗ",
     "subCategory_en": "Moksha Paths"
   },
   {
     "id": "chakra_sadhana_link",
-    "title_kn": "ಚಕರ - ಆತಮ ಸಧನ",
-    "title_en": "Chakra & Atma Sadhana",
-    "content_kn": "ದಹದ ಏಳ ಚಕರಗಳ ಮತತ ಆತಮ ಸಕಷತಕರ.",
-    "content_en": "The 7 Chakras and self-realization.",
+    "title_kn": "ಚಕ್ರ ಮತ್ತು ಆತ್ಮ ಸಾಧನೆ",
+    "title_en": "Chakras & Atma Sadhana",
+    "content_kn": "ದೇಹದ ಏಳು ಚಕ್ರಗಳ (ಮೂಲಾಧಾರ, ಸ್ವಾಧಿಷ್ಠಾನ, ಮಣಿಪೂರ, ಅನಾಹತ, ವಿಶುದ್ಧ, ಆಜ್ಞಾ, ಸಹಸ್ರಾರ) ವಿವರಣೆ, ಧ್ಯಾನ ವಿಧಾನಗಳು ಮತ್ತು ಆತ್ಮ ಸಾಕ್ಷಾತ್ಕಾರದ ಮಾರ್ಗ.",
+    "content_en": "The seven energy centers (Chakras) of the body and the path to Self-realization through Atma Sadhana.",
     "customRoute": "/chakra-sadhana",
     "subCategory_kn": "ಚಕ್ರ - ಆತ್ಮ ಸಾಧನೆ",
     "subCategory_en": "Chakras & Atma"
   },
   {
     "id": "dharmic_lifestyle_link",
-    "title_kn": "ಧರಮಕ ಜವನ ಶಲ",
+    "title_kn": "ಧಾರ್ಮಿಕ ಜೀವನ ಶೈಲಿ",
     "title_en": "Dharmic Lifestyle",
-    "content_kn": "ಯಮ, ನಯಮ ಮತತ ದನದನ ಧರಮಕ ನಯಮಗಳ.",
-    "content_en": "Yama, Niyama and daily conduct.",
+    "content_kn": "ಪತಂಜಲಿ ಯೋಗ ಸೂತ್ರಗಳ ಯಮ-ನಿಯಮಗಳು ಮತ್ತು ಪಂಚ ಮಹಾಯಜ್ಞಗಳ ವಿವರಣೆ. ಸನಾತನ ಧರ್ಮದ ನಿತ್ಯ ಆಚರಣೆಗಳು ಮತ್ತು ಜೀವನ ಮೌಲ್ಯಗಳು.",
+    "content_en": "Yamas, Niyamas, and Pancha Maha Yajnas — the daily dharmic practices and values.",
     "customRoute": "/dharmic-lifestyle",
     "subCategory_kn": "ಜೀವನ ಶೈಲಿ",
     "subCategory_en": "Lifestyle"

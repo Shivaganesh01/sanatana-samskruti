@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Quote, Zap, Heart } from 'lucide-react';
+import { Quote, Zap, Heart, BookOpen, Clock } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
 import TTSButton from '../components/TTSButton';
 import ShareButton from '../components/ShareButton';
 import { useFavorites } from '../context/FavoritesContext';
+import { markAsRead, addToRecentlyViewed } from '../utils/readingProgress';
 
 const GitaDetail = () => {
     const { chapterId } = useParams();
@@ -22,6 +23,16 @@ const GitaDetail = () => {
                 if (!res.ok) throw new Error("Chapter not found");
                 const data = await res.json();
                 setChapter(data);
+
+                // Track reading progress
+                markAsRead('gita', `chapter_${chapterId}`);
+                addToRecentlyViewed({
+                    id: `gita_chapter_${chapterId}`,
+                    title_kn: data.title_kn,
+                    title_en: data.title_en || `Chapter ${chapterId}`,
+                    categoryId: chapterId,
+                    type: 'gita_chapter'
+                });
             } catch (err) {
                 setError(err.message);
             } finally {
@@ -53,9 +64,31 @@ const GitaDetail = () => {
             <Header title={`ಅಧ್ಯಾಯ ${chapter.chapter}`} showBack subtitle={chapter.title_kn} />
 
             <div className="container">
-                <div style={{ textAlign: 'center', marginBottom: '2.5rem', paddingTop: '1rem' }}>
+                <div style={{ textAlign: 'center', marginBottom: '2rem', paddingTop: '1rem' }}>
                     <h2 style={{ margin: 0, fontSize: '2.25rem', color: 'var(--primary)', fontWeight: 800 }}>{chapter.title_kn}</h2>
                     {chapter.title_en && <p style={{ color: 'var(--text-secondary)', margin: '0.25rem 0 0', fontSize: '1rem' }}>{chapter.title_en}</p>}
+                    {chapter.verses && (
+                        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '0.75rem' }}>
+                            <div style={{
+                                display: 'flex', alignItems: 'center', gap: '0.3rem',
+                                fontSize: '0.75rem', color: 'var(--text-secondary)',
+                                background: 'rgba(255,255,255,0.04)',
+                                padding: '4px 12px', borderRadius: '50px'
+                            }}>
+                                <BookOpen size={12} />
+                                <span>{chapter.verses.length} ಶ್ಲೋಕಗಳು</span>
+                            </div>
+                            <div style={{
+                                display: 'flex', alignItems: 'center', gap: '0.3rem',
+                                fontSize: '0.75rem', color: 'var(--text-secondary)',
+                                background: 'rgba(255,255,255,0.04)',
+                                padding: '4px 12px', borderRadius: '50px'
+                            }}>
+                                <Clock size={12} />
+                                <span>{Math.max(1, Math.ceil(chapter.verses.length * 0.5))} min</span>
+                            </div>
+                        </div>
+                    )}
                 </div>
 
                 <div className="static-card glass" style={{ marginBottom: '2.5rem', padding: '1.75rem' }}>

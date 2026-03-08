@@ -1,28 +1,64 @@
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { Zap, Heart } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { useParams, Link } from 'react-router-dom';
+import { Zap, Heart, Clock, BookOpen, ChevronRight, Info, Tag, Layers, Lightbulb } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
 import TTSButton from '../components/TTSButton';
 import ShareButton from '../components/ShareButton';
 import { useFavorites } from '../context/FavoritesContext';
+import { markAsRead, addToRecentlyViewed } from '../utils/readingProgress';
+
+// Did You Know facts related to topics
+const DID_YOU_KNOW_FACTS = {
+    health_yoga: [
+        "ಯೋಗವನ್ನು UNESCO 2016 ರಲ್ಲಿ 'ಅಮೂರ್ತ ಸಾಂಸ್ಕೃತಿಕ ಪರಂಪರೆ' ಎಂದು ಘೋಷಿಸಿತು.",
+        "ಪ್ರಾಣಾಯಾಮವು ರಕ್ತದ ಆಮ್ಲಜನಕ ಮಟ್ಟವನ್ನು 50% ವರೆಗೆ ಹೆಚ್ಚಿಸಬಹುದು.",
+        "ಆಯುರ್ವೇದವು 5000 ವರ್ಷಗಳಿಗಿಂತ ಹಳೆಯ ವೈದ್ಯಕೀಯ ಪದ್ಧತಿ.",
+        "108 ಸೂರ್ಯ ನಮಸ್ಕಾರಗಳು ಸುಮಾರು 13,000 ಕ್ಯಾಲೊರಿಗಳನ್ನು ಸುಡಬಲ್ಲವು."
+    ],
+    vedic_wisdom: [
+        "ಋಗ್ವೇದವು ವಿಶ್ವದ ಅತ್ಯಂತ ಹಳೆಯ ಗ್ರಂಥವೆಂದು ಪರಿಗಣಿಸಲಾಗಿದೆ.",
+        "ವೇದಗಳಲ್ಲಿ ಗಣಿತ, ಖಗೋಳಶಾಸ್ತ್ರ ಮತ್ತು ವೈದ್ಯಕೀಯ ಜ್ಞಾನ ಅಡಕವಾಗಿದೆ.",
+        "ಗಾಯತ್ರಿ ಮಂತ್ರವು ಅತ್ಯಂತ ಶಕ್ತಿಶಾಲಿ ವೈದಿಕ ಮಂತ್ರಗಳಲ್ಲಿ ಒಂದು.",
+        "ಸಂಸ್ಕೃತವನ್ನು NASA 'ಕಂಪ್ಯೂಟರ್ ಸ್ನೇಹಿ ಭಾಷೆ' ಎಂದು ಪರಿಗಣಿಸಿದೆ."
+    ],
+    spirituality_sadhana: [
+        "ಧ್ಯಾನವು ಮೆದುಳಿನ ಬೂದು ದ್ರವ್ಯವನ್ನು (Grey Matter) ಹೆಚ್ಚಿಸುತ್ತದೆ ಎಂದು ವಿಜ್ಞಾನ ಸಾಬೀತುಪಡಿಸಿದೆ.",
+        "ಓಂಕಾರದ ಕಂಪನ 432Hz ಆಗಿದ್ದು, ಇದು ಪ್ರಕೃತಿಯ ಮೂಲ ಕಂಪನಕ್ಕೆ ಹತ್ತಿರವಾಗಿದೆ.",
+        "ಜಪ ಮಾಡುವಾಗ ಮೆದುಳಿನ ಆಲ್ಫಾ ತರಂಗಗಳು ಹೆಚ್ಚಾಗುತ್ತವೆ.",
+        "7 ಚಕ್ರಗಳು ನರಮಂಡಲದ 7 ಪ್ರಮುಖ ಬಿಂದುಗಳಿಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆ."
+    ],
+    dharma_culture: [
+        "ಮಹಾಭಾರತವು 1,00,000 ಶ್ಲೋಕಗಳನ್ನು ಹೊಂದಿದ ವಿಶ್ವದ ಅತಿ ದೊಡ್ಡ ಮಹಾಕಾವ್ಯ.",
+        "ಭಾರತದಲ್ಲಿ ವರ್ಷದ ಪ್ರತಿ ದಿನವೂ ಯಾವುದೋ ಒಂದು ಹಬ್ಬ ಇರುತ್ತದೆ.",
+        "ಸುಭಾಷಿತಗಳು 'Twitter ಗೆಳೆಯ' ಆಗಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ - ಕಡಿಮೆ ಪದಗಳಲ್ಲಿ ಹೆಚ್ಚು ಅರ್ಥ!",
+        "ವಿದುರ ನೀತಿಯನ್ನು 'ಪ್ರಾಚೀನ ಭಾರತದ MBA' ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ."
+    ],
+    saints_temples: [
+        "ಭಾರತದಲ್ಲಿ ಸುಮಾರು 20 ಲಕ್ಷಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಿಂದೂ ದೇವಸ್ಥಾನಗಳಿವೆ.",
+        "ಕರ್ನಾಟಕದ ವಚನ ಸಾಹಿತ್ಯವು 12ನೇ ಶತಮಾನದ ಸಾಮಾಜಿಕ ಚಳುವಳಿಯ ಫಲ.",
+        "ದಾಸ ಸಾಹಿತ್ಯವು ಸಂಗೀತ ಮತ್ತು ಭಕ್ತಿಯ ಅಪೂರ್ವ ಸಂಗಮ.",
+        "ಹಂಪಿಯ ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯಕ್ಕೆ 1300+ ವರ್ಷಗಳ ಇತಿಹಾಸವಿದೆ."
+    ]
+};
 
 const SamskrutiDetail = ({ categories }) => {
     const { categoryId, itemId } = useParams();
     const [item, setItem] = useState(null);
+    const [allItems, setAllItems] = useState([]);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
+    const [showDidYouKnow, setShowDidYouKnow] = useState(false);
     const { toggleFavorite, isFavorite } = useFavorites();
 
     useEffect(() => {
-        // ... (fetch logic remains same)
         const fetchItem = async () => {
             try {
                 setLoading(true);
-                // First try to load from the main category file (index)
                 const res = await fetch(`data/samskruti/${categoryId}.json`);
                 if (!res.ok) throw new Error(`Could not load data for category: ${categoryId}`);
                 let items = await res.json();
+                setAllItems(items);
 
                 let found = items.find(i => i.id === itemId);
                 if (!found) {
@@ -46,6 +82,17 @@ const SamskrutiDetail = ({ categories }) => {
                 }
 
                 setItem(found);
+
+                // Track reading progress
+                markAsRead(categoryId, itemId);
+                addToRecentlyViewed({
+                    id: itemId,
+                    title_kn: found.title_kn,
+                    title_en: found.title_en,
+                    categoryId: categoryId,
+                    type: 'samskruti'
+                });
+
             } catch (err) {
                 console.error("Detail load error:", err);
                 setError(err.message);
@@ -55,6 +102,34 @@ const SamskrutiDetail = ({ categories }) => {
         };
         fetchItem();
     }, [categoryId, itemId]);
+
+    // Related items (same subcategory, excluding current)
+    const relatedItems = useMemo(() => {
+        if (!item || !allItems.length) return [];
+        return allItems
+            .filter(i => i.id !== itemId && !i.customRoute)
+            .filter(i =>
+                (item.subCategory_en && i.subCategory_en === item.subCategory_en) ||
+                (!item.subCategory_en)
+            )
+            .slice(0, 4);
+    }, [item, allItems, itemId]);
+
+    // Get a random "Did You Know" fact
+    const didYouKnowFact = useMemo(() => {
+        const facts = DID_YOU_KNOW_FACTS[categoryId] || [];
+        if (facts.length === 0) return null;
+        const seed = itemId ? itemId.length : 0;
+        return facts[seed % facts.length];
+    }, [categoryId, itemId]);
+
+    // Estimated reading time
+    const readingTime = useMemo(() => {
+        if (!item) return 0;
+        const text = (item.content_kn || '') + (item.content_en || '') + (item.shloka || '');
+        const words = text.split(/\s+/).length;
+        return Math.max(1, Math.ceil(words / 150)); // ~150 words per minute for bilingual
+    }, [item]);
 
     if (loading) return <LoadingScreen />;
     if (error) return <div className="container text-center" style={{ paddingTop: '4rem' }}><h3 style={{ color: 'var(--danger)' }}>ನೋಂದಣಿ ದೋಷ</h3><p>{error}</p></div>;
@@ -68,10 +143,11 @@ const SamskrutiDetail = ({ categories }) => {
 
             <div className="container">
                 <article className="static-card glass" style={{ padding: '1.5rem', marginBottom: '1.5rem' }}>
-                    <div style={{ position: 'relative', marginBottom: '1.5rem' }}>
+                    {/* Title section */}
+                    <div style={{ position: 'relative', marginBottom: '1rem' }}>
                         <div style={{ paddingRight: '5rem' }}>
                             <h2 style={{ fontSize: '1.75rem', marginBottom: '0.25rem', color: 'var(--primary)', marginTop: 0 }}>{item.title_kn}</h2>
-                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '1rem' }}>{item.title_en}</p>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '0.5rem' }}>{item.title_en}</p>
                         </div>
                         <div style={{ position: 'absolute', top: 0, right: 0, display: 'flex', gap: '4px', alignItems: 'center' }}>
                             <ShareButton
@@ -81,7 +157,6 @@ const SamskrutiDetail = ({ categories }) => {
                             <button
                                 onClick={(e) => {
                                     e.stopPropagation();
-                                    console.log("Toggle Favorite Clicked for:", item.id);
                                     toggleFavorite({
                                         id: item.id,
                                         title_kn: item.title_kn,
@@ -116,6 +191,45 @@ const SamskrutiDetail = ({ categories }) => {
                         </div>
                     </div>
 
+                    {/* Meta info row */}
+                    <div style={{
+                        display: 'flex', gap: '1rem', alignItems: 'center',
+                        marginBottom: '1.25rem', flexWrap: 'wrap'
+                    }}>
+                        <div style={{
+                            display: 'flex', alignItems: 'center', gap: '0.3rem',
+                            fontSize: '0.75rem', color: 'var(--text-secondary)',
+                            background: 'rgba(255,255,255,0.04)',
+                            padding: '4px 10px', borderRadius: '50px'
+                        }}>
+                            <Clock size={12} />
+                            <span>{readingTime} min read</span>
+                        </div>
+                        {item.subCategory_en && (
+                            <div style={{
+                                display: 'flex', alignItems: 'center', gap: '0.3rem',
+                                fontSize: '0.75rem', color: 'var(--primary)',
+                                background: 'rgba(255,153,51,0.08)',
+                                padding: '4px 10px', borderRadius: '50px'
+                            }}>
+                                <Tag size={12} />
+                                <span>{item.subCategory_en}</span>
+                            </div>
+                        )}
+                        {item.benefits_kn && (
+                            <div style={{
+                                display: 'flex', alignItems: 'center', gap: '0.3rem',
+                                fontSize: '0.75rem', color: 'var(--success)',
+                                background: 'rgba(0,230,118,0.08)',
+                                padding: '4px 10px', borderRadius: '50px'
+                            }}>
+                                <Zap size={12} />
+                                <span>{item.benefits_kn.length} Benefits</span>
+                            </div>
+                        )}
+                    </div>
+
+                    {/* TTS Button */}
                     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
                         <TTSButton
                             text={`${item.title_kn}. ${item.shloka || ''}. ${item.content_kn}`}
@@ -123,17 +237,19 @@ const SamskrutiDetail = ({ categories }) => {
                         />
                     </div>
 
+                    {/* Shloka */}
                     {item.shloka && (
                         <div className="shloka-box shloka-box-highlight">
                             <p className="shloka-text">{item.shloka}</p>
                         </div>
                     )}
 
-
-                    <div style={{ fontSize: '1.1rem', lineHeight: '1.8', whiteSpace: 'pre-line', color: 'var(--text-primary)', marginBottom: '2.5rem', overflowWrap: 'break-word', wordWrap: 'break-word' }}>
+                    {/* Kannada Content */}
+                    <div style={{ fontSize: '1.1rem', lineHeight: '1.8', whiteSpace: 'pre-line', color: 'var(--text-primary)', marginBottom: '2rem', overflowWrap: 'break-word', wordWrap: 'break-word' }}>
                         {item.content_kn}
                     </div>
 
+                    {/* Verse content (for items with verse arrays) */}
                     {item.content && Array.isArray(item.content) && (
                         <div className="verses-container" style={{ display: 'grid', gap: '1.5rem' }}>
                             {item.content.map((verse, idx) => (
@@ -184,10 +300,11 @@ const SamskrutiDetail = ({ categories }) => {
                         </div>
                     )}
 
+                    {/* Benefits */}
                     {item.benefits_kn && (
-                        <div style={{ background: 'rgba(0, 230, 118, 0.05)', padding: '1.5rem', borderRadius: '16px', border: '1px solid rgba(0, 230, 118, 0.1)' }}>
+                        <div style={{ background: 'rgba(0, 230, 118, 0.05)', padding: '1.5rem', borderRadius: '16px', border: '1px solid rgba(0, 230, 118, 0.1)', marginTop: '1.5rem' }}>
                             <h5 style={{ color: 'var(--success)', fontSize: '1.1rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                <Zap size={18} /> ಪ್ರಯೋಜನಗಳು:
+                                <Zap size={18} /> ಪ್ರಯೋಜನಗಳು (Benefits):
                             </h5>
                             <ul style={{ paddingLeft: '1.25rem', margin: 0, color: 'var(--text-secondary)', display: 'grid', gap: '0.5rem' }}>
                                 {item.benefits_kn.map((b, i) => <li key={i} style={{ fontSize: '0.95rem' }}>{b}</li>)}
@@ -195,17 +312,113 @@ const SamskrutiDetail = ({ categories }) => {
                         </div>
                     )}
 
+                    {/* English Translation */}
                     {item.content_en && (
-                        <div style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid var(--border-color)' }}>
-                            <h5 style={{ color: 'var(--primary)', margin: '0 0 1rem', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em', opacity: 0.8 }}>English Translation & Summary</h5>
+                        <div style={{ marginTop: '2.5rem', paddingTop: '2rem', borderTop: '1px solid var(--border-color)' }}>
+                            <h5 style={{ color: 'var(--primary)', margin: '0 0 1rem', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em', opacity: 0.8, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                <BookOpen size={14} /> English Translation & Summary
+                            </h5>
                             <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7', fontSize: '1rem' }}>
                                 {item.content_en}
                             </p>
                         </div>
                     )}
                 </article>
-            </div >
-        </div >
+
+                {/* Did You Know? Section */}
+                {didYouKnowFact && (
+                    <div
+                        className="card glass animate-slide-up"
+                        style={{
+                            marginBottom: '1.5rem',
+                            padding: '1.25rem',
+                            background: 'linear-gradient(135deg, rgba(255,215,0,0.06), rgba(255,153,51,0.04))',
+                            border: '1px solid rgba(255,215,0,0.15)',
+                            cursor: 'pointer'
+                        }}
+                        onClick={() => setShowDidYouKnow(!showDidYouKnow)}
+                    >
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                            <div style={{
+                                background: 'rgba(255,215,0,0.15)',
+                                width: '36px', height: '36px', borderRadius: '10px',
+                                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                flexShrink: 0
+                            }}>
+                                <Lightbulb size={18} color="#FFD700" />
+                            </div>
+                            <div style={{ flex: 1 }}>
+                                <div style={{
+                                    fontSize: '0.75rem', color: '#FFD700', fontWeight: 600,
+                                    textTransform: 'uppercase', letterSpacing: '0.08em',
+                                    marginBottom: '0.25rem'
+                                }}>
+                                    💡 ನಿಮಗೆ ಗೊತ್ತೆ? (Did You Know?)
+                                </div>
+                                <p style={{
+                                    fontSize: '0.9rem', color: 'var(--text-primary)',
+                                    lineHeight: 1.5, margin: 0
+                                }}>
+                                    {didYouKnowFact}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {/* Related Topics */}
+                {relatedItems.length > 0 && (
+                    <div style={{ marginBottom: '2rem' }}>
+                        <div style={{
+                            display: 'flex', alignItems: 'center', gap: '0.5rem',
+                            marginBottom: '0.75rem'
+                        }}>
+                            <Layers size={16} color="var(--primary)" />
+                            <h4 style={{
+                                margin: 0, fontSize: '0.9rem', fontWeight: 600,
+                                color: 'var(--text-secondary)', textTransform: 'uppercase',
+                                letterSpacing: '0.05em'
+                            }}>
+                                ಸಂಬಂಧಿತ ವಿಷಯಗಳು (Related)
+                            </h4>
+                        </div>
+                        <div style={{ display: 'grid', gap: '0.5rem' }}>
+                            {relatedItems.map((related, i) => (
+                                <Link
+                                    key={related.id}
+                                    to={`/samskruti/${categoryId}/${related.id}`}
+                                    style={{ textDecoration: 'none' }}
+                                >
+                                    <div className="card" style={{
+                                        padding: '1rem',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'space-between'
+                                    }}>
+                                        <div style={{ flex: 1, minWidth: 0 }}>
+                                            <h4 style={{
+                                                margin: 0, fontSize: '0.95rem', fontWeight: 600,
+                                                overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'
+                                            }}>
+                                                {related.title_kn}
+                                            </h4>
+                                            <p style={{
+                                                margin: '0.15rem 0 0', fontSize: '0.75rem',
+                                                color: 'var(--text-secondary)',
+                                                overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap'
+                                            }}>
+                                                {related.title_en}
+                                            </p>
+                                        </div>
+                                        <ChevronRight size={16} color="var(--primary)" style={{ opacity: 0.5, flexShrink: 0 }} />
+                                    </div>
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                )}
+            </div>
+        </div>
     );
 };
 

@@ -2,8 +2,8 @@
     "yogaMargas": {
         "title_kn": "ಮೋಕ್ಷ ಮಾರ್ಗಗಳು (Yoga Margas)",
         "title_en": "Paths to Liberation",
-        "description_kn": "ಭಗವದ್ಗೀತೆಯಲ್ಲಿ ಶ್ರೀಕೃಷ್ಣನು ವಿವರಿಸಿದಂತೆ ಮೋಕ್ಷವನ್ನು ಪಡೆಯಲು ಮುಖ್ಯವಾಗಿ ಮೂರು ಮಾರ್ಗಗಳಿವೆ: ಕರ್ಮ, ಭಕ್ತಿ ಮತ್ತು ಜ್ಞಾನ.",
-        "description_en": "Modern life is like a complex game; Moksha is the ultimate 'Level Up'. Here's how to play it through Action, Devotion, and Knowledge.",
+        "description_kn": "ಭಗವದ್ಗೀತೆಯಲ್ಲಿ ಶ್ರೀಕೃಷ್ಣನು ವಿವರಿಸಿದಂತೆ ಮೋಕ್ಷವನ್ನು ಪಡೆಯಲು ಮುಖ್ಯವಾಗಿ ಮೂರು ಮಾರ್ಗಗಳಿವೆ: ಕರ್ಮ ಯೋಗ (ನಿಸ್ವಾರ್ಥ ಕಾರ್ಯ), ಭಕ್ತಿ ಯೋಗ (ಭಗವಂತನ ಮೇಲೆ ಪ್ರೇಮ) ಮತ್ತು ಜ್ಞಾನ ಯೋಗ (ಆತ್ಮಜ್ಞಾನ). ಈ ಮೂರೂ ಮಾರ್ಗಗಳು ಪರಸ್ಪರ ವಿರೋಧಿಗಳಲ್ಲ — ಅವು ಒಂದೇ ಶಿಖರವನ್ನು ಏರಲು ಮೂರು ಬೇರೆ ಬೇರೆ ದಾರಿಗಳು. ಪ್ರತಿಯೊಬ್ಬ ವ್ಯಕ್ತಿಯ ಸ್ವಭಾವಕ್ಕೆ ತಕ್ಕಂತೆ ಒಂದು ಮಾರ್ಗ ಹೆಚ್ಚು ಸೂಕ್ತ. ಆದರೆ ನಿಜವಾದ ಸಾಧಕ ಮೂರನ್ನೂ ಸಮನ್ವಯ ಮಾಡುತ್ತಾನೆ.",
+        "description_en": "Three main paths to liberation as described in the Bhagavad Gita — Action, Devotion, and Knowledge.",
         "paths": [
             {
                 "id": "karma",
@@ -11,14 +11,20 @@
                 "title_en": "Karma Yoga",
                 "icon": "Activity",
                 "color": "#FF9500",
-                "philosophy_kn": "ಫಲಾಪೇಕ್ಷೆಯಿಲ್ಲದೆ ಕರ್ತವ್ಯವನ್ನು ನಿರ್ವಹಿಸುವುದು. 'ಕರ್ಮಣ್ಯೇವಾಧಿಕಾರಸ್ತೇ ಮಾ ಫಲೇಷು ಕದಾಚನ'.",
-                "philosophy_en": "Focusing on the 'Process' rather than the 'Result'. In a world obsessed with 'Likes' and 'KPIs', Karma Yoga is about doing the work for the work's sake.",
-                "scientific_kn": "ನಿಸ್ವಾರ್ಥ ಸೇವೆಯು ಆಕ್ಸಿಟೋಸಿನ್ ಎಂಬ ಸಂತೋಷದ ಹಾರ್ಮೋನ್ ಅನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ ಮತ್ತು ಒತ್ತಡವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.",
-                "scientific_en": "Redirecting focus from results to tasks reduces 'performance anxiety' and lowers cortisol. It's the ultimate hack for long-term productivity and fulfillment.",
-                "practice_kn": "ಪ್ರತಿದಿನ ಮಾಡುವ ಕೆಲಸವನ್ನು ಈಶ್ವರಾರ್ಪಣ ಬುದ್ಧಿಯಿಂದ ಮಾಡಿ. ಫಲಿತಾಂಶದ ಬಗ್ಗೆ ಚಿಂತಿಸಬೇಡಿ.",
-                "practice_en": "Practice 'Deep Work' without checking the 'Stats'. Offer your coding, studying, or chores as a contribution to the universe.",
-                "shloka": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् | यत्तपस्यसि कौन्تهय तत्कुरुष्व मदर्पणम् || (Gita 9.27)",
-                "modern_analogy": "Life is the code; your actions are the logic. Don't worry about the UI (results), focus on the clean backend (intent)."
+                "philosophy_kn": "ಫಲಾಪೇಕ್ಷೆಯಿಲ್ಲದೆ ಕರ್ತವ್ಯವನ್ನು ನಿಷ್ಕಾಮವಾಗಿ ನಿರ್ವಹಿಸುವುದೇ ಕರ್ಮ ಯೋಗ. ಗೀತೆಯ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧ ಶ್ಲೋಕ — 'ಕರ್ಮಣ್ಯೇವಾಧಿಕಾರಸ್ತೇ ಮಾ ಫಲೇಷು ಕದಾಚನ' — ಈ ಮಾರ್ಗದ ಸಾರ. ಕೆಲಸ ಮಾಡು, ಆದರೆ ಫಲಿತಾಂಶದ ಮೇಲೆ ಅಧಿಕಾರ ನಿನ್ನದಲ್ಲ. ಕರ್ಮ ಯೋಗಿ ಪ್ರತಿ ಕೆಲಸವನ್ನು ಈಶ್ವರನಿಗೆ ಅರ್ಪಿಸುತ್ತಾನೆ. ಅವನಿಗೆ ಯಶಸ್ಸೂ ಸಮ, ಸೋಲೂ ಸಮ — ಇದೇ 'ಯೋಗಃ ಕರ್ಮಸು ಕೌಶಲಮ್' (ಕರ್ಮದಲ್ಲಿ ಕೌಶಲ್ಯವೇ ಯೋಗ).",
+                "philosophy_en": "Selfless action without attachment to results. The Gita's most famous teaching — focus on the process, not the outcome.",
+                "scientific_kn": "ಆಧುನಿಕ ಮನಃಶಾಸ್ತ್ರವು ಇದನ್ನು 'Flow State' ಎಂದು ಕರೆಯುತ್ತದೆ — ಕೆಲಸದಲ್ಲಿ ಮುಳುಗಿ ಸಮಯ ಮರೆತಾಗ ಅತ್ಯುತ್ತಮ ಫಲಿತಾಂಶ ಬರುತ್ತದೆ. ನಿಸ್ವಾರ್ಥ ಸೇವೆಯು ಆಕ್ಸಿಟೋಸಿನ್ ಎಂಬ ಸಂತೋಷದ ಹಾರ್ಮೋನ್ ಅನ್ನು ಹೆಚ್ಚಿಸಿ, ಕಾರ್ಟಿಸಾಲ್ (ಒತ್ತಡ ಹಾರ್ಮೋನ್) ಅನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ಫಲಿತಾಂಶದ ಚಿಂತೆ ಬಿಟ್ಟು ಕೆಲಸ ಮಾಡಿದಾಗ Performance Anxiety ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+                "scientific_en": "Modern psychology calls this 'Flow State' — being fully immersed in work produces optimal results and reduces stress hormones.",
+                "practice_kn": "ಪ್ರತಿ ಕೆಲಸವನ್ನು ಶುರು ಮಾಡುವ ಮೊದಲು ಒಂದು ಕ್ಷಣ ನಿಲ್ಲಿಸಿ ಹೇಳಿ: 'ಇದನ್ನು ಈಶ್ವರನ ಸೇವೆಯೆಂದು ಮಾಡುತ್ತೇನೆ.' ಮೂರು ಹಂತಗಳ ಅಭ್ಯಾಸ: (1) ಕೆಲಸ ಮಾಡುವಾಗ ಸಂಪೂರ್ಣ ಏಕಾಗ್ರತೆ ಕೊಡಿ (2) ಫಲಿತಾಂಶ ಬಂದ ಮೇಲೆ ಸ್ವೀಕರಿಸಿ, ಹೊಗಳಿಕೆ ಅಥವಾ ಟೀಕೆಗೆ ಸಮನಾಗಿ ಪ್ರತಿಕ್ರಿಯಿಸಿ (3) ಪ್ರತಿ ದಿನ ಒಂದು ನಿಸ್ವಾರ್ಥ ಕಾರ್ಯ ಮಾಡಿ — ಯಾರಿಗೂ ಹೇಳದೆ.",
+                "practice_en": "Practice Deep Work without checking results. Offer every task as service. Do one anonymous good deed daily.",
+                "shloka": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन |\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि || (Gita 2.47)\n\nयत्करोषि यदश्नासि यज्जुहोषि ददासि यत् |\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् || (Gita 9.27)",
+                "modern_analogy": "ಕ್ರಿಕೆಟ್ ಆಟಗಾರನಂತೆ — ಚೆಂಡನ್ನು ಹೊಡೆಯುವ ಕೆಲಸ ನಿನ್ನದು, ಚೆಂಡು ಬೌಂಡರಿ ಆಗುತ್ತದಾ ಎಂಬುದು ನಿನ್ನ ಕೈಯಲ್ಲಿ ಇಲ್ಲ. ಆದರೆ ನೀನು ಚೆನ್ನಾಗಿ ಹೊಡೆದರೆ ಬೌಂಡರಿ ಆಗುವ ಸಂಭವ ಹೆಚ್ಚು.",
+                "key_qualities_kn": [
+                    "ನಿಷ್ಕಾಮ ಕರ್ಮ — ಫಲ ಅಪೇಕ್ಷೆ ಇಲ್ಲದ ಕೆಲಸ",
+                    "ಈಶ್ವರಾರ್ಪಣ — ಎಲ್ಲ ಕರ್ಮವನ್ನು ಭಗವಂತನಿಗೆ ಸಮರ್ಪಣೆ",
+                    "ಸಮತ್ವ — ಸುಖ-ದುಃಖ, ಜಯ-ಅಪಜಯದಲ್ಲಿ ಸಮಭಾವ",
+                    "ಲೋಕ ಸಂಗ್ರಹ — ಜನರ ಒಳಿತಿಗಾಗಿ ಕೆಲಸ ಮಾಡುವುದು"
+                ]
             },
             {
                 "id": "bhakti",
@@ -26,14 +32,20 @@
                 "title_en": "Bhakti Yoga",
                 "icon": "Heart",
                 "color": "#FF3B30",
-                "philosophy_kn": "ದೇವರಿಗೆ ಸಂಪೂರ್ಣ ಶರಣಾಗತಿ. ಒಂಬತ್ತು ವಿಧದ ಭಕ್ತಿಗಳ ಮೂಲಕ ಈಶ್ವರನನ್ನು ಸೇರುವುದು.",
-                "philosophy_en": "Emotional Intelligence (EQ) meets Spirituality. It's about 'The Heart Connection' in a world of digital isolation.",
-                "scientific_kn": "ಭಕ್ತಿ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯು ಮೆದುಳಿನ ಅಮೈಗ್ಡಲಾವನ್ನು ಶಾಂತಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಆಂತರಿಕ ಶಾಂತಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-                "scientific_en": "Devotional chanting activates the Vagus nerve and reduces the 'Noise' in the Default Mode Network (DMN) of the brain, easing anxiety.",
-                "practice_kn": "ಜಪ, ಕೀರ್ತನೆ ಮತ್ತು ಪೂಜೆಯ ಮೂಲಕ ದೈವಿಕ ಪ್ರೇಮವನ್ನು ಬೆಳೆಸಿಕೊಳ್ಳಿ.",
-                "practice_en": "Use Japa as a 'Digital Detox'. Spend 10 minutes connecting with your inner 'Source' instead of infinite scrolling.",
-                "shloka": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु | (Gita 18.65)",
-                "modern_analogy": "Think of Devotion as sync-ing your local server with the Master Server (God). It ensures you're always updated with Peace."
+                "philosophy_kn": "ಭಗವಂತನ ಮೇಲೆ ಅಚಲ ಪ್ರೇಮ ಮತ್ತು ಸಂಪೂರ್ಣ ಶರಣಾಗತಿ. ಭಕ್ತಿ ಎಂದರೆ ಕೇವಲ ಪೂಜೆ-ಭಜನೆ ಅಲ್ಲ — ಅದು ಹೃದಯದ ಪರಿವರ್ತನೆ. 'ಪತ್ರಂ ಪುಷ್ಪಂ ಫಲಂ ತೋಯಂ' ಎಂದು ಕೃಷ್ಣ ಹೇಳುತ್ತಾನೆ — ಒಂದು ಎಲೆ, ಒಂದು ಹೂವನ್ನು ಪ್ರೀತಿಯಿಂದ ಅರ್ಪಿಸಿದರೂ ನಾನು ಸ್ವೀಕರಿಸುತ್ತೇನೆ. ನವವಿಧ ಭಕ್ತಿ: ಶ್ರವಣ, ಕೀರ್ತನ, ಸ್ಮರಣ, ಪಾದಸೇವನ, ಅರ್ಚನ, ವಂದನ, ದಾಸ್ಯ, ಸಖ್ಯ ಮತ್ತು ಆತ್ಮನಿವೇದನ. ಕರ್ನಾಟಕದಲ್ಲಿ ದಾಸ ಪರಂಪರೆಯು ಭಕ್ತಿ ಯೋಗದ ಅತ್ಯುನ್ನತ ಉದಾಹರಣೆ — ಪುರಂದರ ದಾಸರು, ಕನಕ ದಾಸರು, ಶರಣರು.",
+                "philosophy_en": "Unwavering love and complete surrender to God. Bhakti is the transformation of the heart through divine love.",
+                "scientific_kn": "ಭಕ್ತಿಗೀತೆ, ಭಜನೆ ಮತ್ತು ಜಪವು ಮೆದುಳಿನ ವೇಗಸ್ ನರವನ್ನು (Vagus Nerve) ಸಕ್ರಿಯಗೊಳಿಸಿ ಹೃದಯ ಬೡಡಿಕೆ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಆಂತರಿಕ ಶಾಂತಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಡಾ. ಆಂಡ್ರ್ಯೂ ನ್ಯೂಬರ್ಗ್ ಅವರ ಸಂಶೋಧನೆ ಪ್ರಕಾರ, ಜಪ-ಧ್ಯಾನ ಮಾಡುವವರ ಮೆದುಳಿನ ಫ್ರಂಟಲ್ ಲೋಬ್ (ಏಕಾಗ್ರತೆ, ಸಹಾನುಭೂತಿ) ಹೆಚ್ಚು ಸಕ್ರಿಯವಾಗಿರುತ್ತದೆ.",
+                "scientific_en": "Devotional chanting activates the Vagus nerve, reduces heart rate, and increases frontal lobe activity associated with compassion.",
+                "practice_kn": "ಪ್ರತಿ ದಿನ 15 ನಿಮಿಷ ನಿಮ್ಮ ಇಷ್ಟದೇವರ ನಾಮ ಜಪ ಮಾಡಿ. ಭಜನೆ ಹಾಡಿ ಅಥವಾ ಕೇಳಿ. ಸ್ತೋತ್ರಗಳನ್ನು ಓದಿ. ಭಕ್ತಿಯ ಮೂರು ಹಂತಗಳು: (1) ವೈಧೀ ಭಕ್ತಿ — ನಿಯಮಪಾಲನೆ, ಪೂಜೆ, ಜಪ (2) ರಾಗಾನುಗಾ ಭಕ್ತಿ — ಸ್ವಾಭಾವಿಕ ಪ್ರೇಮ, ಹೃದಯದ ತುಡಿತ (3) ಪರಾ ಭಕ್ತಿ — ಪರಮ ಪ್ರೇಮ, ಭಗವಂತನೊಂದಿಗೆ ಐಕ್ಯ.",
+                "practice_en": "Daily 15 minutes of Nama Japa, singing bhajans, or reading stotras. Three stages: disciplined, passionate, and supreme devotion.",
+                "shloka": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति |\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः || (Gita 9.26)\n\nमन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु | (Gita 18.65)",
+                "modern_analogy": "ತಾಯಿ ಮಗುವನ್ನು ಪ್ರೀತಿಸುವ ರೀತಿ — ಕಾರಣವಿಲ್ಲ, ಷರತ್ತಿಲ್ಲ, ಫಲಾಪೇಕ್ಷೆ ಇಲ್ಲ. ಅದೇ ನಿಷ್ಕಾಮ ಪ್ರೇಮ. ಅಂತಹ ಪ್ರೇಮ ಭಗವಂತನ ಮೇಲೆ ಇಟ್ಟಾಗ ಅದು ಭಕ್ತಿ ಯೋಗ.",
+                "key_qualities_kn": [
+                    "ಪ್ರೇಮ — ಭಗವಂತನ ಮೇಲೆ ನಿಷ್ಕಾಮ ಪ್ರೀತಿ",
+                    "ಶರಣಾಗತಿ — ಸಂಪೂರ್ಣ ಸಮರ್ಪಣೆ",
+                    "ನಾಮ ಸ್ಮರಣ — ನಿರಂತರ ದೈವ ಚಿಂತನೆ",
+                    "ಸೇವಾ ಭಾವ — ಎಲ್ಲರಲ್ಲೂ ಭಗವಂತನನ್ನು ಕಂಡು ಸೇವೆ"
+                ]
             },
             {
                 "id": "jnana",
@@ -41,50 +53,56 @@
                 "title_en": "Jnana Yoga",
                 "icon": "BookOpen",
                 "color": "#AF52DE",
-                "philosophy_kn": "ವಿವೇಕದ ಮೂಲಕ ಸತ್ಯವನ್ನು ತಿಳಿಯುವುದು. 'ಅಹಂ ಬ್ರಹ್ಮಾಸ್ಮಿ' ಎಂಬ ಅರಿವನ್ನು ಪಡೆಯುವುದು.",
-                "philosophy_en": "Information vs. Intelligence. In an age of 'Fake News' and AI, Jnana Yoga is the 'Critical Thinking' for the Soul.",
-                "scientific_kn": "ಆಳವಾದ ಚಿಂತನೆ ಮತ್ತು ವಿಶ್ಲೇಷಣೆಯು ಮೆದುಳಿನ ನರಕೋಶಗಳ ಸಂಪರ್ಕವನ್ನು (neuroplasticity) ಬಲಪಡಿಸುತ್ತದೆ.",
-                "scientific_en": "Self-inquiry (Atma-Vichara) is like a Debugger for the mind. It clears the 'Mental Cache' and identifies the bugs (ego/misconceptions).",
-                "practice_kn": "ಶಾಸ್ತ್ರಗಳ ಅಧ್ಯಯನ (ಶ್ರವಣ), ಮನನ ಮತ್ತು ನಿದಿಧ್ಯಾಸನ.",
-                "practice_en": "Read original scriptures as 'Open Source' wisdom. Contemplate: 'Am I the user, or the data being used?'",
-                "shloka": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते | (Gita 4.38)",
-                "modern_analogy": "You are the 'User Experience (UX)', but the Atma is the 'Hardware'. Know the hardware to fix the glitches in the UX."
+                "philosophy_kn": "ವಿವೇಕ (ಸತ್ಯ-ಅಸತ್ಯ ಬೇಧ) ಮತ್ತು ವೈರಾಗ್ಯದ (ಮಾಯಾ ತ್ಯಾಗ) ಮೂಲಕ ಆತ್ಮಜ್ಞಾನ ಪಡೆಯುವುದು. 'ನಾನು ಯಾರು?' ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ ಹುಡುಕುವುದೇ ಜ್ಞಾನ ಯೋಗ. ಆದಿ ಶಂಕರಾಚಾರ್ಯರು ಈ ಮಾರ್ಗವನ್ನು ಅದ್ವೈತ ವೇದಾಂತದ ಮೂಲಕ ವ್ಯವಸ್ಥಿತವಾಗಿ ಬೋಧಿಸಿದರು. ಶ್ರವಣ (ಕೇಳುವುದು), ಮನನ (ಚಿಂತನೆ), ನಿದಿಧ್ಯಾಸನ (ಧ್ಯಾನ) ಈ ಮೂರು ಹಂತಗಳ ಮೂಲಕ ಸಾಧಕ 'ಅಹಂ ಬ್ರಹ್ಮಾಸ್ಮಿ' (ನಾನು ಬ್ರಹ್ಮನೇ) ಎಂಬ ಸತ್ಯವನ್ನು ಅನುಭವಿಸುತ್ತಾನೆ. ರಮಣ ಮಹರ್ಷಿಗಳ 'ಆತ್ಮ ವಿಚಾರ' ಇದರ ಅತ್ಯಂತ ನೇರ ವಿಧಾನ.",
+                "philosophy_en": "Self-inquiry through discernment (Viveka) and dispassion (Vairagya). Finding the answer to 'Who am I?'",
+                "scientific_kn": "ಆಳವಾದ ಆತ್ಮವಿಚಾರ ಮತ್ತು ಚಿಂತನೆಯು ಮೆದುಳಿನ ನ್ಯೂರೋಪ್ಲಾಸ್ಟಿಸಿಟಿಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಮಿನ್ನೆಸೋಟ ವಿಶ್ವವಿದ್ಯಾಲಯದ ಅಧ್ಯಯನ ಪ್ರಕಾರ, 'ಸ್ವ-ಅವಲೋಕನ' (Self-reflection) ಮಾಡುವವರಲ್ಲಿ ಪ್ರಿಫ್ರಂಟಲ್ ಕಾರ್ಟೆಕ್ಸ್ ಹೆಚ್ಚು ಬಲವಾಗಿರುತ್ತದೆ, ಇದು ನಿರ್ಧಾರ ತೆಗೆಯುವಿಕೆ ಮತ್ತು ಭಾವನಾತ್ಮಕ ನಿಯಂತ್ರಣವನ್ನು ಸುಧಾರಿಸುತ್ತದೆ. 'Meta-cognition' (thinking about thinking) ಎಂಬ ವಿಜ್ಞಾನವೇ ಜ್ಞಾನ ಯೋಗದ ಆಧುನಿಕ ರೂಪ.",
+                "scientific_en": "Self-inquiry enhances neuroplasticity and strengthens the prefrontal cortex for better decision-making and emotional regulation.",
+                "practice_kn": "ಮೂರು ಹಂತಗಳ ಸಾಧನೆ: (1) ಶ್ರವಣ — ಉಪನಿಷತ್, ಗೀತೆ, ಬ್ರಹ್ಮ ಸೂತ್ರಗಳನ್ನು ಅಧ್ಯಯನ ಮಾಡಿ ಅಥವಾ ಗುರುಗಳಿಂದ ಕೇಳಿ (2) ಮನನ — ಕೇಳಿದ್ದನ್ನು ತರ್ಕಬದ್ಧವಾಗಿ ವಿಶ್ಲೇಷಿಸಿ, ಸಂದೇಹಗಳನ್ನು ಪರಿಹರಿಸಿ (3) ನಿದಿಧ್ಯಾಸನ — ಆಳವಾದ ಧ್ಯಾನದ ಮೂಲಕ ಆ ಸತ್ಯವನ್ನು ಅನುಭವಿಸಿ. ಪ್ರತಿ ದಿನ 'ನಾನು ಯಾರು?' ಎಂಬ ಪ್ರಶ್ನೆಯನ್ನು ಆಂತರಿಕವಾಗಿ ಕೇಳಿ.",
+                "practice_en": "Three steps: Shravana (hearing/studying), Manana (rational analysis), Nididhyasana (deep contemplation). Practice daily self-inquiry.",
+                "shloka": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते |\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति || (Gita 4.38)\n\nअहं ब्रह्मास्मि — Brihadaranyaka Upanishad",
+                "modern_analogy": "ಕನ್ನಡಿಯಲ್ಲಿ ಮುಖ ನೋಡುವಂತೆ — ಕನ್ನಡಿ ಶುದ್ಧವಾಗಿರಬೇಕು (ಮನಸ್ಸಿನ ಶುದ್ಧತೆ), ಕನ್ನಡಿ ಮುಂದೆ ನಿಲ್ಲಬೇಕು (ಆತ್ಮವಿಚಾರ), ಆಗ ಪ್ರತಿಬಿಂಬ ಕಾಣುತ್ತದೆ (ಆತ್ಮಜ್ಞಾನ).",
+                "key_qualities_kn": [
+                    "ವಿವೇಕ — ಶಾಶ್ವತ ಮತ್ತು ತಾತ್ಕಾಲಿಕ ನಡುವಿನ ಬೇಧ",
+                    "ವೈರಾಗ್ಯ — ಅಶಾಶ್ವತ ಸುಖಗಳ ತ್ಯಾಗ",
+                    "ಶಮ-ದಮ — ಮನಸ್ಸು ಮತ್ತು ಇಂದ್ರಿಯಗಳ ನಿಯಂತ್ರಣ",
+                    "ಮುಮುಕ್ಷುತ್ವ — ಮೋಕ್ಷದ ತೀವ್ರ ಬಯಕೆ"
+                ]
             }
         ]
     },
     "sadhanaChatustaya": {
-        "title_kn": "ಸಾಧನಾ ಚತುಷ್ಟಯ (Fourfold Path)",
-        "title_en": "The Pro-Seeker Toolkit",
-        "description_kn": "ಆತ್ಮಜ್ಞಾನವನ್ನು ಪಡೆಯಲು ಒಬ್ಬ ಸಾಧಕನಿಗೆ ಇರಬೇಕಾದ ನಾಲ್ಕು ಮುಖ್ಯ ಗುಣಗಳು.",
-        "description_en": "The essential 'Soft Skills' for navigating life and reaching the ultimate goal of Moksha.",
+        "title_kn": "ಸಾಧನಾ ಚತುಷ್ಟಯ (Fourfold Qualification)",
+        "title_en": "The Four Spiritual Prerequisites",
+        "description_kn": "ಆದಿ ಶಂಕರಾಚಾರ್ಯರ 'ವಿವೇಕ ಚೂಡಾಮಣಿ'ಯಲ್ಲಿ ವಿವರಿಸಿದ ಆತ್ಮಜ್ಞಾನಕ್ಕೆ ಅಗತ್ಯವಾದ ನಾಲ್ಕು ಮೂಲಭೂತ ಗುಣಗಳು. ಈ ಗುಣಗಳಿಲ್ಲದೆ ಶಾಸ್ತ್ರಾಧ್ಯಯನವೂ ಫಲ ಕೊಡುವುದಿಲ್ಲ.",
+        "description_en": "Four essential qualifications for Self-knowledge as described in Adi Shankaracharya's Viveka Chudamani.",
         "qualifications": [
             {
                 "title_kn": "ವಿವೇಕ (Viveka)",
-                "title_en": "Deep Filter (Discernment)",
-                "description_kn": "ನಿತ್ಯ (ಶಾಶ್ವತ) ಮತ್ತು ಅನಿತ್ಯ (ತಾತ್ಕಾಲಿಕ) ವಸ್ತುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವನ್ನು ತಿಳಿಯುವುದು.",
-                "description_en": "Discriminating between the Real (Eternal) and the Viral (Temporary). Don't confuse 'Likes' with 'Legacy'.",
-                "lesson": "Filters are for photos, Viveka is for reality."
+                "title_en": "Discernment",
+                "description_kn": "ನಿತ್ಯ (ಶಾಶ್ವತ - ಆತ್ಮ, ಬ್ರಹ್ಮನ್) ಮತ್ತು ಅನಿತ್ಯ (ತಾತ್ಕಾಲಿಕ - ಶರೀರ, ಮನಸ್ಸು, ಜಗತ್ತು) ವಸ್ತುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ತಿಳಿಯುವ ಸಾಮರ್ಥ್ಯ. ಇದು ಜ್ಞಾನ ಮಾರ್ಗದ ಮೊದಲ ಹೆಜ್ಜೆ. ಹಸಿರು ಕನ್ನಡಕ ತೆಗೆದರೆ ಜಗತ್ತು ಹಸಿರಾಗಿ ಕಾಣುವುದಿಲ್ಲ — ಹಾಗೆಯೇ ಮಾಯೆಯ ಅಜ್ಞಾನ ಕನ್ನಡಕ ತೆಗೆದಾಗ ಆತ್ಮ ಕಾಣಿಸುತ್ತದೆ.",
+                "description_en": "The ability to distinguish between the eternal (Atma, Brahman) and the transient (body, mind, world).",
+                "lesson": "ವಿವೇಕವು ಪ್ರತಿ ಕ್ಷಣದ ಆಯ್ಕೆ — ತಾತ್ಕಾಲಿಕ ಸುಖವನ್ನು ಆಯ್ಕೆ ಮಾಡುವೆಯಾ, ಶಾಶ್ವತ ಆನಂದವನ್ನಾ?"
             },
             {
                 "title_kn": "ವೈರಾಗ್ಯ (Vairagya)",
-                "title_en": "Digital Minimalism (Dispassion)",
-                "description_kn": "ತಾತ್ಕಾಲಿಕ ಸುಖಗಳ ಮೇಲಿನ ಮೋಹವನ್ನು ತೊರೆಯುವುದು.",
-                "description_en": "Freedom from 'FOMO' (Fear Of Missing Out). Choosing what matters over what is shiny.",
-                "lesson": "Vairagya isn't hating the world; it's loving your peace more."
+                "title_en": "Dispassion",
+                "description_kn": "ತಾತ್ಕಾಲಿಕ ಸುಖಗಳ ಮೇಲಿನ ಮೋಹವನ್ನು ತ್ಯಜಿಸುವುದು. ವೈರಾಗ್ಯ ಎಂದರೆ ಲೋಕ ತ್ಯಾಗ ಅಲ್ಲ — ಲೋಕದ ಮೇಲಿನ ಅತಿಯಾದ ಅವಲಂಬನೆ ಬಿಡುವುದು. ಪ್ರಯಾಣಿಕನು ರೈಲ್ವೆ ಪ್ಲಾಟ್ಫಾರ್ಮ್ ಮೇಲೆ ಮನೆ ಕಟ್ಟುವುದಿಲ್ಲ — ಏಕೆಂದರೆ ಅದು ತಾತ್ಕಾಲಿಕ ಎಂಬ ಅರಿವು ಇದೆ. ಹಾಗೆಯೇ ಈ ಜಗತ್ತು ತಾತ್ಕಾಲಿಕ ಎಂಬ ಅರಿವೇ ವೈರಾಗ್ಯ.",
+                "description_en": "Letting go of attachment to transient pleasures — not world-rejection, but freedom from dependence on the world.",
+                "lesson": "ವೈರಾಗ್ಯ ಎಂದರೆ ಜಗತ್ತನ್ನು ದ್ವೇಷಿಸುವುದಲ್ಲ — ನಿಮ್ಮ ಶಾಂತಿಯನ್ನು ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಪ್ರೀತಿಸುವುದು."
             },
             {
                 "title_kn": "ಷಟ್-ಸಂಪತ್ತಿ (Shat-Sampat)",
-                "title_en": "Mental OS (Sixfold Wealth)",
-                "description_kn": "ಶಮ, ದಮ, ಉಪರತಿ, ತಿತಿಕ್ಷಾ, ಶ್ರದ್ಧಾ ಮತ್ತು ಸಮಾಧಾನ — ಈ ಆರು ಮಾನಸಿಕ ಗುಣಗಳು.",
-                "description_en": "Optimizing your internal system: Focus, Resilience, and Balance. It's the ultimate 'Peace Mode'.",
-                "lesson": "Your attention is your currency; spend it wisely."
+                "title_en": "Sixfold Mental Wealth",
+                "description_kn": "ಆರು ಮಾನಸಿಕ ಗುಣಗಳ ಸಮೂಹ: (1) ಶಮ — ಮನಸ್ಸಿನ ಶಾಂತತೆ, ಬಾಹ್ಯ ವಿಷಯಗಳಿಂದ ಮನ ಹಿಂತೆಗೆಯುವಿಕೆ (2) ದಮ — ಇಂದ್ರಿಯ ನಿಗ್ರಹ, ಕಣ್ಣು-ಕಿವಿ-ನಾಲಿಗೆ ಮೇಲೆ ನಿಯಂತ್ರಣ (3) ಉಪರತಿ — ಐಹಿಕ ಆಸೆಗಳಿಂದ ಸ್ವಾಭಾವಿಕ ವಿಮುಖತೆ (4) ತಿತಿಕ್ಷಾ — ಸಹನೆ, ಸುಖ-ದುಃಖ ಎರಡನ್ನೂ ಸಮಾನವಾಗಿ ಸ್ವೀಕರಿಸುವುದು (5) ಶ್ರದ್ಧಾ — ಶಾಸ್ತ್ರ ಮತ್ತು ಗುರುವಿನ ಮೇಲೆ ವಿಶ್ವಾಸ (6) ಸಮಾಧಾನ — ಮನಸ್ಸಿನ ಏಕಾಗ್ರತೆ, ಸ್ಥಿರತೆ.",
+                "description_en": "Six mental qualities: Shama (mind control), Dama (sense control), Uparati (withdrawal), Titiksha (endurance), Shraddha (faith), Samadhana (concentration).",
+                "lesson": "ಮನಸ್ಸನ್ನು ಉತ್ತಮ 'ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್' ಆಗಿ ನವೀಕರಿಸಿ — ಈ ಆರು ಗುಣಗಳು ಅದರ ಅಪ್ಡೇಟ್."
             },
             {
                 "title_kn": "ಮುಮುಕ್ಷುತ್ವ (Mumukshutva)",
-                "title_en": "The 'Breakout' Desire (Longing)",
-                "description_kn": "ಸಂಸಾರದಿಂದ ಮುಕ್ತಿಯನ್ನು ಪಡೆಯಬೇಕೆಂಬ ತೀವ್ರ ಆಕಾಂಕ್ಷೆ.",
-                "description_en": "The burning desire to 'Exit the Matrix'. Finding the door to true, unconditional freedom.",
-                "lesson": "Don't just survive the simulation; master it and find the exit."
+                "title_en": "Burning Desire for Liberation",
+                "description_kn": "ಸಂಸಾರ ಬಂಧನದಿಂದ ಮುಕ್ತಿ ಪಡೆಯಬೇಕೆಂಬ ತೀವ್ರ ಆಕಾಂಕ್ಷೆ. ಇದು ಸಾಮಾನ್ಯ ಬಯಕೆ ಅಲ್ಲ — ಇದು ಮುಳುಗುತ್ತಿರುವ ವ್ಯಕ್ತಿಗೆ ಉಸಿರಿಗೆ ಇರುವಷ್ಟು ತೀವ್ರ ಆಕಾಂಕ್ಷೆ. ಈ ತೀವ್ರತೆ ಇಲ್ಲದೆ ಮೋಕ್ಷ ಸಾಧ್ಯವಿಲ್ಲ ಎಂದು ಶಂಕರಾಚಾರ್ಯರು ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳಿದ್ದಾರೆ. ನೀರಿನಲ್ಲಿ ಮುಳುಗಿದ ವ್ಯಕ್ತಿಗೆ ಒಂದೇ ಆಸೆ — ಗಾಳಿ. ಅದೇ ತೀವ್ರತೆಯಲ್ಲಿ ಮೋಕ್ಷವನ್ನು ಬಯಸಿದಾಗ ಮಾತ್ರ ಅದು ಸಿದ್ಧಿಸುತ್ತದೆ.",
+                "description_en": "An intense, burning longing for liberation — as intense as a drowning person's desire for air.",
+                "lesson": "ಮೋಕ್ಷದ ಬಯಕೆ ಎಲ್ಲಾ ಬೇರೆ ಬಯಕೆಗಳನ್ನು ನಿಧಾನವಾಗಿ ಕರಗಿಸುತ್ತದೆ — ಸೂರ್ಯೋದಯದಿಂದ ಕತ್ತಲೆ ಕರಗುವಂತೆ."
             }
         ]
     }

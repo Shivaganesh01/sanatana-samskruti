@@ -154,13 +154,34 @@ const MokshaMarga = () => {
                                 </div>
 
                                 {selectedPath.modern_analogy && (
-                                    <div style={{ padding: '1.5rem', borderRadius: '16px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)', borderLeft: `4px solid #AF52DE` }}>
-                                        <h3 style={{ fontSize: '1rem', color: '#AF52DE', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                            💻 ಪ್ರಸ್ತುತ ತಲೆಮಾರು (For Gen-Z)
+                                    <div style={{ padding: '1.25rem', borderRadius: '16px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)', borderLeft: `4px solid ${selectedPath.color}`, marginBottom: '1.5rem' }}>
+                                        <h3 style={{ fontSize: '1rem', color: selectedPath.color, marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                            💡 ಉದಾಹರಣೆ (Analogy)
                                         </h3>
-                                        <p style={{ fontSize: '0.95rem', color: 'var(--text-primary)', lineHeight: 1.6, fontStyle: 'italic' }}>
+                                        <p style={{ fontSize: '0.95rem', color: 'var(--text-primary)', lineHeight: 1.7, fontStyle: 'italic', margin: 0 }}>
                                             "{selectedPath.modern_analogy}"
                                         </p>
+                                    </div>
+                                )}
+
+                                {/* Key Qualities */}
+                                {selectedPath.key_qualities_kn && selectedPath.key_qualities_kn.length > 0 && (
+                                    <div style={{ padding: '1.25rem', borderRadius: '16px', background: `${selectedPath.color}06`, border: `1px solid ${selectedPath.color}15` }}>
+                                        <h3 style={{ fontSize: '1rem', color: selectedPath.color, marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                            <CheckCircle2 size={18} /> ಮುಖ್ಯ ಗುಣಗಳು
+                                        </h3>
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                                            {selectedPath.key_qualities_kn.map((q, idx) => (
+                                                <div key={idx} style={{
+                                                    display: 'flex', gap: '0.5rem', alignItems: 'flex-start',
+                                                    padding: '0.5rem 0.75rem', borderRadius: '10px',
+                                                    background: 'rgba(255,255,255,0.03)'
+                                                }}>
+                                                    <span style={{ color: selectedPath.color, fontWeight: 700, fontSize: '0.8rem', flexShrink: 0 }}>✦</span>
+                                                    <span style={{ fontSize: '0.85rem', color: 'var(--text-primary)', lineHeight: 1.5 }}>{q}</span>
+                                                </div>
+                                            ))}
+                                        </div>
                                     </div>
                                 )}
                             </div>
