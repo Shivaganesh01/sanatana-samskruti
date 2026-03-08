@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Zap, Heart, Clock, BookOpen, ChevronRight, Info, Tag, Layers, Lightbulb } from 'lucide-react';
+import { Zap, Heart, Clock, BookOpen, ChevronRight, Info, Tag, Layers, Lightbulb, Sparkles } from 'lucide-react';
 import Header from '../components/Header';
 import LoadingScreen from '../components/LoadingScreen';
 import TTSButton from '../components/TTSButton';
@@ -237,6 +237,14 @@ const SamskrutiDetail = ({ categories }) => {
                         />
                     </div>
 
+                    {/* Introduction */}
+                    {(item.intro_kn || item.intro_en) && (
+                        <div style={{ marginBottom: '2rem', padding: '1.25rem', background: 'rgba(255,255,255,0.03)', borderRadius: '12px', borderLeft: '4px solid var(--primary)' }}>
+                            {item.intro_kn && <p style={{ margin: '0 0 0.75rem', fontSize: '1.05rem', color: 'var(--text-primary)', lineHeight: 1.6 }}>{item.intro_kn}</p>}
+                            {item.intro_en && <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--text-secondary)', fontStyle: 'italic', lineHeight: 1.6 }}>{item.intro_en}</p>}
+                        </div>
+                    )}
+
                     {/* Shloka */}
                     {item.shloka && (
                         <div className="shloka-box shloka-box-highlight">
@@ -321,6 +329,17 @@ const SamskrutiDetail = ({ categories }) => {
                             <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7', fontSize: '1rem' }}>
                                 {item.content_en}
                             </p>
+                        </div>
+                    )}
+
+                    {/* Significance */}
+                    {(item.significance_kn || item.significance_en) && (
+                        <div style={{ background: 'linear-gradient(135deg, rgba(175,82,222,0.08), rgba(232,224,255,0.05))', padding: '1.5rem', borderRadius: '16px', border: '1px solid rgba(175,82,222,0.2)', marginTop: '2.5rem' }}>
+                            <h5 style={{ color: 'var(--primary)', fontSize: '1.1rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                <Sparkles size={18} /> ಮಹತ್ವ ಮತ್ತು ಒಳನೋಟ (Significance)
+                            </h5>
+                            {item.significance_kn && <p style={{ margin: '0 0 0.85rem', color: 'var(--text-primary)', fontSize: '1rem', lineHeight: 1.6 }}>{item.significance_kn}</p>}
+                            {item.significance_en && <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem', fontStyle: 'italic', lineHeight: 1.6 }}>{item.significance_en}</p>}
                         </div>
                     )}
                 </article>

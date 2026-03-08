@@ -576,5 +576,23 @@
     "content_en": "Complete 112 verses of Lakshmi Shobhana composed by Vadiraja Tirtha. Describes the celestial wedding of Lakshmi and Narayana.",
     "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
     "subCategory_en": "Stotras"
+  },
+  {
+    "id": "upanishad_wisdom",
+    "title_kn": "ಉಪನಿಷತ್ತುಗಳು: ವೇದಾಂತದ ಸಾರ",
+    "title_en": "Upanishadic Wisdom (Vedanta)",
+    "content_kn": "ಉಪನಿಷತ್ತುಗಳು ವೇದಗಳ ಕೊನೆಯ ಭಾಗ (ವೇದಾಂತ). ಇವು ಲೌಕಿಕ ಆಸೆಗಳಿಗಿಂತ ಹೆಚ್ಚಾಗಿ 'ನಾನು ಯಾರು?' (ಆತ್ಮ ಸಾಕ್ಷಾತ್ಕಾರ) ಎಂಬ ವಿಷಯವನ್ನು ಚರ್ಚಿಸುತ್ತವೆ. 'ಅಹಂ ಬ್ರಹ್ಮಾಸ್ಮಿ' (ನಾನೇ ಬ್ರಹ್ಮ), 'ತತ್ತ್ವಮಸಿ' (ನೀನೇ ಅದು) ಎಂಬ ಮಹಾವಾಕ್ಯಗಳು ಇದರಲ್ಲಿವೆ. ಪ್ರಮುಖ 10 ಉಪನಿಷತ್ತುಗಳು (ಈಶ, ಕೇನ, ಕಠ, ಇತ್ಯಾದಿ) ಮನುಷ್ಯನ ಅಸ್ತಿತ್ವದ ಆಳವಾದ ಸತ್ಯವನ್ನು ವೈಜ್ಞಾನಿಕವಾಗಿ ಪ್ರಚೋದಿಸುತ್ತವೆ. ಇದು ಕೇವಲ ನಂಬಿಕೆಯಲ್ಲ, ಅದು ಅನುಭವದ ದರ್ಶನ.",
+    "content_en": "The Upanishads are the peak of Vedic philosophy, often called Vedanta. They shift the focus from outer rituals to inner realization. The central theme is the identity of the individual soul (Atman) with the universal consciousness (Brahman). Famous 'Mahavakyas' like 'Aham Brahmasmi' (I am the Absolute) and 'Tat Tvam Asi' (Thou Art That) come from these texts. They invite seekers to question reality and seek ultimate freedom (Moksha) through knowledge.",
+    "subCategory_kn": "ವೈದಿಕ ತತ್ವಶಾಸ್ತ್ರ",
+    "subCategory_en": "Philosophy"
+  },
+  {
+    "id": "shad_darshanas",
+    "title_kn": "ಷಡ್ ದರ್ಶನಗಳು (ಭಾರತೀಯ ತತ್ವಚಿಂತನೆ)",
+    "title_en": "Shad Darshanas: Six Schools of Thought",
+    "content_kn": "ಭಾರತೀಯ ದರ್ಶನ ಶಾಸ್ತ್ರವು ಆರು ಕವಲಗಳಾಗಿ ವಿಭಜಿತವಾಗಿದೆ: 1. ನ್ಯಾಯ (ತರ್ಕ ಶಾಸ್ತ್ರ), 2. ವೈಶೇಷಿಕ (ಪರಮಾಣು ವಿಜ್ಞಾನ), 3. ಸಾಂಖ್ಯ (ಸಂಖ್ಯಾತ್ಮಕ ಸೃಷ್ಟಿ), 4. ಯೋಗ (ಮನಸ್ಸಿನ ನಿಯಂತ್ರಣ), 5. ಮೀಮಾಂಸ (ಕರ್ಮ ಕಾಂಡ), 6. ವೇದಾಂತ (ಬ್ರಹ್ಮ ಜ್ಞಾನ). ಇವು ಜಗತ್ತು ಮತ್ತು ಜೀವನವನ್ನು ನೋಡುವ ಆರು ವಿಭಿನ್ನ ದೃಷ್ಟಿಕೋನಗಳು. ಇವು ಅಂಧಶ್ರದ್ಧೆಯನ್ನು ವಿರೋಧಿಸಿ ವಿಶ್ಲೇಷಣಾತ್ಮಕ ಚಿಂತನೆಗೆ ಒತ್ತು ನೀಡುತ್ತವೆ.",
+    "content_en": "Indian philosophy is categorized into six orthodox schools (Shad Darshanas): Nyaya (Logic), Vaisheshika (Atomism), Samkhya (Enumeration/Dualism), Yoga (Practice), Mimamsa (Ritual interpretation), and Vedanta (Metaphysics). Each school offers a unique lens to understand the relationship between the self, the world, and the creator. They emphasize rational inquiry and systematic proof as the basis for spiritual truth.",
+    "subCategory_kn": "ವೈದಿಕ ತತ್ವಶಾಸ್ತ್ರ",
+    "subCategory_en": "Philosophy"
   }
 ]

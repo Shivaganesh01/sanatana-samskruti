@@ -163,6 +163,34 @@ const ChakraDetailPanel = ({ chakra }) => {
                 </div>
             </SectionCard>
 
+            {/* Tools & Affirmation */}
+            {(chakra.crystals || chakra.affirmation_kn) && (
+                <SectionCard color={c} icon={<Heart size={17} color={c} />} title="ಉಪಕರಣಗಳು ಮತ್ತು ದೃಢೀಕರಣ (Tools & Affirmation)">
+                    {chakra.crystals && (
+                        <div style={{ marginBottom: '0.5rem' }}>
+                            <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>💎 ಹರಳುಗಳು (Crystals):</div>
+                            <TextBlock text={chakra.crystals} italic />
+                        </div>
+                    )}
+                    {chakra.essential_oils && (
+                        <div style={{ marginBottom: '0.85rem' }}>
+                            <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>🌿 ಸಾರಭೂತ ತೈಲಗಳು (Essential Oils):</div>
+                            <TextBlock text={chakra.essential_oils} italic />
+                        </div>
+                    )}
+                    {chakra.affirmation_kn && (
+                        <div style={{
+                            background: `linear-gradient(135deg, ${c}12, ${c}05)`,
+                            padding: '0.85rem', borderRadius: '12px', border: `1px solid ${c}25`
+                        }}>
+                            <div style={{ fontSize: '0.8rem', color: c, fontWeight: 600, marginBottom: '0.2rem' }}>ದೃಢೀಕರಣ (Affirmation):</div>
+                            <p style={{ margin: '0 0 0.3rem', fontSize: '0.9rem', color: 'var(--text-primary)' }}>"{chakra.affirmation_kn}"</p>
+                            <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-secondary)', fontStyle: 'italic' }}>"{chakra.affirmation_en}"</p>
+                        </div>
+                    )}
+                </SectionCard>
+            )}
+
             {/* Meditation */}
             <SectionCard color={c} icon={<Eye size={17} color={c} />} title="ಧ್ಯಾನ (Meditation)">
                 <TextBlock text={chakra.meditation} />
