@@ -310,6 +310,35 @@ div[style*="overflowX"]::-webkit-scrollbar {
   display: none;
 }
 
+/* Tabs and switchers: prevent overlap on small screens */
+.tabs-container .tab-pill {
+  flex: 0 0 auto;
+  min-width: max-content;
+}
+
+.tab-switcher {
+  flex-wrap: wrap;
+}
+
+.tab-switcher-button {
+  min-width: 140px;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.2;
+  flex: 1 1 160px;
+}
+
+@media (max-width: 480px) {
+  .tab-switcher {
+    gap: 0.4rem;
+  }
+
+  .tab-switcher-button {
+    padding: 0.6rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
 /* Progress bar base */
 .progress-bar {
   height: 6px;

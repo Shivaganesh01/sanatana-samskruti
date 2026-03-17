@@ -75,13 +75,15 @@ const config = {
             mahabharata: { kn: 'ಮಹಾಭಾರತ', en: 'Mahabharata' },
             subhashita: { kn: 'ಸುಭಾಷಿತ', en: 'Subhashitas' },
             culture: { kn: 'ಸಂಸ್ಕೃತಿ', en: 'Culture' },
-            festivals: { kn: 'ಹಬ್ಬಗಳು', en: 'Festivals' }
+            festivals: { kn: 'ಹಬ್ಬಗಳು', en: 'Festivals' },
+            ethics: { kn: 'ನೀತಿಶಾಸ್ತ್ರ', en: 'Ethics' }
         },
         groups: {
             mahabharata: ['dharma_victory', 'yaksha_prashna', 'vidura_neeti', 'ekalavya_bhakti', 'karna_charity', 'abhimanyu_bravery', 'bhishma_pratigna', 'draupadi_resilience', 'shakuni_cunning', 'krishna_upadesha', 'arjuna_vishada', 'sanjaya_divyadrishti', 'gandhari_shap', 'aswatthama_krodha'],
             subhashita: ['vidya_dhanam', 'vachanam', 'paropakarah', 'uddyamo', 'satya_mahima', 'kshama', 'vidya_vinaya', 'satsanga', 'alasya'],
             culture: ['vasudhaiva_kutumbakam', 'pooja_significance', 'shodasha_upachara', 'deepa', 'bell', 'panchamruta', 'abhisheka', 'archana', 'mangala_arati', 'prasada', 'teertha'],
-            festivals: ['ugadi', 'makara_sankranti', 'mahashivaratri', 'rama_navami', 'varamahalakshmi', 'krishna_janmashtami', 'ganesha_chaturthi', 'dasara', 'deepavali', 'hanuman_jayanti', 'rathasaptami']
+            festivals: ['ugadi', 'makara_sankranti', 'mahashivaratri', 'rama_navami', 'varamahalakshmi', 'krishna_janmashtami', 'ganesha_chaturthi', 'dasara', 'deepavali', 'hanuman_jayanti', 'rathasaptami'],
+            ethics: ['panchatantra_wisdom', 'samanya_dharma', 'purusharthas']
         },
         default: { kn: 'ಹಬ್ಬಗಳು', en: 'Festivals' }
     },

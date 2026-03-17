@@ -42,9 +42,10 @@ const DharmicLifestyle = () => {
             <div className="container" style={{ paddingBottom: '5rem' }}>
 
                 {/* Tab Switcher */}
-                <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.25rem', marginTop: '0.5rem' }}>
+                <div className="tab-switcher" style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.25rem', marginTop: '0.5rem' }}>
                     <button
                         onClick={() => setActiveTab('yamas')}
+                        className="tab-switcher-button"
                         style={{
                             flex: 1, padding: '0.75rem', borderRadius: '14px',
                             border: activeTab === 'yamas' ? '1px solid rgba(52,199,89,0.5)' : '1px solid rgba(255,255,255,0.08)',
@@ -57,6 +58,7 @@ const DharmicLifestyle = () => {
                     </button>
                     <button
                         onClick={() => setActiveTab('yajnas')}
+                        className="tab-switcher-button"
                         style={{
                             flex: 1, padding: '0.75rem', borderRadius: '14px',
                             border: activeTab === 'yajnas' ? '1px solid rgba(255,149,0,0.5)' : '1px solid rgba(255,255,255,0.08)',

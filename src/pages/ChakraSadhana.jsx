@@ -384,11 +384,12 @@ const ChakraSadhana = () => {
             <div className="container" style={{ paddingBottom: '5rem' }}>
 
                 {/* Tab switcher */}
-                <div style={{
+                <div className="tab-switcher" style={{
                     display: 'flex', gap: '0.5rem', marginBottom: '1.25rem', marginTop: '0.5rem'
                 }}>
                     <button
                         onClick={() => { setActiveTab('chakra'); setShowDetail(false); }}
+                        className="tab-switcher-button"
                         style={{
                             flex: 1, padding: '0.7rem', borderRadius: '12px',
                             border: activeTab === 'chakra' ? '1px solid rgba(175,82,222,0.5)' : '1px solid rgba(255,255,255,0.08)',
@@ -402,6 +403,7 @@ const ChakraSadhana = () => {
                     </button>
                     <button
                         onClick={() => { setActiveTab('atma'); setShowDetail(true); }}
+                        className="tab-switcher-button"
                         style={{
                             flex: 1, padding: '0.7rem', borderRadius: '12px',
                             border: activeTab === 'atma' ? '1px solid rgba(232,224,255,0.5)' : '1px solid rgba(255,255,255,0.08)',

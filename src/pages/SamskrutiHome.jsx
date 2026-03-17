@@ -50,22 +50,51 @@ const SamskrutiHome = ({ categories }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [isGlobalSearchOpen, setIsGlobalSearchOpen] = useState(false);
     const [itemCounts, setItemCounts] = useState({});
+    const [dailyItem, setDailyItem] = useState(null);
     const greeting = getGreeting();
 
     // Fetch item counts for each category
     useEffect(() => {
         const fetchCounts = async () => {
             const counts = {};
+            const allItems = [];
+            const categoryMap = new Map(categories.map(cat => [cat.id, cat]));
             for (const cat of categories) {
                 try {
                     const res = await fetch(`data/samskruti/${cat.id}.json`);
                     if (res.ok) {
                         const data = await res.json();
                         counts[cat.id] = data.length;
+                        data.forEach((item) => {
+                            if (!item || !item.id) return;
+                            allItems.push({
+                                id: item.id,
+                                title_kn: item.title_kn,
+                                title_en: item.title_en,
+                                content_kn: item.content_kn || item.content || '',
+                                content_en: item.content_en || '',
+                                shloka: item.shloka || '',
+                                categoryId: cat.id,
+                                categoryTitleKn: categoryMap.get(cat.id)?.title_kn || '',
+                                categoryTitleEn: categoryMap.get(cat.id)?.title_en || '',
+                                customRoute: item.customRoute
+                            });
+                        });
                     }
                 } catch { /* ignore */ }
             }
             setItemCounts(counts);
+
+            if (allItems.length > 0) {
+                const today = new Date();
+                const seed = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+                let hash = 0;
+                for (let i = 0; i < seed.length; i += 1) {
+                    hash = (hash * 31 + seed.charCodeAt(i)) % 100000;
+                }
+                const pick = allItems[hash % allItems.length];
+                setDailyItem(pick);
+            }
         };
         fetchCounts();
     }, [categories]);
@@ -94,6 +123,79 @@ const SamskrutiHome = ({ categories }) => {
 
                 {/* Verse of the Day */}
                 <VerseOfTheDay />
+
+                {/* Samskruti of the Day */}
+                {dailyItem && (
+                    <Link
+                        to={dailyItem.customRoute || `/samskruti/${dailyItem.categoryId}/${dailyItem.id}`}
+                        style={{ textDecoration: 'none' }}
+                    >
+                        <div className="card glass animate-slide-up" style={{
+                            marginBottom: '1.25rem',
+                            padding: '1.25rem',
+                            background: 'linear-gradient(135deg, rgba(255,149,0,0.08), rgba(255,149,0,0.02))',
+                            border: '1px solid rgba(255,149,0,0.18)'
+                        }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.6rem' }}>
+                                <div style={{
+                                    background: 'rgba(255,149,0,0.15)',
+                                    width: '36px', height: '36px', borderRadius: '10px',
+                                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                    flexShrink: 0
+                                }}>
+                                    <Sparkles size={18} color="#FF9500" />
+                                </div>
+                                <div style={{ flex: 1, minWidth: 0 }}>
+                                    <div style={{
+                                        fontSize: '0.75rem',
+                                        color: '#FF9500',
+                                        fontWeight: 700,
+                                        textTransform: 'uppercase',
+                                        letterSpacing: '0.08em'
+                                    }}>
+                                        à²†à²œà²¿à²¨ à²µà²¿à²·à²¯ (Samskruti of the Day)
+                                    </div>
+                                    <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                                        {dailyItem.categoryTitleKn || 'à²¸à²‚à²¸à³à²•à³ƒà²¤à²¿'} {dailyItem.categoryTitleEn ? `• ${dailyItem.categoryTitleEn}` : ''}
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', alignItems: 'flex-start' }}>
+                                <div style={{ flex: 1, minWidth: 0 }}>
+                                    <h3 style={{ margin: 0, fontSize: '1.05rem', fontWeight: 600, color: 'var(--text-primary)' }}>
+                                        {dailyItem.title_kn || dailyItem.title_en}
+                                    </h3>
+                                    {dailyItem.title_en && (
+                                        <p style={{ margin: '0.15rem 0 0', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                                            {dailyItem.title_en}
+                                        </p>
+                                    )}
+                                    <p style={{
+                                        margin: '0.5rem 0 0',
+                                        fontSize: '0.85rem',
+                                        color: 'var(--text-secondary)',
+                                        lineHeight: 1.5,
+                                        overflow: 'hidden',
+                                        display: '-webkit-box',
+                                        WebkitLineClamp: 2,
+                                        WebkitBoxOrient: 'vertical'
+                                    }}>
+                                        {dailyItem.content_kn || dailyItem.shloka || dailyItem.content_en}
+                                    </p>
+                                </div>
+                                <div style={{
+                                    background: 'rgba(255,149,0,0.12)',
+                                    padding: '8px',
+                                    borderRadius: '10px',
+                                    flexShrink: 0,
+                                    alignSelf: 'center'
+                                }}>
+                                    <ChevronRight color="#FF9500" size={18} />
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                )}
 
                 {/* Stats Widget */}
                 <StatsWidget />

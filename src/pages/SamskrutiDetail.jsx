@@ -66,8 +66,8 @@ const SamskrutiDetail = ({ categories }) => {
                     throw new Error(`Item "${itemId}" not found in this category.`);
                 }
 
-                // If content is missing (e.g. for split files like suktas), try fetching individual file
-                if (!found.content && !found.shloka && !found.content_kn) {
+                // If content is missing or hasDetail flag is set, try fetching individual file
+                if (found.hasDetail || (!found.content && !found.shloka && !found.content_kn)) {
                     try {
                         const detailRes = await fetch(`data/samskruti/${categoryId}/${itemId}.json`);
                         if (detailRes.ok) {

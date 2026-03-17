@@ -583,8 +583,8 @@
     "title_en": "Upanishadic Wisdom (Vedanta)",
     "content_kn": "ಉಪನಿಷತ್ತುಗಳು ವೇದಗಳ ಕೊನೆಯ ಭಾಗ (ವೇದಾಂತ). ಇವು ಲೌಕಿಕ ಆಸೆಗಳಿಗಿಂತ ಹೆಚ್ಚಾಗಿ 'ನಾನು ಯಾರು?' (ಆತ್ಮ ಸಾಕ್ಷಾತ್ಕಾರ) ಎಂಬ ವಿಷಯವನ್ನು ಚರ್ಚಿಸುತ್ತವೆ. 'ಅಹಂ ಬ್ರಹ್ಮಾಸ್ಮಿ' (ನಾನೇ ಬ್ರಹ್ಮ), 'ತತ್ತ್ವಮಸಿ' (ನೀನೇ ಅದು) ಎಂಬ ಮಹಾವಾಕ್ಯಗಳು ಇದರಲ್ಲಿವೆ. ಪ್ರಮುಖ 10 ಉಪನಿಷತ್ತುಗಳು (ಈಶ, ಕೇನ, ಕಠ, ಇತ್ಯಾದಿ) ಮನುಷ್ಯನ ಅಸ್ತಿತ್ವದ ಆಳವಾದ ಸತ್ಯವನ್ನು ವೈಜ್ಞಾನಿಕವಾಗಿ ಪ್ರಚೋದಿಸುತ್ತವೆ. ಇದು ಕೇವಲ ನಂಬಿಕೆಯಲ್ಲ, ಅದು ಅನುಭವದ ದರ್ಶನ.",
     "content_en": "The Upanishads are the peak of Vedic philosophy, often called Vedanta. They shift the focus from outer rituals to inner realization. The central theme is the identity of the individual soul (Atman) with the universal consciousness (Brahman). Famous 'Mahavakyas' like 'Aham Brahmasmi' (I am the Absolute) and 'Tat Tvam Asi' (Thou Art That) come from these texts. They invite seekers to question reality and seek ultimate freedom (Moksha) through knowledge.",
-    "subCategory_kn": "ವೈದಿಕ ತತ್ವಶಾಸ್ತ್ರ",
-    "subCategory_en": "Philosophy"
+    "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
+    "subCategory_en": "Stotras"
   },
   {
     "id": "shad_darshanas",
@@ -592,7 +592,52 @@
     "title_en": "Shad Darshanas: Six Schools of Thought",
     "content_kn": "ಭಾರತೀಯ ದರ್ಶನ ಶಾಸ್ತ್ರವು ಆರು ಕವಲಗಳಾಗಿ ವಿಭಜಿತವಾಗಿದೆ: 1. ನ್ಯಾಯ (ತರ್ಕ ಶಾಸ್ತ್ರ), 2. ವೈಶೇಷಿಕ (ಪರಮಾಣು ವಿಜ್ಞಾನ), 3. ಸಾಂಖ್ಯ (ಸಂಖ್ಯಾತ್ಮಕ ಸೃಷ್ಟಿ), 4. ಯೋಗ (ಮನಸ್ಸಿನ ನಿಯಂತ್ರಣ), 5. ಮೀಮಾಂಸ (ಕರ್ಮ ಕಾಂಡ), 6. ವೇದಾಂತ (ಬ್ರಹ್ಮ ಜ್ಞಾನ). ಇವು ಜಗತ್ತು ಮತ್ತು ಜೀವನವನ್ನು ನೋಡುವ ಆರು ವಿಭಿನ್ನ ದೃಷ್ಟಿಕೋನಗಳು. ಇವು ಅಂಧಶ್ರದ್ಧೆಯನ್ನು ವಿರೋಧಿಸಿ ವಿಶ್ಲೇಷಣಾತ್ಮಕ ಚಿಂತನೆಗೆ ಒತ್ತು ನೀಡುತ್ತವೆ.",
     "content_en": "Indian philosophy is categorized into six orthodox schools (Shad Darshanas): Nyaya (Logic), Vaisheshika (Atomism), Samkhya (Enumeration/Dualism), Yoga (Practice), Mimamsa (Ritual interpretation), and Vedanta (Metaphysics). Each school offers a unique lens to understand the relationship between the self, the world, and the creator. They emphasize rational inquiry and systematic proof as the basis for spiritual truth.",
-    "subCategory_kn": "ವೈದಿಕ ತತ್ವಶಾಸ್ತ್ರ",
-    "subCategory_en": "Philosophy"
+    "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
+    "subCategory_en": "Stotras"
+  },
+  {
+    "id": "pranava_om",
+    "title_kn": "ಪ್ರಣವ ಓಂ (ಆಧ್ಯಾತ್ಮಿಕ ಧ್ವನಿ)",
+    "title_en": "Pranava Om",
+    "content_kn": "ಓಂ ಎಂಬುದು ಪರಮಾತ್ಮನ ಸಂಕೇತವಾಗಿರುವ ಪ್ರಣವ. 'ಅ-ಉ-ಮ' ಎಂಬ ಮೂರು ಧ್ವನಿಗಳು ಸೃಷ್ಟಿ, ಸ್ಥಿತಿ ಮತ್ತು ಲಯವನ್ನು ಸೂಚಿಸುತ್ತವೆ. ಧ್ಯಾನದಲ್ಲಿ ಓಂ ಜಪವು ಮನಸ್ಸನ್ನು ಏಕಾಗ್ರಗೊಳಿಸಿ ಆಂತರಿಕ ಶಾಂತಿಯನ್ನು ನೀಡುತ್ತದೆ.",
+    "content_en": "Om symbolizes creation, preservation, and dissolution. Chanting it steadies the mind and deepens meditation.",
+    "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
+    "subCategory_en": "Stotras"
+  },
+  {
+    "id": "pancha_kosha",
+    "title_kn": "ಪಂಚಕೋಶ ತತ್ತ್ವ",
+    "title_en": "Pancha Kosha (Five Sheaths)",
+    "content_kn": "ಮಾನವನ ಅಸ್ತಿತ್ವವನ್ನು ಐದು ಆವರಣಗಳಾಗಿ ವಿವರಿಸಲಾಗಿದೆ: ಅನ್ನಮಯ, ಪ್ರಾಣಮಯ, ಮನೋಮಯ, ವಿಜ್ಞಾನಮಯ ಮತ್ತು ಆನಂದಮಯ. ಈ ತತ್ತ್ವವು ದೇಹ-ಮನಸ್ಸಿನಲ್ಲಷ್ಟೇ ಸೀಮಿತವಾಗದೆ ಆತ್ಮದ ಅರಿವಿಗೆ ದಾರಿ ತೋರಿಸುತ್ತದೆ.",
+    "content_en": "Five sheaths from physical to blissful layers guide the seeker toward Self-realization.",
+    "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
+    "subCategory_en": "Stotras"
+  },
+  {
+    "id": "yajna_tattva",
+    "title_kn": "ಯಜ್ಞ ತತ್ತ್ವ (ಸಮರ್ಪಣೆಯ ಮಾರ್ಗ)",
+    "title_en": "Yajna: Spirit of Offering",
+    "content_kn": "ಯಜ್ಞವು ಕೇವಲ ವಿಧಿಯಲ್ಲ, ಸಮರ್ಪಣೆಯ ಚಿಂತನೆ. ತನ್ನ ಶ್ರಮ, ಸಮಯ ಮತ್ತು ಸಂಪತ್ತನ್ನು ಲೋಕಹಿತಕ್ಕಾಗಿ ಅರ್ಪಿಸುವ ಭಾವವೇ ಯಜ್ಞ ತತ್ತ್ವ. ಇದು ವ್ಯಕ್ತಿಯಲ್ಲಿ ಕೃತಜ್ಞತೆ ಮತ್ತು ದಾನಭಾವವನ್ನು ಬೆಳೆಸುತ್ತದೆ.",
+    "content_en": "Yajna is the spirit of offering—dedicating effort and resources for the common good.",
+    "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
+    "subCategory_en": "Stotras"
+  },
+  {
+    "id": "shanti_patha",
+    "title_kn": "ಶಾಂತಿಪಾಠ (ಸಮಾಧಾನದ ಪ್ರಾರ್ಥನೆ)",
+    "title_en": "Shanti Patha",
+    "content_kn": "ಶಾಂತಿಪಾಠವು ಅಧ್ಯಯನ ಅಥವಾ ಧ್ಯಾನಕ್ಕೂ ಮೊದಲು ಹೇಳುವ ಪ್ರಾರ್ಥನೆ. ಇದು ಹೊರಗಿನ ಮತ್ತು ಒಳಗಿನ ಅಶಾಂತಿಗಳನ್ನು ದೂರ ಮಾಡಿ ಮನಸ್ಸನ್ನು ಶಾಂತ ಸ್ಥಿತಿಗೆ ತರಲು ಸಹಾಯಕ.",
+    "content_en": "A prayer of peace recited to remove disturbances and prepare the mind for study or meditation.",
+    "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
+    "subCategory_en": "Stotras"
+  },
+  {
+    "id": "gayatri_significance",
+    "title_kn": "ಗಾಯತ್ರಿ ಮಂತ್ರದ ಮಹತ್ವ",
+    "title_en": "Significance of Gayatri Mantra",
+    "content_kn": "ಗಾಯತ್ರಿ ಮಂತ್ರವು ಬುದ್ಧಿ ಮತ್ತು ಜ್ಞಾನವನ್ನು ಬೆಳಗಿಸುವ ಪ್ರಾರ್ಥನೆ. ಸವಿತಾ ದೇವನ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸಿ ಮನಸ್ಸನ್ನು ಶುದ್ಧಗೊಳಿಸುವುದು ಇದರ ಆಶಯ. ನಿಯಮಿತ ಜಪವು ಏಕಾಗ್ರತೆ ಮತ್ತು ಸಾತ್ವಿಕತೆಗೆ ದಾರಿ ಮಾಡಿಕೊಡುತ್ತದೆ.",
+    "content_en": "A prayer to illumine the intellect by meditating on the divine light of Savita.",
+    "subCategory_kn": "ಸ್ತೋತ್ರಗಳು",
+    "subCategory_en": "Stotras"
   }
 ]
